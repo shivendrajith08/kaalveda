@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="KaalVeda">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="36%" r="80%">
+      <stop offset="0%" stop-color="#1a2433" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#d4af6e" stroke-width="6" opacity="0.55" />
+  <circle cx="256" cy="256" r="112" fill="none" stroke="#d4af6e" stroke-width="4" opacity="0.35" />
+  <g fill="#e7c98c">
+    <circle cx="256" cy="96" r="14" />
+    <circle cx="396" cy="172" r="9" />
+    <circle cx="392" cy="356" r="11" />
+    <circle cx="150" cy="372" r="8" />
+    <circle cx="120" cy="196" r="9" />
+  </g>
+  <path d="M256 150 L320 360 L256 318 L192 360 Z" fill="#d4af6e" />
+  <circle cx="256" cy="256" r="20" fill="#0d1117" stroke="#e7c98c" stroke-width="6" />
+</svg>

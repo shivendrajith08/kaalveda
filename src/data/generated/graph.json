@@ -1,0 +1,263 @@
+{
+  "nodes": [
+    {
+      "id": "ancient-architecture",
+      "title": "Ancient Architecture",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "ancient-egypt",
+      "title": "Ancient Egypt",
+      "category": "ancient-civilizations",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "egyptian-astronomy",
+      "title": "Egyptian Astronomy",
+      "category": "space",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "egyptian-religion",
+      "title": "Egyptian Religion",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "egypt-tourism",
+      "title": "Egyptian Tourism",
+      "category": "geography",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "hieroglyphs",
+      "title": "Hieroglyphs",
+      "category": "sacred-books",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "modern-egypt",
+      "title": "Modern Egypt",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "mummification",
+      "title": "Mummification",
+      "category": "medicine",
+      "cluster": "mind-knowledge",
+      "factStatus": "verified"
+    },
+    {
+      "id": "nile-river",
+      "title": "The Nile River",
+      "category": "geography",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "the-pharaoh",
+      "title": "The Pharaoh",
+      "category": "kingdoms-empires",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "pyramids-of-giza",
+      "title": "The Pyramids of Giza",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ancient-architecture",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "ancient-architecture",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "ancient-architecture",
+      "target": "egyptian-astronomy",
+      "resolved": true
+    },
+    {
+      "source": "ancient-architecture",
+      "target": "art",
+      "resolved": false
+    },
+    {
+      "source": "ancient-architecture",
+      "target": "architecture",
+      "resolved": false
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "nile-river",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "hieroglyphs",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "mummification",
+      "resolved": true
+    },
+    {
+      "source": "ancient-egypt",
+      "target": "egyptian-astronomy",
+      "resolved": true
+    },
+    {
+      "source": "egyptian-astronomy",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "egyptian-astronomy",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "egyptian-astronomy",
+      "target": "space",
+      "resolved": false
+    },
+    {
+      "source": "egyptian-religion",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "egyptian-religion",
+      "target": "mummification",
+      "resolved": true
+    },
+    {
+      "source": "egyptian-religion",
+      "target": "mythology",
+      "resolved": false
+    },
+    {
+      "source": "egypt-tourism",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "egypt-tourism",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "egypt-tourism",
+      "target": "modern-egypt",
+      "resolved": true
+    },
+    {
+      "source": "egypt-tourism",
+      "target": "nile-river",
+      "resolved": true
+    },
+    {
+      "source": "egypt-tourism",
+      "target": "geography",
+      "resolved": false
+    },
+    {
+      "source": "hieroglyphs",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "hieroglyphs",
+      "target": "literature",
+      "resolved": false
+    },
+    {
+      "source": "hieroglyphs",
+      "target": "sacred-books",
+      "resolved": false
+    },
+    {
+      "source": "modern-egypt",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "modern-egypt",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "modern-egypt",
+      "target": "nile-river",
+      "resolved": true
+    },
+    {
+      "source": "modern-egypt",
+      "target": "world-history",
+      "resolved": false
+    },
+    {
+      "source": "mummification",
+      "target": "medicine",
+      "resolved": false
+    },
+    {
+      "source": "mummification",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "nile-river",
+      "target": "earth",
+      "resolved": false
+    },
+    {
+      "source": "nile-river",
+      "target": "geography",
+      "resolved": false
+    },
+    {
+      "source": "the-pharaoh",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "the-pharaoh",
+      "target": "kingdoms-empires",
+      "resolved": false
+    }
+  ]
+}

@@ -1,0 +1,1886 @@
+[
+  {
+    "id": "ancient-architecture",
+    "title": "Ancient Architecture",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 5,
+    "eyebrow": "Building the sacred",
+    "lede": "From the first stone columns to soaring temple halls, the ancient world learned to shape space into meaning — and the techniques born along the Nile, the Tigris, and the Aegean still underpin how we build today.",
+    "related": [
+      "pyramids-of-giza",
+      "ancient-egypt",
+      "egyptian-astronomy",
+      "art",
+      "architecture"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Great building sites of antiquity",
+          "caption": "Giza, Karnak, Babylon, Athens and Rome — anchors of the ancient architectural imagination.",
+          "region": "Mediterranean & Near East"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Hypostyle Hall at Karnak",
+          "caption": "134 colossal columns in a forest of stone, evoking a primeval marsh of papyrus.",
+          "credit": "New Kingdom, Thebes"
+        },
+        {
+          "title": "Post-and-lintel construction",
+          "caption": "The fundamental ancient system — uprights bridged by horizontal beams.",
+          "credit": "Architectural principle"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How a temple was raised",
+          "caption": "Quarrying, transport, ramps and the raising of columns and architraves.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The Met — Egyptian architecture",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah"
+      },
+      {
+        "label": "UNESCO — Ancient Thebes with its Necropolis",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/87"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Architecture as Meaning",
+        "id": "architecture-as-meaning"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before architecture was engineering it was **theology**. The earliest monumental buildings — Egyptian temples and tombs, Mesopotamian ziggurats — were designed to house gods, stage rituals, and model the cosmos in stone. Form followed *belief* as much as function: a temple was a map of creation, its dark inner sanctuary the mound that first rose from the waters."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Egyptian Contribution",
+        "id": "the-egyptian-contribution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Egypt gave the world some of the foundational moves of architecture:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Stone columns** — Egyptian builders carved columns shaped like bundled papyrus and lotus stems, among the earliest monumental colonnades anywhere.",
+          "**The hypostyle hall** — vast roofed spaces filled with columns, as at **Karnak**, whose Great Hypostyle Hall packs 134 columns into a single chamber.",
+          "**Axial, processional design** — temples laid out along a sacred axis, leading the visitor from open courts through ever-darker, ever-holier inner rooms.",
+          "**Monumental masonry** — the quarrying, moving, and precise placing of enormous stone blocks, perfected on the [Pyramids of Giza](/article/pyramids-of-giza)."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Post and lintel",
+        "text": "Most ancient architecture rests on the **post-and-lintel** system: vertical posts supporting horizontal beams. It is simple and strong in compression but limits how wide a space can be spanned — which is why ancient halls are forests of closely spaced columns. The Roman **arch** and **vault** would later break that limit."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Sky-Aligned Craft",
+        "id": "a-sky-aligned-craft"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ancient builders routinely oriented their monuments to the heavens — to the cardinal points, to the solstice sunrise, or to the rising of significant stars. Egyptian temples and pyramids were set out with the help of stellar observation, binding architecture to [astronomy](/article/egyptian-astronomy) and to the calendar that governed religious life."
+      },
+      {
+        "type": "quote",
+        "text": "A great building was never only shelter. It was an argument — about the gods, the king, and the order of the world — written in stone so that it could not be forgotten."
+      },
+      {
+        "type": "paragraph",
+        "text": "These ideas of proportion, procession, and permanence flowed outward to Greece and Rome and, ultimately, into the entire Western architectural tradition — a lineage you can keep following through the wider [architecture](/category/architecture) category."
+      }
+    ],
+    "toc": [
+      {
+        "id": "architecture-as-meaning",
+        "text": "Architecture as Meaning",
+        "level": 2
+      },
+      {
+        "id": "the-egyptian-contribution",
+        "text": "The Egyptian Contribution",
+        "level": 2
+      },
+      {
+        "id": "a-sky-aligned-craft",
+        "text": "A Sky-Aligned Craft",
+        "level": 2
+      }
+    ],
+    "wordCount": 331
+  },
+  {
+    "id": "ancient-egypt",
+    "title": "Ancient Egypt",
+    "category": "ancient-civilizations",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "A civilization on the Nile",
+    "lede": "For three thousand years, a thin green ribbon of life along the Nile sustained one of the most enduring civilizations the world has known — a society of god-kings, monumental stone, and a calm certainty about the order of the cosmos.",
+    "related": [
+      "egyptian-religion",
+      "the-pharaoh",
+      "pyramids-of-giza",
+      "ancient-architecture",
+      "nile-river",
+      "hieroglyphs",
+      "mummification",
+      "egyptian-astronomy"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Nile Valley",
+          "caption": "The cultivated floodplain and delta — \"Black Land\" (Kemet) hemmed by the \"Red Land\" desert (Deshret).",
+          "region": "Northeast Africa"
+        },
+        {
+          "title": "Upper & Lower Egypt",
+          "caption": "The two lands unified c. 3100 BCE; the king wore the combined Red and White crowns.",
+          "region": "Nile basin"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Great Pyramid of Khufu",
+          "caption": "The last surviving wonder of the ancient world, on the Giza plateau near modern Cairo.",
+          "credit": "Old Kingdom, 4th Dynasty"
+        },
+        {
+          "title": "The golden mask of Tutankhamun",
+          "caption": "11 kg of gold and inlaid stone, from the boy-king's near-intact tomb (KV62), discovered 1922.",
+          "credit": "New Kingdom, 18th Dynasty"
+        },
+        {
+          "title": "Hieroglyphic wall relief",
+          "caption": "Sacred carved script combining logograms and phonetic signs, painted in mineral pigments.",
+          "credit": "Temple of Karnak"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Flight over the Giza plateau",
+          "caption": "A cinematic pass across the three great pyramids and the Great Sphinx.",
+          "duration": "4:20",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How the Nile flood built a civilization",
+          "caption": "The annual inundation, the agricultural calendar, and the birth of the Egyptian state.",
+          "duration": "6:05",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "ancient-egypt",
+      "quiz": "ancient-egypt"
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Ancient Egypt",
+        "source": "The British Museum, Department of Egypt and Sudan",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "The Met — Egyptian Art",
+        "source": "The Metropolitan Museum of Art, Department of Egyptian Art",
+        "url": "https://www.metmuseum.org/about-the-met/collection-areas/egyptian-art"
+      },
+      {
+        "label": "UNESCO — Memphis and its Necropolis",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/86"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Gift of the Nile",
+        "id": "the-gift-of-the-nile"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Greek historian Herodotus called Egypt \"the gift of the Nile,\" and the phrase has never been bettered. Every summer, monsoon rains far to the south swelled the river until it overflowed its banks across the valley floor, laying down a fresh sheet of black, fertile silt. When the waters withdrew, farmers planted into the renewed earth. This **annual inundation** was so dependable that the Egyptians built their entire calendar, economy, and worldview around it."
+      },
+      {
+        "type": "paragraph",
+        "text": "The contrast was stark and visible. The Egyptians called their narrow strip of cultivated land **Kemet**, the \"Black Land,\" and the lifeless desert beyond it **Deshret**, the \"Red Land.\" Between flood and drought, life and death, order and chaos, ran a boundary you could step across in an afternoon. That daily experience of a sharp, life-giving order shaped everything that followed."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The geography *was* the ideology",
+        "text": "Because the Nile flowed north while the prevailing wind blew south, boats could drift downstream and sail upstream with ease. A single river bound the whole country into one trade and communication network — which is a large part of why Egypt could be unified, and stay unified, for so long."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One Land, Many Ages",
+        "id": "one-land-many-ages"
+      },
+      {
+        "type": "paragraph",
+        "text": "Around **3100 BCE**, tradition holds that a southern king — remembered as Narmer or Menes — unified the kingdoms of Upper Egypt (the southern valley) and Lower Egypt (the northern delta) into a single state. Historians since have organised the roughly three thousand years that followed into thirty-odd royal **dynasties**, grouped into a few great ages of strength separated by \"Intermediate Periods\" of fragmentation:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Old Kingdom** (c. 2686–2181 BCE) — the age of the great pyramid-builders at Giza.",
+          "**Middle Kingdom** (c. 2055–1650 BCE) — a literary and administrative golden age.",
+          "**New Kingdom** (c. 1550–1069 BCE) — empire, wealth, and famous rulers from Hatshepsut to Ramesses II."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "What is astonishing is the continuity. A child in the New Kingdom looked back on the pyramids as we look back on the Roman Empire — already impossibly ancient. The same gods, the same script, and the same essential vision of the world persisted across that vast span."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Religion and the Cosmos",
+        "id": "religion-and-the-cosmos"
+      },
+      {
+        "type": "paragraph",
+        "text": "To the Egyptians, the universe ran on **maat** — truth, balance, and cosmic order — which it was the sacred duty of gods and kings to uphold against **isfet**, chaos. Their pantheon was vast and fluid: **Ra** the sun, sailing his barque across the sky each day and through the underworld each night; **Osiris**, lord of the dead and of resurrection; **Isis**, his wife, the great mother and magician; **Horus**, their falcon-headed son, embodied in the living king; and **Anubis**, who guided souls and weighed the heart."
+      },
+      {
+        "type": "quote",
+        "text": "They believed that in the hall of judgement, the heart of the dead was weighed against the feather of Maat. A life lived in balance passed on to the Field of Reeds; a heavy heart was devoured."
+      },
+      {
+        "type": "paragraph",
+        "text": "This was not a religion of dread so much as one of **continuity** — the conviction that death was a passage, not an ending, and that the right rituals, tombs, and texts could carry a person safely through it. (Follow the journey rail to explore [Egyptian religion](/article/egyptian-religion) in depth.)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Pharaoh: God on Earth",
+        "id": "the-pharaoh-god-on-earth"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the centre of this order stood the **pharaoh** — not merely a ruler but a living link between the human and divine. He was Horus while he reigned and became Osiris when he died. His titles, his crowns, and the colossal scale of his monuments all proclaimed a single message: that the king guaranteed maat, and through him the sun rose, the river flooded, and the harvest came."
+      },
+      {
+        "type": "paragraph",
+        "text": "In practice the king governed through an immense bureaucracy of scribes, priests, and officials — the **vizier** chief among them — who recorded harvests, collected taxes in grain, organised labour, and dispensed justice in his name. Egypt was, in a real sense, the world's first great administrative state."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Monuments in Stone",
+        "id": "monuments-in-stone"
+      },
+      {
+        "type": "paragraph",
+        "text": "No civilization has matched the Egyptians' instinct for building in a way that defied time. The **Great Pyramid of Khufu**, raised around 2560 BCE, stood as the tallest human-made structure on Earth for nearly four thousand years. It was built from millions of limestone blocks with breathtaking precision — its base is level to within a few centimetres and its sides aligned almost exactly to the cardinal directions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Later kings turned to vast temple complexes — **Karnak**, **Luxor**, **Abu Simbel** — and to the hidden rock-cut tombs of the **Valley of the Kings**, hoping to foil the robbers who had plundered the conspicuous pyramids. The architecture was sacred engineering: every column, axis, and orientation carried meaning. (The journey continues through the [Pyramids of Giza](/article/pyramids-of-giza) and on to [ancient architecture](/article/ancient-architecture).)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Writing, Science, and the Stars",
+        "id": "writing-science-and-the-stars"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Egyptians developed **hieroglyphs** — a script of several hundred signs, part picture and part sound — around the dawn of the dynastic age. For everyday accounts and letters they used a faster cursive form, **hieratic**, written in ink on **papyrus**, the paper-like material made from a river reed that gave us our very word for \"paper.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Their practical knowledge was formidable:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**Astronomy** — they tracked the stars to fix their calendar, timing the new year to the dawn rising of **Sirius**, which heralded the flood.",
+          "**Mathematics** — they used geometry to re-survey fields erased by the inundation and to lay out monuments.",
+          "**Medicine** — surviving papyri describe diagnoses, treatments, and surgery with surprising empirical care.",
+          "**Engineering** — quarrying, moving, and raising stones of colossal weight without iron tools or the wheel-and-pulley as we know them."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Daily Life Along the River",
+        "id": "daily-life-along-the-river"
+      },
+      {
+        "type": "paragraph",
+        "text": "For all the gods and god-kings, most Egyptians were farmers who lived close to the river, growing emmer wheat and barley, brewing beer, and baking bread — the two staples that also served as wages. Families were tightly knit; women held legal rights to own property, divorce, and conduct business that were remarkable for the ancient world. People loved their gardens, their pets (cats especially were cherished), board games like **senet**, music, and festivals that filled the religious calendar."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A culture obsessed with life",
+        "text": "It is a common misreading to think the Egyptians were preoccupied with death. Their elaborate tombs and **mummification** were, in fact, an expression of how deeply they *loved* life — and how confident they were of continuing it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Decline, Conquest, and Legacy",
+        "id": "decline-conquest-and-legacy"
+      },
+      {
+        "type": "paragraph",
+        "text": "No order lasts forever, even one built to. After the New Kingdom, Egypt fell increasingly under foreign sway — Libyan, Nubian, Assyrian, and Persian rulers in turn. In **332 BCE** Alexander the Great took Egypt without a fight, and his general Ptolemy founded a Greek-speaking dynasty that ended with the most famous of all Egyptian rulers, **Cleopatra VII**. With her death in **30 BCE**, Egypt became a province of Rome."
+      },
+      {
+        "type": "paragraph",
+        "text": "Yet the civilization never truly vanished. Its monuments still stand; its art still astonishes; and when the **Rosetta Stone** allowed Jean-François Champollion to decipher hieroglyphs in **1822**, three thousand years of silent stone began to speak again. From the calendar to the column, from monumental architecture to the very idea of a unified state, ancient Egypt remains woven into the foundations of the modern world — a thread you can still follow, all the way to [Egypt today](/article/modern-egypt)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-gift-of-the-nile",
+        "text": "The Gift of the Nile",
+        "level": 2
+      },
+      {
+        "id": "one-land-many-ages",
+        "text": "One Land, Many Ages",
+        "level": 2
+      },
+      {
+        "id": "religion-and-the-cosmos",
+        "text": "Religion and the Cosmos",
+        "level": 2
+      },
+      {
+        "id": "the-pharaoh-god-on-earth",
+        "text": "The Pharaoh: God on Earth",
+        "level": 2
+      },
+      {
+        "id": "monuments-in-stone",
+        "text": "Monuments in Stone",
+        "level": 2
+      },
+      {
+        "id": "writing-science-and-the-stars",
+        "text": "Writing, Science, and the Stars",
+        "level": 2
+      },
+      {
+        "id": "daily-life-along-the-river",
+        "text": "Daily Life Along the River",
+        "level": 2
+      },
+      {
+        "id": "decline-conquest-and-legacy",
+        "text": "Decline, Conquest, and Legacy",
+        "level": 2
+      }
+    ],
+    "wordCount": 1196
+  },
+  {
+    "id": "egyptian-astronomy",
+    "title": "Egyptian Astronomy",
+    "category": "space",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "Reading the calendar of the sky",
+    "lede": "The Egyptians watched the heavens with practical devotion — timing the life-giving flood by a single star, ordering the night with star-clocks, and giving the world a 365-day year that still ticks beneath our own calendar.",
+    "related": [
+      "ancient-egypt",
+      "pyramids-of-giza",
+      "ancient-architecture",
+      "egyptian-religion",
+      "space"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Egyptian night sky",
+          "caption": "Decans, the circumpolar \"imperishable stars\", and the band of Sah (Orion) and Sopdet (Sirius).",
+          "region": "Celestial"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Dendera zodiac",
+          "caption": "A famous Greco-Egyptian sky-map carved in a temple ceiling, now in the Louvre.",
+          "credit": "Temple of Hathor, Dendera"
+        },
+        {
+          "title": "Star-clock ceiling",
+          "caption": "Diagonal tables of decan stars used to tell the hours of the night.",
+          "credit": "New Kingdom tomb"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The heliacal rising of Sirius",
+          "caption": "How the dawn return of one star announced the new year and the coming flood.",
+          "duration": "3:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The Met — Egyptian astronomy & timekeeping",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah"
+      },
+      {
+        "label": "The British Museum — measuring time",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Star That Started the Year",
+        "id": "a-star-that-started-the-year"
+      },
+      {
+        "type": "paragraph",
+        "text": "The single most important sight in the Egyptian sky was the **heliacal rising of Sirius** — the morning when the brightest star, called **Sopdet**, first reappeared on the eastern horizon at dawn after a season hidden in the sun's glare. Remarkably, this happened right around the time the **Nile flood** began. The Egyptians tied their new year to that rising, turning a star into the herald of the harvest."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The 365-Day Year",
+        "id": "the-365-day-year"
+      },
+      {
+        "type": "paragraph",
+        "text": "From these observations the Egyptians built a **civil calendar** of 365 days: twelve months of thirty days, plus five extra \"birthday of the gods\" days at the end. It was one of the first calendars to abandon the awkward moon in favour of a clean solar count — and it is the direct ancestor of the calendar we use today."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The leap-year problem they spotted",
+        "text": "A true year is about 365¼ days, so the Egyptian calendar slowly drifted against the seasons by one day every four years. Egyptian priests understood this drift; centuries later it was corrected by adding a leap day — the reform behind the Julian and then Gregorian calendars."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Clocks of Star and Shadow",
+        "id": "clocks-of-star-and-shadow"
+      },
+      {
+        "type": "paragraph",
+        "text": "Egyptian astronomy was intensely practical:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Decans** — 36 stars or star-groups that rose in succession through the night, used as a celestial clock to divide darkness into hours.",
+          "**Merkhet and bay** — simple sighting instruments (a plumb-line and a slotted palm-rib) for aligning buildings and tracking stars.",
+          "**Shadow clocks and water clocks** for measuring the daytime and temple-night hours."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Aligning Earth to Heaven",
+        "id": "aligning-earth-to-heaven"
+      },
+      {
+        "type": "paragraph",
+        "text": "This knowledge fed straight into architecture. To set the [Pyramids of Giza](/article/pyramids-of-giza) almost perfectly to true north, surveyors sighted on circumpolar \"imperishable stars\" — the ones that never set, and so became a natural symbol of eternal life in [Egyptian religion](/article/egyptian-religion)."
+      },
+      {
+        "type": "quote",
+        "text": "The same sky that timed the planting of grain also told the dead which way to face for resurrection. For the Egyptians, astronomy, farming, and faith were a single seamless craft."
+      },
+      {
+        "type": "paragraph",
+        "text": "From these foundations, the long human conversation with the heavens continues throughout the [Space](/category/space) category."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-star-that-started-the-year",
+        "text": "A Star That Started the Year",
+        "level": 2
+      },
+      {
+        "id": "the-365-day-year",
+        "text": "The 365-Day Year",
+        "level": 2
+      },
+      {
+        "id": "clocks-of-star-and-shadow",
+        "text": "Clocks of Star and Shadow",
+        "level": 2
+      },
+      {
+        "id": "aligning-earth-to-heaven",
+        "text": "Aligning Earth to Heaven",
+        "level": 2
+      }
+    ],
+    "wordCount": 340
+  },
+  {
+    "id": "egyptian-religion",
+    "title": "Egyptian Religion",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 5,
+    "eyebrow": "Gods, the cosmos & the afterlife",
+    "lede": "A worldview in which the universe ran on cosmic balance, the sun was reborn each dawn, and death was a guarded passage rather than an end — the spiritual machinery that powered three thousand years of Egyptian life.",
+    "related": [
+      "ancient-egypt",
+      "the-pharaoh",
+      "mummification",
+      "egyptian-astronomy",
+      "mythology"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Cult centres of Egypt",
+          "caption": "Heliopolis, Memphis, Thebes and Abydos — each the home of a great god and theology.",
+          "region": "Nile valley"
+        }
+      ],
+      "images": [
+        {
+          "title": "The weighing of the heart",
+          "caption": "From the Book of the Dead — the heart balanced against the feather of Maat before Osiris.",
+          "credit": "New Kingdom papyrus"
+        },
+        {
+          "title": "Osiris, Isis and Horus",
+          "caption": "The divine family at the centre of Egypt's most important myth of death and rebirth.",
+          "credit": "Temple relief"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The journey through the Duat",
+          "caption": "A reconstruction of the soul's nightly voyage through the underworld with the sun god.",
+          "duration": "5:10",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Egyptian gods",
+        "source": "The British Museum, Department of Egypt and Sudan",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "The Met — Egyptian religion",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Maat: The Order of Things",
+        "id": "maat-the-order-of-things"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the root of Egyptian religion lay a single idea: **maat** — truth, justice, and cosmic balance. Maat was personified as a goddess wearing an ostrich feather, but it was really a principle: the rightness that held the universe together against **isfet**, the ever-pressing force of chaos. Gods upheld maat in the heavens; the pharaoh upheld it on Earth; and ordinary people upheld it by living honestly. Religion was less a matter of belief than of *keeping things in order*."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Living Pantheon",
+        "id": "a-living-pantheon"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Egyptians worshipped a sprawling, flexible family of gods whose roles overlapped and merged over the centuries:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Ra** — the sun, the supreme creative power, sailing his solar barque across the sky.",
+          "**Osiris** — murdered, restored, and made lord of the dead, the promise of resurrection.",
+          "**Isis** — his devoted wife, mistress of magic and the archetypal mother.",
+          "**Horus** — their falcon-headed son, whose living embodiment was the king.",
+          "**Anubis** — the jackal who oversaw embalming and guided the dead.",
+          "**Thoth** — ibis-headed god of writing, wisdom, and the reckoning of time."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Gods could fuse (Amun-Ra, Ptah-Sokar-Osiris) as cities and priesthoods rose and fell. This was not contradiction but a theology comfortable with many faces of one truth."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The first recorded monotheism?",
+        "text": "Around 1350 BCE the pharaoh **Akhenaten** swept the old gods aside in favour of a single deity, the **Aten** (the sun-disk). The experiment collapsed within a generation of his death — but it remains one of history's earliest attempts at an exclusive, single-god religion."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Afterlife",
+        "id": "the-afterlife"
+      },
+      {
+        "type": "paragraph",
+        "text": "Egyptian funerary religion was an elaborate technology of continuation. The dead faced judgement in the **Hall of Two Truths**, where Anubis weighed the heart against the feather of Maat while Thoth recorded the verdict. A balanced heart earned eternity in the **Field of Reeds**, an idealised Egypt; a heavy one was devoured by the monster Ammit, and the soul was annihilated."
+      },
+      {
+        "type": "quote",
+        "text": "To make the passage safe, the living equipped their dead with spells — the **Pyramid Texts**, **Coffin Texts**, and later the **Book of the Dead** — alongside the preserved body itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "That insistence on preserving the body leads directly to the Egyptian art of [mummification](/article/mummification), and the conviction that the dead lived on places the king — both god and man — at the very centre of the cosmos, as we see in the role of [the pharaoh](/article/the-pharaoh)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "maat-the-order-of-things",
+        "text": "Maat: The Order of Things",
+        "level": 2
+      },
+      {
+        "id": "a-living-pantheon",
+        "text": "A Living Pantheon",
+        "level": 2
+      },
+      {
+        "id": "the-afterlife",
+        "text": "The Afterlife",
+        "level": 2
+      }
+    ],
+    "wordCount": 391
+  },
+  {
+    "id": "egypt-tourism",
+    "title": "Egyptian Tourism",
+    "category": "geography",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "Travelling through deep time",
+    "lede": "To visit Egypt is to walk through five thousand years in a few days — from the Giza plateau to the temples of Luxor and the treasures of a new Grand Museum — in one of the oldest and most extraordinary journeys in world travel.",
+    "related": [
+      "ancient-egypt",
+      "pyramids-of-giza",
+      "modern-egypt",
+      "nile-river",
+      "geography"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The classic Egypt itinerary",
+          "caption": "Cairo & Giza in the north, Luxor and the Valley of the Kings in the south, linked by the Nile.",
+          "region": "Egypt"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Grand Egyptian Museum",
+          "caption": "A vast new museum beside the pyramids, home to the complete Tutankhamun collection.",
+          "credit": "Giza"
+        },
+        {
+          "title": "Temple of Luxor at dusk",
+          "caption": "Floodlit colonnades on the east bank of the Nile in ancient Thebes.",
+          "credit": "New Kingdom"
+        },
+        {
+          "title": "A felucca on the Nile",
+          "caption": "Traditional sailboats still ply the river between Luxor and Aswan.",
+          "credit": "Upper Egypt"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Egypt in seven days",
+          "caption": "A traveller's route from the pyramids to the temples of the south.",
+          "duration": "6:15",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "UNESCO World Heritage — Egypt",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/statesparties/eg"
+      },
+      {
+        "label": "The Grand Egyptian Museum",
+        "source": "Grand Egyptian Museum, Giza",
+        "url": "https://gem.gov.eg/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Journey Older Than History",
+        "id": "a-journey-older-than-history"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tourism in Egypt is itself astonishingly old. Greek and Roman travellers were already sightseeing at the pyramids two thousand years ago, scratching graffiti onto monuments that were ancient even then. Today, heritage tourism is one of the pillars of the [modern Egyptian](/article/modern-egypt) economy and one of the great bucket-list journeys on Earth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Essential Route",
+        "id": "the-essential-route"
+      },
+      {
+        "type": "paragraph",
+        "text": "A classic visit traces the Nile from north to south:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**Cairo & Giza** — the [Pyramids of Giza](/article/pyramids-of-giza) and the Great Sphinx, plus the new **Grand Egyptian Museum**, the largest archaeological museum in the world, holding the full treasure of Tutankhamun.",
+          "**Luxor** — ancient Thebes, with the colossal temples of **Karnak** and **Luxor** on the east bank and the **Valley of the Kings** and **Valley of the Queens** on the west.",
+          "**Aswan & Abu Simbel** — the southern frontier, where the rock-cut temples of **Ramesses II** were famously relocated, block by block, to save them from the rising waters of the Aswan dam.",
+          "**The Nile cruise** — many travellers sail between Luxor and Aswan, seeing the riverside temples of Edfu and Kom Ombo along the way."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Saving the monuments",
+        "text": "The 1960s rescue of Abu Simbel — cutting the temples into blocks and rebuilding them on higher ground — sparked the international movement that created the **UNESCO World Heritage** system. Egypt's monuments quite literally helped invent the modern idea of shared human heritage."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Travel as Understanding",
+        "id": "travel-as-understanding"
+      },
+      {
+        "type": "paragraph",
+        "text": "Standing before a wall of [hieroglyphs](/article/hieroglyphs) or inside a royal tomb does something no book can: it collapses the distance of millennia. The traveller becomes the final step on the long journey we have followed — from the founding of [ancient Egypt](/article/ancient-egypt), through its gods, kings, and monuments, all the way back to the living, breathing river today."
+      },
+      {
+        "type": "quote",
+        "text": "Every visitor who climbs the Giza plateau joins a line of travellers stretching back, unbroken, for more than two thousand years."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-journey-older-than-history",
+        "text": "A Journey Older Than History",
+        "level": 2
+      },
+      {
+        "id": "the-essential-route",
+        "text": "The Essential Route",
+        "level": 2
+      },
+      {
+        "id": "travel-as-understanding",
+        "text": "Travel as Understanding",
+        "level": 2
+      }
+    ],
+    "wordCount": 311
+  },
+  {
+    "id": "hieroglyphs",
+    "title": "Hieroglyphs",
+    "category": "sacred-books",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "The sacred carved words",
+    "lede": "For over three thousand years the Egyptians wrote in a script of birds, eyes, and reeds — a system part picture, part sound — that fell silent for fifteen centuries until a single broken stone gave back its voice.",
+    "related": [
+      "ancient-egypt",
+      "egyptian-religion",
+      "literature",
+      "sacred-books"
+    ],
+    "journey": [],
+    "media": {
+      "maps": [
+        {
+          "title": "Where the script survives",
+          "caption": "Temples and tombs from the delta to Nubia preserve millions of carved and painted signs.",
+          "region": "Nile valley"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Rosetta Stone",
+          "caption": "One decree in three scripts — hieroglyphic, demotic and Greek — the key to decipherment.",
+          "credit": "196 BCE, now in the British Museum"
+        },
+        {
+          "title": "A cartouche",
+          "caption": "A royal name encircled by a protective oval loop of rope.",
+          "credit": "Temple relief"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Cracking the code",
+          "caption": "How Champollion used the Rosetta Stone to read hieroglyphs again in 1822.",
+          "duration": "5:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — the Rosetta Stone",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA24"
+      },
+      {
+        "label": "The Met — Egyptian writing",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Pictures That Are Also Sounds",
+        "id": "pictures-that-are-also-sounds"
+      },
+      {
+        "type": "paragraph",
+        "text": "The word *hieroglyph* is Greek for \"sacred carving.\" The script appeared around **3100 BCE** and combines three kinds of sign:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Logograms** — a picture standing for a whole word (a sun-disk for \"sun\").",
+          "**Phonograms** — signs standing for sounds, from single consonants to groups of two or three.",
+          "**Determinatives** — silent signs added to the end of a word to clarify its meaning."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This blend made the system rich but demanding, and literacy was the prized preserve of trained **scribes**, who enjoyed status and exemption from hard labour. For everyday writing, Egyptians used faster cursive forms — **hieratic**, and later **demotic** — brushed in ink on papyrus."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Writing for Eternity",
+        "id": "writing-for-eternity"
+      },
+      {
+        "type": "paragraph",
+        "text": "Monumental hieroglyphs were never merely informative; they were **magical**. To write a thing was, in a sense, to make it real and lasting, which is why temple and tomb walls are covered in carved text meant to secure offerings, protection, and eternal life. Royal names were wrapped in a protective oval, the **cartouche**."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The silence and the key",
+        "text": "After the temples closed in the early centuries CE, the knowledge of how to read hieroglyphs died out completely for some **1,400 years**. The script became beautiful, mysterious decoration — until the **Rosetta Stone**, carved with the same decree in hieroglyphic, demotic, and Greek, let **Jean-François Champollion** crack the code in 1822."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Civilization Speaks Again",
+        "id": "a-civilization-speaks-again"
+      },
+      {
+        "type": "paragraph",
+        "text": "Decipherment turned silent walls back into a library, founding the science of **Egyptology** and opening the literature, religion, and history of [ancient Egypt](/article/ancient-egypt) to the modern world. The link between sacred writing and sacred belief runs deep — explored further in [Egyptian religion](/article/egyptian-religion) and across the [Sacred Books](/category/sacred-books) category."
+      },
+      {
+        "type": "quote",
+        "text": "A script designed to defeat death did exactly that: the Egyptians wrote so that they would be remembered, and we remember them."
+      }
+    ],
+    "toc": [
+      {
+        "id": "pictures-that-are-also-sounds",
+        "text": "Pictures That Are Also Sounds",
+        "level": 2
+      },
+      {
+        "id": "writing-for-eternity",
+        "text": "Writing for Eternity",
+        "level": 2
+      },
+      {
+        "id": "a-civilization-speaks-again",
+        "text": "A Civilization Speaks Again",
+        "level": 2
+      }
+    ],
+    "wordCount": 295
+  },
+  {
+    "id": "modern-egypt",
+    "title": "Modern Egypt",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "From the pharaohs to the present",
+    "lede": "The land of the pharaohs is also a vibrant modern nation of more than a hundred million people — shaped by Islam and Arabic, by the Suez Canal and the Aswan High Dam, and by an unbroken sense of one of the world's oldest identities.",
+    "related": [
+      "ancient-egypt",
+      "the-pharaoh",
+      "egypt-tourism",
+      "nile-river",
+      "world-history"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Arab Republic of Egypt",
+          "caption": "Cairo, Alexandria, the Nile valley and delta, the Suez Canal and the Sinai Peninsula.",
+          "region": "Northeast Africa"
+        }
+      ],
+      "images": [
+        {
+          "title": "Cairo on the Nile",
+          "caption": "The largest city in the Arab world, where medieval minarets meet a modern megacity.",
+          "credit": "Present day"
+        },
+        {
+          "title": "The Suez Canal",
+          "caption": "Opened 1869, the artificial waterway linking the Mediterranean and the Red Sea.",
+          "credit": "Engineering landmark"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A nation on one river",
+          "caption": "How 100 million people still live clustered along the same green Nile valley.",
+          "duration": "5:25",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "UNESCO — Historic Cairo",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/89"
+      },
+      {
+        "label": "The British Museum — Egypt after the pharaohs",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Long Aftermath",
+        "id": "the-long-aftermath"
+      },
+      {
+        "type": "paragraph",
+        "text": "When Cleopatra VII died in 30 BCE, Egypt became a province of **Rome**, then of **Byzantium**. In 641 CE the **Arab conquest** brought Islam and the Arabic language, which gradually became the country's faith and tongue. Over the centuries Egypt was ruled from afar and up close — by the Fatimids and Mamluks, by the Ottomans, and after Napoleon's brief expedition, increasingly under European influence."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Building the Modern Nation",
+        "id": "building-the-modern-nation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two great engineering projects reshaped the country:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The **Suez Canal** (opened 1869) cut a sea route between the Mediterranean and the Red Sea, making Egypt a strategic crossroads of world trade — and a target of imperial rivalry.",
+          "The **Aswan High Dam** (completed 1970) finally tamed the annual Nile flood, generating power and securing water, but ending the natural cycle of silt that had fed Egyptian farming for five thousand years."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Egypt won full independence over the first half of the twentieth century, becoming a **republic in 1953**. Today it is the most populous Arab country and a cultural powerhouse of film, music, and scholarship."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "An identity that never broke",
+        "text": "Few modern nations sit so directly on top of their ancient selves. Egyptians today live on the same river, beneath the same monuments, carrying a continuous sense of \"Egypt\" that stretches back five millennia."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Past as a Living Resource",
+        "id": "the-past-as-a-living-resource"
+      },
+      {
+        "type": "paragraph",
+        "text": "The legacy of [the pharaohs](/article/the-pharaoh) is not only a matter of pride; it is a pillar of the economy. The monuments of [ancient Egypt](/article/ancient-egypt) draw millions of visitors each year, making heritage one of the nation's great modern industries — the story we follow next, into [Egyptian tourism](/article/egypt-tourism)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-long-aftermath",
+        "text": "The Long Aftermath",
+        "level": 2
+      },
+      {
+        "id": "building-the-modern-nation",
+        "text": "Building the Modern Nation",
+        "level": 2
+      },
+      {
+        "id": "the-past-as-a-living-resource",
+        "text": "The Past as a Living Resource",
+        "level": 2
+      }
+    ],
+    "wordCount": 265
+  },
+  {
+    "id": "mummification",
+    "title": "Mummification",
+    "category": "medicine",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "Preserving the body for eternity",
+    "lede": "The Egyptian art of preserving the dead was not morbid but hopeful — a meticulous seventy-day craft of chemistry, surgery, and ritual designed to keep the body intact so the soul could live forever.",
+    "related": [
+      "ancient-egypt",
+      "egyptian-religion",
+      "medicine",
+      "the-pharaoh"
+    ],
+    "journey": [],
+    "media": {
+      "maps": [
+        {
+          "title": "Cities of the dead",
+          "caption": "Vast necropolises at Saqqara, Giza and Thebes housed the embalmed across millennia.",
+          "region": "Nile valley"
+        }
+      ],
+      "images": [
+        {
+          "title": "Canopic jars",
+          "caption": "Four vessels guarded by the Sons of Horus, holding the preserved internal organs.",
+          "credit": "Funerary equipment"
+        },
+        {
+          "title": "A wrapped mummy",
+          "caption": "Layers of resin-soaked linen, amulets, and a portrait mask over the embalmed body.",
+          "credit": "New Kingdom"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The seventy-day rite",
+          "caption": "From natron drying to the final wrapping and the Opening of the Mouth ceremony.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — mummies",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Smithsonian — Egyptian mummification",
+        "source": "Smithsonian Institution",
+        "url": "https://www.si.edu/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Preserve the Body?",
+        "id": "why-preserve-the-body"
+      },
+      {
+        "type": "paragraph",
+        "text": "To the Egyptians, a person was made of several parts — including the **ka** (life-force) and **ba** (personality) — that needed a recognisable, intact **body** to return to. If the body decayed, the soul had no home, and eternal life was lost. Mummification, then, was the indispensable technology of the [Egyptian afterlife](/article/egyptian-religion): the careful preservation of the dead so that they might live again."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Seventy-Day Craft",
+        "id": "the-seventy-day-craft"
+      },
+      {
+        "type": "paragraph",
+        "text": "The full process, reserved for those who could afford it, took about **seventy days** and followed a precise sequence:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**Removal of organs** — the lungs, liver, stomach, and intestines were taken out and preserved separately in **canopic jars**; the brain, thought useless, was discarded.",
+          "**The heart stayed** — left in place because it was believed to be the seat of thought and would be weighed in judgement.",
+          "**Drying** — the body was packed in and covered with **natron**, a natural drying salt, for about forty days until all moisture was gone.",
+          "**Wrapping** — the desiccated body was anointed with oils and resins and bound in hundreds of metres of linen, with protective **amulets** tucked between the layers.",
+          "**The mask and rites** — a portrait mask was placed over the face, and the **Opening of the Mouth** ceremony ritually restored the senses for the next life."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Accidental science",
+        "text": "Egyptian embalmers accumulated real anatomical knowledge through this work, and the surviving medical papyri show a tradition of careful, empirical observation. In preserving the dead, they advanced the understanding of the living body — a thread that runs into the history of [medicine](/category/medicine)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Bodies That Outlived Empires",
+        "id": "bodies-that-outlived-empires"
+      },
+      {
+        "type": "paragraph",
+        "text": "The craft worked extraordinarily well. The embalmed remains of pharaohs like **Ramesses II** and **Seti I** survive in remarkable condition more than three thousand years on, allowing modern scientists to study the diet, diseases, and even the faces of the ancient dead. The most famous of all, the near-intact tomb of **Tutankhamun**, made the boy-king and the art of mummification known across the world."
+      },
+      {
+        "type": "quote",
+        "text": "The Egyptians set out to defeat death by preserving the body. In doing so, they sent themselves, quite literally, into the future."
+      }
+    ],
+    "toc": [
+      {
+        "id": "why-preserve-the-body",
+        "text": "Why Preserve the Body?",
+        "level": 2
+      },
+      {
+        "id": "the-seventy-day-craft",
+        "text": "The Seventy-Day Craft",
+        "level": 2
+      },
+      {
+        "id": "bodies-that-outlived-empires",
+        "text": "Bodies That Outlived Empires",
+        "level": 2
+      }
+    ],
+    "wordCount": 349
+  },
+  {
+    "id": "nile-river",
+    "title": "The Nile River",
+    "category": "geography",
+    "factStatus": "verified",
+    "readMins": 4,
+    "eyebrow": "The river that made a nation",
+    "lede": "The longest river in Africa and the artery of a civilization — the Nile flows north for over six thousand kilometres, and for five thousand years its rhythms dictated where, when, and how Egyptians lived.",
+    "related": [
+      "ancient-egypt",
+      "egypt-tourism",
+      "modern-egypt",
+      "earth",
+      "geography"
+    ],
+    "journey": [],
+    "media": {
+      "maps": [
+        {
+          "title": "The Nile basin",
+          "caption": "From the highlands of East Africa to the Mediterranean delta, draining eleven countries.",
+          "region": "Africa"
+        }
+      ],
+      "images": [
+        {
+          "title": "The green valley from above",
+          "caption": "A thin ribbon of cultivation cutting through the desert — visible even from orbit.",
+          "credit": "Satellite view"
+        },
+        {
+          "title": "The Nile delta",
+          "caption": "The fan of fertile distributaries where the river meets the Mediterranean.",
+          "credit": "Lower Egypt"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Source to sea",
+          "caption": "Following the White and Blue Niles from their sources to the delta.",
+          "duration": "5:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia — the Nile",
+        "source": "Reference geography of the Nile basin"
+      },
+      {
+        "label": "NASA Earth Observatory — the Nile",
+        "source": "NASA Earth Observatory",
+        "url": "https://earthobservatory.nasa.gov/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two Rivers Become One",
+        "id": "two-rivers-become-one"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Nile is really two great rivers joined. The **White Nile** rises in the Great Lakes region of East Africa and flows steadily year-round; the **Blue Nile** descends from the Ethiopian Highlands, swollen each summer by monsoon rains. They meet at **Khartoum** in modern Sudan and run north as a single mighty stream to the Mediterranean. It was the Blue Nile's summer surge that produced Egypt's life-giving **annual flood**."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Engine of Egyptian Life",
+        "id": "the-engine-of-egyptian-life"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because rain almost never falls on the Egyptian valley, the river was everything:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "It **watered the fields**, depositing fertile black silt each year.",
+          "It was the **highway** of the land — flowing north, with a wind blowing south, so boats could travel both ways.",
+          "It set the **calendar**, divided into three seasons: *Akhet* (flood), *Peret* (growing), and *Shemu* (harvest).",
+          "It shaped **settlement**, concentrating people on the narrow strip of green between the deserts."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A river you can see from space",
+        "text": "From orbit, Egypt is a stark image: a brilliant green thread and its delta, surrounded by tan desert. More than 90% of Egyptians still live on the few percent of the land the Nile makes habitable."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The River Today",
+        "id": "the-river-today"
+      },
+      {
+        "type": "paragraph",
+        "text": "The [Aswan High Dam](/article/modern-egypt) ended the natural flood in 1970, trading the silt cycle for stored water and electricity. Today the Nile remains the lifeline of [modern Egypt](/article/modern-egypt) and the heart of its [tourism](/article/egypt-tourism), even as its waters are increasingly contested among the nations that share its vast basin."
+      },
+      {
+        "type": "quote",
+        "text": "\"Egypt,\" wrote Herodotus, \"is the gift of the river.\" Twenty-five centuries later, it still is."
+      }
+    ],
+    "toc": [
+      {
+        "id": "two-rivers-become-one",
+        "text": "Two Rivers Become One",
+        "level": 2
+      },
+      {
+        "id": "the-engine-of-egyptian-life",
+        "text": "The Engine of Egyptian Life",
+        "level": 2
+      },
+      {
+        "id": "the-river-today",
+        "text": "The River Today",
+        "level": 2
+      }
+    ],
+    "wordCount": 254
+  },
+  {
+    "id": "the-pharaoh",
+    "title": "The Pharaoh",
+    "category": "kingdoms-empires",
+    "factStatus": "verified",
+    "readMins": 5,
+    "eyebrow": "God-king of the two lands",
+    "lede": "Neither wholly human nor wholly divine, the pharaoh stood at the hinge of the Egyptian universe — guarantor of cosmic order, head of a vast bureaucratic state, and the living image of a god on Earth.",
+    "related": [
+      "ancient-egypt",
+      "egyptian-religion",
+      "pyramids-of-giza",
+      "kingdoms-empires",
+      "modern-egypt"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Seats of royal power",
+          "caption": "Memphis, Thebes and Pi-Ramesses — capitals from which pharaohs ruled the two lands.",
+          "region": "Nile valley"
+        }
+      ],
+      "images": [
+        {
+          "title": "The double crown",
+          "caption": "The Pschent — the White Crown of Upper Egypt nested in the Red Crown of Lower Egypt.",
+          "credit": "Royal regalia"
+        },
+        {
+          "title": "Ramesses II at Abu Simbel",
+          "caption": "Four colossal seated statues of the New Kingdom's most prolific builder-king.",
+          "credit": "19th Dynasty"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Coronation of a god-king",
+          "caption": "The rites that transformed a man into the living Horus and guarantor of Maat.",
+          "duration": "4:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — kingship",
+        "source": "The British Museum, Department of Egypt and Sudan",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "UNESCO — Ancient Thebes",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/87"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Horus on the Throne",
+        "id": "horus-on-the-throne"
+      },
+      {
+        "type": "paragraph",
+        "text": "The word *pharaoh* comes from **per-aa**, \"the great house\" — originally the palace itself, later its royal occupant. The king was the indispensable link between humanity and the gods. While he lived he was the earthly embodiment of **Horus**; when he died he became **Osiris**, and his successor took up the falcon's role. Kingship was therefore not just political office but a cosmic function: through the pharaoh, maat was maintained and the very order of the world renewed."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Crowns, Names, and Titles",
+        "id": "crowns-names-and-titles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Royal identity was written in regalia and language:"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "The **double crown** (*Pschent*) united the White Crown of Upper Egypt and the Red Crown of Lower Egypt — a wearable claim to rule both lands.",
+          "The **crook and flail** signalled the king as shepherd and provider.",
+          "The **false beard** and **uraeus** (the rearing cobra) marked divine authority.",
+          "Each king bore a **fivefold titulary** of throne-names and birth-names, framed in protective oval **cartouches**."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Pharaohs were not all men",
+        "text": "The throne was overwhelmingly male, but several women ruled in their own right — most notably **Hatshepsut**, one of Egypt's most successful and prolific builders, who had herself depicted with the traditional regalia of kingship."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Machinery of Rule",
+        "id": "the-machinery-of-rule"
+      },
+      {
+        "type": "paragraph",
+        "text": "A god-king still needed a government. Beneath the pharaoh stood the **vizier**, the chief administrator, and an army of literate **scribes** who ran the granaries, the tax rolls, the courts, and the great building projects. Because wealth was measured in grain and stored centrally, the state reached into every village. This made Egypt one of history's first highly organised bureaucratic states — and explains how it could marshal the labour to raise the [Pyramids of Giza](/article/pyramids-of-giza)."
+      },
+      {
+        "type": "quote",
+        "text": "The greatest builders — Khufu, Hatshepsut, Ramesses II — measured their reigns in stone, leaving monuments designed to proclaim a single, eternal message: *the king endures.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "That ambition to endure echoes across millennia into the symbols of [modern Egypt](/article/modern-egypt), where the pharaohs remain a source of national identity and pride."
+      }
+    ],
+    "toc": [
+      {
+        "id": "horus-on-the-throne",
+        "text": "Horus on the Throne",
+        "level": 2
+      },
+      {
+        "id": "crowns-names-and-titles",
+        "text": "Crowns, Names, and Titles",
+        "level": 2
+      },
+      {
+        "id": "the-machinery-of-rule",
+        "text": "The Machinery of Rule",
+        "level": 2
+      }
+    ],
+    "wordCount": 322
+  },
+  {
+    "id": "pyramids-of-giza",
+    "title": "The Pyramids of Giza",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 5,
+    "eyebrow": "Mountains made by hand",
+    "lede": "Three colossal tombs raised on a desert plateau over forty-five centuries ago — the most precise, most enduring, and only surviving wonder of the ancient world, and a monument to the organisational genius of the Old Kingdom.",
+    "related": [
+      "ancient-egypt",
+      "the-pharaoh",
+      "ancient-architecture",
+      "egyptian-astronomy",
+      "egypt-tourism"
+    ],
+    "journey": [
+      {
+        "id": "ancient-egypt",
+        "label": "Ancient Egypt"
+      },
+      {
+        "id": "egyptian-religion",
+        "label": "Religion"
+      },
+      {
+        "id": "the-pharaoh",
+        "label": "Pharaoh"
+      },
+      {
+        "id": "pyramids-of-giza",
+        "label": "Pyramids"
+      },
+      {
+        "id": "ancient-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "egyptian-astronomy",
+        "label": "Astronomy"
+      },
+      {
+        "id": "modern-egypt",
+        "label": "Modern Egypt"
+      },
+      {
+        "id": "egypt-tourism",
+        "label": "Tourism"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Giza plateau",
+          "caption": "The pyramids of Khufu, Khafre and Menkaure with the Great Sphinx, southwest of modern Cairo.",
+          "region": "Giza, Egypt"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Great Pyramid of Khufu",
+          "caption": "Originally 146.6 m tall and clad in polished white limestone that would have blazed in the sun.",
+          "credit": "4th Dynasty, c. 2560 BCE"
+        },
+        {
+          "title": "The Great Sphinx",
+          "caption": "A limestone lion with a human face, almost certainly bearing the likeness of Khafre.",
+          "credit": "Old Kingdom"
+        },
+        {
+          "title": "Interior — the Grand Gallery",
+          "caption": "A soaring corbel-vaulted passage rising to the King's Chamber inside Khufu's pyramid.",
+          "credit": "Great Pyramid"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Building the Great Pyramid",
+          "caption": "How ramps, levers, and a vast organised workforce raised 2.3 million blocks.",
+          "duration": "7:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "UNESCO — Memphis and its Necropolis",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/86"
+      },
+      {
+        "label": "The Giza Project at Harvard",
+        "source": "Harvard University",
+        "url": "https://giza.fas.harvard.edu/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Wonder That Outlasted the Rest",
+        "id": "a-wonder-that-outlasted-the-rest"
+      },
+      {
+        "type": "paragraph",
+        "text": "Of the **Seven Wonders of the Ancient World**, only one still stands: the **Great Pyramid of Khufu** at Giza. Completed around 2560 BCE, it held the record as the tallest structure made by human hands for nearly **3,800 years**, until the cathedral spires of medieval Europe finally surpassed it. Beside it rise the pyramids of **Khafre** (which looks taller because it sits on higher ground and still keeps a cap of its original casing) and the smaller **Menkaure**, guarded by the **Great Sphinx**."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Precision Without Iron",
+        "id": "precision-without-iron"
+      },
+      {
+        "type": "paragraph",
+        "text": "What stuns engineers is not just the size but the **accuracy**. The Great Pyramid's square base, some 230 metres on a side, is level to within a couple of centimetres, and its faces are aligned to true north with an error of only a fraction of a degree — achieved without iron tools, the compass, or modern surveying instruments."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "An estimated **2.3 million blocks**, averaging over two tonnes each.",
+          "Original height **146.6 m**; a smooth casing of fine white limestone, now largely stripped away.",
+          "Internal chambers, relieving stones, and the soaring **Grand Gallery**, all cut and fitted with extraordinary care."
+        ]
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Not built by slaves",
+        "text": "The old image of whip-driven slaves is a myth. Archaeology at the workers' village shows a paid, fed, and housed workforce of skilled craftsmen and rotating labourers — organised, provisioned, and even given medical care by the Egyptian state."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tombs Aligned to the Sky",
+        "id": "tombs-aligned-to-the-sky"
+      },
+      {
+        "type": "paragraph",
+        "text": "The pyramids were **royal tombs**, designed to launch the dead king into the heavens and eternal life. Their orientation was no accident: the Egyptians used the stars to fix true north, tying their architecture to the rhythms of the sky — a connection explored in [Egyptian astronomy](/article/egyptian-astronomy). Causeways linked each pyramid to a valley temple by the Nile, framing the whole complex as a machine for resurrection."
+      },
+      {
+        "type": "quote",
+        "text": "The shape itself may evoke the **benben** — the primeval mound that rose from the waters of creation, and the petrified rays of the sun god descending to the earth."
+      },
+      {
+        "type": "paragraph",
+        "text": "The pyramids are the supreme statement of a wider tradition of sacred building that runs through Egyptian temples and on into the story of [ancient architecture](/article/ancient-architecture). Today they remain the single most visited monument in the country — the gateway to [Egyptian tourism](/article/egypt-tourism)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-wonder-that-outlasted-the-rest",
+        "text": "A Wonder That Outlasted the Rest",
+        "level": 2
+      },
+      {
+        "id": "precision-without-iron",
+        "text": "Precision Without Iron",
+        "level": 2
+      },
+      {
+        "id": "tombs-aligned-to-the-sky",
+        "text": "Tombs Aligned to the Sky",
+        "level": 2
+      }
+    ],
+    "wordCount": 376
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "clusters": [
+    {
+      "id": "cosmos-earth",
+      "name": "Cosmos & Earth",
+      "tagline": "From the first light of the universe to the ground beneath our feet."
+    },
+    {
+      "id": "life-time",
+      "name": "Life & Time",
+      "tagline": "The long story of living things and the ages they passed through."
+    },
+    {
+      "id": "belief-story",
+      "name": "Belief & Story",
+      "tagline": "How humanity made meaning — in faith, myth, art and song."
+    },
+    {
+      "id": "mind-knowledge",
+      "name": "Mind & Knowledge",
+      "tagline": "The instruments of understanding, from medicine to machine intelligence."
+    },
+    {
+      "id": "society-tomorrow",
+      "name": "Society & Tomorrow",
+      "tagline": "How we organise ourselves — and where it all might be heading."
+    }
+  ],
+  "categories": [
+    { "id": "universe", "name": "Universe", "cluster": "cosmos-earth", "icon": "Orbit", "glyph": "✦", "blurb": "Cosmology, deep time and the architecture of everything." },
+    { "id": "space", "name": "Space", "cluster": "cosmos-earth", "icon": "Rocket", "glyph": "☄", "blurb": "Stars, planets, exploration and the science of the sky." },
+    { "id": "earth", "name": "Earth", "cluster": "cosmos-earth", "icon": "Globe", "glyph": "◍", "blurb": "Our planet's systems — atmosphere, ocean, crust and climate." },
+    { "id": "nature", "name": "Nature", "cluster": "cosmos-earth", "icon": "Leaf", "glyph": "❧", "blurb": "Ecosystems, biology and the living web of the world." },
+    { "id": "geography", "name": "Geography", "cluster": "cosmos-earth", "icon": "Mountain", "glyph": "▲", "blurb": "Places, peoples, borders and the shape of the land." },
+
+    { "id": "dinosaurs", "name": "Dinosaurs", "cluster": "life-time", "icon": "Bone", "glyph": "✸", "blurb": "The ruling reptiles of the Mesozoic and the world they vanished from." },
+    { "id": "human-evolution", "name": "Human Evolution", "cluster": "life-time", "icon": "PersonStanding", "glyph": "𓀀", "blurb": "From early hominins to modern minds — the rise of our kind." },
+    { "id": "ancient-civilizations", "name": "Ancient Civilizations", "cluster": "life-time", "icon": "Landmark", "glyph": "𓉔", "blurb": "The first cities, writing and states that founded the human story." },
+    { "id": "kingdoms-empires", "name": "Kingdoms & Empires", "cluster": "life-time", "icon": "Crown", "glyph": "♛", "blurb": "Dynasties, rulers and the great powers that shaped continents." },
+    { "id": "wars", "name": "Wars", "cluster": "life-time", "icon": "Swords", "glyph": "⚔", "blurb": "Conflicts that redrew maps and turned the course of history." },
+    { "id": "world-history", "name": "World History", "cluster": "life-time", "icon": "Hourglass", "glyph": "⧗", "blurb": "The connected human narrative across every age and region." },
+
+    { "id": "religions", "name": "Religions", "cluster": "belief-story", "icon": "Sparkles", "glyph": "☥", "blurb": "Faiths, rituals and the search for the sacred." },
+    { "id": "sacred-books", "name": "Sacred Books", "cluster": "belief-story", "icon": "BookOpen", "glyph": "📜", "blurb": "Scriptures and canonical texts that anchored civilizations." },
+    { "id": "mythology", "name": "Mythology", "cluster": "belief-story", "icon": "Feather", "glyph": "𓅓", "blurb": "Gods, heroes and the stories cultures told to explain the world." },
+    { "id": "literature", "name": "Literature", "cluster": "belief-story", "icon": "Book", "glyph": "✍", "blurb": "Poetry, epic and prose — the imagination written down." },
+    { "id": "art", "name": "Art", "cluster": "belief-story", "icon": "Palette", "glyph": "❖", "blurb": "Painting, sculpture and the visual languages of humankind." },
+    { "id": "music", "name": "Music", "cluster": "belief-story", "icon": "Music", "glyph": "♪", "blurb": "Sound shaped into meaning across cultures and centuries." },
+    { "id": "architecture", "name": "Architecture", "cluster": "belief-story", "icon": "Building2", "glyph": "⌂", "blurb": "How humans built — temples, towers and the engineering of awe." },
+
+    { "id": "science", "name": "Science", "cluster": "mind-knowledge", "icon": "FlaskConical", "glyph": "⚗", "blurb": "The method and discoveries that explain the natural world." },
+    { "id": "medicine", "name": "Medicine", "cluster": "mind-knowledge", "icon": "Stethoscope", "glyph": "✚", "blurb": "Healing, the body and the long fight against disease." },
+    { "id": "psychology", "name": "Psychology", "cluster": "mind-knowledge", "icon": "Brain", "glyph": "❂", "blurb": "Mind, behaviour and the science of the inner life." },
+    { "id": "programming", "name": "Programming", "cluster": "mind-knowledge", "icon": "Code2", "glyph": "⌗", "blurb": "Algorithms, languages and the craft of instructing machines." },
+    { "id": "artificial-intelligence", "name": "Artificial Intelligence", "cluster": "mind-knowledge", "icon": "Cpu", "glyph": "◈", "blurb": "Machine learning and the quest to build thinking systems." },
+
+    { "id": "politics", "name": "Politics", "cluster": "society-tomorrow", "icon": "Scale", "glyph": "⚖", "blurb": "Power, governance and the institutions that bind societies." },
+    { "id": "economy", "name": "Economy", "cluster": "society-tomorrow", "icon": "TrendingUp", "glyph": "₪", "blurb": "Trade, money and how value moves through the world." },
+    { "id": "business", "name": "Business", "cluster": "society-tomorrow", "icon": "Briefcase", "glyph": "❒", "blurb": "Enterprise, innovation and the organisations that build things." },
+    { "id": "future", "name": "Future", "cluster": "society-tomorrow", "icon": "Telescope", "glyph": "✺", "blurb": "Foresight, technology and the worlds we may yet inhabit." }
+  ]
+}

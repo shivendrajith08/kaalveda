@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="KaalVeda">
+  <rect width="512" height="512" fill="#0d1117" />
+  <circle cx="256" cy="256" r="132" fill="none" stroke="#d4af6e" stroke-width="6" opacity="0.55" />
+  <circle cx="256" cy="256" r="88" fill="none" stroke="#d4af6e" stroke-width="4" opacity="0.35" />
+  <path d="M256 168 L308 332 L256 298 L204 332 Z" fill="#d4af6e" />
+  <circle cx="256" cy="256" r="16" fill="#0d1117" stroke="#e7c98c" stroke-width="5" />
+</svg>
