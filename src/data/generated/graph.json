@@ -1,6 +1,13 @@
 {
   "nodes": [
     {
+      "id": "alexander-the-great",
+      "title": "Alexander the Great",
+      "category": "kingdoms-empires",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
       "id": "ancient-architecture",
       "title": "Ancient Architecture",
       "category": "architecture",
@@ -10,6 +17,13 @@
     {
       "id": "ancient-egypt",
       "title": "Ancient Egypt",
+      "category": "ancient-civilizations",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "ancient-greece",
+      "title": "Ancient Greece",
       "category": "ancient-civilizations",
       "cluster": "life-time",
       "factStatus": "verified"
@@ -47,6 +61,27 @@
       "title": "Egyptian Tourism",
       "category": "geography",
       "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "greek-architecture",
+      "title": "Greek Architecture",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "greek-mythology",
+      "title": "Greek Mythology",
+      "category": "mythology",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "greek-philosophy",
+      "title": "Greek Philosophy",
+      "category": "science",
+      "cluster": "mind-knowledge",
       "factStatus": "verified"
     },
     {
@@ -120,10 +155,24 @@
       "factStatus": "verified"
     },
     {
+      "id": "greek-olympics",
+      "title": "The Ancient Olympics",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
       "id": "the-big-bang",
       "title": "The Big Bang",
       "category": "universe",
       "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "greek-democracy",
+      "title": "The Birth of Democracy",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -139,6 +188,13 @@
       "category": "future",
       "cluster": "society-tomorrow",
       "factStatus": "theory"
+    },
+    {
+      "id": "hellenistic-age",
+      "title": "The Hellenistic Age",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
     },
     {
       "id": "the-moon",
@@ -202,9 +258,46 @@
       "category": "universe",
       "cluster": "cosmos-earth",
       "factStatus": "verified"
+    },
+    {
+      "id": "trojan-war",
+      "title": "The Trojan War",
+      "category": "wars",
+      "cluster": "life-time",
+      "factStatus": "theory"
     }
   ],
   "edges": [
+    {
+      "source": "alexander-the-great",
+      "target": "ancient-greece",
+      "resolved": true
+    },
+    {
+      "source": "alexander-the-great",
+      "target": "hellenistic-age",
+      "resolved": true
+    },
+    {
+      "source": "alexander-the-great",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "alexander-the-great",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "alexander-the-great",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "alexander-the-great",
+      "target": "julius-caesar",
+      "resolved": true
+    },
     {
       "source": "ancient-architecture",
       "target": "pyramids-of-giza",
@@ -263,6 +356,46 @@
     {
       "source": "ancient-egypt",
       "target": "egyptian-astronomy",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "greek-democracy",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "greek-architecture",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "hellenistic-age",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "rome",
+      "resolved": true
+    },
+    {
+      "source": "ancient-greece",
+      "target": "roman-empire",
       "resolved": true
     },
     {
@@ -384,6 +517,61 @@
       "source": "egypt-tourism",
       "target": "geography",
       "resolved": false
+    },
+    {
+      "source": "greek-architecture",
+      "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "greek-architecture",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "greek-architecture",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "greek-architecture",
+      "target": "ancient-architecture",
+      "resolved": true
+    },
+    {
+      "source": "greek-mythology",
+      "target": "trojan-war",
+      "resolved": true
+    },
+    {
+      "source": "greek-mythology",
+      "target": "roman-mythology",
+      "resolved": true
+    },
+    {
+      "source": "greek-mythology",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "greek-mythology",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "greek-philosophy",
+      "target": "greek-democracy",
+      "resolved": true
+    },
+    {
+      "source": "greek-philosophy",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "greek-philosophy",
+      "target": "the-big-bang",
+      "resolved": true
     },
     {
       "source": "hieroglyphs",
@@ -571,6 +759,26 @@
       "resolved": true
     },
     {
+      "source": "greek-olympics",
+      "target": "ancient-greece",
+      "resolved": true
+    },
+    {
+      "source": "greek-olympics",
+      "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "greek-olympics",
+      "target": "greek-architecture",
+      "resolved": true
+    },
+    {
+      "source": "greek-olympics",
+      "target": "greek-democracy",
+      "resolved": true
+    },
+    {
       "source": "the-big-bang",
       "target": "the-solar-system",
       "resolved": true
@@ -583,6 +791,11 @@
     {
       "source": "the-big-bang",
       "target": "the-future-of-space",
+      "resolved": true
+    },
+    {
+      "source": "greek-democracy",
+      "target": "roman-republic",
       "resolved": true
     },
     {
@@ -603,6 +816,26 @@
     {
       "source": "the-future-of-space",
       "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "hellenistic-age",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "hellenistic-age",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "hellenistic-age",
+      "target": "rome",
+      "resolved": true
+    },
+    {
+      "source": "hellenistic-age",
+      "target": "julius-caesar",
       "resolved": true
     },
     {
@@ -663,6 +896,21 @@
     {
       "source": "roman-republic",
       "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "trojan-war",
+      "target": "ancient-greece",
+      "resolved": true
+    },
+    {
+      "source": "trojan-war",
+      "target": "roman-mythology",
+      "resolved": true
+    },
+    {
+      "source": "trojan-war",
+      "target": "ancient-egypt",
       "resolved": true
     }
   ]

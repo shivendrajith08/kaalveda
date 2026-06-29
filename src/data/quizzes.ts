@@ -301,6 +301,118 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'greece',
+    title: 'Test Your Knowledge: Ancient Greece',
+    description:
+      'Eight questions on the Greek world — from the polis to Alexander. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'What was the Greek word for the independent self-governing city-state?',
+        options: [
+          { id: 'a', text: 'Polis' },
+          { id: 'b', text: 'Demos' },
+          { id: 'c', text: 'Agora' },
+          { id: 'd', text: 'Acropolis' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The polis was the fundamental unit of Greek life — a community of citizens who governed themselves. The demos was the people, the agora the marketplace, and the acropolis the fortified high point of a city.',
+      },
+      {
+        id: 'q2',
+        prompt: 'In which Greek city was democracy born around 508 BCE?',
+        options: [
+          { id: 'a', text: 'Athens' },
+          { id: 'b', text: 'Sparta' },
+          { id: 'c', text: 'Corinth' },
+          { id: 'd', text: 'Thebes' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The reforms of Cleisthenes in 508 BCE handed power to the assembly of Athenian citizens — demokratia, rule by the people. Sparta, by contrast, was a militarized state ruled by a warrior elite.',
+      },
+      {
+        id: 'q3',
+        prompt: 'Which two Greek powers led the long, ruinous Peloponnesian War?',
+        options: [
+          { id: 'a', text: 'Athens and Sparta' },
+          { id: 'b', text: 'Athens and Persia' },
+          { id: 'c', text: 'Sparta and Macedon' },
+          { id: 'd', text: 'Thebes and Corinth' },
+        ],
+        answerId: 'a',
+        explanation:
+          'From 431 to 404 BCE the sea power of Athens and the land power of Sparta led the Greek world into a civil war that exhausted both and ended with Athens defeated.',
+      },
+      {
+        id: 'q4',
+        prompt: 'Which Athenian philosopher was condemned to drink hemlock in 399 BCE?',
+        options: [
+          { id: 'a', text: 'Socrates' },
+          { id: 'b', text: 'Plato' },
+          { id: 'c', text: 'Aristotle' },
+          { id: 'd', text: 'Pythagoras' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Socrates, who wrote nothing but transformed philosophy through relentless questioning, was condemned for impiety and corrupting the youth. His pupil Plato preserved his teaching, and Plato in turn taught Aristotle.',
+      },
+      {
+        id: 'q5',
+        prompt: 'Who tutored the young Alexander the Great?',
+        options: [
+          { id: 'a', text: 'Aristotle' },
+          { id: 'b', text: 'Socrates' },
+          { id: 'c', text: 'Homer' },
+          { id: 'd', text: 'Archimedes' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Alexander was tutored for three years by Aristotle, the greatest thinker of the age. Socrates had died decades earlier, and Homer’s epics — which Alexander loved — were already centuries old.',
+      },
+      {
+        id: 'q6',
+        prompt: 'Where were the ancient Olympic Games held, in honour of which god?',
+        options: [
+          { id: 'a', text: 'At Olympia, in honour of Zeus' },
+          { id: 'b', text: 'At Athens, in honour of Athena' },
+          { id: 'c', text: 'At Delphi, in honour of Apollo' },
+          { id: 'd', text: 'At Sparta, in honour of Ares' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Games were a religious festival held every four years at the sanctuary of Zeus at Olympia, beginning traditionally in 776 BCE. Victors won only a crown of wild olive — and undying glory.',
+      },
+      {
+        id: 'q7',
+        prompt: 'What is the name of the era after Alexander, when Greek culture spread across three continents?',
+        options: [
+          { id: 'a', text: 'The Hellenistic Age' },
+          { id: 'b', text: 'The Classical Age' },
+          { id: 'c', text: 'The Archaic Age' },
+          { id: 'd', text: 'The Bronze Age' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Hellenistic Age followed Alexander’s death in 323 BCE, when his generals ruled vast kingdoms in which Greek became the common language from Egypt to Afghanistan — the era of Alexandria and its great Library.',
+      },
+      {
+        id: 'q8',
+        prompt: 'According to legend, how did the Greeks finally capture the city of Troy?',
+        options: [
+          { id: 'a', text: 'By hiding warriors inside a hollow wooden horse' },
+          { id: 'b', text: 'By burning its harbour fleet' },
+          { id: 'c', text: 'By starving it in a ten-year blockade' },
+          { id: 'd', text: 'By bribing its gatekeepers' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Greeks left a great wooden horse filled with hidden soldiers as a false offering. Once the Trojans dragged it inside their walls, the warriors crept out by night and opened the gates — the origin of the warning to "fear the Greeks, even bearing gifts."',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

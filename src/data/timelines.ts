@@ -407,6 +407,131 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'greece',
+    title: 'The Greek Age',
+    subtitle:
+      'From the Bronze-Age citadels of the Mycenaeans to the Roman conquest — the rise of the polis, the classical golden age and the empire of Alexander.',
+    events: [
+      {
+        id: 'mycenaeans',
+        year: -1600,
+        title: 'The Mycenaean Civilization',
+        description:
+          'The first great Greek-speaking civilization rises in fortified citadels like Mycenae and Pylos — the warrior world later remembered in Homer’s epics.',
+        era: 'Bronze Age',
+        factStatus: 'verified',
+      },
+      {
+        id: 'trojan-war',
+        year: -1200,
+        title: 'The Trojan War',
+        description:
+          'Around the time the Mycenaean world begins to collapse, legend places the ten-year Greek siege of Troy — a war whose historical reality is still debated.',
+        era: 'Bronze Age',
+        factStatus: 'theory',
+      },
+      {
+        id: 'homer',
+        year: -800,
+        title: 'Homer and the Epics',
+        description:
+          'The Iliad and Odyssey take their lasting form, fixing the founding stories of Greek literature after centuries of oral telling.',
+        era: 'Archaic',
+        factStatus: 'theory',
+      },
+      {
+        id: 'first-olympics',
+        year: -776,
+        title: 'The First Olympic Games',
+        description:
+          'The Greeks date the first Games at Olympia, held in honour of Zeus, to this year — and begin counting time in four-year Olympiads.',
+        era: 'Archaic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'democracy',
+        year: -508,
+        title: 'The Birth of Athenian Democracy',
+        description:
+          'Cleisthenes reorganises Athens and hands power to the assembly of citizens — the world’s first democracy, rule by the demos.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'persian-wars',
+        year: -490,
+        title: 'The Persian Wars',
+        description:
+          'Against overwhelming odds the Greek cities throw back two Persian invasions, from Marathon (490) to Salamis and Plataea (480–479) — saving their independence.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'golden-age',
+        year: -461,
+        title: 'The Golden Age of Athens',
+        description:
+          'Under Pericles, Athens builds the Parthenon, invents tragic theatre and democracy reaches its height — the brief, dazzling peak of classical culture.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'peloponnesian-war',
+        year: -431,
+        title: 'The Peloponnesian War',
+        description:
+          'Athens and Sparta lead the Greek world into a long, ruinous civil war that ends in 404 BCE with Athens defeated and the cities exhausted.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'socrates',
+        year: -399,
+        title: 'The Death of Socrates',
+        description:
+          'The Athenian democracy condemns the philosopher Socrates to drink hemlock for impiety — making him philosophy’s first martyr.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'philip-macedon',
+        year: -359,
+        title: 'The Rise of Macedon',
+        description:
+          'Philip II becomes king of Macedon, forges the deadly phalanx and brings the quarrelling Greek cities under his control.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'alexander-conquests',
+        year: -334,
+        title: 'Alexander’s Conquests Begin',
+        description:
+          'Alexander the Great crosses into Asia and in a decade overthrows the Persian Empire, reaching Egypt and India and spreading Greek culture across three continents.',
+        era: 'Hellenistic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'alexander-death',
+        year: -323,
+        title: 'The Death of Alexander',
+        description:
+          'Alexander dies at Babylon aged thirty-two. His generals carve the empire into the Hellenistic kingdoms, with Greek as the language of the East.',
+        era: 'Hellenistic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'roman-conquest',
+        year: -146,
+        title: 'Rome Conquers Greece',
+        description:
+          'Rome sacks Corinth and absorbs Greece. The conquered Greeks conquer their conquerors in turn, as Rome takes Greek art, learning and gods as its own.',
+        era: 'Roman',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))

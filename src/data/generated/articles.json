@@ -1,5 +1,138 @@
 [
   {
+    "id": "alexander-the-great",
+    "title": "Alexander the Great",
+    "category": "kingdoms-empires",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The boy who conquered the world",
+    "lede": "In a reign of barely a dozen years, a young Macedonian king led his army from Greece to the edge of India, toppling the mightiest empire on Earth and dying undefeated at thirty-two. Alexander conquered an empire that did not outlive him — but spread Greek culture across three continents in a way that did.",
+    "related": [
+      "ancient-greece",
+      "hellenistic-age",
+      "greek-philosophy",
+      "ancient-egypt",
+      "roman-empire",
+      "julius-caesar"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Conquests of Alexander",
+          "caption": "From Macedon through Asia Minor, Egypt and Persia to the Indus — the largest empire the ancient world had yet seen, built in a decade.",
+          "region": "Greece to India"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Alexander Mosaic",
+          "caption": "A Roman mosaic from Pompeii showing the young king charging Darius III at the Battle of Issus — copied from a lost Greek painting.",
+          "credit": "National Archaeological Museum, Naples"
+        },
+        {
+          "title": "Bust of Alexander",
+          "caption": "The idealised gaze and tousled hair that became the model for a ruler's portrait for centuries after.",
+          "credit": "The British Museum"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The unbeaten general",
+          "caption": "How a Macedonian phalanx and a fearless cavalry charge overthrew the Persian Empire.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Alexander the Great",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Alexander-the-Great"
+      },
+      {
+        "label": "Arrian — The Campaigns of Alexander",
+        "source": "Arrian, Anabasis of Alexander (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/arrian-anabasis_alexander/1976/pb_LCL236.3.xml"
+      },
+      {
+        "label": "Plutarch — Life of Alexander",
+        "source": "Plutarch, Parallel Lives (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/plutarch-lives_alexander/1919/pb_LCL099.225.xml"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Prince Schooled by Aristotle",
+        "id": "a-prince-schooled-by-aristotle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Alexander was born in 356 BCE in **Macedon**, a half-Greek kingdom on the northern fringe of the Greek world that the southern cities regarded as rough and backward. His father, **Philip II**, was a brilliant soldier-king who reformed the Macedonian army into the deadliest fighting force in Greece and brought the quarrelling city-states under his control. To educate his gifted son, Philip hired the finest mind of the age — the philosopher **Aristotle**, himself a student of Plato."
+      },
+      {
+        "type": "paragraph",
+        "text": "For three years the boy was tutored in [philosophy](/article/greek-philosophy), science, medicine, and the poetry of Homer. Alexander is said to have slept with a copy of the *Iliad*, the epic of the [Trojan War](/article/trojan-war), beneath his pillow, modelling himself on its hero Achilles. When Philip was assassinated in 336 BCE, the twenty-year-old inherited a battle-hardened army and an unfinished ambition: to lead the Greeks in revenge against the Persian Empire that had once invaded their homeland."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A perfect weapon, ready to hand",
+        "text": "Alexander's genius was real, but he also inherited a finished instrument. Philip had already forged the Macedonian phalanx — bristling with eighteen-foot pikes — and the elite cavalry that Alexander would hurl at the enemy's centre. The son took up a sword his father had sharpened. ## The Unbeaten Decade In 334 BCE Alexander crossed into Asia and never lost a major battle. At the **Granicus**, at **Issus**, and finally at **Gaugamela** in 331 BCE, he shattered far larger Persian armies, twice putting the Great King **Darius III** to flight in person. Between these victories he marched down the Mediterranean coast, and in **Egypt** he was welcomed as a liberator, hailed as a pharaoh and a son of the god Amun, and founded the city of **Alexandria** that would become the intellectual capital of the ancient world. With the Persian heartland in his hands, Alexander could have stopped. He did not. Driven by a longing the Greeks called *pothos*, he pressed on east — over the mountains of Afghanistan, across the rivers of Central Asia, and into **India**, where his exhausted men at last refused to go further. Reluctantly he turned back, leading part of his army on a terrible march through the desert that killed thousands. > I am dying from the treatment of too many physicians. The bitter remark attributed to him on his deathbed catches the strangeness of his end. In 323 BCE, back in **Babylon** and planning still greater campaigns, Alexander fell ill — perhaps from fever, perhaps from drink, perhaps from poison — and died at thirty-two. Asked to whom he left his empire, he is said to have answered only, \"To the strongest.\" ## The Empire That Tore Itself Apart There was no strongest. Alexander left no capable heir, and his generals — the **Diadochi**, or \"Successors\" — fell to fighting over the spoils. Within a generation his vast empire had splintered into rival kingdoms: the **Ptolemies** in [Egypt](/article/ancient-egypt), the **Seleucids** across Asia, the **Antigonids** in Macedon. The political achievement collapsed almost as fast as it had been built. :::note Conquest as cultural fusion Alexander founded dozens of cities, settled Greek soldiers across Asia, and even encouraged his men to marry Persian wives — taking a Persian bride himself. Whether from policy or vision, he set in motion a mingling of Greek and Eastern worlds that long outlasted his throne. ## A Longer Kind of Victory What survived was not the empire but its culture. In the kingdoms of the Successors, Greek became the language of government, trade, and learning from the Nile to the Hindu Kush. This was the [Hellenistic Age](/article/hellenistic-age) — a world in which Greek art, science, and ideas fused with those of Egypt, Persia, and beyond, and reached more people than the classical city-states ever had. Centuries later, [Rome](/article/roman-empire) would inherit that Greek-speaking eastern world wholesale, and ambitious Romans from [Julius Caesar](/article/julius-caesar) onward measured themselves against Alexander's legend. He became the eternal model of the conqueror: the young king who wept, the story goes, because there were no more worlds to conquer — and who, by dying so soon, never had to grow old or be defeated."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-prince-schooled-by-aristotle",
+        "text": "A Prince Schooled by Aristotle",
+        "level": 2
+      }
+    ],
+    "wordCount": 686
+  },
+  {
     "id": "ancient-architecture",
     "title": "Ancient Architecture",
     "category": "architecture",
@@ -470,6 +603,153 @@
       }
     ],
     "wordCount": 1196
+  },
+  {
+    "id": "ancient-greece",
+    "title": "Ancient Greece",
+    "category": "ancient-civilizations",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The seedbed of the Western mind",
+    "lede": "Scattered across a thousand rocky islands and tangled peninsulas, the Greeks never built a single empire — yet from their quarrelsome little city-states came democracy, philosophy, theatre, the Olympic ideal, and a way of asking questions about the world that the West has never stopped using.",
+    "related": [
+      "greek-democracy",
+      "greek-philosophy",
+      "greek-mythology",
+      "alexander-the-great",
+      "greek-architecture",
+      "hellenistic-age",
+      "ancient-egypt",
+      "rome",
+      "roman-empire"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Greek World",
+          "caption": "A scatter of city-states around the Aegean, from mainland Greece to the coast of Asia Minor and colonies as far as Spain and the Black Sea.",
+          "region": "Aegean & Mediterranean"
+        },
+        {
+          "title": "Mainland Greece",
+          "caption": "Mountains that divided the land into hundreds of fiercely independent valleys — the geography that made the polis.",
+          "region": "Balkan Peninsula"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Parthenon",
+          "caption": "The temple of Athena crowning the Acropolis of Athens — the most perfect surviving expression of the classical Greek ideal.",
+          "credit": "Acropolis, Athens"
+        },
+        {
+          "title": "A red-figure vase",
+          "caption": "Painted pottery that carried Greek myth, sport and daily life across the whole Mediterranean.",
+          "credit": "National Archaeological Museum, Athens"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The rise of the polis",
+          "caption": "How geography splintered Greece into hundreds of self-governing cities — and why that mattered.",
+          "duration": "6:10",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "The Greek miracle",
+          "caption": "A single century in which Athens reinvented government, drama and thought.",
+          "duration": "5:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Ancient Greece",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Ancient Greece",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/ancient-Greece"
+      },
+      {
+        "label": "The Met — Greek Art",
+        "source": "The Metropolitan Museum of Art, Department of Greek and Roman Art",
+        "url": "https://www.metmuseum.org/about-the-met/collection-areas/greek-and-roman-art"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Civilization Without a Capital",
+        "id": "a-civilization-without-a-capital"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ancient Greece was never a country. There was no single Greek state, no capital, no king of all the Greeks. Instead there were hundreds of small, fiercely independent cities, each clinging to its own valley or island, each with its own laws, gods, coins, and dialect. What bound them together was not a government but a shared idea of themselves: they spoke the same language, worshipped the same Olympian gods, read the same poems of **Homer**, and gathered every four years at Olympia to compete as Greeks against Greeks."
+      },
+      {
+        "type": "paragraph",
+        "text": "The geography made it so. Mainland Greece is a crumpled land of mountains and narrow plains, its coastline broken into a thousand harbours and fringed by islands scattered across the Aegean like stepping-stones. A people penned into such small, separate pockets of farmland naturally formed small, separate communities. The Greek word for such a community was the **polis** — usually translated \"city-state,\" though it meant something closer to the whole body of citizens bound together by custom and law."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The polis was the unit of Greek life",
+        "text": "A polis was not just a place but a community of citizens who governed themselves. Out of the intense, face-to-face politics of these small cities — where every citizen could know the issues and many could speak — came the radical idea that ordinary people, not kings or priests, should rule themselves. ## From Dark Age to Golden Age The Greek story did not begin in glory. An earlier civilization, the **Mycenaeans** of Agamemnon's legendary age, collapsed around 1200 BCE, and Greece sank into centuries so poor and illiterate that historians call them a Dark Age. Out of that darkness, slowly, the Greeks rebuilt — and around 800 BCE they borrowed an alphabet from the Phoenicians, founded colonies from Spain to the Black Sea, and began composing the poetry and politics that would change the world. The high point came in the fifth century BCE, the **Classical Age**. Against all odds the Greek cities, led by Athens and Sparta, threw back two massive invasions by the Persian Empire. The confidence of that victory poured into a single extraordinary generation in Athens. In the span of a lifetime its citizens built the Parthenon, invented the theatre of tragedy and comedy, practised the world's first [democracy](/article/greek-democracy), and — in the questions of **Socrates** — turned [philosophy](/article/greek-philosophy) toward the examined human life. > Man is the measure of all things. The sophist Protagoras caught the spirit of the age in that famous phrase. The Greeks placed the human being, with all its reason and folly, at the centre of their art, their politics, and their thought — a turn of mind that the West has inherited ever since. ## Athens and Sparta Two cities came to embody the poles of the Greek character. **Athens** was a democracy, a sea power, a place of restless talk, trade, art, and argument — open, brilliant, and unstable. **Sparta** was its opposite: a grim militarized state where boys were taken from their families to be raised as soldiers and the highest virtue was discipline in the service of the city. The Greeks themselves debated endlessly which model was better, and their rivalry erupted into the long, ruinous **Peloponnesian War** that exhausted both. :::note A glory built on contradiction The same Athens that invented democracy denied all political rights to women, resident foreigners, and a vast population of slaves. Greek freedom was real and revolutionary — and it was also partial, resting on the labour of the unfree. To study Greece honestly is to hold both truths at once. ## The Greek Inheritance For all their quarrels, the Greeks left a legacy out of all proportion to their numbers. They were swallowed first by the empire of [Alexander the Great](/article/alexander-the-great), a Macedonian who carried Greek language and culture as far as India, and then by [Rome](/article/rome), which conquered Greece militarily but was itself conquered culturally — taking Greek gods, Greek art, and Greek learning as its own. Through Rome and later through the Renaissance, the Greek inheritance flowed into the foundations of Europe. When we vote in an assembly, watch a drama, reason from evidence, admire a columned building, or compete in the Olympic Games, we are speaking a language first spoken on these rocky shores. Ancient Greece built no lasting empire of its own — and yet, through ideas alone, it conquered the imagination of the world. To trace its threads outward is to follow them into [Egypt](/article/ancient-egypt), into Rome, and into nearly every corner of the West that came after."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-civilization-without-a-capital",
+        "text": "A Civilization Without a Capital",
+        "level": 2
+      }
+    ],
+    "wordCount": 757
   },
   {
     "id": "rome",
@@ -1403,6 +1683,402 @@
       }
     ],
     "wordCount": 311
+  },
+  {
+    "id": "greek-architecture",
+    "title": "Greek Architecture",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "The grammar of the column",
+    "lede": "From the marble temples crowning their hilltops the Greeks worked out a language of columns, proportions, and harmony so satisfying that the world has never stopped speaking it. Banks, parliaments, and museums still wear the face of a Greek temple two and a half thousand years on.",
+    "related": [
+      "ancient-greece",
+      "greek-mythology",
+      "roman-engineering",
+      "pyramids-of-giza",
+      "ancient-architecture"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Acropolis of Athens",
+          "caption": "The sacred rock above the city, crowned by the Parthenon and its companion temples — the showpiece of classical architecture.",
+          "region": "Athens, Greece"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Parthenon",
+          "caption": "The temple of Athena, its Doric columns subtly curved to correct the eye — perhaps the most influential building ever raised.",
+          "credit": "Acropolis, Athens"
+        },
+        {
+          "title": "The three orders",
+          "caption": "Doric, Ionic and Corinthian — the column styles whose proportions became the alphabet of Western architecture.",
+          "credit": "Architectural illustration"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Greeks built in marble",
+          "caption": "Quarrying, carving and raising the columns of a temple without mortar or machines.",
+          "duration": "5:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "The Met — Greek Architecture",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/hd/grarc/hd_grarc.htm"
+      },
+      {
+        "label": "Vitruvius — On Architecture",
+        "source": "Vitruvius, De Architectura (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/vitruvius-architecture/1931/pb_LCL251.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Greek Architecture",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Western-architecture/Greek"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Temple as a Machine for Beauty",
+        "id": "the-temple-as-a-machine-for-beauty"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Greeks did not build the largest structures of the ancient world. Their temples are modest beside the [pyramids of Giza](/article/pyramids-of-giza) or the vaults of Rome. What they built instead was the most *refined* — buildings of such precise proportion and quiet harmony that they have served as the standard of architectural beauty for twenty-five centuries. A Greek temple was, above all, a problem in proportion solved with mathematical care."
+      },
+      {
+        "type": "paragraph",
+        "text": "The temple itself was conceived as the house of a god, not a hall for worshippers, who gathered outside at an open-air altar. Its essential form was simple: a rectangular room holding the cult statue, set on a stepped platform and ringed by a colonnade of columns supporting a low gabled roof. Everything depended on getting the relationships right — the ratio of a column's height to its width, of the spacing between columns, of the whole to its parts. The Greeks pursued these ratios with the same passion their [philosophers](/article/greek-philosophy) brought to the order of the cosmos."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Beauty as mathematics",
+        "text": "For the Greeks, beauty was not decoration laid on top of a building but proportion built into its bones. Harmony in stone reflected the same numerical order that **Pythagoras** had found in music and the heavens — architecture as visible mathematics. ## The Three Orders Greek architecture is written in an alphabet of three **orders**, each a complete system of column and the entablature it carries. The **Doric** order, oldest and sternest, has sturdy fluted columns with plain cushion-like tops, rising straight from the platform without a base — the order of the Parthenon, all strength and restraint. The **Ionic** order is lighter and more graceful, its columns slimmer and crowned with the elegant spiral scrolls called volutes. The **Corinthian**, latest and most ornate, tops its columns with baskets of carved acanthus leaves, and would become a favourite of the Romans. These were not just decorative choices but a shared grammar that every Greek builder knew and every later architect would inherit. To name a building \"Doric\" or \"Ionic\" is still to describe it in a language the Greeks invented. > Well building hath three conditions: firmness, commodity, and delight. The Roman architect Vitruvius, summing up the Greek inheritance, named the three demands that good building must meet — that it stand firm, serve its purpose, and please the eye. The Greeks satisfied the third with a subtlety that still astonishes. ## The Perfection of the Parthenon The supreme achievement was the **Parthenon**, the temple of Athena raised on the Acropolis of Athens in the 440s and 430s BCE under the statesman Pericles, at the height of Athenian [democracy](/article/greek-democracy). To the casual eye it is a simple rectangle of Doric columns. In truth almost nothing in it is straight. The architects **Iktinos** and **Kallikrates** built in a host of tiny, deliberate distortions to correct the errors of human sight. The platform swells gently upward in the middle, so it will not appear to sag. The columns lean very slightly inward and bulge a little at the centre, so they will not seem to taper or buckle. The corner columns are subtly thicker and more closely spaced. Not a single major line is truly level or vertical, yet the result reads as flawlessly regular — a building bent in secret so that it might appear perfect. It is one of the most sophisticated optical refinements in the history of building. :::note Colour beneath the white We picture Greek temples as gleaming white marble, but that is an accident of time. Originally they blazed with paint — the sculptures and mouldings picked out in red, blue, and gold. The serene whiteness we admire is the ghost of a far more vivid original. ## A Style That Conquered Time Greek architecture did not stay in Greece. The Romans took the orders and married them to their own genius for [engineering](/article/roman-engineering), wrapping Greek columns around their arches, vaults, and domes to build on a scale the Greeks never attempted. Through Rome the classical language passed into the bloodstream of Western building, and across the [ancient architecture](/article/ancient-architecture) of the Mediterranean it became the common tongue of monumental design. It has never gone out of fashion for long. The Renaissance revived it; the eighteenth and nineteenth centuries built courthouses, museums, banks, and capitols in the image of Greek temples to borrow their air of dignity and reason. When a modern democracy wants its parliament to look serious and enduring, it reaches, still, for a row of Greek columns — proof that the grammar worked out on a few Aegean hilltops remains the most quoted in the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-temple-as-a-machine-for-beauty",
+        "text": "The Temple as a Machine for Beauty",
+        "level": 2
+      }
+    ],
+    "wordCount": 776
+  },
+  {
+    "id": "greek-mythology",
+    "title": "Greek Mythology",
+    "category": "mythology",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "Gods who behaved like us",
+    "lede": "The Greeks peopled their world with gods who loved, schemed, raged, and blundered exactly as humans do — a glittering, quarrelsome family on Mount Olympus whose stories explained the cosmos, mirrored the human heart, and became the deepest well of imagery in Western art and literature.",
+    "related": [
+      "ancient-greece",
+      "trojan-war",
+      "roman-mythology",
+      "egyptian-religion",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Mount Olympus",
+          "caption": "The highest peak in Greece, imagined as the cloud-wrapped home of the twelve Olympian gods.",
+          "region": "Thessaly, Greece"
+        }
+      ],
+      "images": [
+        {
+          "title": "Zeus of Artemision",
+          "caption": "A bronze god, arm drawn back to hurl a thunderbolt — the king of Olympus at the height of classical sculpture.",
+          "credit": "National Archaeological Museum, Athens"
+        },
+        {
+          "title": "Athena and the owl",
+          "caption": "The goddess of wisdom and war, patron of Athens, with the owl that became her emblem.",
+          "credit": "Attic red-figure pottery"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The twelve Olympians",
+          "caption": "Zeus, Hera, Poseidon and the divine family who ruled the Greek cosmos.",
+          "duration": "5:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Hesiod — Theogony",
+        "source": "Hesiod, Theogony (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/hesiod-theogony/2018/pb_LCL057.3.xml"
+      },
+      {
+        "label": "Homer — The Iliad",
+        "source": "Homer, Iliad (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/homer-iliad/1924/pb_LCL170.3.xml"
+      },
+      {
+        "label": "The Met — Greek Gods and Religious Practices",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/hd/grlg/hd_grlg.htm"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Gods in Our Own Image",
+        "id": "gods-in-our-own-image"
+      },
+      {
+        "type": "paragraph",
+        "text": "The gods of Greece were not remote, perfect, or unknowable. They were vividly, dangerously human. They fell in love and betrayed one another, nursed grudges, took sides in wars, disguised themselves to meddle in human affairs, and squabbled like an enormous, immortal family. They were stronger and deathless, but not wiser or kinder than the people who worshipped them. In telling stories about such gods, the Greeks were really telling stories about themselves — about jealousy, desire, pride, and fate."
+      },
+      {
+        "type": "paragraph",
+        "text": "At the head of this divine family stood **Zeus**, lord of the sky and the thunderbolt, who had overthrown his own father to seize power. Around him gathered the twelve **Olympians**: his quarrelsome queen **Hera**; his brother **Poseidon**, who shook the sea and the earth; grey-eyed **Athena**, goddess of wisdom and just war, sprung fully armed from Zeus's own head; the radiant **Apollo** of music, light, and prophecy, and his twin **Artemis** of the hunt; **Aphrodite** of love and desire; **Ares** of brutal war; the cunning messenger **Hermes**; and the rest of that bright, contentious company on Mount Olympus."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A religion without a holy book",
+        "text": "The Greeks had no Bible, no creed, and no single church. Their \"scripture\" was poetry — above all the epics of **Homer** and the *Theogony* of **Hesiod**, which gave the gods their genealogy and their tales. Myth was less a set of beliefs to obey than a shared language for thinking about the world. ## From Chaos to Olympus The Greeks had their own account of how everything began. In the beginning, Hesiod sang, there was only **Chaos** — a yawning void — from which emerged **Gaia**, the Earth, and a first generation of vast primal beings. Gaia bore the **Titans**, who ruled before the gods we know. The Titan **Cronus** devoured his own children to keep his throne, until his son Zeus escaped, freed his swallowed siblings, and led the Olympians to victory in a ten-year war against the Titans. So the cosmos the Greeks lived in was the result of a violent struggle between generations — order wrenched out of chaos and held by force. It was a world watched over by gods who had themselves once been rebels, and beneath them by the implacable **Fates**, who measured out every mortal life and to whom even Zeus had to bow. > Count no man happy until he is dead. The grim wisdom of that proverb runs through Greek myth. However glorious a hero, fortune could turn, the gods could be cruel or careless, and a man's destiny was already being spun. The myths are full of mortals — **Oedipus**, **Prometheus**, **Heracles** — who reach too high or are caught in a doom they did not choose, and whose suffering reveals the limits of the human against the divine. ## Heroes and Monsters Between the gods and ordinary mortals stood the **heroes**, half-divine champions whose adventures filled the Greek imagination. **Heracles** performed his twelve impossible labours; **Theseus** threaded the labyrinth to kill the Minotaur; **Perseus** beheaded the snake-haired Medusa; **Jason** sailed for the Golden Fleece; **Odysseus** wandered ten years to come home from the [Trojan War](/article/trojan-war). Their stories were not idle entertainment. They taught courage and its costs, mapped the boundaries of the known world, and gave every Greek city heroes of its own to claim as ancestors. :::note Myth woven into daily life These were not stories the Greeks merely read. Their gods had temples in every city, festivals marked the calendar, oracles like Delphi advised kings, and the [Olympic Games](/article/greek-olympics) themselves were held in honour of Zeus. Myth, [religion](/article/roman-religion), art, and civic life were a single fabric. ## The Stories That Never Died When [Rome](/article/ancient-greece) rose, it took the Greek gods almost wholesale, renaming Zeus as Jupiter and Aphrodite as Venus and carrying their tales into Latin — the foundation of [Roman mythology](/article/roman-mythology). Compared with the solemn divine kingship of [Egyptian religion](/article/egyptian-religion), the Greek gods were startlingly human and approachable, and that very humanity gave their stories a strange endurance. Long after the temples fell silent and no one sacrificed to Zeus, the myths lived on as literature and art. Renaissance painters, Romantic poets, psychologists naming complexes, and modern storytellers have all returned to this inexhaustible well. The Greeks gave the West not a faith that survived but a mythology that did — a cast of gods and heroes through whom we still talk about love, war, pride, and fate."
+      }
+    ],
+    "toc": [
+      {
+        "id": "gods-in-our-own-image",
+        "text": "Gods in Our Own Image",
+        "level": 2
+      }
+    ],
+    "wordCount": 737
+  },
+  {
+    "id": "greek-philosophy",
+    "title": "Greek Philosophy",
+    "category": "science",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The invention of reason",
+    "lede": "In the cities of ancient Greece a handful of thinkers stopped explaining the world by myth and began explaining it by reason — asking what everything is made of, how we know anything at all, and how a good life should be lived. They invented philosophy, and with it the habit of thought that became science.",
+    "related": [
+      "ancient-greece",
+      "greek-democracy",
+      "alexander-the-great",
+      "roman-engineering",
+      "the-big-bang"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Ionia, Cradle of Philosophy",
+          "caption": "The Greek cities of the Asia Minor coast, where the first thinkers began to seek natural rather than divine explanations.",
+          "region": "Asia Minor"
+        }
+      ],
+      "images": [
+        {
+          "title": "The School of Athens",
+          "caption": "Raphael's Renaissance fresco imagining Plato and Aristotle at the centre of the whole Greek tradition of thought.",
+          "credit": "Vatican Museums"
+        },
+        {
+          "title": "Bust of Socrates",
+          "caption": "The snub-nosed Athenian who wrote nothing yet changed philosophy forever by asking relentless questions.",
+          "credit": "The British Museum"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Socrates, Plato, Aristotle",
+          "caption": "Three generations of teachers and pupils who set the agenda of Western thought.",
+          "duration": "6:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Plato — The Republic",
+        "source": "Plato, Republic (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/plato_philosopher-republic/2013/pb_LCL237.3.xml"
+      },
+      {
+        "label": "Aristotle — Nicomachean Ethics",
+        "source": "Aristotle, Nicomachean Ethics (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/aristotle-nicomachean_ethics/1926/pb_LCL073.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Ancient Greek Philosophy",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Western-philosophy"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The First Question",
+        "id": "the-first-question"
+      },
+      {
+        "type": "paragraph",
+        "text": "Around 600 BCE, in the Greek city of **Miletus** on the coast of Asia Minor, a man named **Thales** asked a question that changed history. Instead of saying that the world was made and ruled by gods, he asked what the world was actually *made of* — and answered, in effect, that everything came from a single underlying substance, which he guessed was water. He was wrong about the answer. But the question was revolutionary, because it sought an explanation in nature itself, by reason, rather than in the will of [the gods](/article/greek-mythology)."
+      },
+      {
+        "type": "paragraph",
+        "text": "These first thinkers, the **Presocratics**, were the world's first scientists as much as its first philosophers. **Anaximander** imagined an infinite, boundless source of all things and even sketched a primitive evolution of life from the sea. **Pythagoras** found that the cosmos was written in numbers and musical ratios. **Heraclitus** declared that everything flows and nothing stays the same, while **Parmenides** argued the opposite, that change is an illusion and reality is one unchanging whole. **Democritus** proposed that all matter is built from tiny indivisible particles he called **atoms** — an astonishing guess, twenty-three centuries before physics confirmed it."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "From myth to logos",
+        "text": "The Greek achievement was the shift from *mythos* to *logos* — from story to reasoned account. The Presocratics insisted that the universe is intelligible, that it follows regular principles a human mind can grasp. That single assumption is the seed of all later [science](/article/the-big-bang). ## Socrates and the Examined Life In fifth-century Athens, philosophy turned from the cosmos to the human soul. **Socrates** wrote nothing and claimed to know nothing, yet he transformed the subject. He wandered the marketplace cornering confident men — politicians, poets, generals — and asking them simple questions: What is justice? What is courage? What is good? Under his relentless questioning their certainties collapsed, revealing that they did not really know what they thought they knew. > The unexamined life is not worth living. That defiant claim, spoken at his trial, became the motto of philosophy itself. Socrates' method of probing question and answer — the **dialectic** — taught that truth is reached not by accepting authority but by testing every belief. It made him beloved by the young and dangerous to the powerful, and in **399 BCE** the Athenian [democracy](/article/greek-democracy) condemned him to death on charges of impiety and corrupting the youth. He drank the hemlock calmly, and his execution turned him into philosophy's first martyr. ## Plato and Aristotle Socrates' greatest pupil, **Plato**, preserved his teacher's voice in brilliant written dialogues and built from it a vast philosophy of his own. Plato argued that the changing things we see are mere shadows of perfect, eternal **Forms** — that somewhere beyond the senses lies the true reality of Justice, Beauty, and the Good, which the mind alone can grasp. In his *Republic* he imagined an ideal state ruled by philosopher-kings, and he founded the **Academy**, the first true university, which endured for centuries. Plato's own greatest pupil, **Aristotle**, then turned the tradition outward again, back toward the physical world. Where Plato looked to an ideal realm, Aristotle observed and classified the one in front of him — dissecting animals, cataloguing constitutions, laying down the rules of **logic** that governed reasoning for two thousand years. He wrote on physics, biology, ethics, politics, poetry, and rhetoric, an encyclopedic mind whose works became the backbone of medieval learning. And, as it happened, he was hired to tutor a Macedonian prince named [Alexander](/article/alexander-the-great). :::note A chain of teachers Socrates taught Plato; Plato taught Aristotle; Aristotle taught Alexander the Great. In four generations the Greek mind passed from the questioning of one barefoot Athenian to the conqueror of the known world — a lineage of teacher and pupil that shaped both thought and empire. ## How to Live After Alexander, philosophy turned increasingly to a single urgent question: how should one live in an uncertain world? The **Stoics** taught that happiness lay in accepting what we cannot control and living according to reason and virtue. The **Epicureans** sought a quiet life of modest pleasure and freedom from fear. The **Cynics** mocked convention and wealth. These schools offered not just theories of the universe but practical philosophies of life, and they spread far beyond Greece. When [Rome](/article/roman-engineering) conquered the Greek world, it absorbed Greek philosophy along with everything else, and Roman thinkers like Cicero, Seneca, and the emperor Marcus Aurelius wrote as devoted students of the Greeks. Through Rome, and later through the Islamic world and the European Renaissance, this inheritance flowed down to us. Nearly every question the West still argues over — about knowledge, justice, the good life, and the nature of reality — was first framed by these Greeks who decided that the world could be understood by thinking."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-first-question",
+        "text": "The First Question",
+        "level": 2
+      }
+    ],
+    "wordCount": 795
   },
   {
     "id": "hieroglyphs",
@@ -3168,6 +3844,137 @@
     "wordCount": 1048
   },
   {
+    "id": "greek-olympics",
+    "title": "The Ancient Olympics",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 7,
+    "eyebrow": "A truce for the gods",
+    "lede": "Every four years for more than a thousand years, the quarrelling Greeks laid down their weapons and gathered at Olympia to run, wrestle, and race in honour of Zeus. The ancient Games bound a fractured people together and left the modern world its most enduring festival of sport.",
+    "related": [
+      "ancient-greece",
+      "greek-mythology",
+      "greek-architecture",
+      "greek-democracy"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Olympia",
+          "caption": "The sanctuary of Zeus in the western Peloponnese, host to the Games for over a thousand years.",
+          "region": "Peloponnese, Greece"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Discobolus",
+          "caption": "The discus-thrower of Myron, frozen at the moment of release — the Greek athletic ideal carved in stone.",
+          "credit": "Roman copy after Myron"
+        },
+        {
+          "title": "The stadium at Olympia",
+          "caption": "The grass embankments where tens of thousands watched the foot-races, the running track still visible today.",
+          "credit": "Olympia, Greece"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The first Olympic Games",
+          "caption": "Naked athletes, sacred truce and a crown of wild olive — how the ancient Games were run.",
+          "duration": "5:10",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Ancient Olympic Games",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/sports/Olympic-Games"
+      },
+      {
+        "label": "Pausanias — Description of Greece",
+        "source": "Pausanias, Description of Greece (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/pausanias-description_greece/1918/pb_LCL093.3.xml"
+      },
+      {
+        "label": "The British Museum — The Ancient Olympics",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Festival Older Than History",
+        "id": "a-festival-older-than-history"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Greeks themselves dated the first Olympic Games to **776 BCE**, and from that year they counted time, reckoning the years in four-year spans called **Olympiads**. So important was the festival that it gave a fractured people one of their few shared calendars. Held at **Olympia**, a sanctuary of [Zeus](/article/greek-mythology) in the green western Peloponnese, the Games were first and last a religious act — an offering to the king of the gods, woven through with sacrifice, prayer, and the smoke of a hundred oxen burning on his altar."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the first centuries there was only one event: the **stadion**, a sprint of about two hundred metres the length of the stadium, which gave us the very word. Over time the programme grew to include longer races, wrestling, boxing, the brutal all-in combat called the **pankration**, the chariot race, and the five-event **pentathlon** of running, jumping, discus, javelin, and wrestling. The athletes competed **naked**, their bodies oiled, and the Greek devotion to the trained human form fed directly into the [sculpture](/article/greek-architecture) for which the age is famous."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Counting time by the Games",
+        "text": "The Olympiad was so central that Greek historians dated events by it — \"in the third year of the such-and-such Olympiad.\" A sporting festival became the closest thing the scattered Greek world had to a common clock. ## The Sacred Truce Because the Greeks were so often at war with one another, the Games could only happen under a remarkable institution: the **Olympic Truce**, the *ekecheiria*. For the weeks around the festival, heralds travelled the Greek world proclaiming a sacred peace. Wars were suspended, armies could not enter the territory of Olympia, and athletes and spectators were guaranteed safe passage through hostile lands to reach the Games. > Let the world lay down its arms. The truce did not end Greek warfare — the cities went back to fighting the moment the Games were over — but for a few weeks every four years it held, and it expressed something the Greeks believed about themselves: that beneath all their rivalries they were one people, who could meet in peace at the altar of a shared god. ## The Glory of the Victor There were no prizes for second place, no silver or bronze. The only reward at Olympia was a simple crown of wild **olive** cut from a sacred tree — and the immortal glory that came with it. An Olympic victor brought honour not just to himself but to his entire city, which might welcome him home through a breach knocked in its own walls, reward him with free meals for life, and commission poets like **Pindar** to compose soaring odes in his praise. A statue of the champion might be raised at Olympia itself. :::note Who could compete The Games belonged to free Greek men. Women were barred even from watching the main festival on pain of death, though unmarried girls had their own footraces in honour of Hera, and a woman could win the chariot race as the owner of the horses. Like the [democracy](/article/greek-democracy) of Athens, the Olympic ideal was glorious and bounded at once. ## From Olympia to the World The ancient Games ran for almost twelve centuries, an extraordinary span of continuity, until the Christian Roman emperor **Theodosius I** banned such pagan festivals around 393 CE and Olympia fell into ruin, buried by earthquake and flood. For fifteen hundred years the Games were only a memory in old books. Then, in 1896, a French educator named **Pierre de Coubertin**, inspired by the rediscovered ruins and the ancient ideal, revived the Olympics as a modern international festival in Athens. Today's Games — the rings, the torch relayed from Olympia, the gathering of nations in peaceful contest — are a deliberate echo of the Greek original. The notion that sport can unite a divided world under a shared truce, first tried at a sanctuary of Zeus, remains one of ancient Greece's most living gifts."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-festival-older-than-history",
+        "text": "A Festival Older Than History",
+        "level": 2
+      }
+    ],
+    "wordCount": 660
+  },
+  {
     "id": "the-big-bang",
     "title": "The Big Bang",
     "category": "universe",
@@ -3455,6 +4262,137 @@
       }
     ],
     "wordCount": 1136
+  },
+  {
+    "id": "greek-democracy",
+    "title": "The Birth of Democracy",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "When the people first ruled",
+    "lede": "In a single Greek city, twenty-five centuries ago, an idea was tried that no society had ever dared before — that ordinary citizens, not kings or nobles, should govern themselves. Athenian democracy was radical, flawed, and short-lived, yet it planted the word and the dream that still shapes the modern world.",
+    "related": [
+      "ancient-greece",
+      "greek-philosophy",
+      "greek-olympics",
+      "roman-republic"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Territory of Athens",
+          "caption": "Attica, the rural hinterland whose free men all counted as citizens of the single polis of Athens.",
+          "region": "Attica, Greece"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Pnyx",
+          "caption": "The open hillside where the Athenian Assembly met — citizens standing in the open air to debate and vote on the affairs of state.",
+          "credit": "The Pnyx, Athens"
+        },
+        {
+          "title": "Ostraka",
+          "caption": "Pottery shards scratched with names, the ballots of the ostracism by which Athenians could exile a dangerous citizen for ten years.",
+          "credit": "Ancient Agora Museum, Athens"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A day in the Assembly",
+          "caption": "How thousands of citizens gathered to vote directly on war, taxes and law.",
+          "duration": "5:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Athenian Democracy",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/democracy"
+      },
+      {
+        "label": "Thucydides — The Peloponnesian War",
+        "source": "Thucydides, History of the Peloponnesian War (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/thucydides-history_peloponnesian_war/1919/pb_LCL108.3.xml"
+      },
+      {
+        "label": "Aristotle — The Athenian Constitution",
+        "source": "Aristotle, Athenaion Politeia (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/aristotle-athenian_constitution/1935/pb_LCL285.3.xml"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Word the World Did Not Have",
+        "id": "a-word-the-world-did-not-have"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before Athens, no language had a word for rule by the people. Every great society had been governed by kings, priests, or warrior nobles, and the idea that the common run of citizens might rule themselves would have struck most of the ancient world as absurd or dangerous. The Greeks coined the word for it: **demokratia**, from *demos*, \"the people,\" and *kratos*, \"power\" — the power of the people."
+      },
+      {
+        "type": "paragraph",
+        "text": "It did not arrive all at once. Athens, like its neighbours, had been ruled by aristocrats, and the road to democracy ran through a long struggle between the rich few and the poorer many. The lawgiver **Solon** eased the crisis around 594 BCE by cancelling debts and forbidding the enslavement of citizens for debt. But the decisive break came in **508 BCE**, when **Cleisthenes**, reorganising the citizen body to break the power of the old noble clans, gave Athens the institutions that would make it a democracy."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Direct, not representative",
+        "text": "Athenian democracy was not like ours. There were no elected politicians ruling on the people's behalf. Citizens governed in person — debating and voting directly on laws, wars and budgets in a great open-air assembly. It was the most direct democracy the world has ever seen. ## How the Assembly Worked The beating heart of the system was the **Ekklesia**, the Assembly, open to every adult male citizen. Forty times a year, thousands of men climbed the hill of the **Pnyx** to debate the business of the state. Any citizen could rise and speak; the people voted by a show of hands; and their decision was final. They declared war, made peace, set taxes, and put generals on trial — directly, with no monarch or senate able to overrule them. Because the Greeks distrusted the corrupting effect of permanent officials, most public posts were filled not by election but by **lottery**. The Council of Five Hundred, which prepared the Assembly's business, was chosen by lot and rotated yearly, so that over a lifetime an ordinary citizen might expect to take his turn helping to run the city. Juries, too, were vast and chosen by lot — hundreds of citizens deciding cases with no professional judge. > Our constitution is called a democracy because power is in the hands not of a minority but of the whole people. So the statesman **Pericles** declared in his famous funeral oration, recorded by the historian Thucydides. Under Pericles in the mid-fifth century, Athenian democracy reached its height, and even the poorest citizen was paid a small sum for jury service so that office would not belong only to the leisured rich. ## The Limits of Greek Freedom For all its boldness, Athenian democracy was narrow by our standards. Citizenship was a jealously guarded privilege of free adult men of Athenian parentage — perhaps only a tenth or a fifth of the people who actually lived in Attica. **Women** had no political voice. **Resident foreigners**, however long their families had lived there, could not vote. And beneath the whole free population lay a great mass of **slaves** who did much of the labour and had no rights at all. :::caution Democracy could also be cruel The same sovereign people that built the Parthenon could be swayed by demagogues into reckless wars and brutal decisions. The Assembly once voted to execute every man of a rebel city, then reversed itself the next day. Direct democracy gave the people real power — and put real power at the mercy of the passions of the crowd. ## The Seed That Survived Athenian democracy did not last long. It was crushed, restored, and finally extinguished as Greece fell to [Macedon](/article/alexander-the-great) and then to [Rome](/article/roman-republic), whose own republic chose a different path of elected magistrates and a powerful Senate. For two thousand years \"democracy\" was mostly a word of warning, a byword for mob rule. Yet the idea never quite died. When the modern world began to imagine government founded on the consent of the governed, it reached back to this small Greek city for its vocabulary and its inspiration. The thinkers of [Greek philosophy](/article/greek-philosophy) had argued fiercely over whether democracy was wisdom or folly, and that argument is still ours. Every parliament, every ballot, every appeal to the will of the people carries an echo of the men who once gathered on a bare Athenian hillside to rule themselves."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-word-the-world-did-not-have",
+        "text": "A Word the World Did Not Have",
+        "level": 2
+      }
+    ],
+    "wordCount": 733
   },
   {
     "id": "fall-of-rome",
@@ -3858,6 +4796,139 @@
       }
     ],
     "wordCount": 971
+  },
+  {
+    "id": "hellenistic-age",
+    "title": "The Hellenistic Age",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "When Greece went global",
+    "lede": "After Alexander died, his generals carved his empire into rival kingdoms — and across them all, from Egypt to Afghanistan, Greek became the language of kings, trade, and learning. The Hellenistic Age was Greek culture unbound from Greece, a cosmopolitan world of vast cities, restless science, and the library of Alexandria.",
+    "related": [
+      "ancient-greece",
+      "alexander-the-great",
+      "greek-philosophy",
+      "ancient-egypt",
+      "rome",
+      "julius-caesar"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Successor Kingdoms",
+          "caption": "Alexander's empire divided among his generals — Ptolemaic Egypt, the Seleucid realm of Asia, and Antigonid Macedon.",
+          "region": "Eastern Mediterranean to Central Asia"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Library of Alexandria",
+          "caption": "The greatest collection of knowledge in the ancient world, the brain of the Hellenistic age, gathered in Ptolemaic Egypt.",
+          "credit": "Reconstruction, Alexandria"
+        },
+        {
+          "title": "The Winged Victory of Samothrace",
+          "caption": "The Nike alighting on a ship's prow — the dramatic movement and emotion that mark Hellenistic sculpture.",
+          "credit": "Musée du Louvre"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The world Alexander made",
+          "caption": "How Greek language and learning spread across three continents after the conqueror's death.",
+          "duration": "6:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Hellenistic Age",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Hellenistic-Age"
+      },
+      {
+        "label": "The Met — The Hellenistic Period",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/hd/haht/hd_haht.htm"
+      },
+      {
+        "label": "Plutarch — Life of Alexander",
+        "source": "Plutarch, Parallel Lives (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/plutarch-lives_alexander/1919/pb_LCL099.225.xml"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A World Cut into Kingdoms",
+        "id": "a-world-cut-into-kingdoms"
+      },
+      {
+        "type": "paragraph",
+        "text": "When [Alexander the Great](/article/alexander-the-great) died in 323 BCE without a competent heir, his generals — soldiers who had marched with him from Greece to India — fell upon his empire like wolves. After forty years of war, three great dynasties emerged from the wreckage. **Ptolemy** took [Egypt](/article/ancient-egypt) and founded a line of Greek pharaohs that would end, three centuries later, with **Cleopatra**. **Seleucus** seized the vast Asian heartland from Syria to the borders of India. The **Antigonids** held Alexander's homeland of Macedon and its grip on Greece itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "Historians call the age that followed the **Hellenistic** period — from *Hellas*, the Greeks' own name for their land — to distinguish it from the earlier Hellenic age of the independent city-states. Its defining feature was that Greek culture now ruled over peoples who were not Greek, in lands Homer had never imagined, and absorbed influences from all of them. The small, intense world of the [polis](/article/ancient-greece) had given way to sprawling multi-ethnic kingdoms."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Greek as a world language",
+        "text": "For the next thousand years, a simplified common Greek called **Koine** was the language of trade, government, and learning across the eastern Mediterranean and Near East. It was the Greek in which the New Testament would later be written — a measure of how far Alexander's tongue had travelled. ## The Age of the Great City If the classical age belonged to the citizen of a small free city, the Hellenistic age belonged to the **metropolis**. New cities were founded by the dozen, often named for their royal founders, and the greatest of them dwarfed anything classical Greece had known. Above all there was **Alexandria** in Egypt, Alexander's own foundation, which grew into the largest and most dazzling city of the age — a cosmopolitan port of Greeks, Egyptians, Jews, and a hundred other peoples. At its heart stood two of antiquity's wonders: the towering lighthouse, the **Pharos**, guiding ships into harbour, and the **Library** and its **Museum** — a state-funded institute where scholars from across the world were paid simply to study. The Ptolemies set out to collect every book in existence, and Alexandria became the brain of the ancient world. > Give me a place to stand, and I will move the Earth. So boasted **Archimedes** of Syracuse, the supreme genius of the age, who worked out the principle of the lever and buoyancy, approximated pi, and pioneered ideas that brushed against calculus. He was one of a constellation of Hellenistic minds: **Euclid**, who systematised geometry; **Eratosthenes**, who measured the circumference of the Earth with astonishing accuracy from the length of a shadow; **Aristarchus**, who dared to suggest the Earth went round the Sun. The questions first asked by [Greek philosophy](/article/greek-philosophy) now flowered into something close to organised science. ## A New Spirit in Art and Thought The art of the age moved with its mood. Where classical [sculpture](/article/greek-architecture) had sought serene, ideal calm, Hellenistic art reached for drama, movement, and raw emotion — the writhing agony of the *Laocoön*, the windswept triumph of the *Winged Victory*, the wrinkled faces of old fishermen and the tenderness of sleeping children. It was an art of individuals and feeling rather than gods and ideals. :::note Philosophy for an anxious world In a cosmopolitan world where the old city no longer framed every life, philosophy turned to the inner self. **Stoicism**, founded in this age, taught calm acceptance of fate; **Epicureanism** sought freedom from fear; both offered the individual a way to find peace in a vast and uncertain world. Their counsel would later steady Roman emperors and console readers for two thousand years. ## The Road to Rome The Hellenistic kingdoms were brilliant but quarrelsome, forever warring among themselves, and one by one they fell to a new power rising in the west. Over the second and first centuries BCE, [Rome](/article/rome) swallowed them whole — Macedon, then Greece, then Seleucid Asia, and finally Ptolemaic Egypt, when [Julius Caesar](/article/julius-caesar) and after him Augustus brought Cleopatra's kingdom into the Roman fold in 30 BCE. Yet the conquered did the deeper conquering. Rome took Hellenistic Greek art, science, philosophy, and literature as its own, and carried them across its empire to the Atlantic. Far from ending Greek civilization, the Hellenistic age had spread it so widely and rooted it so deeply that, flowing onward through Rome and Byzantium, it became permanent. Alexander's true empire was never the one his generals divided — it was the Greek-speaking world of the mind, and that one lasted."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-world-cut-into-kingdoms",
+        "text": "A World Cut into Kingdoms",
+        "level": 2
+      }
+    ],
+    "wordCount": 748
   },
   {
     "id": "the-moon",
@@ -5530,5 +6601,136 @@
       }
     ],
     "wordCount": 911
+  },
+  {
+    "id": "trojan-war",
+    "title": "The Trojan War",
+    "category": "wars",
+    "factStatus": "theory",
+    "readMins": 8,
+    "eyebrow": "History, legend, or both?",
+    "lede": "A face that launched a thousand ships, a wooden horse, a city burned for the love of a queen — the Trojan War is the founding story of Greek literature. Whether it ever truly happened, and how much of Homer's epic is memory and how much is myth, remains one of history's most haunting questions.",
+    "related": [
+      "ancient-greece",
+      "greek-mythology",
+      "roman-mythology",
+      "ancient-egypt"
+    ],
+    "journey": [
+      {
+        "id": "ancient-greece",
+        "label": "Ancient Greece"
+      },
+      {
+        "id": "greek-democracy",
+        "label": "Democracy"
+      },
+      {
+        "id": "alexander-the-great",
+        "label": "Alexander"
+      },
+      {
+        "id": "greek-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "greek-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "greek-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "greek-olympics",
+        "label": "The Olympics"
+      },
+      {
+        "id": "trojan-war",
+        "label": "The Trojan War"
+      },
+      {
+        "id": "hellenistic-age",
+        "label": "The Hellenistic Age"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Troy and the Aegean",
+          "caption": "The site of Hisarlik on the coast of Asia Minor, commanding the strait between the Aegean and the Black Sea — the likely Troy.",
+          "region": "Asia Minor"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Trojan Horse",
+          "caption": "The wooden horse left as a false offering, its belly full of hidden warriors — the ruse that took the city.",
+          "credit": "Attic vase painting"
+        },
+        {
+          "title": "The Mask of Agamemnon",
+          "caption": "A golden funeral mask from Mycenae, once wrongly thought to be the face of the legendary Greek king.",
+          "credit": "National Archaeological Museum, Athens"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Did the Trojan War happen?",
+          "caption": "Weighing Homer's epic against the archaeology of Hisarlik.",
+          "duration": "6:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "greece",
+      "quiz": "greece"
+    },
+    "citations": [
+      {
+        "label": "Homer — The Iliad",
+        "source": "Homer, Iliad (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/homer-iliad/1924/pb_LCL170.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Trojan War",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Trojan-War"
+      },
+      {
+        "label": "The British Museum — Troy: Myth and Reality",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Quarrel That Began It",
+        "id": "the-quarrel-that-began-it"
+      },
+      {
+        "type": "paragraph",
+        "text": "The story the Greeks told was this. At a wedding of the gods, the goddess of discord threw down a golden apple marked \"for the fairest,\" and three goddesses — Hera, Athena, and Aphrodite — fell to quarrelling over it. They asked a Trojan prince, **Paris**, to judge, and **Aphrodite** won his vote by promising him the most beautiful woman in the world. That woman was **Helen**, wife of the Greek king Menelaus of Sparta. Paris carried her off to Troy, and all the kings of Greece, bound by an oath, gathered a vast fleet under Menelaus's brother **Agamemnon** to win her back."
+      },
+      {
+        "type": "paragraph",
+        "text": "For ten years the Greek host besieged the great walled city of **Troy** on the coast of Asia Minor, and could not break it. The *Iliad* of **Homer**, the foundation poem of Western literature, tells only a few weeks of that final year, centred on the towering rage of the Greek hero **Achilles** — his quarrel with Agamemnon, his withdrawal from the fighting, the death of his friend Patroclus, and his terrible revenge on the Trojan champion **Hector**."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A poem about anger, not victory",
+        "text": "The Iliad does not end with Troy's fall. It is not really about the war at all but about wrath, grief, and mortality — the price heroes pay for glory. Homer made the founding war of his people a meditation on the human cost of pride. ## The Wooden Horse The city fell at last not by force but by cunning. The Greeks built an enormous hollow **wooden horse**, hid their best warriors inside it, and sailed away as if defeated, leaving the horse as a supposed offering to the gods. The Trojans, against the warnings of those who smelled a trap, dragged it within their walls in triumph. That night the hidden Greeks crept out, opened the gates to their returned comrades, and put Troy to the sword. > I fear the Greeks, even bearing gifts. The Trojan priest Laocoön's warning, immortalised later in Latin, has become a proverb for the danger hidden inside a tempting offer. The fall of Troy — the burning city, the slaughter, the queens led off into slavery — became one of the most powerful images in all of [Greek mythology](/article/greek-mythology), a byword for the ruin that pride and the gods can bring upon even the mightiest. ## Memory or Myth? For most of history the Trojan War was taken as real, then dismissed as pure legend. Then in the 1870s a German businessman named **Heinrich Schliemann**, clutching his Homer, dug into the mound of **Hisarlik** in north-western Turkey and found not one city but the layered ruins of many, one atop another across thousands of years. He had found *a* Troy — a real city, repeatedly destroyed and rebuilt, in just the place Homer described, commanding the rich trade route to the Black Sea. :::caution Why this story carries a \"theory\" badge That a city stood at Troy is certain. That it was besieged and burned around 1200 BCE is likely. But whether a great coalition of Greeks fought there for a stolen queen, whether Achilles or Helen ever lived, and how much of Homer is history rather than centuries of poetic invention — none of that can be proven. The war hovers between archaeology and art. Archaeology has shown that the late **Bronze Age** world Homer describes was real: the gold-rich **Mycenaean** kingdoms of Greece, the powerful citadel of Troy, the great powers like the Hittites and [Egypt](/article/ancient-egypt) whose records mention raiders and wars along these coasts. A real conflict, or a dim memory of many, may well lie behind the legend, polished by four centuries of oral poetry before Homer fixed it in verse. ## The War That Outlived Troy Whatever its truth, the story refused to die. The Greeks treated the *Iliad* almost as scripture; [Alexander the Great](/article/alexander-the-great) is said to have slept with a copy beneath his pillow and to have visited the supposed tomb of Achilles. And when [Rome](/article/roman-mythology) sought a noble origin for itself, it claimed descent from the Trojan prince **Aeneas**, who in Virgil's *Aeneid* escapes the burning city to found the line of Rome — turning Troy's defeat into the seed of a greater empire. So the Trojan War became less an event than a story the West has told and retold for three thousand years — about beauty and war, honour and ruin, the glory of heroes and the terrible cost of their pride. It may be the most influential war that we are not even sure took place."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-quarrel-that-began-it",
+        "text": "The Quarrel That Began It",
+        "level": 2
+      }
+    ],
+    "wordCount": 761
   }
 ]
