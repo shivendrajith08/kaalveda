@@ -472,6 +472,271 @@
     "wordCount": 1196
   },
   {
+    "id": "black-holes",
+    "title": "Black Holes",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "Where gravity wins",
+    "lede": "A black hole is a place where gravity has become so overwhelming that nothing — not even light — can escape. Once the stuff of pure theory, these dark engines have now been heard as ripples in space, photographed as rings of fire, and found lurking at the heart of nearly every galaxy.",
+    "related": [
+      "stars",
+      "the-big-bang",
+      "the-solar-system",
+      "space-missions",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Anatomy of a black hole",
+          "caption": "The singularity, the event horizon, the photon ring and the swirling accretion disk that betrays a black hole's presence.",
+          "region": "Strong gravity"
+        }
+      ],
+      "images": [
+        {
+          "title": "The first image of a black hole",
+          "caption": "The supermassive black hole at the heart of galaxy M87, ringed by glowing gas — released by the Event Horizon Telescope in 2019.",
+          "credit": "Event Horizon Telescope Collaboration"
+        },
+        {
+          "title": "Sagittarius A*",
+          "caption": "The four-million-solar-mass black hole at the centre of our own Milky Way, imaged in 2022.",
+          "credit": "Event Horizon Telescope Collaboration"
+        },
+        {
+          "title": "Gravitational waves",
+          "caption": "A simulation of two black holes spiralling together — collisions that shake the fabric of spacetime itself.",
+          "credit": "NASA / Numerical relativity simulation"
+        }
+      ],
+      "videos": [
+        {
+          "title": "What falls into a black hole?",
+          "caption": "Tidal forces, the point of no return, and the strange physics at the event horizon.",
+          "duration": "5:30",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "Hearing spacetime ring",
+          "caption": "How LIGO detected the gravitational waves from two merging black holes a billion light-years away.",
+          "duration": "4:55",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Black Holes",
+        "source": "NASA Science, Universe",
+        "url": "https://science.nasa.gov/universe/black-holes/"
+      },
+      {
+        "label": "Event Horizon Telescope",
+        "source": "EHT Collaboration",
+        "url": "https://eventhorizontelescope.org/"
+      },
+      {
+        "label": "LIGO — Gravitational waves",
+        "source": "LIGO Scientific Collaboration / Caltech",
+        "url": "https://www.ligo.caltech.edu/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Point of No Return",
+        "id": "the-point-of-no-return"
+      },
+      {
+        "type": "paragraph",
+        "text": "To understand a black hole, start with **escape velocity** — the speed something must reach to break free of a body's gravity. From Earth it is about 11 kilometres per second; from a more massive world it is higher. Now imagine packing so much mass into so small a space that the escape velocity climbs all the way to the speed of light. At that point, nothing can leave. Not a rocket, not a particle, not even light itself. That object is a black hole."
+      },
+      {
+        "type": "paragraph",
+        "text": "The boundary around it is called the **event horizon** — not a physical surface, but a line in space marking the point of no return. Cross it, and every possible path leads inward. From the outside, the horizon is perfectly dark, because no light can climb back out to reach your eye. This is why a black hole is black."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Black holes are not cosmic vacuum cleaners",
+        "text": "A common myth is that black holes roam space sucking everything in. In truth, their gravity at a distance is no stronger than any other object of the same mass. If the Sun were replaced by a black hole of identical mass, Earth would keep orbiting exactly as it does now — it would simply go dark and cold. You only fall in if you get very close."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Predicted by Einstein, Found in the Sky",
+        "id": "predicted-by-einstein-found-in-the-sky"
+      },
+      {
+        "type": "paragraph",
+        "text": "Black holes fell out of **Einstein's general theory of relativity**, which in 1915 reimagined gravity not as a force but as the bending of spacetime by mass. Within months, the physicist **Karl Schwarzschild** solved Einstein's equations and found they allowed for a region from which nothing could escape. For decades most scientists, Einstein included, doubted such things could really exist."
+      },
+      {
+        "type": "paragraph",
+        "text": "They were wrong. Over the twentieth century, astronomers found stars whirling around invisible companions, and gas blazing in X-rays as it spiralled toward something unseen. The evidence mounted until the existence of black holes became impossible to deny — and the once-fanciful name, popularised by the physicist **John Wheeler** in the 1960s, entered the language for good."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How Black Holes Are Born",
+        "id": "how-black-holes-are-born"
+      },
+      {
+        "type": "paragraph",
+        "text": "Black holes come in a range of sizes, formed in different ways."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Stellar-mass black holes** are the corpses of the most massive [stars](/article/stars). When such a star exhausts its fuel, its core collapses under its own gravity with nothing left to stop it, crushing several times the mass of the Sun into a region a few kilometres across.",
+          "**Supermassive black holes** are the giants — millions to billions of times the Sun's mass — that sit at the centre of almost every large galaxy, including our own. How they grew so big so early in cosmic history is still being worked out.",
+          "**Intermediate-mass black holes**, in between the two, are rarer and harder to find, but a growing number of candidates have been spotted."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "At the heart of a black hole, our current theories predict a **singularity** — a point of seemingly infinite density where the known laws of physics break down. What truly happens there is one of the great unsolved problems of physics, awaiting a theory that can unite gravity with quantum mechanics."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Falling In",
+        "id": "falling-in"
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose you fell toward a black hole feet first. Because gravity grows so much stronger over even a short distance near the horizon, your feet would be pulled far harder than your head. You would be stretched into a long thin stream — a process astronomers cheerfully call **spaghettification**."
+      },
+      {
+        "type": "quote",
+        "text": "To a distant observer watching you fall, something stranger happens: you would appear to slow down and freeze at the event horizon, your image reddening and fading forever, never quite seen to cross. Time itself runs differently in such extreme gravity."
+      },
+      {
+        "type": "paragraph",
+        "text": "The black hole does leave clues to its presence. Gas spiralling inward forms a flattened, superheated **accretion disk** that glows fiercely across the spectrum, and some black holes fire colossal **jets** of matter out along their poles at nearly the speed of light. We see the black hole not directly, but by the violence it works on everything around it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Hearing and Seeing the Invisible",
+        "id": "hearing-and-seeing-the-invisible"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most of history, black holes were known only by inference. Then came two breakthroughs that let us detect them almost directly."
+      },
+      {
+        "type": "paragraph",
+        "text": "In **2015**, the **LIGO** observatories registered a faint quiver in their instruments — **gravitational waves**, ripples in spacetime set off by two black holes colliding more than a billion light-years away. Einstein had predicted such waves a century earlier and doubted they could ever be measured. We have now heard dozens of these cosmic collisions."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then, in **2019**, the **Event Horizon Telescope** — a network of radio dishes spanning the globe and acting as one Earth-sized instrument — released the first true image of a black hole: a glowing ring of hot gas encircling the dark silhouette of the giant at the centre of galaxy **M87**. In **2022** the same team imaged **Sagittarius A***, the four-million-solar-mass black hole at the heart of our own Milky Way."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A black hole in our own galaxy",
+        "text": "The centre of the Milky Way, about 27,000 light-years from Earth, hosts Sagittarius A*. We are in no danger from it — we orbit it at a safe and stately distance, completing one lap roughly every 230 million years."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Not Entirely Black",
+        "id": "not-entirely-black"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the 1970s, **Stephen Hawking** made a startling prediction: black holes are not perfectly black after all. Quantum effects at the very edge of the event horizon should cause them to leak a faint trickle of radiation — now called **Hawking radiation** — and, over unimaginable spans of time, to slowly evaporate."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a black hole of stellar mass, this process is fantastically slow, taking far longer than the present age of the universe. But it means that even these eternal-seeming objects may have a final chapter, dwindling away in the deep future. That far-off fate, and the role black holes may play in the ultimate destiny of the cosmos, is part of the story explored in [the future of space](/article/the-future-of-space)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Black holes sit at the meeting point of the very large and the very small, of gravity and quantum theory — and so they remain among the most active frontiers in all of science. Each new detection, from a ripple in spacetime to a ring of fire, turns a little more of the unknown into the known."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-point-of-no-return",
+        "text": "The Point of No Return",
+        "level": 2
+      },
+      {
+        "id": "predicted-by-einstein-found-in-the-sky",
+        "text": "Predicted by Einstein, Found in the Sky",
+        "level": 2
+      },
+      {
+        "id": "how-black-holes-are-born",
+        "text": "How Black Holes Are Born",
+        "level": 2
+      },
+      {
+        "id": "falling-in",
+        "text": "Falling In",
+        "level": 2
+      },
+      {
+        "id": "hearing-and-seeing-the-invisible",
+        "text": "Hearing and Seeing the Invisible",
+        "level": 2
+      },
+      {
+        "id": "not-entirely-black",
+        "text": "Not Entirely Black",
+        "level": 2
+      }
+    ],
+    "wordCount": 1047
+  },
+  {
     "id": "egyptian-astronomy",
     "title": "Egyptian Astronomy",
     "category": "space",
@@ -1126,6 +1391,254 @@
     "wordCount": 295
   },
   {
+    "id": "mars",
+    "title": "Mars",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 7,
+    "eyebrow": "The red planet next door",
+    "lede": "Half the size of Earth, painted rust-red by iron in its soil, and wrapped in a thin cold air, Mars is the world that has gripped human imagination like no other. Once warm and wet, today a frozen desert, it is the most explored planet beyond our own — and the leading candidate for humanity's first steps onto another world.",
+    "related": [
+      "the-planets",
+      "the-solar-system",
+      "the-moon",
+      "space-missions",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The face of Mars",
+          "caption": "Olympus Mons, the vast Tharsis volcanoes, the Valles Marineris canyon system, and the polar ice caps.",
+          "region": "Mars"
+        }
+      ],
+      "images": [
+        {
+          "title": "The rusty surface",
+          "caption": "A cold, dry, iron-stained desert under a pink-tinged sky — photographed from the ground by NASA's rovers.",
+          "credit": "NASA / JPL-Caltech"
+        },
+        {
+          "title": "Ancient riverbeds",
+          "caption": "Branching channels and layered sediments — evidence that liquid water once flowed across the Martian surface.",
+          "credit": "NASA / JPL / University of Arizona, HiRISE"
+        },
+        {
+          "title": "Ingenuity in flight",
+          "caption": "The first powered, controlled flight on another planet — a small helicopter that flew in Mars's thin air in 2021.",
+          "credit": "NASA / JPL-Caltech"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A world that lost its water",
+          "caption": "How Mars went from a warmer, wetter past to the frozen desert we see today.",
+          "duration": "5:25",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "Driving on Mars",
+          "caption": "How robotic rovers explore the surface, drill rock, and search for signs of ancient life.",
+          "duration": "5:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Mars Exploration",
+        "source": "NASA Science, Mars",
+        "url": "https://science.nasa.gov/mars/"
+      },
+      {
+        "label": "NASA — Mars Perseverance Rover",
+        "source": "NASA / JPL-Caltech",
+        "url": "https://mars.nasa.gov/mars2020/"
+      },
+      {
+        "label": "ESA — Mars Express",
+        "source": "European Space Agency",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Red Planet",
+        "id": "the-red-planet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mars glows a distinctive rusty red in the night sky, and the reason is literally rust: its surface is rich in **iron oxide**, the same compound that reddens corroded metal on Earth. The ancients named it after gods of war for that blood-coloured light — the Romans called it Mars, and we still do."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is a smaller, colder, drier sibling of Earth. Mars is about half our planet's diameter and has roughly a third of its gravity, so a person who weighs 60 kilograms on Earth would weigh barely 23 on Mars. Its thin atmosphere is almost entirely carbon dioxide and exerts less than one percent of Earth's surface pressure — far too little to breathe, and too thin to hold much warmth. Surface temperatures average a frigid −60°C."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A day that feels like home",
+        "text": "Despite all its differences, Mars keeps a familiar rhythm. A Martian day — called a **sol** — lasts 24 hours and 39 minutes, remarkably close to Earth's. Its axis is tilted much like ours, too, so Mars has seasons. These similarities are part of why it feels, of all the planets, the most like a place humans could one day live."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Landscape of Extremes",
+        "id": "a-landscape-of-extremes"
+      },
+      {
+        "type": "paragraph",
+        "text": "For a small world, Mars has the most dramatic terrain in the Solar System. It is home to **Olympus Mons**, the largest known volcano anywhere — a gently sloping mountain about 22 kilometres high, nearly three times the height of Everest, and so broad it would cover much of a country. Stretching across the equator is **Valles Marineris**, a system of canyons over 4,000 kilometres long and in places several kilometres deep, dwarfing the Grand Canyon."
+      },
+      {
+        "type": "paragraph",
+        "text": "At its poles lie shining **ice caps** of frozen water and carbon dioxide that grow and shrink with the seasons. Vast dust storms occasionally swell to engulf the entire planet, and fine red dust coats everything — a constant hazard for the robots, and one day the people, who explore it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Ghost of Water",
+        "id": "the-ghost-of-water"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mars today is bone dry at the surface, but it was not always so. Orbiters and rovers have found unmistakable signatures of a watery past: dried-up **river valleys**, deltas where rivers once emptied into lakes, rounded pebbles shaped by flowing water, and minerals that only form in its presence. Billions of years ago, Mars appears to have been warmer and wetter, with rivers, lakes, perhaps even a shallow ocean."
+      },
+      {
+        "type": "quote",
+        "text": "Where there was water, there may have been life. The search for evidence of ancient Martian microbes — long extinct or perhaps still clinging on underground — is the single greatest driver of Mars exploration."
+      },
+      {
+        "type": "paragraph",
+        "text": "So what happened? Mars lost its protective magnetic field early in its history, and without that shield the solar wind gradually stripped away most of its atmosphere. As the air thinned, the planet grew cold, its water froze or escaped to space, and the world we now see was left behind. Much of its remaining water survives as ice, locked in the poles and buried beneath the surface."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two Little Moons",
+        "id": "two-little-moons"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mars has two small, lumpy moons, **Phobos** and **Deimos** — names meaning \"fear\" and \"dread,\" the companions of the war god. They are most likely captured asteroids, just a few kilometres across. Phobos orbits so close and so fast that it crosses the Martian sky twice a day and is slowly spiralling inward; in tens of millions of years it will break apart, perhaps giving Mars a temporary ring."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Planet Full of Robots",
+        "id": "a-planet-full-of-robots"
+      },
+      {
+        "type": "paragraph",
+        "text": "No world beyond Earth has been studied as intensely as Mars. A fleet of orbiters maps it from above, while a lineage of **rovers** has trundled across its surface, growing ever more capable:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**Sojourner** (1997) — the first wheels on Mars, a microwave-sized proof of concept.",
+          "**Spirit and Opportunity** (2004) — twin geologists that found firm evidence of past water; Opportunity worked for nearly 15 years.",
+          "**Curiosity** (2012) — a car-sized nuclear-powered laboratory that confirmed Mars once had habitable conditions.",
+          "**Perseverance** (2021) — now caching rock samples for a future return to Earth, and carrying **Ingenuity**, the first aircraft to fly on another planet."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These missions, and the engineering feats behind landing on a distant world, are explored further in [space missions](/article/space-missions)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Next Giant Leap",
+        "id": "the-next-giant-leap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Of all the planets, Mars is the one humans seriously plan to visit. It is reachable, it has water ice and raw materials, and its day-length and seasons make it comparatively hospitable — by the brutal standards of space. Both national space agencies and private companies are designing the rockets, habitats, and life-support systems that a crewed mission would require."
+      },
+      {
+        "type": "paragraph",
+        "text": "The obstacles are immense: a journey of six to nine months each way, exposure to space radiation, the challenge of living off the land, and the sheer cost. But Mars represents the most concrete answer to an old question — whether humanity will become a species that lives on more than one world. That ambition, and what a future on the red planet might look like, runs through [the future of space](/article/the-future-of-space)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-red-planet",
+        "text": "The Red Planet",
+        "level": 2
+      },
+      {
+        "id": "a-landscape-of-extremes",
+        "text": "A Landscape of Extremes",
+        "level": 2
+      },
+      {
+        "id": "the-ghost-of-water",
+        "text": "The Ghost of Water",
+        "level": 2
+      },
+      {
+        "id": "two-little-moons",
+        "text": "Two Little Moons",
+        "level": 2
+      },
+      {
+        "id": "a-planet-full-of-robots",
+        "text": "A Planet Full of Robots",
+        "level": 2
+      },
+      {
+        "id": "the-next-giant-leap",
+        "text": "The Next Giant Leap",
+        "level": 2
+      }
+    ],
+    "wordCount": 836
+  },
+  {
     "id": "modern-egypt",
     "title": "Modern Egypt",
     "category": "world-history",
@@ -1415,6 +1928,1338 @@
       }
     ],
     "wordCount": 349
+  },
+  {
+    "id": "space-missions",
+    "title": "Space Missions",
+    "category": "space",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "How humanity reached the sky",
+    "lede": "In a single lifetime, humans went from launching the first small satellite to walking on the Moon, landing robots on Mars, and unfurling telescopes that see to the dawn of time. The story of space missions is the story of how we turned the night sky from a mystery into a destination.",
+    "related": [
+      "the-moon",
+      "mars",
+      "the-solar-system",
+      "the-future-of-space",
+      "black-holes"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Humanity's footprint in space",
+          "caption": "From low Earth orbit and the Moon to robotic outposts across the planets and the edge of interstellar space.",
+          "region": "The Solar System"
+        }
+      ],
+      "images": [
+        {
+          "title": "Liftoff",
+          "caption": "A Saturn V rocket — still the most powerful launch vehicle ever flown to operational service — clears the tower bound for the Moon.",
+          "credit": "NASA / Apollo"
+        },
+        {
+          "title": "The Hubble Space Telescope",
+          "caption": "Orbiting above the blurring atmosphere since 1990, Hubble rewrote textbooks across every field of astronomy.",
+          "credit": "NASA / ESA"
+        },
+        {
+          "title": "The James Webb Space Telescope",
+          "caption": "A gold-coated mirror unfolded a million miles from Earth, peering in infrared at the universe's first galaxies.",
+          "credit": "NASA / ESA / CSA"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The space race",
+          "caption": "From Sputnik to the Moon landings — how Cold War rivalry propelled humanity off the planet.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How we land robots on other worlds",
+          "caption": "Parachutes, sky cranes, and the \"seven minutes of terror\" of arriving at Mars.",
+          "duration": "5:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Missions",
+        "source": "NASA",
+        "url": "https://www.nasa.gov/humans-in-space/"
+      },
+      {
+        "label": "ESA — Space Science missions",
+        "source": "European Space Agency",
+        "url": "https://www.esa.int/Science_Exploration"
+      },
+      {
+        "label": "NASA — James Webb Space Telescope",
+        "source": "NASA / STScI",
+        "url": "https://science.nasa.gov/mission/webb/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Door Opens",
+        "id": "the-door-opens"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Space Age began with a beep. On **4 October 1957**, the Soviet Union launched **Sputnik 1**, a polished metal sphere the size of a beach ball that circled the Earth every 96 minutes, broadcasting a simple radio signal. It carried no science instruments to speak of, but its meaning was enormous: humanity had, for the first time, placed an object into orbit."
+      },
+      {
+        "type": "paragraph",
+        "text": "The shock of Sputnik ignited a fierce **space race** between the Soviet Union and the United States. Just four years later, in **1961**, the Soviet cosmonaut **Yuri Gagarin** became the first human to orbit the Earth — a single, history-making lap of the planet. The sky was no longer a ceiling."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Why getting to orbit is so hard",
+        "text": "Reaching space is not mainly about going up — it is about going *fast*. To stay in orbit, a spacecraft must travel sideways at roughly 28,000 kilometres per hour, fast enough that as it falls toward Earth, the planet's surface curves away beneath it. That immense speed is why rockets must be so powerful, and why spaceflight remained out of reach for so long."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Footprints on the Moon",
+        "id": "footprints-on-the-moon"
+      },
+      {
+        "type": "paragraph",
+        "text": "The race reached its climax with the American **Apollo programme**. Riding the gigantic **Saturn V** rocket — to this day among the most powerful machines ever built — Apollo 11 carried three astronauts to the [Moon](/article/the-moon), and on **20 July 1969** Neil Armstrong and Buzz Aldrin became the first humans to walk on another world while Michael Collins orbited above."
+      },
+      {
+        "type": "paragraph",
+        "text": "Over the following three years, six Apollo missions landed twelve men on the lunar surface, who returned with rock samples that revolutionised our understanding of the Moon's origin. It remains the farthest from Earth that human beings have ever travelled."
+      },
+      {
+        "type": "quote",
+        "text": "Apollo was as much a feat of organisation as of engineering: at its peak the programme employed some 400,000 people, and it ran on computers less powerful than a modern pocket calculator."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Living and Working in Orbit",
+        "id": "living-and-working-in-orbit"
+      },
+      {
+        "type": "paragraph",
+        "text": "After the drama of the Moon landings, human spaceflight turned to building a lasting presence closer to home. The American **Space Shuttle**, flying from 1981 to 2011, was the first reusable spacecraft, ferrying crews and cargo to orbit and back dozens of times."
+      },
+      {
+        "type": "paragraph",
+        "text": "Its greatest legacy is the **International Space Station** — a laboratory the size of a football field, assembled in orbit from the late 1990s and continuously inhabited since **November 2000**. A partnership of the United States, Russia, Europe, Japan, and Canada, the ISS has hosted astronauts from dozens of nations, who run experiments in the strange environment of weightlessness and study how the human body copes with long stays in space — knowledge essential for any voyage to [Mars](/article/mars)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Robotic Pioneers",
+        "id": "robotic-pioneers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Humans have travelled no farther than the Moon, but our machines have explored the entire Solar System and beyond. Robotic missions are cheaper, can endure conditions no person could survive, and have been the true workhorses of exploration:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**The Voyagers** (1977) — twin probes that toured the outer planets and have now crossed into interstellar space, the most distant human-made objects in existence.",
+          "**Cassini** (2004–2017) — orbited Saturn for 13 years, revealing its rings and the ocean moons Titan and Enceladus in breathtaking detail.",
+          "**New Horizons** (2015) — gave us our first close look at Pluto, four billion miles from home.",
+          "**Mars rovers** — a lineage from Sojourner to Perseverance that has turned the red planet into a place we explore on the ground, as told in [Mars](/article/mars)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Landing these robots is a feat in itself — arriving at Mars, for instance, means slowing from interplanetary speed to a gentle touchdown in about seven minutes, with no chance for human control across the long radio delay."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Eyes Above the Atmosphere",
+        "id": "eyes-above-the-atmosphere"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some of the most transformative missions never leave orbit — because the prize is a clear view of the cosmos. The **Hubble Space Telescope**, launched in **1990**, escaped the blurring, dimming effect of Earth's atmosphere and delivered images of unprecedented depth and clarity, helping pin down the age of the universe and revealing galaxies near the edge of the observable cosmos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Its successor, the **James Webb Space Telescope**, launched in **December 2021**, observes in infrared from a vantage point a million miles from Earth. Webb can see through cosmic dust and capture light stretched by the expansion of the universe — letting it study the very first galaxies, born within the universe's opening chapters after [the Big Bang](/article/the-big-bang), and probe the atmospheres of distant planets for signs of habitability."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A New Era of Access",
+        "id": "a-new-era-of-access"
+      },
+      {
+        "type": "paragraph",
+        "text": "For its first half-century, spaceflight was almost entirely the domain of national governments. That has changed. **Private companies** now build rockets, fly cargo and crew to the space station, and — crucially — have made boosters that land themselves and fly again, driving the cost of reaching orbit sharply downward."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Why reusability matters",
+        "text": "Throwing away a rocket after a single flight is like scrapping an airliner after one trip. Reusable rockets that land and relaunch have begun to transform the economics of spaceflight, making ambitions once thought fantastical — from lunar bases to crewed Mars missions — start to look achievable."
+      },
+      {
+        "type": "paragraph",
+        "text": "From a beeping sphere in 1957 to telescopes reading the universe's first light, space missions have compressed a cosmic perspective into a few human generations. Where that momentum carries us next — back to the Moon to stay, on to Mars, and perhaps farther still — is the subject of [the future of space](/article/the-future-of-space)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-door-opens",
+        "text": "The Door Opens",
+        "level": 2
+      },
+      {
+        "id": "footprints-on-the-moon",
+        "text": "Footprints on the Moon",
+        "level": 2
+      },
+      {
+        "id": "living-and-working-in-orbit",
+        "text": "Living and Working in Orbit",
+        "level": 2
+      },
+      {
+        "id": "robotic-pioneers",
+        "text": "Robotic Pioneers",
+        "level": 2
+      },
+      {
+        "id": "eyes-above-the-atmosphere",
+        "text": "Eyes Above the Atmosphere",
+        "level": 2
+      },
+      {
+        "id": "a-new-era-of-access",
+        "text": "A New Era of Access",
+        "level": 2
+      }
+    ],
+    "wordCount": 902
+  },
+  {
+    "id": "stars",
+    "title": "Stars",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "The furnaces of creation",
+    "lede": "Stars are the universe's great factories — vast spheres of glowing gas that hold themselves up against their own crushing gravity by fusing atoms in their cores. They light the cosmos, forge nearly every element heavier than helium, and in their deaths sow the raw material of planets and life.",
+    "related": [
+      "the-big-bang",
+      "black-holes",
+      "the-solar-system",
+      "the-planets",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The life tracks of stars",
+          "caption": "The Hertzsprung–Russell diagram — plotting brightness against temperature reveals the main sequence and the paths stars follow as they age.",
+          "region": "Stellar physics"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Pillars of Creation",
+          "caption": "Towers of cold gas and dust in the Eagle Nebula, light-years tall, where new stars are being born.",
+          "credit": "NASA / ESA / CSA, JWST"
+        },
+        {
+          "title": "A supernova remnant",
+          "caption": "The shredded, glowing shell left behind when a massive star explodes — scattering newly forged elements into space.",
+          "credit": "NASA / Chandra X-ray Observatory"
+        },
+        {
+          "title": "The Sun in ultraviolet",
+          "caption": "Our own star — an ordinary yellow dwarf whose surface seethes with magnetic loops and flares.",
+          "credit": "NASA / Solar Dynamics Observatory"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The life cycle of a star",
+          "caption": "From a collapsing cloud to a stable star to a white dwarf, neutron star, or black hole.",
+          "duration": "6:10",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How a star makes light",
+          "caption": "Nuclear fusion in the core, and the 100,000-year journey a photon takes to reach the surface.",
+          "duration": "4:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Stars",
+        "source": "NASA Science, Universe",
+        "url": "https://science.nasa.gov/universe/stars/"
+      },
+      {
+        "label": "ESO — The lives of stars",
+        "source": "European Southern Observatory",
+        "url": "https://www.eso.org/public/"
+      },
+      {
+        "label": "NASA — The Sun",
+        "source": "NASA Science, Our Solar System",
+        "url": "https://science.nasa.gov/sun/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What a Star Really Is",
+        "id": "what-a-star-really-is"
+      },
+      {
+        "type": "paragraph",
+        "text": "A star is, at heart, a balancing act. Gravity is forever trying to crush a star inward, pulling its enormous mass toward the centre. What holds it up is the outward pressure of energy pouring from its core, where temperatures reach millions of degrees and atomic nuclei are fused together. As long as the fuel lasts, those two forces — gravity in, pressure out — stay in near-perfect equilibrium. A star is gravity held at bay by fire."
+      },
+      {
+        "type": "paragraph",
+        "text": "That fire is **nuclear fusion**. In the core of a star like the Sun, hydrogen nuclei are squeezed together so violently that they merge into helium, releasing a flood of energy in the process. A single star can convert millions of tonnes of matter into pure energy every second and barely notice, so vast are its reserves."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A star is a slow-motion explosion",
+        "text": "Why doesn't a star simply blow itself apart? Because it is exquisitely self-regulating. If the core heats up, the star expands and cools; if it cools, it contracts and reheats. This thermostat keeps a star like the Sun shining steadily for billions of years."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Born in the Cold",
+        "id": "born-in-the-cold"
+      },
+      {
+        "type": "paragraph",
+        "text": "Stars begin, paradoxically, in the coldest places in the galaxy: enormous clouds of gas and dust called **nebulae**. Where such a cloud grows dense enough, gravity takes over and pulls the gas into a collapsing knot. As the knot shrinks it spins faster and heats up, until the centre becomes a glowing **protostar**."
+      },
+      {
+        "type": "paragraph",
+        "text": "The moment of birth comes when the core finally grows hot enough — around ten million degrees — to ignite fusion. The new star switches on, blows away the surrounding cocoon of gas, and joins the long, stable middle age of its life. Stars are rarely born alone; a single nebula can hatch thousands of them in a great stellar nursery."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Star's Life Is Written in Its Mass",
+        "id": "a-stars-life-is-written-in-its-mass"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost everything about a star — its colour, its brightness, how long it lives, and how it dies — is decided at birth by one quantity: its **mass**. Astronomers sort stars by temperature and brightness on the famous **Hertzsprung–Russell diagram**, where most spend their lives along a band called the **main sequence**."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Low-mass stars** (red dwarfs) are cool, dim, and miserly with their fuel. They can shine steadily for tens or even hundreds of billions of years — far longer than the present age of the universe.",
+          "**Sun-like stars** burn hotter and brighter, lasting around ten billion years before they swell and fade.",
+          "**Massive stars** are blazing, blue-white, and reckless. They burn through their fuel in only a few million years and end in catastrophe."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Counter-intuitively, the biggest stars live the shortest lives. The more massive a star, the more fiercely it must burn to hold up its own weight, and the faster it exhausts itself."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How Stars Die",
+        "id": "how-stars-die"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a star finally runs out of hydrogen in its core, its careful balance breaks down — and the ending depends, once again, on mass."
+      },
+      {
+        "type": "paragraph",
+        "text": "A star like the **Sun** will swell into a vast, cool **red giant**, large enough to swallow the inner planets. Eventually it sheds its outer layers in a glowing shell called a **planetary nebula**, leaving behind only its exposed, Earth-sized core: a **white dwarf** that will slowly cool over billions of years."
+      },
+      {
+        "type": "paragraph",
+        "text": "A **massive star** dies far more violently. Its core collapses in a fraction of a second and rebounds in a titanic explosion — a **supernova** — briefly outshining an entire galaxy. What remains at the centre is either an ultra-dense **neutron star**, a city-sized sphere so compact that a teaspoon of it would weigh billions of tonnes, or, if the star was heavy enough, a [black hole](/article/black-holes)."
+      },
+      {
+        "type": "quote",
+        "text": "A supernova is not only an ending. The blast wave compresses nearby gas clouds, triggering the birth of new stars — so each generation seeds the next."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "We Are Made of Star Stuff",
+        "id": "we-are-made-of-star-stuff"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Big Bang produced almost nothing but hydrogen and helium. Every heavier element — the carbon in your cells, the oxygen you breathe, the calcium in your bones, the iron in your blood — was forged inside stars and flung into space when they died. The heaviest elements of all, like gold and platinum, are made in the most extreme events, including the collisions of neutron stars."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Cosmic recycling",
+        "text": "The atoms in your body have been through this cycle before. They were assembled in stars that lived and died billions of years ago, scattered across space, gathered into a new cloud, and built into the [Solar System](/article/the-solar-system). To know a star is to know your own origins."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Our Star, the Sun",
+        "id": "our-star-the-sun"
+      },
+      {
+        "type": "paragraph",
+        "text": "For all its importance to us, the **Sun** is a thoroughly average star — a middle-aged yellow dwarf about 4.6 billion years old, roughly halfway through its life. It is so large that more than a million Earths could fit inside it, yet it is only one of perhaps 200 billion stars in the Milky Way galaxy, which is itself one of trillions of galaxies."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Sun's steady output of light and warmth is the engine of nearly all life on Earth. Its gravity holds the [planets](/article/the-planets) in their orbits, and its eventual old age will reshape the Solar System entirely. The nearest other star, **Proxima Centauri**, lies more than four light-years away — so far that its light takes over four years to reach us, a vivid reminder of just how empty the space between stars really is."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Reading the Night Sky",
+        "id": "reading-the-night-sky"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you look up on a dark night, you are seeing stars at wildly different distances and ages, their light having travelled years, centuries, or millennia to reach your eye. Some of those points of light are cool red giants near the end of their days; others are hot blue stars that will not survive the age of human civilization. A few may have already died, their final light still in transit across the gulf of space."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every star you can see belongs to our own Milky Way — and each is a sun, quite possibly with [worlds of its own](/article/the-planets) circling it. The study of stars is, in the end, the study of how the universe builds complexity out of simplicity: how clouds of the lightest gas became the furnaces that lit the cosmos and made everything else possible."
+      }
+    ],
+    "toc": [
+      {
+        "id": "what-a-star-really-is",
+        "text": "What a Star Really Is",
+        "level": 2
+      },
+      {
+        "id": "born-in-the-cold",
+        "text": "Born in the Cold",
+        "level": 2
+      },
+      {
+        "id": "a-stars-life-is-written-in-its-mass",
+        "text": "A Star's Life Is Written in Its Mass",
+        "level": 2
+      },
+      {
+        "id": "how-stars-die",
+        "text": "How Stars Die",
+        "level": 2
+      },
+      {
+        "id": "we-are-made-of-star-stuff",
+        "text": "We Are Made of Star Stuff",
+        "level": 2
+      },
+      {
+        "id": "our-star-the-sun",
+        "text": "Our Star, the Sun",
+        "level": 2
+      },
+      {
+        "id": "reading-the-night-sky",
+        "text": "Reading the Night Sky",
+        "level": 2
+      }
+    ],
+    "wordCount": 1048
+  },
+  {
+    "id": "the-big-bang",
+    "title": "The Big Bang",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "How everything began",
+    "lede": "Some 13.8 billion years ago the entire universe — all of space, time, matter and energy — emerged from a state hotter and denser than anything that has existed since. The Big Bang is not a story of an explosion in space, but of space itself unfurling, cooling, and slowly filling with stars.",
+    "related": [
+      "stars",
+      "black-holes",
+      "the-solar-system",
+      "the-planets",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The cosmic microwave background",
+          "caption": "The oldest light in existence — a near-uniform glow from when the universe was just 380,000 years old, mapped across the whole sky.",
+          "region": "The whole sky"
+        },
+        {
+          "title": "The observable universe",
+          "caption": "A sphere about 93 billion light-years across, centred on us — not because we are special, but because light has only had so long to reach us.",
+          "region": "All of space"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Planck all-sky map",
+          "caption": "Tiny temperature ripples in the background radiation — the seeds from which every galaxy later grew.",
+          "credit": "ESA / Planck Collaboration"
+        },
+        {
+          "title": "JWST deep field",
+          "caption": "Thousands of galaxies in a patch of sky the size of a grain of sand at arm's length, some shining from the universe's first billion years.",
+          "credit": "NASA / ESA / CSA, JWST"
+        },
+        {
+          "title": "The expanding cosmic web",
+          "caption": "A simulation of how matter clumped along vast filaments and voids as the young universe grew.",
+          "credit": "Cosmological simulation"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The first three minutes",
+          "caption": "From the Planck epoch to the forging of the first atomic nuclei — the universe's opening act, second by second.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "Why the sky tells us the universe is expanding",
+          "caption": "Redshift, Hubble's law, and how distant galaxies revealed a cosmos in motion.",
+          "duration": "5:15",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "universe",
+      "quiz": "universe"
+    },
+    "citations": [
+      {
+        "label": "NASA — The Big Bang",
+        "source": "NASA Science, Universe",
+        "url": "https://science.nasa.gov/universe/the-big-bang/"
+      },
+      {
+        "label": "ESA — Planck and the cosmic microwave background",
+        "source": "European Space Agency",
+        "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck"
+      },
+      {
+        "label": "NASA WMAP — Tests of Big Bang cosmology",
+        "source": "NASA / WMAP Science Team",
+        "url": "https://wmap.gsfc.nasa.gov/universe/bb_tests.html"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An Explosion That Was Not an Explosion",
+        "id": "an-explosion-that-was-not-an-explosion"
+      },
+      {
+        "type": "paragraph",
+        "text": "The name is a little misleading. The Big Bang was not a bomb going off at some point in a pre-existing void, with debris flying outward into empty space. There was no \"outside\" and no \"before.\" Space and time themselves began in that first instant, and the expansion we still measure today is the stretching of space everywhere at once."
+      },
+      {
+        "type": "paragraph",
+        "text": "The clearest way to picture it is to run the film of the universe backwards. Galaxies are rushing apart, so in the past they were closer together. Keep rewinding and everything crowds in: the universe becomes denser, hotter, and more compact, until — 13.8 billion years ago — the whole observable cosmos was squeezed into a region smaller than an atom, at a temperature beyond imagining."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Everywhere is the centre",
+        "text": "Because space itself is expanding, every observer in every galaxy sees all the others moving away from them. There is no special central point from which the Big Bang happened — it happened everywhere, because everywhere *was* the same place."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The First Three Minutes",
+        "id": "the-first-three-minutes"
+      },
+      {
+        "type": "paragraph",
+        "text": "The early universe passed through its most dramatic changes faster than any later age. In the first tiny fraction of a second, many physicists believe the cosmos underwent **inflation** — a brief, staggering burst of expansion that smoothed it out and stretched microscopic quantum ripples into the seeds of future galaxies."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the universe expanded it cooled, and at each new temperature a new kind of structure could survive:"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "**The quark era** — for the first millionth of a second it was too hot for protons and neutrons to hold together; matter existed as a soup of fundamental particles.",
+          "**Nucleosynthesis** — within about three minutes the cosmos had cooled enough for protons and neutrons to fuse into the first atomic nuclei, forging the lightest elements.",
+          "**The long wait** — for hundreds of thousands of years the universe remained a glowing, opaque fog of nuclei and free electrons, too hot for whole atoms to form."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The recipe of that early forging is one of the theory's great triumphs. The Big Bang predicts that the young universe should be about three-quarters hydrogen and one-quarter helium by mass, with a trace of lithium — and that is almost exactly the mix we measure in the oldest stars and gas clouds."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Oldest Light in the Universe",
+        "id": "the-oldest-light-in-the-universe"
+      },
+      {
+        "type": "paragraph",
+        "text": "About **380,000 years** after the beginning, the universe had cooled to a few thousand degrees — cool enough, at last, for electrons to settle into orbit around nuclei and form the first complete atoms. Suddenly the fog cleared. Light that had been trapped, endlessly scattering off free electrons, was free to stream across space."
+      },
+      {
+        "type": "paragraph",
+        "text": "That light still surrounds us today, stretched by 13.8 billion years of cosmic expansion into a faint glow of microwaves filling the entire sky. We call it the **cosmic microwave background** (CMB), and it is the single most powerful piece of evidence for the Big Bang."
+      },
+      {
+        "type": "quote",
+        "text": "When Arno Penzias and Robert Wilson first detected this hiss in 1965, they thought their antenna was faulty — even suspecting pigeon droppings. They had stumbled onto the afterglow of creation, and the discovery won them a Nobel Prize."
+      },
+      {
+        "type": "paragraph",
+        "text": "Maps of the CMB made by satellites such as **COBE**, **WMAP** and **Planck** reveal it to be astonishingly uniform — but not perfectly so. Tiny temperature differences, just one part in a hundred thousand, mark where matter was very slightly denser. Those whispers of unevenness are the seeds from which every galaxy, star, and planet would eventually grow."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How We Know the Universe Is Expanding",
+        "id": "how-we-know-the-universe-is-expanding"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Big Bang began as an inference from a simple, stunning observation. In **1929**, the astronomer **Edwin Hubble** found that almost every distant galaxy is moving away from us, and that the farther away a galaxy is, the faster it recedes. The light from those galaxies is shifted toward the red end of the spectrum — a cosmic version of the way a passing siren drops in pitch."
+      },
+      {
+        "type": "paragraph",
+        "text": "A Belgian priest and physicist, **Georges Lemaître**, had already worked out that an expanding universe implied a dense beginning, which he called the \"primeval atom.\" Stitched together, these ideas pointed inescapably to a cosmos with a birthday."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Three pillars of evidence",
+        "text": "The Big Bang rests on three independent observations that all agree: the **expansion** of the universe seen in galaxy redshifts, the **cosmic microwave background**, and the measured **abundance of light elements**. No rival theory explains all three."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dark Matter and Dark Energy",
+        "id": "dark-matter-and-dark-energy"
+      },
+      {
+        "type": "paragraph",
+        "text": "For all its success, the Big Bang model carries a humbling admission: the ordinary atoms that make up stars, planets, and people are only about **5 percent** of the universe. Roughly a quarter is **dark matter** — an unseen substance that feels gravity but neither emits nor absorbs light, and whose pull shaped how galaxies formed. The remaining 70 percent or so is **dark energy**, a mysterious property of space that is, remarkably, *accelerating* the cosmic expansion."
+      },
+      {
+        "type": "paragraph",
+        "text": "We can map their effects with precision, yet we do not know what either truly is. The Big Bang tells us how the universe began and grew; it also frames the deepest unsolved questions in physics. (The story of what happens next — to the galaxies, the stars, and to expansion itself — continues in [the future of space](/article/the-future-of-space).)"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "From Smoothness to Structure",
+        "id": "from-smoothness-to-structure"
+      },
+      {
+        "type": "paragraph",
+        "text": "For perhaps a hundred million years after the light broke free, the universe was dark — a cooling sea of hydrogen and helium with no stars to light it. Astronomers call this the **cosmic dark ages**. Then gravity, working patiently on those faint density ripples, drew the gas into ever-denser knots until the first ones ignited."
+      },
+      {
+        "type": "paragraph",
+        "text": "The birth of the first [stars](/article/stars) ended the dark ages and began the long process of building everything we see. Inside those stars, and in their violent deaths, the simple early elements were cooked into carbon, oxygen, iron, and gold. Generations of stars gathered into galaxies; galaxies into clusters; clusters into the vast filaments and voids of the **cosmic web**."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Universe Still Unfolding",
+        "id": "a-universe-still-unfolding"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Big Bang was not a single event finished long ago — it set in motion a story that is still being written. The same expansion Hubble measured continues today, and the faint light of the cosmic dawn is now being captured by telescopes like the James Webb, which can see galaxies as they were within the universe's first few hundred million years."
+      },
+      {
+        "type": "paragraph",
+        "text": "In a real sense, every atom in your body carries this history. The hydrogen in the water you drink was forged in those first three minutes; the calcium in your bones and the iron in your blood were assembled inside stars that lived and died before the Sun was born. To trace the Big Bang forward is to follow the road that leads to [the Solar System](/article/the-solar-system), to Earth, and to us."
+      }
+    ],
+    "toc": [
+      {
+        "id": "an-explosion-that-was-not-an-explosion",
+        "text": "An Explosion That Was Not an Explosion",
+        "level": 2
+      },
+      {
+        "id": "the-first-three-minutes",
+        "text": "The First Three Minutes",
+        "level": 2
+      },
+      {
+        "id": "the-oldest-light-in-the-universe",
+        "text": "The Oldest Light in the Universe",
+        "level": 2
+      },
+      {
+        "id": "how-we-know-the-universe-is-expanding",
+        "text": "How We Know the Universe Is Expanding",
+        "level": 2
+      },
+      {
+        "id": "dark-matter-and-dark-energy",
+        "text": "Dark Matter and Dark Energy",
+        "level": 2
+      },
+      {
+        "id": "from-smoothness-to-structure",
+        "text": "From Smoothness to Structure",
+        "level": 2
+      },
+      {
+        "id": "a-universe-still-unfolding",
+        "text": "A Universe Still Unfolding",
+        "level": 2
+      }
+    ],
+    "wordCount": 1136
+  },
+  {
+    "id": "the-future-of-space",
+    "title": "The Future of Space",
+    "category": "future",
+    "factStatus": "theory",
+    "readMins": 8,
+    "eyebrow": "Where we might go next",
+    "lede": "Lunar bases, cities on Mars, telescopes that sniff distant atmospheres for life, starships chasing the nearest suns — the next century of spaceflight is being sketched today. Much of it remains aspiration rather than achievement, but each idea grows from real science, and some are already taking shape on the launch pad.",
+    "related": [
+      "space-missions",
+      "mars",
+      "the-moon",
+      "the-planets",
+      "black-holes"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "A roadmap beyond Earth",
+          "caption": "The likely stepping stones — low Earth orbit, a lunar base, Mars, and the distant dream of other stars.",
+          "region": "The Solar System and beyond"
+        }
+      ],
+      "images": [
+        {
+          "title": "A lunar outpost",
+          "caption": "An artist's vision of a permanent base near the Moon's south pole, mining ice for water, air, and fuel.",
+          "credit": "Artist's concept"
+        },
+        {
+          "title": "A city on Mars",
+          "caption": "Domed habitats and greenhouses — one imagined future for humanity's first settlement on another planet.",
+          "credit": "Artist's concept"
+        },
+        {
+          "title": "A light sail to the stars",
+          "caption": "A gossamer sail driven by ground-based lasers — a proposed way to reach a nearby star within a human lifetime.",
+          "credit": "Artist's concept"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Could we live on Mars?",
+          "caption": "The real obstacles — radiation, gravity, air, and water — and the technologies being designed to overcome them.",
+          "duration": "6:15",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How to reach another star",
+          "caption": "Why interstellar travel is so hard, and the ideas — from light sails to fusion drives — that might make it possible.",
+          "duration": "6:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Artemis and Moon to Mars",
+        "source": "NASA, Moon to Mars",
+        "url": "https://www.nasa.gov/humans-in-space/moon-to-mars/"
+      },
+      {
+        "label": "NASA — The Search for Life",
+        "source": "NASA Science, Astrobiology",
+        "url": "https://science.nasa.gov/astrobiology/"
+      },
+      {
+        "label": "Breakthrough Initiatives — Starshot",
+        "source": "Breakthrough Initiatives",
+        "url": "https://breakthroughinitiatives.org/initiative/3"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Caution Before We Begin",
+        "id": "a-caution-before-we-begin"
+      },
+      {
+        "type": "paragraph",
+        "text": "Much of what follows is informed speculation rather than settled fact. The science behind these ideas is real, and the earliest steps — returning to the Moon, building reusable rockets — are already under way. But timelines slip, costs balloon, and engineering that looks straightforward on paper can prove fiendish in practice. Read this as a map of plausible futures, not a schedule. (That is exactly why this article carries a **Theory** badge rather than the **Verified** badge of the rest of this journey.)"
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "The hardest environment there is",
+        "text": "Space is relentlessly hostile to life. There is no air, lethal radiation, punishing temperature extremes, and — beyond Earth's protective magnetic field — a slow erosion of the human body in low gravity. Every ambition below has to solve these problems first. Optimism is warranted; naivety is not."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Back to the Moon — to Stay",
+        "id": "back-to-the-moon-to-stay"
+      },
+      {
+        "type": "paragraph",
+        "text": "The nearest milestone is also the most concrete. After fifty years away, space agencies and companies are working to return humans to the [Moon](/article/the-moon), this time to build a lasting presence rather than to plant a flag. The focus is the lunar **south pole**, where craters in permanent shadow hold water ice."
+      },
+      {
+        "type": "paragraph",
+        "text": "That ice changes everything. It can be melted for drinking water, split into oxygen to breathe, and processed into hydrogen and oxygen rocket fuel. A self-sustaining base could become a refuelling depot and a proving ground — the place where humanity learns to live off the resources of another world before attempting somewhere far harder."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Case for Mars",
+        "id": "the-case-for-mars"
+      },
+      {
+        "type": "paragraph",
+        "text": "For many, the great prize is [Mars](/article/mars). A crewed mission is the explicit goal of both national programmes and private companies, and the broad outline is understood: a journey of six to nine months, a stay timed to the alignment of the planets, and a return when the orbits next favour it."
+      },
+      {
+        "type": "paragraph",
+        "text": "The obstacles are formidable. Crews would face months of cosmic radiation, the muscle and bone loss of low gravity, and the need to grow food and make fuel from local materials — a strategy known as **in-situ resource utilisation**. A genuine settlement would have to be largely self-sufficient, because resupply from Earth is slow and ruinously expensive."
+      },
+      {
+        "type": "quote",
+        "text": "Why go at all? Advocates argue that becoming a multi-planet species is a hedge against catastrophe — that life confined to a single world is a fragile thing. Sceptics counter that even a damaged Earth would be far more habitable than Mars. The debate is as much about values as engineering."
+      },
+      {
+        "type": "paragraph",
+        "text": "A truly habitable Mars would require **terraforming** — thickening its atmosphere and warming the planet over centuries or millennia. With our present understanding this lies far beyond reach, and may never be feasible; it belongs firmly in the realm of long-range speculation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Cheaper Roads to Orbit",
+        "id": "cheaper-roads-to-orbit"
+      },
+      {
+        "type": "paragraph",
+        "text": "None of these grand plans matter without affordable access to space, and here change is already visible. **Reusable rockets** that land and fly again have begun to cut launch costs dramatically, and a new generation of fully reusable, super-heavy vehicles aims to cut them further still."
+      },
+      {
+        "type": "paragraph",
+        "text": "If lifting mass to orbit becomes cheap enough, much else follows: large space stations, orbiting factories, solar-power satellites beaming energy to Earth, and the routine launches that any Moon or Mars programme demands. More exotic ideas — **space elevators** that climb a cable to orbit — remain beyond known materials, but the broader trend toward cheaper access is real and accelerating."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Telescopes That Hunt for Life",
+        "id": "telescopes-that-hunt-for-life"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some of the most exciting frontiers require no human travel at all. The next generation of space and ground telescopes is being designed to analyse the atmospheres of [planets](/article/the-planets) orbiting other stars, searching for **biosignatures** — gases like oxygen and methane together, which on Earth are produced by life."
+      },
+      {
+        "type": "paragraph",
+        "text": "To find such a sign on a distant world would be among the most profound discoveries in history. Researchers also listen for **technosignatures**, the possible radio or light signals of an alien civilisation — the long-running search known as **SETI**. We may be alone; we may be one of many. Future instruments will, for the first time, give us a real chance of finding out."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Long Reach to the Stars",
+        "id": "the-long-reach-to-the-stars"
+      },
+      {
+        "type": "paragraph",
+        "text": "The boldest dream is to leave the Solar System altogether. The problem is distance: even the nearest star, **Proxima Centauri**, is over four light-years away, and our fastest probes would take tens of thousands of years to get there."
+      },
+      {
+        "type": "paragraph",
+        "text": "Closing that gap demands radically new propulsion. Among the most studied proposals is the **light sail** — a gossamer sheet pushed by powerful ground-based lasers, which might accelerate a featherweight probe to a fraction of the speed of light and reach a neighbouring star within a human lifetime. Other concepts reach further into the speculative: fusion drives, antimatter rockets, and centuries-long **generation ships** carrying populations who would live and die in transit."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Speculation grounded in physics",
+        "text": "None of these violate the laws of physics, but all demand engineering far beyond today's. That is the honest state of interstellar travel: not impossible, but not imminent — the kind of multi-generational endeavour our descendants might attempt, not us."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Choice as Much as a Destiny",
+        "id": "a-choice-as-much-as-a-destiny"
+      },
+      {
+        "type": "paragraph",
+        "text": "The future of space will be shaped not only by what is technically possible but by what humanity chooses to value, fund, and risk. The coming decades hold near-certainties — more powerful telescopes, a return to the Moon, robotic explorers fanning out across the Solar System — alongside genuine unknowns: whether humans will truly settle other worlds, whether we will find life elsewhere, and how far our machines might ultimately reach."
+      },
+      {
+        "type": "paragraph",
+        "text": "What began with a beeping sphere in 1957, traced in [space missions](/article/space-missions), has in one lifetime carried us from the first orbit to telescopes reading the light of [the Big Bang](/article/the-big-bang). The next chapter is unwritten — but for the first time in history, it is ours to write."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-caution-before-we-begin",
+        "text": "A Caution Before We Begin",
+        "level": 2
+      },
+      {
+        "id": "back-to-the-moon-to-stay",
+        "text": "Back to the Moon — to Stay",
+        "level": 2
+      },
+      {
+        "id": "the-case-for-mars",
+        "text": "The Case for Mars",
+        "level": 2
+      },
+      {
+        "id": "cheaper-roads-to-orbit",
+        "text": "Cheaper Roads to Orbit",
+        "level": 2
+      },
+      {
+        "id": "telescopes-that-hunt-for-life",
+        "text": "Telescopes That Hunt for Life",
+        "level": 2
+      },
+      {
+        "id": "the-long-reach-to-the-stars",
+        "text": "The Long Reach to the Stars",
+        "level": 2
+      },
+      {
+        "id": "a-choice-as-much-as-a-destiny",
+        "text": "A Choice as Much as a Destiny",
+        "level": 2
+      }
+    ],
+    "wordCount": 971
+  },
+  {
+    "id": "the-moon",
+    "title": "The Moon",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 7,
+    "eyebrow": "Earth's constant companion",
+    "lede": "A quarter the width of Earth and a quarter of a million miles away, the Moon is the one other world humans have walked upon. It steadies our planet's spin, raises the tides, lights the night — and it was born, most likely, from a catastrophic collision in the Solar System's violent youth.",
+    "related": [
+      "the-planets",
+      "the-solar-system",
+      "mars",
+      "space-missions",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The near side of the Moon",
+          "caption": "The dark basaltic \"seas\" (maria), the bright cratered highlands, and the great ray-craters like Tycho and Copernicus.",
+          "region": "The Moon"
+        }
+      ],
+      "images": [
+        {
+          "title": "Earthrise",
+          "caption": "Our planet rising over the lunar horizon — the 1968 photograph from Apollo 8 that changed how humanity saw itself.",
+          "credit": "NASA / Apollo 8"
+        },
+        {
+          "title": "Footprint in the dust",
+          "caption": "A bootprint pressed into the lunar soil in 1969 — undisturbed by wind or rain, it may last for millions of years.",
+          "credit": "NASA / Apollo 11"
+        },
+        {
+          "title": "The far side",
+          "caption": "The hemisphere that never faces Earth — more rugged, heavily cratered, and unseen by human eyes until 1959.",
+          "credit": "NASA / Lunar Reconnaissance Orbiter"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Moon was born",
+          "caption": "The giant-impact hypothesis — how a Mars-sized world struck the young Earth and flung the Moon into being.",
+          "duration": "5:10",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "Why the Moon drives the tides",
+          "caption": "The gentle gravitational tug that raises and lowers the world's oceans twice a day.",
+          "duration": "4:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Earth's Moon",
+        "source": "NASA Science, Our Solar System",
+        "url": "https://science.nasa.gov/moon/"
+      },
+      {
+        "label": "NASA — Apollo Program",
+        "source": "NASA History",
+        "url": "https://www.nasa.gov/the-apollo-program/"
+      },
+      {
+        "label": "NASA — Artemis",
+        "source": "NASA, Artemis",
+        "url": "https://www.nasa.gov/humans-in-space/artemis/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A World Born of Catastrophe",
+        "id": "a-world-born-of-catastrophe"
+      },
+      {
+        "type": "paragraph",
+        "text": "The leading explanation for the Moon's origin is also one of the most dramatic stories in planetary science. About 4.5 billion years ago, when the [Solar System](/article/the-solar-system) was young and crowded, a Mars-sized body — sometimes named **Theia** — is thought to have slammed into the newly formed Earth. The colossal impact threw a huge spray of molten and vaporised rock into orbit, and from that ring of debris the Moon swiftly coalesced."
+      },
+      {
+        "type": "paragraph",
+        "text": "This **giant-impact hypothesis** explains several puzzling facts at once: why the Moon is relatively large compared with its planet, why it has only a small iron core, and why Moon rocks share so close a chemical kinship with Earth's mantle. The Moon, in this view, is partly made of the Earth itself."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A surprisingly large moon",
+        "text": "The Moon is more than a quarter of Earth's diameter — a far greater ratio than any other major moon in the Solar System. It is so large relative to its planet that some astronomers describe the Earth–Moon system as almost a double world."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Face We Always See",
+        "id": "the-face-we-always-see"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Moon is **tidally locked** to the Earth, meaning it rotates exactly once for every orbit it makes. As a result, it always keeps the same hemisphere turned toward us. The familiar \"near side\" is what every human before the space age ever saw; the **far side** — often wrongly called the \"dark side,\" though it gets just as much sunlight — was a complete mystery until a Soviet spacecraft photographed it in 1959."
+      },
+      {
+        "type": "paragraph",
+        "text": "The two faces look strikingly different. The near side is marked by broad, dark plains called **maria**, or \"seas\" — not water, but ancient floods of basalt lava that filled giant impact basins. The far side is more rugged and heavily cratered, with far fewer maria, for reasons still being studied."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Cratered, Airless Land",
+        "id": "a-cratered-airless-land"
+      },
+      {
+        "type": "paragraph",
+        "text": "With almost no atmosphere, the Moon is a still and silent place. There is no wind, no weather, no sound, and nothing to soften the harsh extremes: surface temperatures swing from around 120°C in the blazing lunar day to below −170°C in the long, frigid night. With no air to burn them up, meteorites strike the surface directly, and over billions of years they have churned it into a fine grey dust called **regolith**."
+      },
+      {
+        "type": "paragraph",
+        "text": "Because there is no erosion, the Moon is a preserved record of the Solar System's history. The craters tell of an era of heavy bombardment that the Earth has long since erased — and a single human footprint left in 1969 may survive, undisturbed, for millions of years."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why the Tides Rise",
+        "id": "why-the-tides-rise"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Moon's gravity pulls on the Earth, and on its oceans most visibly of all. The water on the side facing the Moon is tugged into a bulge, with a matching bulge on the opposite side — and as the Earth rotates beneath these bulges, every coast experiences the rhythmic rise and fall of the **tides**, usually twice a day."
+      },
+      {
+        "type": "quote",
+        "text": "The Moon does more than move the seas. By gravitationally steadying the tilt of Earth's axis, it keeps our climate relatively stable over long ages — a quiet but profound gift to the development of life."
+      },
+      {
+        "type": "paragraph",
+        "text": "That same gravitational interaction is slowly pushing the Moon away: it recedes from Earth by about 3.8 centimetres a year, and Earth's days grow imperceptibly longer as a result. Long ago the Moon loomed much larger in the sky than it does today."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Day We Walked There",
+        "id": "the-day-we-walked-there"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Moon is the only world beyond Earth that human beings have visited. On **20 July 1969**, NASA's **Apollo 11** landed and **Neil Armstrong** stepped onto the surface with the words, \"That's one small step for man, one giant leap for mankind.\" Over six successful Apollo landings between 1969 and 1972, **twelve astronauts** walked on the Moon, returning with hundreds of kilograms of rock that transformed our understanding of its history."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Apollo programme, and the space race that drove it, is told in full in [space missions](/article/space-missions). Those samples confirmed the Moon's great age and lent crucial support to the giant-impact story of its birth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Going Back to Stay",
+        "id": "going-back-to-stay"
+      },
+      {
+        "type": "paragraph",
+        "text": "After half a century away, humanity is returning — and this time the goal is not flags and footprints but a lasting presence. NASA's **Artemis** programme, working with international and commercial partners, aims to land astronauts near the Moon's **south pole**, where deep craters hold water ice in permanent shadow."
+      },
+      {
+        "type": "paragraph",
+        "text": "That ice is the prize. It could supply drinking water and breathable oxygen, and be split into hydrogen and oxygen for rocket fuel — turning the Moon into a refuelling stop and a stepping stone deeper into space. A base on the Moon would be a proving ground for the technologies needed to reach [Mars](/article/mars) and beyond, a future explored in [the future of space](/article/the-future-of-space). Our oldest companion in the sky may yet become humanity's first home away from Earth."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-world-born-of-catastrophe",
+        "text": "A World Born of Catastrophe",
+        "level": 2
+      },
+      {
+        "id": "the-face-we-always-see",
+        "text": "The Face We Always See",
+        "level": 2
+      },
+      {
+        "id": "a-cratered-airless-land",
+        "text": "A Cratered, Airless Land",
+        "level": 2
+      },
+      {
+        "id": "why-the-tides-rise",
+        "text": "Why the Tides Rise",
+        "level": 2
+      },
+      {
+        "id": "the-day-we-walked-there",
+        "text": "The Day We Walked There",
+        "level": 2
+      },
+      {
+        "id": "going-back-to-stay",
+        "text": "Going Back to Stay",
+        "level": 2
+      }
+    ],
+    "wordCount": 818
   },
   {
     "id": "nile-river",
@@ -1713,6 +3558,260 @@
     "wordCount": 322
   },
   {
+    "id": "the-planets",
+    "title": "The Planets",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "Eight worlds around one star",
+    "lede": "From scorched Mercury to frigid Neptune, the eight planets of the Solar System are a gallery of wildly different worlds — rocky and gaseous, cratered and storm-wracked, ringed and barren. Together they reveal how varied a single star's family of planets can be.",
+    "related": [
+      "the-solar-system",
+      "mars",
+      "the-moon",
+      "stars",
+      "the-future-of-space"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The eight planets to scale",
+          "caption": "The four small terrestrial worlds and the four giants, in order of distance from the Sun.",
+          "region": "The Solar System"
+        }
+      ],
+      "images": [
+        {
+          "title": "Earth, the blue marble",
+          "caption": "The only known world with liquid water on its surface and life — so far, the one planet we know to be inhabited.",
+          "credit": "NASA"
+        },
+        {
+          "title": "Jupiter and the Great Red Spot",
+          "caption": "The largest planet, a banded gas giant whose centuries-old storm is wider than the Earth.",
+          "credit": "NASA / JPL, Juno"
+        },
+        {
+          "title": "Saturn's rings",
+          "caption": "A dazzling system of countless icy particles, only a few tens of metres thick yet tens of thousands of kilometres wide.",
+          "credit": "NASA / JPL, Cassini"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A tour of the eight planets",
+          "caption": "A flythrough from Mercury to Neptune, comparing size, climate, and character.",
+          "duration": "7:00",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How we weigh and measure a planet",
+          "caption": "Orbits, transits, and the tricks astronomers use to map worlds they cannot visit.",
+          "duration": "4:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Planets",
+        "source": "NASA Science, Solar System Exploration",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      },
+      {
+        "label": "IAU — Definition of a planet",
+        "source": "International Astronomical Union",
+        "url": "https://www.iau.org/public/themes/pluto/"
+      },
+      {
+        "label": "NASA — Exoplanet Exploration",
+        "source": "NASA / JPL, Exoplanets",
+        "url": "https://science.nasa.gov/exoplanets/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What Makes a Planet",
+        "id": "what-makes-a-planet"
+      },
+      {
+        "type": "paragraph",
+        "text": "A planet, as the International Astronomical Union defines it, is a body that orbits the Sun, is massive enough for its own gravity to pull it into a round shape, and has cleared its orbital path of other debris. By that measure the Solar System has exactly **eight** planets. They fall into two clear families, a divide inherited from how the [Solar System](/article/the-solar-system) formed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The four **terrestrial planets** — Mercury, Venus, Earth, and Mars — are small, dense, and rocky, with solid surfaces you could stand on. The four **giant planets** — Jupiter, Saturn, Uranus, and Neptune — are vast balls of gas and ice with no real surface at all, surrounded by rings and swarms of moons."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The order, and a way to remember it",
+        "text": "Outward from the Sun: **Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune**. A classic mnemonic is \"My Very Educated Mother Just Served Us Nachos.\" Note that the largest planets sit farthest out — a consequence of ice being abundant only in the cold outer Solar System."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Rocky Inner Worlds",
+        "id": "the-rocky-inner-worlds"
+      },
+      {
+        "type": "paragraph",
+        "text": "**Mercury**, closest to the Sun, is the smallest planet — a cratered, airless ball not much larger than the Moon. With almost no atmosphere to hold heat, it swings from scorching day to freezing night more violently than any other planet."
+      },
+      {
+        "type": "paragraph",
+        "text": "**Venus** is Earth's near-twin in size, but a hellish one. A thick atmosphere of carbon dioxide traps heat in a runaway **greenhouse effect**, making its surface hotter than Mercury's — around 465°C, hot enough to melt lead — beneath clouds of sulphuric acid. It is a sobering example of how a climate can go catastrophically wrong."
+      },
+      {
+        "type": "paragraph",
+        "text": "**Earth** is, so far, unique: the only known world with liquid water on its surface, a protective magnetic field, a breathable atmosphere, and life. Its single large [Moon](/article/the-moon) stabilises its tilt and drives the tides."
+      },
+      {
+        "type": "paragraph",
+        "text": "**Mars**, the rusty red desert world, is the most Earth-like of our neighbours and the great focus of exploration — a planet that once had rivers and lakes, and the most likely place to search for past life. Its story is told in full in [Mars](/article/mars)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Giants of the Outer System",
+        "id": "the-giants-of-the-outer-system"
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond the asteroid belt, the planets become enormous."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**Jupiter** is the king — more than twice as massive as all the other planets combined. This banded gas giant is wrapped in storms, the greatest of which, the **Great Red Spot**, has raged for centuries and is wider than the Earth. Its powerful gravity helps shield the inner planets from stray comets.",
+          "**Saturn** is famous for its breathtaking **rings**, a glittering system of countless ice and rock particles. For all its size, Saturn is so light for its volume that it would float in water.",
+          "**Uranus** is an ice giant tipped onto its side, rolling around the Sun at an extreme tilt that gives it decades-long seasons. Its pale blue-green colour comes from methane in its atmosphere.",
+          "**Neptune**, the most distant planet, is a deep blue world of supersonic winds — the fastest in the Solar System — so far from the Sun that one of its years lasts 165 of ours."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Worlds Within Worlds",
+        "id": "worlds-within-worlds"
+      },
+      {
+        "type": "paragraph",
+        "text": "The giant planets are each surrounded by their own miniature systems of moons, some of which are among the most intriguing places in the Solar System. Jupiter's **Europa** and Saturn's **Enceladus** appear to hide liquid-water oceans beneath icy crusts; Saturn's **Titan**, larger than the planet Mercury, has a dense atmosphere and seas of liquid methane. If life exists elsewhere in the Solar System, these ocean moons are among the leading places to look."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Where did Pluto go?",
+        "text": "For 76 years Pluto was counted as the ninth planet. In 2006 it was reclassified as a **dwarf planet**, because it has not cleared its orbit — it is one of many icy bodies in the Kuiper Belt. The change reflected a deeper discovery: that the Solar System holds whole populations of small worlds Pluto belongs to."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Planets Beyond the Sun",
+        "id": "planets-beyond-the-sun"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most of history, the eight planets were the only ones we knew. That changed in **1995**, when astronomers detected the first planet orbiting another Sun-like star — a discovery later honoured with a Nobel Prize. These worlds around other stars are called **exoplanets**, and we have now confirmed thousands of them, with billions more thought to exist across the Milky Way."
+      },
+      {
+        "type": "paragraph",
+        "text": "The variety is staggering: scorching \"hot Jupiters\" that hug their stars, vast \"super-Earths\" with no analogue at home, and rocky worlds orbiting in the **habitable zone**, where temperatures might allow liquid water. Each discovery widens the question that the planets first raise: how common are worlds like Earth, and might any of them be home to life?"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Gallery of Possibilities",
+        "id": "a-gallery-of-possibilities"
+      },
+      {
+        "type": "paragraph",
+        "text": "Taken together, the planets are a natural laboratory. Venus shows what a runaway greenhouse can do; Mars shows a world that lost its water and air; Jupiter shows how a giant can shepherd and protect its neighbours; the ocean moons hint that habitable conditions may be far more widespread than once believed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Studying our own eight worlds is what lets us read the billions being found elsewhere — and it shapes our ambitions for the journey ahead, from robotic explorers to human footprints on other worlds, the subject of [space missions](/article/space-missions) and [the future of space](/article/the-future-of-space)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "what-makes-a-planet",
+        "text": "What Makes a Planet",
+        "level": 2
+      },
+      {
+        "id": "the-rocky-inner-worlds",
+        "text": "The Rocky Inner Worlds",
+        "level": 2
+      },
+      {
+        "id": "the-giants-of-the-outer-system",
+        "text": "The Giants of the Outer System",
+        "level": 2
+      },
+      {
+        "id": "worlds-within-worlds",
+        "text": "Worlds Within Worlds",
+        "level": 2
+      },
+      {
+        "id": "planets-beyond-the-sun",
+        "text": "Planets Beyond the Sun",
+        "level": 2
+      },
+      {
+        "id": "a-gallery-of-possibilities",
+        "text": "A Gallery of Possibilities",
+        "level": 2
+      }
+    ],
+    "wordCount": 873
+  },
+  {
     "id": "pyramids-of-giza",
     "title": "The Pyramids of Giza",
     "category": "architecture",
@@ -1882,5 +3981,267 @@
       }
     ],
     "wordCount": 376
+  },
+  {
+    "id": "the-solar-system",
+    "title": "The Solar System",
+    "category": "universe",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "Our corner of the galaxy",
+    "lede": "One ordinary star, eight planets, scores of moons, and countless lumps of rock and ice — all bound together by gravity and born from a single collapsing cloud 4.6 billion years ago. The Solar System is the small, well-lit neighbourhood that humanity calls home.",
+    "related": [
+      "the-planets",
+      "the-big-bang",
+      "stars",
+      "mars",
+      "the-moon"
+    ],
+    "journey": [
+      {
+        "id": "the-big-bang",
+        "label": "Big Bang"
+      },
+      {
+        "id": "stars",
+        "label": "Stars"
+      },
+      {
+        "id": "black-holes",
+        "label": "Black Holes"
+      },
+      {
+        "id": "the-solar-system",
+        "label": "Solar System"
+      },
+      {
+        "id": "the-planets",
+        "label": "Planets"
+      },
+      {
+        "id": "mars",
+        "label": "Mars"
+      },
+      {
+        "id": "the-moon",
+        "label": "The Moon"
+      },
+      {
+        "id": "space-missions",
+        "label": "Space Missions"
+      },
+      {
+        "id": "the-future-of-space",
+        "label": "Future of Space"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The layout of the Solar System",
+          "caption": "The Sun, the four rocky inner planets, the asteroid belt, the four giant outer planets, and the icy realms beyond.",
+          "region": "The Solar System"
+        },
+        {
+          "title": "The Sun's reach",
+          "caption": "The heliosphere — the vast bubble of solar wind that marks the boundary between the Sun's domain and interstellar space.",
+          "region": "Interplanetary space"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Sun, our anchor",
+          "caption": "Holding 99.86 percent of all the mass in the Solar System, the Sun's gravity governs everything that orbits it.",
+          "credit": "NASA / Solar Dynamics Observatory"
+        },
+        {
+          "title": "The family portrait",
+          "caption": "A pale blue dot — Earth seen by Voyager 1 from beyond Neptune, a mote of dust in a sunbeam.",
+          "credit": "NASA / JPL, Voyager 1"
+        },
+        {
+          "title": "The protoplanetary disk",
+          "caption": "A young star ringed by the dusty disk in which planets coalesce, much as ours did 4.6 billion years ago.",
+          "credit": "ESO / ALMA"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Solar System formed",
+          "caption": "From a spinning cloud of gas and dust to a star with a family of worlds.",
+          "duration": "5:50",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "A tour from the Sun to the Oort Cloud",
+          "caption": "Crossing the true scale of the Solar System, from the inner planets to its distant icy edge.",
+          "duration": "6:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "NASA — Our Solar System",
+        "source": "NASA Science, Solar System Exploration",
+        "url": "https://science.nasa.gov/solar-system/"
+      },
+      {
+        "label": "NASA — How the Solar System formed",
+        "source": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/planets/"
+      },
+      {
+        "label": "NASA — Voyager Interstellar Mission",
+        "source": "NASA / JPL",
+        "url": "https://voyager.jpl.nasa.gov/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Born from a Cloud",
+        "id": "born-from-a-cloud"
+      },
+      {
+        "type": "paragraph",
+        "text": "About 4.6 billion years ago, in an unremarkable part of the Milky Way, a giant cloud of gas and dust — perhaps nudged by the shockwave of a nearby [supernova](/article/stars) — began to collapse under its own gravity. As it fell inward it spun faster and flattened into a swirling disk, with most of the material piling up at the centre."
+      },
+      {
+        "type": "paragraph",
+        "text": "When that central mass grew hot and dense enough, fusion ignited and the **Sun** switched on. The leftover material in the surrounding disk clumped together grain by grain, building first into pebbles, then boulders, then worlds. Everything in the Solar System — every planet, moon, asteroid, and comet — condensed from that same primordial disk, which is why they all orbit in roughly the same plane and the same direction to this day."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "One star, almost all the mass",
+        "text": "The Sun contains about 99.86 percent of all the mass in the Solar System. Everything else — all eight planets, every moon, and every asteroid combined — makes up barely a tenth of one percent. The Solar System is, overwhelmingly, the Sun plus some rounding error."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A System in Two Halves",
+        "id": "a-system-in-two-halves"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Solar System divides neatly into an inner and an outer region, separated by the asteroid belt. The split is a direct legacy of how it formed: close to the young Sun it was too hot for ices to survive, so only rock and metal could condense, while farther out, beyond the **frost line**, ice was abundant and worlds could grow huge."
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "**The inner Solar System** holds the four small, rocky **terrestrial planets** — Mercury, Venus, Earth, and Mars — dense balls of rock and iron.",
+          "**The asteroid belt** lies between Mars and Jupiter: a band of rocky debris, the rubble of a planet that never formed, kept stirred up by Jupiter's gravity.",
+          "**The outer Solar System** is the realm of the **giant planets** — Jupiter and Saturn, the gas giants, and Uranus and Neptune, the ice giants — each far larger than Earth and wreathed in moons and rings."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These worlds, and what makes each one distinct, are the subject of [the planets](/article/the-planets)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Sun: Engine and Anchor",
+        "id": "the-sun-engine-and-anchor"
+      },
+      {
+        "type": "paragraph",
+        "text": "The **Sun** is the heart of it all. Its gravity holds every planet in its orbit, and its light and warmth drive the weather, the seasons, and almost all life on Earth. A stream of charged particles called the **solar wind** blows constantly outward, carving a vast protective bubble — the **heliosphere** — around the entire planetary system."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Sun is a middling [star](/article/stars), roughly halfway through a ten-billion-year life. For now it is remarkably steady, but it is not eternal. In several billion years it will swell into a red giant, scorching the inner planets and reshaping the Solar System for its final act — a long-term fate traced in [the future of space](/article/the-future-of-space)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Moons, Rings, and Rubble",
+        "id": "moons-rings-and-rubble"
+      },
+      {
+        "type": "paragraph",
+        "text": "Planets are only the beginning. The Solar System teems with smaller bodies, many of them worlds in their own right."
+      },
+      {
+        "type": "paragraph",
+        "text": "More than **two hundred moons** orbit the planets, and some are astonishing places: Jupiter's **Europa** and Saturn's **Enceladus** hide oceans of liquid water beneath shells of ice; Saturn's **Titan** has rivers and lakes of liquid methane under a thick orange haze; and Earth's own [Moon](/article/the-moon) shaped the conditions for life on our planet."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then there are the wanderers. **Asteroids** are rocky leftovers, concentrated in the belt but scattered widely. **Comets** are icy bodies that grow glowing tails when the Sun's heat boils off their surface, swinging in from the cold outer reaches on long, looping orbits."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Why Pluto was reclassified",
+        "text": "In 2006 the International Astronomical Union defined a \"planet\" as a body that, among other things, has cleared its orbital neighbourhood of other objects. Pluto shares its region with many similar icy bodies, so it was reclassified as a **dwarf planet** — a category it shares with Ceres, Eris, and others. It was not a demotion so much as a recognition that Pluto belongs to a whole new population of worlds."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Distant Edges",
+        "id": "the-distant-edges"
+      },
+      {
+        "type": "paragraph",
+        "text": "Far beyond Neptune lies the **Kuiper Belt**, a broad ring of icy bodies — Pluto among them — that are frozen relics of the Solar System's birth. Farther still, perhaps a thousand times more distant, astronomers believe a vast spherical shell of icy debris called the **Oort Cloud** surrounds the whole system, marking the true outer boundary of the Sun's gravitational reach. It is so remote that a comet from there can take millions of years to complete a single orbit."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scale is hard to grasp. If the Sun were the size of a beach ball, Earth would be a peppercorn some 25 metres away, and the edge of the Oort Cloud would lie kilometres distant. The Solar System is mostly empty space."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Reaching Beyond",
+        "id": "reaching-beyond"
+      },
+      {
+        "type": "paragraph",
+        "text": "Only one human-made object has crossed the heliosphere into interstellar space: **Voyager 1**, launched in 1977, which slipped past the Sun's bubble in 2012 and now drifts among the stars, still faintly calling home. Its journey is the opening chapter of humanity's reach beyond our own neighbourhood — a story continued in [space missions](/article/space-missions)."
+      },
+      {
+        "type": "paragraph",
+        "text": "For all our exploration, the Solar System remains the only place we have ever directly visited, the only star we have studied up close, and — so far — the only place known to harbour life. Understanding it is how we calibrate everything else: a single, well-mapped example against which we measure the billions of other planetary systems now being discovered across the galaxy."
+      }
+    ],
+    "toc": [
+      {
+        "id": "born-from-a-cloud",
+        "text": "Born from a Cloud",
+        "level": 2
+      },
+      {
+        "id": "a-system-in-two-halves",
+        "text": "A System in Two Halves",
+        "level": 2
+      },
+      {
+        "id": "the-sun-engine-and-anchor",
+        "text": "The Sun: Engine and Anchor",
+        "level": 2
+      },
+      {
+        "id": "moons-rings-and-rubble",
+        "text": "Moons, Rings, and Rubble",
+        "level": 2
+      },
+      {
+        "id": "the-distant-edges",
+        "text": "The Distant Edges",
+        "level": 2
+      },
+      {
+        "id": "reaching-beyond",
+        "text": "Reaching Beyond",
+        "level": 2
+      }
+    ],
+    "wordCount": 911
   }
 ]

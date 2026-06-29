@@ -15,6 +15,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "black-holes",
+      "title": "Black Holes",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
       "id": "egyptian-astronomy",
       "title": "Egyptian Astronomy",
       "category": "space",
@@ -43,6 +50,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "mars",
+      "title": "Mars",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
       "id": "modern-egypt",
       "title": "Modern Egypt",
       "category": "world-history",
@@ -54,6 +68,41 @@
       "title": "Mummification",
       "category": "medicine",
       "cluster": "mind-knowledge",
+      "factStatus": "verified"
+    },
+    {
+      "id": "space-missions",
+      "title": "Space Missions",
+      "category": "space",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "stars",
+      "title": "Stars",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "the-big-bang",
+      "title": "The Big Bang",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "the-future-of-space",
+      "title": "The Future of Space",
+      "category": "future",
+      "cluster": "society-tomorrow",
+      "factStatus": "theory"
+    },
+    {
+      "id": "the-moon",
+      "title": "The Moon",
+      "category": "universe",
+      "cluster": "cosmos-earth",
       "factStatus": "verified"
     },
     {
@@ -71,10 +120,24 @@
       "factStatus": "verified"
     },
     {
+      "id": "the-planets",
+      "title": "The Planets",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
       "id": "pyramids-of-giza",
       "title": "The Pyramids of Giza",
       "category": "architecture",
       "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "the-solar-system",
+      "title": "The Solar System",
+      "category": "universe",
+      "cluster": "cosmos-earth",
       "factStatus": "verified"
     }
   ],
@@ -137,6 +200,31 @@
     {
       "source": "ancient-egypt",
       "target": "egyptian-astronomy",
+      "resolved": true
+    },
+    {
+      "source": "black-holes",
+      "target": "stars",
+      "resolved": true
+    },
+    {
+      "source": "black-holes",
+      "target": "the-big-bang",
+      "resolved": true
+    },
+    {
+      "source": "black-holes",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "black-holes",
+      "target": "space-missions",
+      "resolved": true
+    },
+    {
+      "source": "black-holes",
+      "target": "the-future-of-space",
       "resolved": true
     },
     {
@@ -210,6 +298,31 @@
       "resolved": false
     },
     {
+      "source": "mars",
+      "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "mars",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "mars",
+      "target": "the-moon",
+      "resolved": true
+    },
+    {
+      "source": "mars",
+      "target": "space-missions",
+      "resolved": true
+    },
+    {
+      "source": "mars",
+      "target": "the-future-of-space",
+      "resolved": true
+    },
+    {
       "source": "modern-egypt",
       "target": "ancient-egypt",
       "resolved": true
@@ -240,6 +353,76 @@
       "resolved": true
     },
     {
+      "source": "space-missions",
+      "target": "the-moon",
+      "resolved": true
+    },
+    {
+      "source": "space-missions",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "space-missions",
+      "target": "the-future-of-space",
+      "resolved": true
+    },
+    {
+      "source": "stars",
+      "target": "the-big-bang",
+      "resolved": true
+    },
+    {
+      "source": "stars",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "stars",
+      "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "stars",
+      "target": "the-future-of-space",
+      "resolved": true
+    },
+    {
+      "source": "the-big-bang",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "the-big-bang",
+      "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "the-big-bang",
+      "target": "the-future-of-space",
+      "resolved": true
+    },
+    {
+      "source": "the-future-of-space",
+      "target": "the-moon",
+      "resolved": true
+    },
+    {
+      "source": "the-future-of-space",
+      "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "the-moon",
+      "target": "the-planets",
+      "resolved": true
+    },
+    {
+      "source": "the-moon",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
       "source": "nile-river",
       "target": "earth",
       "resolved": false
@@ -258,6 +441,11 @@
       "source": "the-pharaoh",
       "target": "kingdoms-empires",
       "resolved": false
+    },
+    {
+      "source": "the-planets",
+      "target": "the-solar-system",
+      "resolved": true
     }
   ]
 }
