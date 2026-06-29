@@ -50,6 +50,19 @@ export function CommandPalette() {
     }
   }, [open])
 
+  // Global ⌃G / ⌘G — jump straight to the Knowledge Map.
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'g') {
+        e.preventDefault()
+        closePalette()
+        navigate('/graph')
+      }
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [navigate, closePalette])
+
   const go = (result: SearchResult) => {
     closePalette()
     navigate(result.kind === 'category' ? `/category/${result.id}` : `/article/${result.id}`)

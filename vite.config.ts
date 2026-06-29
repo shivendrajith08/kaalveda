@@ -46,6 +46,22 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (!id.includes('node_modules')) return undefined
+          // Keep the force-graph + d3 stack in its own chunk so it only loads
+          // with the lazy /graph route, never on first paint.
+          if (
+            id.includes('force-graph') ||
+            id.includes('react-kapsule') ||
+            id.includes('kapsule') ||
+            id.includes('d3-') ||
+            id.includes('accessor-fn') ||
+            id.includes('bezier-js') ||
+            id.includes('canvas-color-tracker') ||
+            id.includes('float-tooltip') ||
+            id.includes('index-array-by') ||
+            id.includes('@tweenjs') ||
+            id.includes('lodash-es')
+          )
+            return 'graph'
           if (id.includes('framer-motion')) return 'motion'
           if (id.includes('react-router') || id.includes('@remix-run')) return 'router'
           if (id.includes('@supabase')) return 'supabase'

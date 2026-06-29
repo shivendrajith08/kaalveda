@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils'
 const links = [
   { to: '/explore', label: 'Atlas' },
   { to: '/category/ancient-civilizations', label: 'Categories' },
+  { to: '/graph', label: 'Knowledge Map' },
   { to: '/about', label: 'About' },
 ]
 

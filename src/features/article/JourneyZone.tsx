@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { MapPin, ArrowRight, Compass, Sparkles, Lock } from 'lucide-react'
+import { MapPin, ArrowRight, Compass, Sparkles, Lock, Share2 } from 'lucide-react'
 import type { Article } from '@/types'
 import {
   resolveJourney,
@@ -168,6 +168,15 @@ export function JourneyZone({ article }: { article: Article }) {
           </div>
         </section>
       )}
+
+      <Link
+        to={`/graph?from=${article.id}`}
+        className="group flex items-center justify-center gap-2 rounded-lg border border-border px-3 py-2.5 text-sm font-medium text-muted transition-colors hover:border-border-strong hover:bg-gold/5 hover:text-gold"
+      >
+        <Share2 size={15} className="text-gold" />
+        View in Graph
+        <ArrowRight size={14} className="transition-transform group-hover:translate-x-0.5" />
+      </Link>
     </aside>
   )
 }
