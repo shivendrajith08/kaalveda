@@ -15,6 +15,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "rome",
+      "title": "Ancient Rome",
+      "category": "ancient-civilizations",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
       "id": "black-holes",
       "title": "Black Holes",
       "category": "universe",
@@ -50,6 +57,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "julius-caesar",
+      "title": "Julius Caesar",
+      "category": "kingdoms-empires",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
       "id": "mars",
       "title": "Mars",
       "category": "universe",
@@ -68,6 +82,27 @@
       "title": "Mummification",
       "category": "medicine",
       "cluster": "mind-knowledge",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-engineering",
+      "title": "Roman Engineering",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-religion",
+      "title": "Roman Gods & Religion",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-mythology",
+      "title": "Roman Mythology",
+      "category": "mythology",
+      "cluster": "belief-story",
       "factStatus": "verified"
     },
     {
@@ -90,6 +125,13 @@
       "category": "universe",
       "cluster": "cosmos-earth",
       "factStatus": "verified"
+    },
+    {
+      "id": "fall-of-rome",
+      "title": "The Fall of Rome",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "theory"
     },
     {
       "id": "the-future-of-space",
@@ -131,6 +173,27 @@
       "title": "The Pyramids of Giza",
       "category": "architecture",
       "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-empire",
+      "title": "The Roman Empire",
+      "category": "kingdoms-empires",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-army",
+      "title": "The Roman Legions",
+      "category": "wars",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "roman-republic",
+      "title": "The Roman Republic",
+      "category": "ancient-civilizations",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -200,6 +263,46 @@
     {
       "source": "ancient-egypt",
       "target": "egyptian-astronomy",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "roman-republic",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "roman-army",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "julius-caesar",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "rome",
+      "target": "ancient-egypt",
       "resolved": true
     },
     {
@@ -298,6 +401,26 @@
       "resolved": false
     },
     {
+      "source": "julius-caesar",
+      "target": "roman-republic",
+      "resolved": true
+    },
+    {
+      "source": "julius-caesar",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "julius-caesar",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "julius-caesar",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
       "source": "mars",
       "target": "the-planets",
       "resolved": true
@@ -353,6 +476,66 @@
       "resolved": true
     },
     {
+      "source": "roman-engineering",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "roman-engineering",
+      "target": "roman-army",
+      "resolved": true
+    },
+    {
+      "source": "roman-engineering",
+      "target": "ancient-architecture",
+      "resolved": true
+    },
+    {
+      "source": "roman-engineering",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "roman-religion",
+      "target": "roman-mythology",
+      "resolved": true
+    },
+    {
+      "source": "roman-religion",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "roman-religion",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "roman-religion",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "roman-religion",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "roman-mythology",
+      "target": "rome",
+      "resolved": true
+    },
+    {
+      "source": "roman-mythology",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "roman-mythology",
+      "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
       "source": "space-missions",
       "target": "the-moon",
       "resolved": true
@@ -403,6 +586,16 @@
       "resolved": true
     },
     {
+      "source": "fall-of-rome",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "fall-of-rome",
+      "target": "roman-army",
+      "resolved": true
+    },
+    {
       "source": "the-future-of-space",
       "target": "the-moon",
       "resolved": true
@@ -445,6 +638,31 @@
     {
       "source": "the-planets",
       "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "roman-empire",
+      "target": "roman-republic",
+      "resolved": true
+    },
+    {
+      "source": "roman-empire",
+      "target": "roman-army",
+      "resolved": true
+    },
+    {
+      "source": "roman-empire",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "roman-army",
+      "target": "roman-republic",
+      "resolved": true
+    },
+    {
+      "source": "roman-republic",
+      "target": "roman-religion",
       "resolved": true
     }
   ]

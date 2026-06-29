@@ -189,6 +189,118 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'rome',
+    title: 'Test Your Knowledge: Ancient Rome',
+    description:
+      'Eight questions across a thousand years of Rome — from the founding to the fall. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'According to tradition, who founded Rome in 753 BCE?',
+        options: [
+          { id: 'a', text: 'Romulus' },
+          { id: 'b', text: 'Aeneas' },
+          { id: 'c', text: 'Julius Caesar' },
+          { id: 'd', text: 'Augustus' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Legend credits Romulus, who is said to have killed his twin Remus and named the city for himself. Aeneas was the earlier Trojan ancestor of the Roman line.',
+      },
+      {
+        id: 'q2',
+        prompt: 'What replaced the monarchy when the Romans expelled their last king in 509 BCE?',
+        options: [
+          { id: 'a', text: 'The Republic' },
+          { id: 'b', text: 'The Empire' },
+          { id: 'c', text: 'A military dictatorship' },
+          { id: 'd', text: 'Direct democracy' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Romans founded the Republic — a balance of elected consuls, the Senate and citizen assemblies — and swore never again to be ruled by a king.',
+      },
+      {
+        id: 'q3',
+        prompt: 'Two officials shared the highest office of the Republic, each able to veto the other. What were they called?',
+        options: [
+          { id: 'a', text: 'Consuls' },
+          { id: 'b', text: 'Tribunes' },
+          { id: 'c', text: 'Senators' },
+          { id: 'd', text: 'Emperors' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Two consuls were elected jointly for a single year, each holding a veto over the other so that no one man could seize total power.',
+      },
+      {
+        id: 'q4',
+        prompt: 'Against which rival city did Rome fight the Punic Wars, facing the general Hannibal?',
+        options: [
+          { id: 'a', text: 'Carthage' },
+          { id: 'b', text: 'Athens' },
+          { id: 'c', text: 'Alexandria' },
+          { id: 'd', text: 'Troy' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The three Punic Wars were fought against Carthage in North Africa. Despite Hannibal’s devastating invasion of Italy, Rome won and took the western Mediterranean.',
+      },
+      {
+        id: 'q5',
+        prompt: 'What did Julius Caesar do in 49 BCE that began a civil war and signalled the end of the Republic?',
+        options: [
+          { id: 'a', text: 'He crossed the Rubicon with his army' },
+          { id: 'b', text: 'He was crowned king' },
+          { id: 'c', text: 'He burned the Senate house' },
+          { id: 'd', text: 'He conquered Egypt' },
+        ],
+        answerId: 'a',
+        explanation:
+          'By leading his army across the Rubicon — the river a general was forbidden to cross under arms — Caesar declared war on the Senate. "The die is cast," he is said to have remarked.',
+      },
+      {
+        id: 'q6',
+        prompt: 'Who became Rome’s first emperor, ruling as "first citizen" from 27 BCE?',
+        options: [
+          { id: 'a', text: 'Augustus' },
+          { id: 'b', text: 'Nero' },
+          { id: 'c', text: 'Constantine' },
+          { id: 'd', text: 'Marcus Aurelius' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Octavian, Caesar’s adopted heir, took the name Augustus and ruled as princeps — a monarch in republican dress — founding the Empire and the Pax Romana.',
+      },
+      {
+        id: 'q7',
+        prompt: 'What volcanic-ash building material let the Romans cast structures like the Pantheon’s dome?',
+        options: [
+          { id: 'a', text: 'Concrete made with pozzolana' },
+          { id: 'b', text: 'Reinforced steel' },
+          { id: 'c', text: 'Polished granite' },
+          { id: 'd', text: 'Sun-dried mud brick' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Roman concrete mixed lime and rubble with pozzolana, a volcanic ash, producing a material that could be poured into any shape and even set underwater — the Pantheon’s dome is still the largest unreinforced concrete dome on Earth.',
+      },
+      {
+        id: 'q8',
+        prompt: 'In what year is the Western Roman Empire traditionally said to have fallen?',
+        options: [
+          { id: 'a', text: '476 CE' },
+          { id: 'b', text: '44 BCE' },
+          { id: 'c', text: '1453 CE' },
+          { id: 'd', text: '117 CE' },
+        ],
+        answerId: 'a',
+        explanation:
+          'In 476 CE the general Odoacer deposed the last western emperor, Romulus Augustulus. The Eastern (Byzantine) Empire, however, endured until 1453.',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

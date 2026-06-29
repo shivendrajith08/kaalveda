@@ -472,6 +472,152 @@
     "wordCount": 1196
   },
   {
+    "id": "rome",
+    "title": "Ancient Rome",
+    "category": "ancient-civilizations",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "From village to world-empire",
+    "lede": "From a cluster of huts on seven hills above the Tiber, Rome grew into a civilization that ruled the Mediterranean world for a thousand years — and whose law, language, roads, and idea of the city still run beneath the modern West like buried foundations.",
+    "related": [
+      "roman-republic",
+      "roman-empire",
+      "roman-army",
+      "roman-engineering",
+      "roman-religion",
+      "julius-caesar",
+      "fall-of-rome",
+      "ancient-egypt"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Seven Hills of Rome",
+          "caption": "The Palatine, Capitoline, Aventine and their neighbours, hemmed by a bend in the Tiber where the first settlements grew together.",
+          "region": "Central Italy"
+        },
+        {
+          "title": "The Empire at its Height",
+          "caption": "Under Trajan in 117 CE the Roman world stretched from the Atlantic to the Persian Gulf, ringing the Mediterranean it called \"Mare Nostrum.\"",
+          "region": "Europe, North Africa, Near East"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Roman Forum",
+          "caption": "The political and commercial heart of the city, where temples, basilicas and the Senate house framed daily public life.",
+          "credit": "Forum Romanum, Rome"
+        },
+        {
+          "title": "The Colossus of the Capitoline She-Wolf",
+          "caption": "The bronze wolf suckling Romulus and Remus — Rome's founding myth cast in metal.",
+          "credit": "Capitoline Museums"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A walk through the Forum",
+          "caption": "A reconstruction of the civic centre of the ancient city as it stood under the emperors.",
+          "duration": "5:40",
+          "provider": "KaalVeda Atlas"
+        },
+        {
+          "title": "How a village became an empire",
+          "caption": "Seven centuries of expansion compressed into a single sweep across the map.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "rome",
+      "quiz": "rome"
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Roman Empire",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Ancient Rome",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/ancient-Rome"
+      },
+      {
+        "label": "The Met — Roman Art",
+        "source": "The Metropolitan Museum of Art, Department of Greek and Roman Art",
+        "url": "https://www.metmuseum.org/about-the-met/collection-areas/greek-and-roman-art"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A City Born of the Tiber",
+        "id": "a-city-born-of-the-tiber"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rome began where geography invited it. A bend in the river Tiber, fordable yet defensible, lay a short way inland from the sea — close enough to trade, far enough to be safe from pirates. Around it rose a ring of low hills whose villages, over generations, grew together into a single town. Tradition fixed the founding in **753 BCE** and gave it to **Romulus**, who according to legend killed his twin **Remus** and named the city for himself. The truth was slower and less dramatic: Rome was not founded so much as it accumulated, a settlement of Latins and Sabines that learned early to absorb its neighbours rather than merely conquer them."
+      },
+      {
+        "type": "paragraph",
+        "text": "That instinct for absorption became Rome's genius. Where other ancient cities guarded citizenship jealously, Rome extended it — first to defeated Latin towns, later to whole provinces — until a man born in Spain, Africa, or Syria could call himself Roman and even rule as emperor. A city that might have remained one town among many instead became a machine for turning outsiders into citizens."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Rome's secret weapon was citizenship",
+        "text": "Most ancient empires ruled subjects. Rome, uniquely, manufactured Romans. By steadily widening who counted as one of its own, it bound conquered peoples to its fortunes — and gave them a stake in defending it. ## Three Constitutions, One Name The thousand-year arc of Rome falls into three great political ages. It began as a **monarchy**, ruled by kings — some Latin, some Etruscan — until, tradition says, the Romans expelled the tyrant Tarquin in **509 BCE** and swore never again to bow to a king. What replaced him was the [Roman Republic](/article/roman-republic): a layered system of elected magistrates, a powerful Senate, and popular assemblies, designed so that no single man could seize total power. For nearly five centuries the Republic carried Rome from a regional power to the master of the Mediterranean. But the very conquests that made it great also broke it. Generals grew richer and more loyal to their armies than to the state, and a century of civil wars ended only when one man, the adopted heir of [Julius Caesar](/article/julius-caesar), gathered every office into his own hands. As **Augustus**, he founded the [Roman Empire](/article/roman-empire) in **27 BCE** — a monarchy in all but name, which Romans accepted because it brought peace. ## What Rome Built Roman power rested on more than [the legions](/article/roman-army). It rested on organisation made visible in stone. Roads ran arrow-straight across whole provinces; aqueducts carried mountain water into city fountains; concrete vaults spanned spaces no Greek architect had dared. The achievements of [Roman engineering](/article/roman-engineering) were not decoration but infrastructure — the plumbing of empire, built to move armies, grain, and water with relentless efficiency. Above all, Rome built **law**. The idea that authority should rest on written, public rules rather than the whim of a ruler; that a person was innocent until proven guilty; that contracts and property had standing a magistrate must respect — these Roman habits of mind passed into the legal systems of Europe and, through them, much of the world. > They make a desert and call it peace. The historian Tacitus put those bitter words in the mouth of a conquered chieftain, and they capture the cost of Rome honestly. Empire was built on conquest, slavery, and the crushing of those who resisted. Yet within its borders Rome also built something durable: two centuries of relative peace, the **Pax Romana**, in which trade, cities, and ideas flowed freely from Britain to the Euphrates. ## A Mediterranean World Rome did not rule in isolation. Its world was the whole Mediterranean basin, and it drank deeply from the cultures it absorbed. It took its gods and much of its art from Greece; it fed its people on Egyptian grain and was bewitched by Egyptian style, weaving the worship of **Isis** into its own [religion](/article/roman-religion). When Caesar sailed to [Egypt](/article/ancient-egypt) and met Cleopatra, two ancient worlds met at the height of their fame. :::note An empire that never quite ended When the western emperors fell in 476 CE, Rome's eastern half lived on for another thousand years as Byzantium, and its Church, law, and Latin tongue shaped everything after. Rome did not so much die as dissolve into the foundations of the world that followed — a story the [fall of Rome](/article/fall-of-rome) tells in full. To study Rome is to study how a community organises power, defends itself, and decides who belongs — the oldest questions of political life, asked at the scale of a continent and answered, for a thousand years, in Latin."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-city-born-of-the-tiber",
+        "text": "A City Born of the Tiber",
+        "level": 2
+      }
+    ],
+    "wordCount": 768
+  },
+  {
     "id": "black-holes",
     "title": "Black Holes",
     "category": "universe",
@@ -1391,6 +1537,158 @@
     "wordCount": 295
   },
   {
+    "id": "julius-caesar",
+    "title": "Julius Caesar",
+    "category": "kingdoms-empires",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "The man who broke the Republic",
+    "lede": "Soldier, statesman, and writer of genius, Julius Caesar conquered Gaul, crossed the Rubicon into civil war, loved a queen of Egypt, and made himself master of Rome — only to fall beneath the daggers of senators who killed him to save a Republic that died with him anyway.",
+    "related": [
+      "roman-republic",
+      "roman-empire",
+      "rome",
+      "the-pharaoh",
+      "ancient-egypt"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Conquest of Gaul",
+          "caption": "Caesar's eight-year campaign (58–50 BCE) brought all of modern France and Belgium under Roman rule and made him the richest man in the state.",
+          "region": "Gaul"
+        },
+        {
+          "title": "The Civil War",
+          "caption": "From the Rubicon to Pharsalus to Egypt — the campaigns by which Caesar defeated Pompey and the Senate.",
+          "region": "Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Tusculum portrait",
+          "caption": "One of the few likenesses of Caesar carved within living memory of the man himself.",
+          "credit": "Museo di Antichità, Turin"
+        },
+        {
+          "title": "Caesar and Cleopatra",
+          "caption": "The Roman general and the last pharaoh of Egypt — a political alliance that became a legend.",
+          "credit": "48–47 BCE, Alexandria"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Crossing the Rubicon",
+          "caption": "The day a general led his army against his own city and changed the course of Roman history.",
+          "duration": "4:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Julius Caesar — Commentarii de Bello Gallico",
+        "source": "Caesar's own account of the Gallic War (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/julius_caesar-gallic_war/1917/pb_LCL072.3.xml"
+      },
+      {
+        "label": "Suetonius — The Life of the Deified Julius",
+        "source": "Suetonius, The Twelve Caesars (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/suetonius-lives_caesars_book_i_julius/1914/pb_LCL031.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Julius Caesar",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler-and-statesman"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Patrician on the Rise",
+        "id": "a-patrician-on-the-rise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gaius Julius Caesar was born in **100 BCE** into an old but faded patrician family that claimed descent from the goddess **Venus** herself — a pedigree he would later turn to political advantage. He came of age in the violent, factional Rome of [the late Republic](/article/roman-republic), where the murders of Marius and Sulla had shown that armies, not arguments, now decided who ruled. A gifted speaker and a shameless borrower of money, Caesar climbed the ladder of offices by charm, bribery, and an unfailing instinct for where power was moving."
+      },
+      {
+        "type": "paragraph",
+        "text": "His decisive move was an alliance. In **60 BCE** he joined with Rome's richest man, **Crassus**, and its greatest general, **Pompey**, in the informal pact historians call the First Triumvirate. With their backing he won the consulship — and then the prize that would make him: a long military command in Gaul."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Conquest of Gaul",
+        "id": "the-conquest-of-gaul"
+      },
+      {
+        "type": "paragraph",
+        "text": "For eight years Caesar waged war across the lands of modern France and Belgium, and even raided Britain and crossed the Rhine into Germany. By the campaign's end he had defeated hundreds of tribes, killed or enslaved enormous numbers, and added a vast new province to the empire. He recorded it all himself in the *Commentaries on the Gallic War*, a masterpiece of clear Latin prose written, tellingly, in the third person — propaganda so well crafted that it is still read as literature two thousand years later."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Caesar wrote his own legend",
+        "text": "By publishing dispatches in plain, vivid Latin, Caesar made himself the hero of his own story in the minds of ordinary Romans. He understood, as few generals have, that the account of a victory can matter as much as the victory itself. Gaul made Caesar fabulously rich and gave him a battle-hardened [army](/article/roman-army) devoted to him personally. To the frightened Senate, that combination looked exactly like the tyranny the Republic had been built to prevent. ## Crossing the Rubicon When the Senate, prodded by Pompey, ordered Caesar to disband his army and return to Rome as a private citizen — where his enemies waited to destroy him — he chose war instead. In **January 49 BCE** he led a single legion across the **Rubicon**, the small river marking the boundary a general was forbidden to cross under arms. > The die is cast. With those words, tradition says, he plunged Rome into civil war. The campaign that followed carried him the length of the Mediterranean. He broke Pompey's larger army at **Pharsalus** in Greece, and when Pompey fled to [Egypt](/article/ancient-egypt), Caesar pursued. ## Egypt and Cleopatra In Alexandria, Caesar was drawn into a dynastic quarrel of the Ptolemies and into the arms of **Cleopatra VII**, the brilliant young queen who would become the last [pharaoh](/article/the-pharaoh) of Egypt. He restored her to a throne she shared, fathered a son she named Caesarion, and lingered in the richest kingdom of the ancient world. The meeting of the Roman master of the west and the Greek queen of the Nile became one of history's enduring legends — and bound Rome's fate ever closer to Egypt's grain and gold. ## The Ides of March Returning to Rome supreme, Caesar gathered every honour into himself: **dictator for life**, his image on the coinage, a month renamed *July* in his honour. He reformed the calendar, relieved debt, and planned grand works — but he also wore the trappings of a king in a city that still swore its old oath against them. To a band of senators led by **Brutus** and **Cassius**, this was tyranny that had to be cut out. On **15 March 44 BCE** — the Ides of March — they surrounded him in the Senate and stabbed him twenty-three times at the foot of Pompey's statue. :::note The murder that backfired The assassins killed Caesar to save the Republic, but they had no plan for what came next. Their act unleashed another round of civil war, at the end of which Caesar's heir Octavian — soon to be **Augustus** — gathered all power into one pair of hands and founded the [Roman Empire](/article/roman-empire). In death Caesar achieved what the conspirators most feared: he became a god, and his name became the very word for emperor — *Kaiser*, *Tsar*, *Caesar*."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-patrician-on-the-rise",
+        "text": "A Patrician on the Rise",
+        "level": 2
+      },
+      {
+        "id": "the-conquest-of-gaul",
+        "text": "The Conquest of Gaul",
+        "level": 2
+      }
+    ],
+    "wordCount": 705
+  },
+  {
     "id": "mars",
     "title": "Mars",
     "category": "universe",
@@ -1928,6 +2226,412 @@
       }
     ],
     "wordCount": 349
+  },
+  {
+    "id": "roman-engineering",
+    "title": "Roman Engineering",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "The empire built in concrete and stone",
+    "lede": "The Romans were not the most original artists of the ancient world, but they were its supreme engineers — masters of the arch, the vault, and a concrete that set underwater, who built roads, aqueducts, and domes so well that many still stand, and stand in use, two thousand years on.",
+    "related": [
+      "rome",
+      "roman-empire",
+      "roman-army",
+      "ancient-architecture",
+      "pyramids-of-giza"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Road Network",
+          "caption": "Some 400,000 km of roads, 80,000 of them stone-paved, bound the empire so tightly that \"all roads lead to Rome.\"",
+          "region": "Across the empire"
+        },
+        {
+          "title": "Aqueducts of Rome",
+          "caption": "Eleven great aqueducts carried over a million cubic metres of water a day into the capital's fountains, baths and homes.",
+          "region": "Latium"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Pont du Gard",
+          "caption": "A three-tiered aqueduct bridge in southern France, raised without mortar, carrying water across a river valley for nineteen centuries.",
+          "credit": "Nîmes, c. 1st century CE"
+        },
+        {
+          "title": "The dome of the Pantheon",
+          "caption": "A perfect hemisphere of graded concrete, lighter aggregate near its open eye (oculus) — still the largest unreinforced dome ever built.",
+          "credit": "Rome, c. 125 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The secret of Roman concrete",
+          "caption": "Why a volcanic-ash mortar that the Romans poured into the sea has outlasted modern cement — and heals its own cracks.",
+          "duration": "5:55",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Vitruvius — De Architectura",
+        "source": "Vitruvius, Ten Books on Architecture (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/vitruvius-architecture/1931/pb_LCL251.3.xml"
+      },
+      {
+        "label": "The Met — Roman Architecture",
+        "source": "The Metropolitan Museum of Art, Department of Greek and Roman Art",
+        "url": "https://www.metmuseum.org/about-the-met/collection-areas/greek-and-roman-art"
+      },
+      {
+        "label": "UNESCO — Pont du Gard",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/344"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Arch That Carried an Empire",
+        "id": "the-arch-that-carried-an-empire"
+      },
+      {
+        "type": "paragraph",
+        "text": "The single idea at the heart of Roman building is the **arch**. The Greeks before them spanned space with beams laid across columns, which limited how far they could reach. The Romans took the rounded arch — borrowed from the Etruscans — and ran with it: an arch repeated in a line becomes an arcade, rotated around a point becomes a **dome**, and extended in depth becomes a **vault**. With these three forms the Romans could enclose vast interior spaces no earlier architecture had dared, and carry enormous loads across long spans."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where the [pyramids of Egypt](/article/pyramids-of-giza) were mountains of solid stone, monuments to mass, Roman buildings were about *space* — the air enclosed beneath a vault, the crowd a basilica could shelter. It was a fundamentally different ambition: not to pile up stone but to roof the void."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A revolution in material",
+        "text": "The Greeks built the more beautiful temples; the Romans built the more useful world. Their engineering was civic — roads, drains, bridges, baths, harbours — infrastructure meant to serve millions rather than to awe them. ## Concrete: The Liquid Stone The Roman secret was a building material the world then forgot for a thousand years: **opus caementicium**, Roman concrete. By mixing lime, water, rubble, and above all **pozzolana** — a volcanic ash from the Bay of Naples — they made a substance that could be poured into any shape, that grew stronger as it cured, and that, astonishingly, set hard even underwater. This was the material that made the impossible ordinary. It let the Romans cast the **Pantheon's** dome — a perfect hemisphere over forty metres across, lightened with hollow coffers and a graded aggregate that grows lighter toward its open eye, and still, after nineteen centuries, the largest unreinforced concrete dome on Earth. Modern study has found that Roman seawater concrete actually *heals its own cracks* as minerals crystallise in them, which is why their harbour walls have outlasted structures poured last century. ## Roads, Water, and the Plumbing of Power An empire is only as strong as its ability to move — armies, grain, messages, water — and the Romans engineered movement on a scale unmatched until the modern age. They laid some **400,000 kilometres of roads**, built in deep, drained layers and driven so straight across the landscape that surveyors' lines are still visible from the air. Over these the [legions](/article/roman-army) marched and the post rode; the proverb that \"all roads lead to Rome\" was a literal map. > Will anyone compare the idle Pyramids, or those useless though renowned works of the Greeks, with these aqueducts? So wrote Frontinus, Rome's water commissioner, with a patriot's pride. The **aqueducts** were his marvel — channels that carried water by the gentlest of gravity gradients across tens of kilometres, dipping underground and striding over valleys on arched bridges like the **Pont du Gard**, to pour endlessly into the fountains, latrines, and great public **baths** of the cities. Beneath the streets, sewers like the **Cloaca Maxima** carried the waste away. No ancient people had ever lived so clean, or so well-watered. ## A Legacy Set in Stone Roman engineering outlived Rome itself. The roads guided medieval travellers and modern motorways alike; the arch and dome passed through Byzantium and the Renaissance into the domes of cathedrals and capitols; and the recipe for a durable concrete so haunted later builders that recovering it became a quest. The [empire](/article/roman-empire) fell, but its bridges still carry traffic, its aqueducts still channel water, and its buildings still teach engineers — the most practical immortality any civilisation has achieved."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-arch-that-carried-an-empire",
+        "text": "The Arch That Carried an Empire",
+        "level": 2
+      }
+    ],
+    "wordCount": 599
+  },
+  {
+    "id": "roman-religion",
+    "title": "Roman Gods & Religion",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "A bargain with the gods",
+    "lede": "Roman religion was less a matter of belief than of duty — a vast, practical contract with the gods, kept through exact ritual to secure their favour for the state. Tolerant of almost every faith it met, it absorbed the gods of Greece and Egypt alike, until a new religion from its eastern edge transformed the empire and Rome itself.",
+    "related": [
+      "rome",
+      "roman-mythology",
+      "roman-empire",
+      "egyptian-religion",
+      "ancient-egypt",
+      "fall-of-rome"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Temples of the Forum",
+          "caption": "The civic centre of Rome was crowded with temples — to Jupiter, Saturn, Vesta and the deified emperors — religion and politics inseparable.",
+          "region": "Rome"
+        },
+        {
+          "title": "Cults of the Empire",
+          "caption": "From Egyptian Isis to Persian Mithras, the faiths of the conquered world flowed into Rome along its trade routes.",
+          "region": "Across the empire"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Temple of Vesta",
+          "caption": "Home of the sacred flame tended by the Vestal Virgins, whose purity was believed to guard the safety of Rome itself.",
+          "credit": "Roman Forum"
+        },
+        {
+          "title": "The Maison Carrée",
+          "caption": "One of the best-preserved Roman temples, raised in Gaul to the imperial cult of Augustus's heirs.",
+          "credit": "Nîmes, c. 4–7 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Roman religious calendar",
+          "caption": "A year crowded with festivals, sacrifices and omens — how the Romans kept their bargain with the gods.",
+          "duration": "5:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Roman Religion",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Roman Religion",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Roman-religion"
+      },
+      {
+        "label": "The Met — Religion in the Roman World",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Do Ut Des — \"I Give That You May Give\"",
+        "id": "do-ut-des-i-give-that-you-may-give"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roman religion began not with faith but with a contract. Its guiding principle, *do ut des*, \"I give that you may give,\" captured an essentially practical relationship: the worshipper made the correct offering with the correct words, and in return the god granted favour — a good harvest, a safe voyage, victory in war. What mattered was not what one felt in the heart but what one performed with exact, unbroken precision. A single mistake in a prayer or sacrifice could void the whole rite, and it would have to begin again."
+      },
+      {
+        "type": "paragraph",
+        "text": "This was a religion of duty rather than emotion, and it ran through every level of life. Each household honoured its own guardian spirits — the **Lares** and **Penates** of the hearth — and the state maintained a great public priesthood, headed by the **pontifex maximus**, to keep Rome's collective bargain with the gods. When [Augustus](/article/roman-empire) and his successors took that title, religion and government became one."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Ritual over belief",
+        "text": "There was no Roman creed, no holy book demanding faith. One could think what one liked about the gods so long as one performed the public rites. This made Roman religion remarkably tolerant of others — and made its later clash with Christianity, which demanded exclusive belief, all the harder to comprehend. ## The Gods of the State At the summit stood the **Capitoline Triad** — **Jupiter**, king of the gods and guardian of the state; **Juno**, his queen; and **Minerva**, goddess of wisdom and craft — enthroned in their great temple on the Capitoline Hill. Around them ranged a familiar pantheon: **Mars** of war, **Venus** of love, **Neptune** of the sea, **Mercury** of trade and messages. Most of these the Romans had matched, name for name, with the gods of Greece, taking over their stories wholesale into [Roman mythology](/article/roman-mythology). > While the Vestals' flame burns, Rome shall stand. The deepest reverence was reserved for **Vesta**, goddess of the hearth, whose eternal flame in the Forum was tended by the **Vestal Virgins**. These six priestesses, sworn to chastity for thirty years, held a status no other Roman women approached — and it was believed that if their flame went out, or their vows were broken, the city itself was in peril. ## Reading the Will of Heaven Because the gods were partners to be consulted, the Romans were obsessed with reading their intentions. Before any great public act, priests called **augurs** watched the flight of birds, and **haruspices** inspected the livers of sacrificed animals, for signs of divine approval or warning. Armies carried sacred chickens whose appetite could decide whether to give battle. To act against the omens was not mere bad luck but impiety — a breach of the contract that could doom the venture. ## A World of Imported Gods Rome's tolerance made it a magnet for the gods of every land it touched. From [Egypt](/article/ancient-egypt) came the worship of **Isis**, whose mystery cult of death and rebirth spread across the empire and whose temples rose even in Rome — a direct thread linking Roman devotion back to [Egyptian religion](/article/egyptian-religion). From Persia came **Mithras**, worshipped by soldiers in underground temples. These **mystery cults** offered something the old state religion did not: a personal bond with a god and the promise of life beyond death. :::caution The faith that would not bargain Into this crowded spiritual marketplace came **Christianity**, a faith from the empire's eastern edge that refused the one thing Rome asked — a pinch of incense to the gods of the state and the divine emperor. That refusal brought persecution, but the new religion grew regardless, until in 313 CE **Constantine** legalised it and within a century it became the empire's official faith. The old gods fell silent, and the story of Rome's religion became part of the story of [Rome's transformation and fall](/article/fall-of-rome)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "do-ut-des-i-give-that-you-may-give",
+        "text": "Do Ut Des — \"I Give That You May Give\"",
+        "level": 2
+      }
+    ],
+    "wordCount": 646
+  },
+  {
+    "id": "roman-mythology",
+    "title": "Roman Mythology",
+    "category": "mythology",
+    "factStatus": "verified",
+    "readMins": 7,
+    "eyebrow": "The stories Rome told itself",
+    "lede": "Roman mythology borrowed the gods and tales of Greece and bent them to a purpose all its own — to explain not the cosmos but Rome itself. Its great myths are foundation stories, written to prove that the city on the Tiber was destined by the gods to rule the world.",
+    "related": [
+      "roman-religion",
+      "rome",
+      "egyptian-religion",
+      "the-pharaoh"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Voyage of Aeneas",
+          "caption": "From burning Troy across the Mediterranean to the shores of Italy — the legendary journey that linked Rome to the Greek heroic age.",
+          "region": "Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Capitoline Wolf",
+          "caption": "The she-wolf suckling the infant twins Romulus and Remus — Rome's founding image, cast in bronze.",
+          "credit": "Capitoline Museums"
+        },
+        {
+          "title": "Aeneas fleeing Troy",
+          "caption": "The hero carrying his aged father Anchises from the flames — the Roman ideal of pietas, duty to family and gods, made visible.",
+          "credit": "Roman relief"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Romulus, Remus and the founding",
+          "caption": "The myth of the twins, the wolf and the founding of Rome — and the murder at its heart.",
+          "duration": "4:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Virgil — The Aeneid",
+        "source": "Virgil, Aeneid (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/virgil-aeneid/1916/pb_LCL063.3.xml"
+      },
+      {
+        "label": "Livy — The Early History of Rome",
+        "source": "Livy, Ab Urbe Condita, Book I (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/livy-history_rome_1/1919/pb_LCL114.3.xml"
+      },
+      {
+        "label": "Ovid — Metamorphoses",
+        "source": "Ovid, Metamorphoses (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/ovid-metamorphoses/1916/pb_LCL042.3.xml"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Borrowed Gods, Roman Meaning",
+        "id": "borrowed-gods-roman-meaning"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Romans did not invent most of their gods so much as adopt them. As their world met the Greek world, they matched their own ancient spirits to the vivid deities of Greece — **Jupiter** to Zeus, **Juno** to Hera, **Venus** to Aphrodite, **Mars** to Ares, **Minerva** to Athena — and took over the rich Greek myths along with the names. To a casual eye, Roman mythology can look like Greek mythology in Latin dress."
+      },
+      {
+        "type": "paragraph",
+        "text": "But the Romans put these borrowed stories to a different use. The Greeks told myths to explore the cosmos, fate, and the human condition. The Romans told them, above all, to explain and glorify **Rome**. Their characteristic myths are not about the origin of the world but about the origin of their city — and they carry a heavy freight of duty, destiny, and the moral virtues that Romans believed had made them great."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Myth as national charter",
+        "text": "Where Greek myth asks \"what is the world?\", Roman myth asks \"why is Rome destined to rule it?\" Its stories are less cosmology than constitution — a sacred account of how the city came to be and why the gods willed its greatness. ## The Twins and the Wolf Rome's own foundation story is dark and strange. The twins **Romulus and Remus**, sons of Mars and a captive priestess, were set adrift on the Tiber to die and washed ashore to be suckled by a **she-wolf** and raised by a shepherd. Grown to manhood, they resolved to found a city — but quarrelled over which hill should be its heart and who should rule. In the dispute Romulus killed Remus and named the city for himself. > So perish whoever else shall leap over my walls. That a city destined for greatness should be founded on a brother's murder is a myth the Romans told without flinching. It spoke honestly to a people who knew their history of civil strife — and it made Romulus the first in a long line of Romans who placed the city above all else, even blood. ## Aeneas and the Burden of Destiny The grandest Roman myth reached back further still, to bind Rome to the heroic age of Greece. In the **Aeneid**, the poet **Virgil** told of **Aeneas**, a prince of Troy who escaped the burning city carrying his aged father on his back and leading his small son by the hand — the very image of **pietas**, the Roman virtue of devotion to family, gods, and country. Guided by the gods across the Mediterranean, suffering shipwreck and the doomed love of Queen Dido of Carthage, Aeneas at last reached Italy to father the line from which Rome would spring. Virgil wrote the epic under [Augustus](/article/roman-empire), and it served the new empire perfectly: it gave Rome a glorious Trojan ancestry, linked the imperial family to the goddess **Venus**, and framed Rome's dominion as the gods' own plan. The myths of [Roman religion](/article/roman-religion) and the destiny of the state were here woven into a single, soaring poem. ## Myths That Crossed Borders Rome's mythology, like its [religion](/article/roman-religion), did not stay closed. As the empire spread, Roman gods merged with local ones across the provinces, and the myths of conquered peoples flowed back to the centre. The cult and legends of [Egypt's](/article/ancient-egypt) **Isis** found Roman worshippers, and Egyptian ideas of divine kingship and the afterlife mingled with Roman ones, much as the deified [pharaohs](/article/the-pharaoh) had ruled as gods on earth. In its myths as in everything, Rome remained what it had always been — a civilisation that grew by absorbing the stories of the whole world it ruled."
+      }
+    ],
+    "toc": [
+      {
+        "id": "borrowed-gods-roman-meaning",
+        "text": "Borrowed Gods, Roman Meaning",
+        "level": 2
+      }
+    ],
+    "wordCount": 606
   },
   {
     "id": "space-missions",
@@ -2751,6 +3455,142 @@
       }
     ],
     "wordCount": 1136
+  },
+  {
+    "id": "fall-of-rome",
+    "title": "The Fall of Rome",
+    "category": "world-history",
+    "factStatus": "theory",
+    "readMins": 8,
+    "eyebrow": "How an empire ends",
+    "lede": "The collapse of the Western Roman Empire is history's most debated death. Was it barbarian invasion, economic exhaustion, moral decay, plague, or simply slow transformation? Two thousand years on, historians still argue — and the answer we choose says as much about us as about Rome.",
+    "related": [
+      "roman-empire",
+      "rome",
+      "roman-army",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Barbarian Migrations",
+          "caption": "Goths, Vandals, Huns and others moved into and across the empire through the 4th and 5th centuries, redrawing the map of the West.",
+          "region": "Europe and North Africa"
+        },
+        {
+          "title": "A Divided Empire",
+          "caption": "Diocletian split the realm to govern it; the Latin West fell in 476 CE while the Greek East endured as Byzantium for another millennium.",
+          "region": "Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Sack of Rome, 410 CE",
+          "caption": "Alaric's Goths plundered the city for three days — the first time Rome had fallen to a foreign enemy in 800 years, a shock felt across the world.",
+          "credit": "Visigothic sack"
+        },
+        {
+          "title": "Romulus Augustulus",
+          "caption": "The last Western emperor, a boy deposed in 476 CE by the general Odoacer — a quiet end to a thousand-year story.",
+          "credit": "476 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Why did Rome fall?",
+          "caption": "The competing theories — invasion, economy, plague, transformation — weighed against the evidence.",
+          "duration": "6:25",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Edward Gibbon — The Decline and Fall of the Roman Empire",
+        "source": "Edward Gibbon (1776–1789)",
+        "url": "https://www.gutenberg.org/ebooks/731"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Fall of Rome",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/the-Fall-of-Rome"
+      },
+      {
+        "label": "Peter Heather — The Fall of the Roman Empire",
+        "source": "Oxford University Press",
+        "url": "https://global.oup.com/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Death With Many Suspects",
+        "id": "a-death-with-many-suspects"
+      },
+      {
+        "type": "paragraph",
+        "text": "No event in ancient history has been explained so many ways as the fall of Rome. As long ago as the eighteenth century, **Edward Gibbon** filled six volumes with the question and never quite settled it; one modern scholar counted more than two hundred separate causes that historians have proposed over the years. The reason is not that the evidence is thin but that the fall was so vast and so slow that almost any cause one looks for can be found somewhere in it."
+      },
+      {
+        "type": "paragraph",
+        "text": "It helps to be precise about what fell. The **Western** Roman Empire — Italy, Gaul, Spain, Britain, North Africa — came apart across the fifth century CE, its last emperor deposed in **476**. The **Eastern** half, centred on [Constantinople](/article/roman-empire), did not fall at all then; it lived on as the Byzantine Empire for nearly another thousand years. So the puzzle is really about the western half, and why that half could no longer hold."
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "Why this article is marked \"theory\"",
+        "text": "The dates are certain, but the *causes* are not. What follows are the leading explanations historians debate — not a settled verdict. Honest history sometimes means holding several possibilities at once. ## The Hammer From Outside The most visible cause was invasion. Through the fourth and fifth centuries, Germanic and Asiatic peoples — Goths, Vandals, Franks, and the terrifying **Huns** under Attila — pressed into the empire, some fleeing, some plundering, some seeking land and Roman wages. In **410** the Visigoths under **Alaric** sacked Rome itself, the first foreign army to take the city in eight hundred years; in **455** the Vandals sacked it again. In **476** a barbarian general, **Odoacer**, simply deposed the boy-emperor Romulus Augustulus and ruled Italy in his own name. The western empire ended not with a battle but with a shrug. > The decline of Rome was the natural and inevitable effect of immoderate greatness. Gibbon's famous verdict pointed inward as much as outward: an empire stretched too far, defended by [armies](/article/roman-army) increasingly composed of the very barbarians they were meant to keep out, could not survive a determined push. ## The Rot From Within Many historians look past the invaders to the weaknesses that let them succeed. The economy of the late empire was strained by crushing taxation, debased coinage, and a slave system that stifled innovation. Political life was chaotic — in the third century the empire had churned through dozens of emperors in fifty years, most of them murdered, and the habit of civil war never fully healed. Devastating **plagues** swept the empire more than once, emptying cities and fields and shrinking the population that paid taxes and filled the legions. Gibbon controversially blamed [Christianity](/article/roman-religion) too, arguing it drained civic energy into otherworldly concerns and divided the empire with theological quarrels. Few historians accept that today — the Christian Eastern empire, after all, thrived — but it remains part of the long debate. ## Or Did Rome Fall at All? A powerful modern school argues that \"fall\" is the wrong word entirely. In this view there was no catastrophe, only **transformation**: the barbarian kingdoms that replaced Roman rule kept Roman law, Latin, roads, and the Church, and many of their kings ruled as Roman officials in all but name. The light did not go out so much as change colour. The very people we call \"barbarians\" often wanted not to destroy [Rome](/article/rome) but to become Roman. :::note Why the argument never ends Each age reads Rome's fall through its own fears — of immigration, of moral decline, of imperial overreach, of pandemic. That is why the debate stays alive: the fall of Rome is a mirror, and every generation sees in it the thing it is most afraid of. What is certain is that Rome never truly vanished. Its law underlies European justice, its Church became the medieval West, and its language lives on in every word you have just read."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-death-with-many-suspects",
+        "text": "A Death With Many Suspects",
+        "level": 2
+      }
+    ],
+    "wordCount": 653
   },
   {
     "id": "the-future-of-space",
@@ -3981,6 +4821,453 @@
       }
     ],
     "wordCount": 376
+  },
+  {
+    "id": "roman-empire",
+    "title": "The Roman Empire",
+    "category": "kingdoms-empires",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The world under one rule",
+    "lede": "Out of a century of civil war rose a new order: a single ruler cloaked in republican forms, presiding over an empire that ringed the Mediterranean and, for two unbroken centuries, gave a quarter of humanity the longest peace the ancient world had known.",
+    "related": [
+      "rome",
+      "roman-republic",
+      "roman-army",
+      "roman-engineering",
+      "fall-of-rome",
+      "julius-caesar",
+      "ancient-egypt"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Mare Nostrum — \"Our Sea\"",
+          "caption": "At its height the empire encircled the entire Mediterranean, the first and only power ever to hold every shore.",
+          "region": "Mediterranean basin"
+        },
+        {
+          "title": "The Frontiers",
+          "caption": "Hadrian's Wall in Britain, the Rhine and Danube in Europe, the desert in Africa and the Euphrates in the east marked the limits of Roman rule.",
+          "region": "Imperial frontiers"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Augustus of Prima Porta",
+          "caption": "The first emperor portrayed as an ageless commander — the carefully crafted image of a man who ruled as \"first citizen.\"",
+          "credit": "Vatican Museums"
+        },
+        {
+          "title": "The Pantheon",
+          "caption": "Hadrian's temple to all the gods, its vast concrete dome still the largest unreinforced dome on Earth after nineteen centuries.",
+          "credit": "Rome, c. 125 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A day in imperial Rome",
+          "caption": "The world's first million-strong city — its insulae, baths, markets and the spectacle of the arena.",
+          "duration": "6:10",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "The British Museum — Roman Empire",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Tacitus — The Annals",
+        "source": "Tacitus, Annals (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/tacitus-annals/1931/pb_LCL249.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Roman Empire",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Roman-Empire"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Augustus and the Republic Restored",
+        "id": "augustus-and-the-republic-restored"
+      },
+      {
+        "type": "paragraph",
+        "text": "When [Julius Caesar](/article/julius-caesar) fell, his eighteen-year-old great-nephew and adopted heir, **Octavian**, inherited his name, his fortune, and the loyalty of his veterans. Over thirteen more years of civil war he destroyed his rivals one by one — last of all Mark Antony and Cleopatra, whose deaths in **30 BCE** delivered [Egypt](/article/ancient-egypt) and its grain into his hands. In **27 BCE** the Senate gave him the name by which history knows him: **Augustus**, \"the revered one.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Augustus had watched his adoptive father be murdered for looking like a king, and he did not repeat the mistake. He claimed to have \"restored the Republic,\" kept the old offices and the Senate, and called himself merely *princeps* — first citizen. In reality he held the armies, the treasury, and the provinces that mattered. The Empire was a monarchy wearing the mask of a republic, and the disguise was the point."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The genius of disguise",
+        "text": "Augustus understood that Romans would accept the substance of one-man rule as long as they were spared its appearance. By preserving republican forms while hollowing out their power, he founded a system stable enough to outlast him by five hundred years. ## The Roman Peace The reward for surrendering political freedom was peace. The **Pax Romana** — roughly **27 BCE to 180 CE** — was two centuries in which the Mediterranean world was, for the only time in its history, united under a single government and largely free of war within its borders. A merchant could travel from Britain to Syria on [Roman roads](/article/roman-engineering), paying in a single currency, speaking Latin in the west and Greek in the east, protected by [the legions](/article/roman-army) on the distant frontiers. > Travel was safe, the seas were cleared of pirates, and a man might journey from one end of the world to the other without fear. Cities flourished as never before. **Rome itself swelled past a million people** — a scale no European city would match again until London in the 1800s. Aqueducts fed its fountains and baths, grain fleets from Egypt and Africa fed its mouths, and the spectacle of the **Colosseum** fed its appetite for blood and wonder. ## The Good, the Mad, and the Wise The emperors were a study in extremes. The first century gave Rome the cold competence of Augustus and Tiberius but also the cruelty of **Nero** and the madness ascribed to **Caligula**. Then came the **Five Good Emperors** — Nerva, Trajan, Hadrian, Antoninus Pius, and the philosopher **Marcus Aurelius** — under whom the empire reached its greatest extent and, many later writers thought, the high-water mark of human government. Under **Trajan** (98–117 CE) the frontiers stretched from the Atlantic to the Persian Gulf. **Hadrian** chose instead to consolidate, walling off the wild north of Britain and fixing the borders he would defend. Marcus Aurelius governed wisely even while writing his private *Meditations* and fighting plague and invasion on the Danube — the model of the reluctant ruler doing his duty. :::note An empire of citizens In 212 CE the emperor Caracalla granted Roman citizenship to nearly every free inhabitant of the empire. The city on the Tiber had finally made its whole world Roman — the culmination of the instinct that had driven [Rome](/article/rome) from the beginning. ## Cracks Beneath the Marble The peace could not hold forever. The empire had no settled rule for succession, so each emperor's death risked civil war; defending thousands of miles of frontier strained the treasury; and in the third century a storm of invasions, plagues, and usurpers nearly tore the whole structure apart. It was rebuilt by hard soldier-emperors like **Diocletian** and **Constantine**, who split the realm to govern it and moved its centre east to a new capital, **Constantinople**. That eastern half would endure for another thousand years. The western half, exhausted and overrun, would not — a long unravelling told in [the fall of Rome](/article/fall-of-rome). But even in decline the empire left the deepest mark any state has left on the world: its law, its language, its roads, and the very idea that a single civilisation might span a continent."
+      }
+    ],
+    "toc": [
+      {
+        "id": "augustus-and-the-republic-restored",
+        "text": "Augustus and the Republic Restored",
+        "level": 2
+      }
+    ],
+    "wordCount": 685
+  },
+  {
+    "id": "roman-army",
+    "title": "The Roman Legions",
+    "category": "wars",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "The machine that built an empire",
+    "lede": "Disciplined, drilled, and relentlessly organised, the Roman legion was the most effective fighting force of the ancient world — and far more than an army. It was the engineer, road-builder, and frontier of the empire, conquering with the pick and shovel as surely as with the sword.",
+    "related": [
+      "rome",
+      "roman-empire",
+      "roman-engineering",
+      "roman-republic",
+      "fall-of-rome"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Legions on the Frontier",
+          "caption": "Permanent fortresses along the Rhine, Danube and in Britain anchored the army to the edges of the empire it defended.",
+          "region": "Imperial frontiers"
+        },
+        {
+          "title": "The Field of Cannae",
+          "caption": "Hannibal's annihilation of a far larger Roman army in 216 BCE — the worst defeat Rome ever survived, and learned from.",
+          "region": "Southern Italy"
+        }
+      ],
+      "images": [
+        {
+          "title": "Legionary in lorica segmentata",
+          "caption": "The iconic banded iron armour, large rectangular shield (scutum), short sword (gladius) and heavy javelin (pilum) of the imperial soldier.",
+          "credit": "Reconstruction, 1st century CE"
+        },
+        {
+          "title": "Trajan's Column",
+          "caption": "A spiral frieze of 2,600 figures recording the Dacian Wars — the finest visual record of the army at work and war.",
+          "credit": "Rome, 113 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Anatomy of a legion",
+          "caption": "How 5,000 men were organised into cohorts and centuries, and why that structure made them so hard to beat.",
+          "duration": "5:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Vegetius — De Re Militari",
+        "source": "Vegetius, Epitome of Military Science (Liverpool University Press)",
+        "url": "https://www.liverpooluniversitypress.co.uk/"
+      },
+      {
+        "label": "The British Museum — Roman Army",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Legion",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/legion-Roman-military-unit"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An Army of Citizens, Then of Professionals",
+        "id": "an-army-of-citizens-then-of-professionals"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the early [Republic](/article/roman-republic) the army was a militia of citizen-farmers who supplied their own arms and went home after the campaign. This worked while Rome's wars were short and close. But as the empire grew and wars stretched across years and continents, the system buckled. Around **107 BCE** the general **Marius** opened the legions to the landless poor, equipping them at state expense and promising land on discharge."
+      },
+      {
+        "type": "paragraph",
+        "text": "The change was momentous. The legions became a professional standing army — better trained and more loyal than any militia — but loyal now to the general who paid and led them rather than to the state. That shift armed the ambitions of men like [Julius Caesar](/article/julius-caesar) and helped turn the Republic into the [Empire](/article/roman-empire)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Built for Order",
+        "id": "built-for-order"
+      },
+      {
+        "type": "paragraph",
+        "text": "The legion's power lay less in any individual soldier than in its structure. A legion of roughly **5,000 men** was divided into ten **cohorts**, each cohort into six **centuries** of about eighty men, each century led by a **centurion** — the tough career officers who were the backbone of the whole machine. This modular design let commanders manoeuvre blocks of men with a flexibility that the dense, unwieldy phalanxes of their enemies could not match."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Discipline as a weapon",
+        "text": "What truly set the legions apart was not equipment but discipline. Roman soldiers drilled constantly, obeyed instantly, and faced savage punishment for failure — including *decimation*, the execution of every tenth man in a disgraced unit. A Roman army that broke and ran was rare; one that held its formation could defeat forces many times its size. The soldier carried a large curved shield, the **scutum**; a short stabbing sword, the **gladius**, ideal for the press of close combat; and the **pilum**, a heavy javelin whose soft iron neck bent on impact so it could not be thrown back. Behind the front ranks came artillery — bolt-throwers and stone-hurling catapults that could shatter a wall or a charge. ## The Soldier as Builder Here is the secret most often forgotten: the legionary spent far more days digging than fighting. Every night on campaign the army built a fortified camp to the same exacting plan, ditch and rampart and ordered streets, so that a Roman force was never caught unprepared. In peacetime the same hands built the roads, bridges, walls, and aqueducts of [Roman engineering](/article/roman-engineering) that knit the empire together. > The Romans owe the mastery of the world to military training, to discipline in their camps, and to practice in engineering. An army that could march thirty kilometres in a day and throw up a fort by nightfall was a tool of conquest and administration at once. The frontier was not just a line of soldiers but a line of their stonework — the road they marched and the wall they raised. ## Defeat and Endurance The legions were not invincible. **Hannibal** destroyed army after army in the Punic Wars, annihilating eighty thousand Romans in a single afternoon at **Cannae** in 216 BCE. In **9 CE** three whole legions were ambushed and wiped out in the **Teutoburg Forest** of Germany, a disaster that fixed the empire's northern border at the Rhine forever. What made Rome formidable was not that it never lost but that it could absorb catastrophe and come back. After Cannae it simply raised new armies and ground Hannibal down through sheer persistence. :::caution When the shield became the spear The army that defended Rome could also turn on it. Emperors increasingly owed their thrones to the soldiers, and in the chaotic third century the legions made and murdered rulers at will. The force that built the empire would, in its disorder and its growing reliance on hired barbarian troops, become entangled in [the empire's fall](/article/fall-of-rome)."
+      }
+    ],
+    "toc": [
+      {
+        "id": "an-army-of-citizens-then-of-professionals",
+        "text": "An Army of Citizens, Then of Professionals",
+        "level": 2
+      },
+      {
+        "id": "built-for-order",
+        "text": "Built for Order",
+        "level": 2
+      }
+    ],
+    "wordCount": 627
+  },
+  {
+    "id": "roman-republic",
+    "title": "The Roman Republic",
+    "category": "ancient-civilizations",
+    "factStatus": "verified",
+    "readMins": 8,
+    "eyebrow": "Power without a king",
+    "lede": "For nearly five centuries Rome governed itself without a monarch, through an intricate balance of magistrates, Senate, and citizen assemblies — a republic that conquered the Mediterranean and then, undone by its own success, gave birth to the empire that replaced it.",
+    "related": [
+      "rome",
+      "roman-empire",
+      "julius-caesar",
+      "roman-army",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "rome",
+        "label": "Ancient Rome"
+      },
+      {
+        "id": "roman-republic",
+        "label": "The Republic"
+      },
+      {
+        "id": "julius-caesar",
+        "label": "Julius Caesar"
+      },
+      {
+        "id": "roman-empire",
+        "label": "The Empire"
+      },
+      {
+        "id": "roman-army",
+        "label": "The Legions"
+      },
+      {
+        "id": "roman-engineering",
+        "label": "Engineering"
+      },
+      {
+        "id": "roman-religion",
+        "label": "Gods & Religion"
+      },
+      {
+        "id": "roman-mythology",
+        "label": "Mythology"
+      },
+      {
+        "id": "fall-of-rome",
+        "label": "The Fall"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Rome's Expansion in Italy",
+          "caption": "From a single city to master of the peninsula by 270 BCE, binding Italian peoples through colonies and alliances.",
+          "region": "Italy"
+        },
+        {
+          "title": "The Punic Wars",
+          "caption": "A century of struggle with Carthage for control of the western Mediterranean, fought from Sicily to the gates of Rome.",
+          "region": "Western Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Curia Julia",
+          "caption": "The Senate house in the Forum, where Rome's most powerful council debated war, law and finance.",
+          "credit": "Roman Forum"
+        },
+        {
+          "title": "Bust of Cicero",
+          "caption": "Orator, lawyer and consul — the voice of the Republic's last generation and its constitutional ideals.",
+          "credit": "Late Republic"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Republic governed itself",
+          "caption": "Consuls, Senate and assemblies explained — the checks and balances of a constitution without a written constitution.",
+          "duration": "5:15",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": null,
+      "quiz": null
+    },
+    "citations": [
+      {
+        "label": "Polybius — The Histories, Book VI",
+        "source": "Polybius, on the Roman constitution (Loeb Classical Library)",
+        "url": "https://www.loebclassics.com/view/polybius-histories/2010/pb_LCL159.3.xml"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Roman Republic",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Roman-Republic"
+      },
+      {
+        "label": "The British Museum — Republican Rome",
+        "source": "The British Museum, Department of Greece and Rome",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Oath Against Kings",
+        "id": "the-oath-against-kings"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Republic was born of a refusal. According to tradition, in **509 BCE** the Romans drove out **Tarquin the Proud**, the last of their kings, and bound themselves by oath never to let one man rule alone again. Everything in the new system was designed to keep that oath. Where a king had held power for life, the Republic split his authority among many hands and handed it out for a single year at a time."
+      },
+      {
+        "type": "paragraph",
+        "text": "The word *res publica* means simply \"the public thing\" — the commonwealth, the affairs of the people held in common rather than owned by a ruler. It was an idea as much as a government, and the Romans guarded it with a near-religious zeal."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Machine of Checks and Balances",
+        "id": "a-machine-of-checks-and-balances"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the top stood two **consuls**, elected jointly for one year, each able to veto the other so that neither could become a tyrant. Below them ranged a ladder of offices — praetors who judged, quaestors who managed money, aediles who ran the city, censors who counted citizens and policed morals. Climbing this ladder, the *cursus honorum*, was the ambition of every aristocrat."
+      },
+      {
+        "type": "paragraph",
+        "text": "Behind the magistrates sat the **Senate**, a standing council of several hundred ex-magistrates who held no formal command yet shaped almost everything through sheer authority and experience. And beneath them all stood the **assemblies** of citizens, who elected the magistrates, passed laws, and declared war."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A constitution of friction",
+        "text": "The Greek historian Polybius marvelled that Rome's system mixed monarchy (the consuls), aristocracy (the Senate), and democracy (the assemblies) so that each restrained the others. Its strength was not efficiency but balance — power was deliberately made hard to seize. ## Patricians, Plebeians, and the Struggle for Rights The early Republic belonged to the **patricians**, a closed circle of noble families who monopolised office and priesthood. The common citizens, the **plebeians**, fought back over two centuries through a remarkable, mostly bloodless weapon: the **secession**. By marching out of the city and refusing to work or fight, the plebs forced concession after concession — their own officials, the **tribunes**, whose persons were sacred and who could veto the acts of magistrates; written law in the **Twelve Tables**; and at last the right to hold the highest offices themselves. > Let justice be done, though the heavens fall. This long \"Conflict of the Orders\" never abolished inequality, but it wove the plebeians into the state and produced a governing class open enough to renew itself — one more expression of Rome's gift for [absorbing rather than excluding](/article/rome). ## Conquest and the Seeds of Ruin The Republic was a war machine of astonishing endurance. It bound the peoples of Italy into a network of alliances that supplied [soldiers](/article/roman-army) without end, and in three brutal wars with **Carthage** — the Punic Wars — it survived Hannibal's invasion and emerged as the unrivalled power of the western Mediterranean. Greece, Spain, and North Africa followed. Yet conquest carried a poison. Floods of war captives became slaves who worked vast estates, driving small farmers off the land; the spoils of empire made a few families monstrously rich; and victorious generals began to command armies loyal to themselves rather than to Rome. :::caution When the army serves the general, not the state Reforms opened the legions to the landless poor, who now looked to their commander for land and pay. An ambitious general with a devoted army became a power the Senate could not control — the fatal flaw that would destroy the Republic. ## The Long Collapse The Republic's last century was a slow-motion suicide: the murdered reformers **Tiberius and Gaius Gracchus**, the rival warlords **Marius and Sulla**, civil wars fought in the streets of Rome itself. The system that had been built to stop any one man from ruling could no longer stop the men its conquests had created. The crisis found its resolution in [Julius Caesar](/article/julius-caesar), and through his heir Augustus passed quietly into the [Roman Empire](/article/roman-empire). The Republic was never formally abolished — its offices and Senate survived for centuries — but the public thing had become, in truth, one man's."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-oath-against-kings",
+        "text": "The Oath Against Kings",
+        "level": 2
+      },
+      {
+        "id": "a-machine-of-checks-and-balances",
+        "text": "A Machine of Checks and Balances",
+        "level": 2
+      }
+    ],
+    "wordCount": 685
   },
   {
     "id": "the-solar-system",

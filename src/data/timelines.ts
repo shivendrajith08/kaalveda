@@ -273,6 +273,140 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'rome',
+    title: 'A Thousand Years of Rome',
+    subtitle:
+      'From a village on the Tiber to the fall of the West — the founding, the Republic, the Empire and its long unravelling.',
+    events: [
+      {
+        id: 'founding',
+        year: -753,
+        title: 'The Founding of Rome',
+        description:
+          'Tradition dates the founding of the city to Romulus, who according to legend killed his twin Remus and named Rome for himself.',
+        era: 'Monarchy',
+        factStatus: 'theory',
+      },
+      {
+        id: 'republic',
+        year: -509,
+        title: 'Birth of the Republic',
+        description:
+          'The Romans expel the last king, Tarquin the Proud, and swear off monarchy — founding a republic of consuls, Senate and assemblies.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'twelve-tables',
+        year: -451,
+        title: 'The Twelve Tables',
+        description:
+          'Rome publishes its first written law code, a milestone in the plebeians’ long struggle for rights against the patrician elite.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'punic-wars',
+        year: -264,
+        title: 'The Punic Wars Begin',
+        description:
+          'A century of struggle with Carthage opens; despite Hannibal’s invasion of Italy, Rome emerges master of the western Mediterranean.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'cannae',
+        year: -216,
+        title: 'Catastrophe at Cannae',
+        description:
+          'Hannibal annihilates a far larger Roman army in a single afternoon — the worst defeat Rome ever survived, and learned from.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'rubicon',
+        year: -49,
+        title: 'Caesar Crosses the Rubicon',
+        description:
+          'Julius Caesar leads his army against Rome itself, plunging the Republic into the civil war that will end it.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'ides',
+        year: -44,
+        title: 'The Ides of March',
+        description:
+          'Caesar, dictator for life, is assassinated by senators hoping to save the Republic — and instead unleash its final collapse.',
+        era: 'Republic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'augustus',
+        year: -27,
+        title: 'Augustus Founds the Empire',
+        description:
+          'Octavian becomes Augustus, ruling as "first citizen" — a monarchy in republican dress that opens two centuries of peace.',
+        era: 'Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'colosseum',
+        year: 80,
+        title: 'The Colosseum Opens',
+        description:
+          'The great amphitheatre is inaugurated with a hundred days of games — the architectural symbol of imperial Rome at its height.',
+        era: 'Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'trajan-peak',
+        year: 117,
+        title: 'The Empire at its Greatest Extent',
+        description:
+          'Under Trajan the Roman world reaches from the Atlantic to the Persian Gulf — the high-water mark of Roman power.',
+        era: 'Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'caracalla',
+        year: 212,
+        title: 'Citizenship for All',
+        description:
+          'The emperor Caracalla extends Roman citizenship to nearly every free inhabitant of the empire — the city makes its whole world Roman.',
+        era: 'Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'constantine',
+        year: 313,
+        title: 'Constantine and the Cross',
+        description:
+          'The Edict of Milan legalises Christianity; within a century the faith Rome once persecuted becomes the empire’s official religion.',
+        era: 'Late Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'sack-410',
+        year: 410,
+        title: 'The Sack of Rome',
+        description:
+          'Alaric’s Visigoths plunder Rome for three days — the first foreign army to take the city in 800 years, a shock felt across the world.',
+        era: 'Late Empire',
+        factStatus: 'verified',
+      },
+      {
+        id: 'fall-476',
+        year: 476,
+        title: 'Fall of the Western Empire',
+        description:
+          'The general Odoacer deposes the last western emperor, Romulus Augustulus. The Latin West ends; the Greek East lives on as Byzantium.',
+        era: 'Late Empire',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))
