@@ -413,6 +413,117 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'hinduism',
+    title: 'Test Your Knowledge: Hinduism',
+    description: 'Eight questions on the world’s oldest living religion — its scriptures, gods, epics and ideas. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'What is the name of the oldest and most important of the four Vedas?',
+        options: [
+          { id: 'a', text: 'The Rigveda' },
+          { id: 'b', text: 'The Atharvaveda' },
+          { id: 'c', text: 'The Samaveda' },
+          { id: 'd', text: 'The Yajurveda' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Rigveda, a collection of more than a thousand hymns composed around 1500 BCE, is the oldest of the four Vedas and among the oldest scriptures of any living religion.',
+      },
+      {
+        id: 'q2',
+        prompt: 'Which three gods make up the Trimurti, the great triad of the Hindu pantheon?',
+        options: [
+          { id: 'a', text: 'Brahma, Vishnu and Shiva' },
+          { id: 'b', text: 'Indra, Agni and Varuna' },
+          { id: 'c', text: 'Rama, Krishna and Hanuman' },
+          { id: 'd', text: 'Ganesha, Lakshmi and Saraswati' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Trimurti is Brahma the creator, Vishnu the preserver and Shiva the destroyer — three rhythms of one endless cosmic process of creation, sustaining and dissolution.',
+      },
+      {
+        id: 'q3',
+        prompt: 'In which epic does the Bhagavad Gita appear, spoken by Krishna to the warrior Arjuna?',
+        options: [
+          { id: 'a', text: 'The Mahabharata' },
+          { id: 'b', text: 'The Ramayana' },
+          { id: 'c', text: 'The Rigveda' },
+          { id: 'd', text: 'The Upanishads' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Bhagavad Gita sits within the Mahabharata, the longest poem ever composed. On the eve of battle Krishna — an avatar of Vishnu — counsels the despairing Arjuna in seven hundred verses.',
+      },
+      {
+        id: 'q4',
+        prompt: 'In the Ramayana, who abducts Sita and carries her across the sea to the island of Lanka?',
+        options: [
+          { id: 'a', text: 'The demon king Ravana' },
+          { id: 'b', text: 'The monkey-god Hanuman' },
+          { id: 'c', text: 'Rama’s brother Lakshmana' },
+          { id: 'd', text: 'The god Indra' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The demon king Ravana, lord of Lanka, abducts Sita, setting off the war in which Rama — aided by the monkey army of Hanuman — builds a bridge to the island and rescues her.',
+      },
+      {
+        id: 'q5',
+        prompt: 'The Upanishads teach that the inner self (atman) is one with which ultimate reality?',
+        options: [
+          { id: 'a', text: 'Brahman' },
+          { id: 'b', text: 'Maya' },
+          { id: 'c', text: 'Karma' },
+          { id: 'd', text: 'Dharma' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The central insight of the Upanishads, summed up as "tat tvam asi" (that thou art), is that the innermost self, atman, is identical with Brahman, the infinite reality underlying the whole cosmos.',
+      },
+      {
+        id: 'q6',
+        prompt: 'What does the Sanskrit word "yoga" originally mean?',
+        options: [
+          { id: 'a', text: 'To yoke or to join (union with the divine)' },
+          { id: 'b', text: 'To stretch the body' },
+          { id: 'c', text: 'To breathe deeply' },
+          { id: 'd', text: 'To renounce the world' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Yoga comes from a root meaning "to yoke" or "to join" — the disciplined union of the individual self with ultimate reality. Patanjali defined it as the stilling of the fluctuations of the mind.',
+      },
+      {
+        id: 'q7',
+        prompt: 'What is the small, dark inner sanctum of a Hindu temple, housing the image of the god, called?',
+        options: [
+          { id: 'a', text: 'The garbhagriha (womb-chamber)' },
+          { id: 'b', text: 'The gopuram (gateway tower)' },
+          { id: 'c', text: 'The shikhara (spire)' },
+          { id: 'd', text: 'The mandala (sacred grid)' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The garbhagriha, or "womb-chamber," is the small, dark, windowless cell at the heart of the temple that houses the central image — the destination of the worshipper’s inward journey from the bright exterior.',
+      },
+      {
+        id: 'q8',
+        prompt: 'In Hindu cosmology, time is understood to move in what fashion?',
+        options: [
+          { id: 'a', text: 'In endless repeating cycles, with no beginning or end' },
+          { id: 'b', text: 'In a single straight line from one creation to one end' },
+          { id: 'c', text: 'Backwards, from the future into the past' },
+          { id: 'd', text: 'It does not exist at all' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Hindu cosmology imagines time as cyclical — turning through the four yugas and the vast days and nights of Brahma, a universe made and unmade and made again across billions of years, with no first beginning and no final end.',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

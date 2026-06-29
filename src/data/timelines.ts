@@ -532,6 +532,122 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'hinduism',
+    title: 'The Eternal Way Through Time',
+    subtitle:
+      'More than three thousand years of the world’s oldest living religion — from the cities of the Indus and the hymns of the Vedas to the temples, philosophies and billion believers of today.',
+    events: [
+      {
+        id: 'indus-valley',
+        year: -3000,
+        title: 'The Indus Valley Civilization',
+        description:
+          'One of the world’s first great urban cultures flourishes along the Indus, its seals showing figures in meditative postures and motifs later woven into Hindu tradition.',
+        era: 'Pre-Vedic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'rigveda',
+        year: -1500,
+        title: 'Composition of the Rigveda',
+        description:
+          'The oldest of the Vedas takes shape — more than a thousand hymns to the gods, preserved by flawless oral recitation for a thousand years before being written.',
+        era: 'Vedic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'upanishads',
+        year: -800,
+        title: 'The Upanishads',
+        description:
+          'The closing pages of the Vedas turn inward, asking what lies behind the self and the cosmos — and declare the inner self (atman) one with the absolute (Brahman).',
+        era: 'Vedic',
+        factStatus: 'verified',
+      },
+      {
+        id: 'buddha',
+        year: -500,
+        title: 'The Life of the Buddha',
+        description:
+          'Siddhartha Gautama teaches in the same Ganges plain — a reforming movement that reshapes Indian thought and, in turn, sharpens Hindu philosophy. (A sidelight to the Hindu story.)',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'ramayana',
+        year: -300,
+        title: 'The Ramayana Takes Form',
+        description:
+          'Valmiki’s epic of Prince Rama, the “first poem,” crystallises the ideal of dharma and becomes the most beloved story of the Hindu world.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'bhagavad-gita',
+        year: -200,
+        title: 'The Bhagavad Gita',
+        description:
+          'Krishna’s battlefield counsel to Arjuna is set down within the Mahabharata — seven hundred verses that become Hinduism’s best-loved scripture.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'mahabharata',
+        year: 100,
+        title: 'The Mahabharata Completed',
+        description:
+          'The longest poem ever composed reaches its final form after centuries of growth — a hundred thousand verses on duty, war and the soul.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'gupta-golden-age',
+        year: 350,
+        title: 'The Gupta Golden Age',
+        description:
+          'Under the Gupta emperors classical Hindu culture flowers — in temple-building, Sanskrit poetry, mathematics and the codifying of philosophy and law.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'shankara',
+        year: 788,
+        title: 'Adi Shankaracharya',
+        description:
+          'The philosopher of non-dualism (Advaita Vedanta) travels all India, debates every rival school, and founds four monastic seats that endure to this day.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'chola-temples',
+        year: 1010,
+        title: 'The Great Chola Temples',
+        description:
+          'The Chola dynasty raises the towering Brihadisvara Temple at Thanjavur, the masterpiece of South Indian stone architecture and bronze casting.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'bhakti-movement',
+        year: 1400,
+        title: 'The Bhakti Movement',
+        description:
+          'A wave of devotional poet-saints sweeps India in its own languages, teaching that loving surrender to a personal God is open to all, beyond caste and learning.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'hinduism-today',
+        year: 2025,
+        title: 'Hinduism Today',
+        description:
+          'The world’s oldest living religion counts some 1.2 billion followers — roughly one in seven people alive — its scriptures still chanted and its temples still thronged.',
+        era: 'Modern',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))

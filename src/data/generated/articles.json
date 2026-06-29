@@ -2213,6 +2213,793 @@
     "wordCount": 295
   },
   {
+    "id": "hindu-cosmology",
+    "title": "Hindu Cosmology",
+    "category": "universe",
+    "factStatus": "theory",
+    "readMins": 10,
+    "eyebrow": "Deep time, imagined",
+    "lede": "Of all the world's ancient cosmologies, the Hindu vision of time and space is the vastest — a universe without beginning or end, breathing out and in across billions of years, dying and being reborn through endless cycles. Long before telescopes revealed the true scale of the cosmos, the sages of India had already imagined a universe almost unimaginably old and large.",
+    "related": [
+      "hinduism",
+      "hindu-philosophy",
+      "the-big-bang",
+      "black-holes",
+      "stars",
+      "the-solar-system"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Cycles of Cosmic Time",
+          "caption": "A diagram of the yugas, the day and night of Brahma, and the kalpa — the nested wheels of time that turn through billions of years.",
+          "region": "Cosmic time"
+        }
+      ],
+      "images": [
+        {
+          "title": "Vishnu and the cosmic cycle",
+          "caption": "Between the dissolution of one universe and the creation of the next, Vishnu sleeps upon the serpent of infinity on the shoreless ocean.",
+          "credit": "Classical Indian painting"
+        },
+        {
+          "title": "The cosmic egg",
+          "caption": "The Brahmanda, the golden egg from which the universe is born — one of humanity's oldest images of cosmic origins.",
+          "credit": "Hindu cosmological tradition"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A universe that breathes",
+          "caption": "How Hindu thought imagined creation and destruction repeating without beginning, across timescales rivalling those of modern astronomy.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Hindu cosmology",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Hinduism/Cosmology"
+      },
+      {
+        "label": "The Rigveda — Hymn of Creation",
+        "source": "The Rigveda (trans. Wendy Doniger, Penguin Classics)",
+        "url": "https://www.britannica.com/topic/Rigveda"
+      },
+      {
+        "label": "NASA — Age and scale of the universe",
+        "source": "NASA Science, Universe",
+        "url": "https://science.nasa.gov/universe/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Universe Without Edges",
+        "id": "a-universe-without-edges"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most ancient peoples imagined a young, small world, created not long ago and bounded close at hand. The Hindu imagination went the other way entirely. From its earliest hymns it reached for a cosmos almost without limit — vast beyond counting in space, and in time stretching back through cycle after cycle with no first beginning and no final end. Where other traditions told of a single creation, Hinduism told of creation repeated forever, a universe that is made and unmade and made again like breath."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is worth saying clearly what this article is and is not. The parallels drawn here between ancient Hindu cosmology and modern astronomy are **interpretive** — they are resonances and poetic echoes, not scientific claims, and the sages who imagined these cycles were doing metaphysics and myth, not physics. But the resonances are real and remarkable, and they are worth contemplating: a tradition of pure contemplation, working with no instrument but the disciplined mind, arrived at a sense of cosmic scale that the rest of the world would not reach until it built telescopes."
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "Poetry, not measurement",
+        "text": "The huge and strangely modern-sounding numbers of Hindu cosmology were not derived from observation or calculation in the way that the age of the universe is measured today from the expansion of space and the [cosmic microwave background](/article/the-big-bang). They are the fruit of philosophical and devotional imagination. To notice that they happen to fall in the same dizzying range as modern figures is a genuine wonder — but it is a poetic correspondence, not evidence, and it should be enjoyed as such."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Wheel of the Yugas",
+        "id": "the-wheel-of-the-yugas"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the heart of Hindu cosmology lies a vision of time as cyclical rather than linear. History does not run once from a creation to an end; it turns like a wheel through four great ages, the **yugas**. The first, the **Satya Yuga**, is a golden age of truth and harmony. With each succeeding age — the **Treta**, the **Dvapara**, and finally our own **Kali Yuga** — virtue and order decline, like a bull standing on ever fewer legs, until the world grows so corrupt that it must be dissolved and renewed. Then the wheel turns and the golden age begins again."
+      },
+      {
+        "type": "paragraph",
+        "text": "These four ages together make a **mahayuga** of several million years. A thousand such cycles make a single **day of Brahma**, the creator — a **kalpa** of some 4.32 billion years — and his night, when the universe is withdrawn into dormancy, is just as long. Brahma lives a hundred such cosmic years before he too dissolves and a new creator arises. The sheer arithmetic is staggering: the full lifespan of one creator runs to more than three hundred trillion years."
+      },
+      {
+        "type": "quote",
+        "text": "After a thousand ages have passed, the worlds dissolve into the unmanifest; and when the dawn of a new age breaks, they come forth once more. Thus the multitude of beings is born and born again."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Strange Echoes of Modern Astronomy",
+        "id": "strange-echoes-of-modern-astronomy"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is here that the interpretive parallels grow striking. A single **day of Brahma**, 4.32 billion years, falls remarkably close to the age of the [Solar System](/article/the-solar-system) — about 4.6 billion years. The wider cosmic cycles, reaching into the billions and trillions of years, sit in the same vast register as the lifespan of [stars](/article/stars) and the deep-time future of the universe that astronomy now contemplates. And the very idea of a universe that expands from a seed, endures, and contracts again has an obvious kinship with the modern scientific question of whether our own cosmos, born in [the Big Bang](/article/the-big-bang), might one day collapse — or whether, as some speculative models imagine, it is one in an endless succession of cycles."
+      },
+      {
+        "type": "paragraph",
+        "text": "The old hymns even hesitated before the question of origins in a way that feels startlingly modern. The Rigveda's great *Hymn of Creation* refuses easy answers, asking whether anyone — even the gods, even the highest seer — can truly know how the world began, or whether it arose from being or from nothing at all. That ancient agnosticism, that willingness to stand in awe before an unanswerable beginning, is not so far from the humility of a scientist gazing back toward the first instant of [the cosmos](/article/the-big-bang)."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The cosmic egg",
+        "text": "One of Hinduism's oldest images of origins is the **Brahmanda** — the \"cosmic egg,\" a golden seed afloat on the primal waters, from which the whole universe hatches and expands. It is, of course, a myth and not a measurement. Yet the picture of everything emerging from a single concentrated point and unfolding outward is one that the modern story of [the Big Bang](/article/the-big-bang) would, thousands of years later, render in the language of physics. The human imagination, it seems, reached for the same shape long before it had the means to test it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Wonder Across the Ages",
+        "id": "wonder-across-the-ages"
+      },
+      {
+        "type": "paragraph",
+        "text": "What should we make of these correspondences? Not that ancient India secretly knew modern physics — it did not, and to claim so is to mistake poetry for proof. The honest wonder is subtler and, in its way, greater. Working only with contemplation, [meditation](/article/yoga-and-meditation) and the disciplined [philosophical](/article/hindu-philosophy) imagination, a civilisation arrived at a sense of time and space that dwarfed every other ancient cosmology and that still, today, can make a reader catch their breath. The Hindu universe is endless, cyclical, breathing — a vision in which our entire history is a single morning in the life of a creator who is himself only one in an unending line. It is a humbling and exhilarating frame for the modern facts, and a fitting place to end a journey through one of humanity's oldest and most expansive ways of seeing the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-universe-without-edges",
+        "text": "A Universe Without Edges",
+        "level": 2
+      },
+      {
+        "id": "the-wheel-of-the-yugas",
+        "text": "The Wheel of the Yugas",
+        "level": 2
+      },
+      {
+        "id": "strange-echoes-of-modern-astronomy",
+        "text": "Strange Echoes of Modern Astronomy",
+        "level": 2
+      },
+      {
+        "id": "wonder-across-the-ages",
+        "text": "Wonder Across the Ages",
+        "level": 2
+      }
+    ],
+    "wordCount": 945
+  },
+  {
+    "id": "hindu-philosophy",
+    "title": "Hindu Philosophy",
+    "category": "science",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The search for the real",
+    "lede": "Long before philosophy arose in Greece, the sages of India were asking the deepest questions a mind can ask — what is real, what is the self, and how can the soul be free. Out of the Upanishads grew a tradition of reasoning as rigorous as any in the world, culminating in the breathtaking claim that the innermost self and the ultimate reality of the cosmos are one and the same.",
+    "related": [
+      "hinduism",
+      "vedas",
+      "hindu-cosmology",
+      "greek-philosophy",
+      "the-big-bang",
+      "black-holes"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Seats of Learning",
+          "caption": "From the forest hermitages of the Upanishadic sages to the four monastic seats founded by Shankara at the corners of India, the geography of Hindu thought.",
+          "region": "Indian subcontinent"
+        }
+      ],
+      "images": [
+        {
+          "title": "A teacher and student in the forest",
+          "caption": "The Upanishads take their name from sitting close beside a teacher — knowledge passed from mind to mind in the quiet of the hermitage.",
+          "credit": "Classical depiction"
+        },
+        {
+          "title": "Adi Shankaracharya",
+          "caption": "The eighth-century philosopher whose doctrine of non-dualism, Advaita Vedanta, became the most influential interpretation of Hindu thought.",
+          "credit": "South Indian painting"
+        }
+      ],
+      "videos": [
+        {
+          "title": "That thou art",
+          "caption": "How Indian philosophy reached the conclusion that the self and the absolute are not two things, but one.",
+          "duration": "6:20",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Indian philosophy",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Indian-philosophy"
+      },
+      {
+        "label": "The Upanishads",
+        "source": "The Upanishads (trans. Patrick Olivelle / Eknath Easwaran)",
+        "url": "https://www.britannica.com/topic/Upanishad"
+      },
+      {
+        "label": "Stanford Encyclopedia of Philosophy — Vedanta",
+        "source": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/vedanta/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Questions Behind the Ritual",
+        "id": "the-questions-behind-the-ritual"
+      },
+      {
+        "type": "paragraph",
+        "text": "The earliest [Vedas](/article/vedas) were hymns of praise and sacrifice, addressed to gods who might grant rain and cattle. But somewhere around 800 BCE, in the forest schools of northern India, a new kind of voice begins to sound in the closing pages of the Vedas — the **Upanishads**. Here the questions turn inward and grow vast. What is the world really made of? What is the self that says *I*? What happens when the body dies? And is there anything that does not change, anything truly, permanently real beneath the flux of experience?"
+      },
+      {
+        "type": "paragraph",
+        "text": "These were the same hungers that would later drive the first thinkers of [Greece](/article/greek-philosophy) to seek a single principle behind the changing world. But the Indian sages pursued them by a different route — not in the marketplace and the law court, but in meditation, in the silence won by the disciplines of [yoga](/article/yoga-and-meditation). The Upanishads are records of that inward exploration, dialogues between teachers and students, kings and sages, even a boy and the god of death."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Atman is Brahman",
+        "text": "The supreme discovery of the Upanishads is summed up in four Sanskrit syllables: **tat tvam asi**, \"that thou art.\" The **atman** — the innermost self, the silent witness behind all your thoughts — is not separate from **Brahman**, the infinite reality underlying the whole cosmos. They are one. To realise this, not as an idea but as a living experience, is **moksha**: liberation, the end of fear and the end of death. It is perhaps the boldest claim in the history of thought — that the ground of the universe is to be found by looking within."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Six Visions",
+        "id": "the-six-visions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Out of these meditations grew, over the centuries, six great classical schools — the **darshanas**, or \"viewpoints,\" each a complete system of reasoning about reality, knowledge and liberation. There was **Samkhya**, which analysed the cosmos into spirit and matter; **Yoga**, its practical partner, which mapped the disciplines of stilling the mind; **Nyaya**, a rigorous logic of debate and proof; **Vaisheshika**, an early atomism that broke the world into indivisible particles; **Mimamsa**, devoted to the meaning of ritual and scripture; and **Vedanta**, the \"end of the Vedas,\" which took the Upanishads as its foundation and became the most influential of all."
+      },
+      {
+        "type": "paragraph",
+        "text": "What is striking is how *philosophical* this tradition was. These schools argued, refuted one another, built systems of logic and theories of perception, and debated across the centuries with Buddhists and Jains in a great civilisation-wide conversation about the nature of the real. India produced not one philosophy but a contending parliament of them."
+      },
+      {
+        "type": "quote",
+        "text": "Lead me from the unreal to the real; lead me from darkness to light; lead me from death to immortality."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Shankara and the One Without a Second",
+        "id": "shankara-and-the-one-without-a-second"
+      },
+      {
+        "type": "paragraph",
+        "text": "The summit of this tradition is usually placed in the eighth century CE, with the philosopher **Adi Shankaracharya**. In a life of barely thirty-two years he travelled the length of India, debated every rival school, wrote luminous commentaries on the Upanishads and the [Bhagavad Gita](/article/mahabharata), and founded monastic centres at the four corners of the land that endure to this day. His teaching is **Advaita Vedanta** — \"non-dualism,\" the doctrine that there are not two realities but one."
+      },
+      {
+        "type": "paragraph",
+        "text": "For Shankara, only **Brahman** is finally real. The world of separate things, the sense that you are a distinct self gazing out at a world of others, is **maya** — not an illusion in the sense of being nothing, but a kind of misperception, like mistaking a coiled rope for a snake in the dusk. Wisdom is the moment the lamp is brought near and the snake is seen to have been a rope all along. There was never anything to fear, and never anything separate from the one. Other great teachers would later challenge him — **Ramanuja** and **Madhva** insisting that the soul and God remain forever distinct, that love requires a beloved who is truly other — and from that disagreement flowed the great devotional movements of the medieval age."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Philosophy you can taste",
+        "text": "Hindu philosophy never treated truth as something to be merely understood. Its systems all aimed at **moksha**, a transformation of the whole person, not just an adjustment of belief. Reasoning was a discipline of the soul, meant to end in direct experience — which is why philosophy and meditation, argument and contemplation, are in this tradition two halves of a single craft. To know the truth and to be freed by it were never meant to be separate things."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Map of the Real",
+        "id": "a-map-of-the-real"
+      },
+      {
+        "type": "paragraph",
+        "text": "The reach of these ideas is hard to overstate. The doctrine of an unchanging reality behind appearances, of a deathless self, of liberation through knowledge, shaped the whole of Indian culture and travelled far beyond it, kindling the thought of philosophers and poets from the German idealists to the American transcendentalists. And in its grandest speculations — its vision of a single boundless reality underlying all the forms of the world — Hindu philosophy reaches toward the same horizon that modern [cosmology](/article/hindu-cosmology) approaches from the other side, as physics traces every galaxy and atom back to a single origin in [the Big Bang](/article/the-big-bang). Two very different searches for the one thing that underlies everything, conducted three thousand years and half a world apart."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-questions-behind-the-ritual",
+        "text": "The Questions Behind the Ritual",
+        "level": 2
+      },
+      {
+        "id": "the-six-visions",
+        "text": "The Six Visions",
+        "level": 2
+      },
+      {
+        "id": "shankara-and-the-one-without-a-second",
+        "text": "Shankara and the One Without a Second",
+        "level": 2
+      },
+      {
+        "id": "a-map-of-the-real",
+        "text": "A Map of the Real",
+        "level": 2
+      }
+    ],
+    "wordCount": 874
+  },
+  {
+    "id": "hindu-temples",
+    "title": "Hindu Temple Architecture",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The mountain of the gods",
+    "lede": "A Hindu temple is not a hall for congregations but a dwelling for a god — a sacred mountain in stone, built to a cosmic blueprint, drawing the worshipper inward and upward from the bright outer world to the dark, silent womb-chamber at its heart. From the soaring towers of the south to the sculpted shrines of the north, these are among the most ambitious buildings ever raised.",
+    "related": [
+      "hinduism",
+      "hindu-gods",
+      "greek-architecture",
+      "roman-engineering",
+      "pyramids-of-giza"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Temple Cities of India",
+          "caption": "From Khajuraho and Konark in the north to Thanjavur, Madurai and the great Chola shrines of the south, the temple-building heartlands of the subcontinent.",
+          "region": "Indian subcontinent"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Brihadisvara Temple, Thanjavur",
+          "caption": "The Chola masterpiece of around 1010 CE, its tower rising over sixty metres, capped by a single carved stone weighing many tonnes.",
+          "credit": "Thanjavur, Tamil Nadu"
+        },
+        {
+          "title": "A southern gopuram",
+          "caption": "The towering, sculpture-encrusted gateways of South Indian temple-cities, painted in vivid colour and crowded with the whole pantheon of gods.",
+          "credit": "Madurai, Tamil Nadu"
+        }
+      ],
+      "videos": [
+        {
+          "title": "A mountain made of stone",
+          "caption": "How the Hindu temple was designed as a model of the cosmos and a body for the divine.",
+          "duration": "6:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Hindu temple architecture",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/South-Asian-arts"
+      },
+      {
+        "label": "UNESCO — Great Living Chola Temples",
+        "source": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/250"
+      },
+      {
+        "label": "The Met — Temple architecture of India",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/hd/temp/hd_temp.htm"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A House for a God",
+        "id": "a-house-for-a-god"
+      },
+      {
+        "type": "paragraph",
+        "text": "Where a Greek temple was a beautiful box to shelter a statue and a Roman one a civic monument, the Hindu temple — the **mandir** — is something stranger and more inward. It is conceived as the literal dwelling-place of a deity, who is invited to inhabit the consecrated image within, and as a model of the whole cosmos rendered in stone. To enter it is to make a journey from the ordinary world toward the centre of all things."
+      },
+      {
+        "type": "paragraph",
+        "text": "The plan follows an ancient diagram, the **vastu-purusha-mandala**, a sacred grid laid over the ground that aligns the building with the cardinal directions and the order of the universe. At the heart of the temple lies its most important and least adorned space: the **garbhagriha**, the \"womb-chamber,\" a small, dark, windowless cell that houses the central image of the god. Above it rises the tower — the curving **shikhara** of the north or the stepped, pyramidal **vimana** of the south — a man-made mountain pointing the eye and the soul upward toward heaven."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A journey from light into dark",
+        "text": "The genius of the temple is its choreography of movement. The worshipper passes from the dazzling, crowded, sunlit exterior — its walls alive with carvings of gods, dancers, animals and lovers, the whole teeming abundance of creation — through a series of ever-darker, ever-quieter halls, until reaching the tiny, silent, lamp-lit cell at the centre, where there is nothing but the image of the god and the self that has come to meet it. The architecture itself enacts the inward turn of [Hindu philosophy](/article/hindu-philosophy): from the many to the one, from the outward world to the still point within."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two Great Styles",
+        "id": "two-great-styles"
+      },
+      {
+        "type": "paragraph",
+        "text": "Over the centuries Hindu architecture flowered into two great regional traditions. In the north arose the **Nagara** style, its temples crowned by a single soaring, beehive-curved **shikhara**, clustered sometimes with smaller echoing towers — as at the exquisite, sensuous shrines of **Khajuraho** or the great sun-temple of **Konark**, carved as a colossal chariot drawn by stone horses. In the south flourished the **Dravidian** style, with its stepped pyramidal towers over the sanctum and, later, its astonishing **gopurams** — the immense gateway-towers, encrusted from base to summit with brightly painted figures, that loom over the temple-cities of the Tamil south."
+      },
+      {
+        "type": "paragraph",
+        "text": "The high-water mark of the southern tradition came under the **Chola** dynasty, whose kings between roughly 900 and 1200 CE poured the wealth of a maritime empire into stone. The **Brihadisvara Temple** at Thanjavur, completed around 1010 CE, raised a tower more than sixty metres high, capped by a single dome-stone of many tonnes that engineers still marvel at — a feat of lifting and balancing to rank with the [pyramids of Giza](/article/pyramids-of-giza) or the vaulting of [Roman engineering](/article/roman-engineering)."
+      },
+      {
+        "type": "quote",
+        "text": "The temple is the body of God made visible, that those who cannot see the formless may worship the form."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Engineering of Awe",
+        "id": "the-engineering-of-awe"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ambition of these buildings demanded extraordinary craft. Temples were raised almost entirely without mortar, from precisely cut granite and sandstone blocks locked together by their own weight and shape, much as the [builders of Greece](/article/greek-architecture) fitted their marble. Massive stones were hauled up long earthen ramps; towers were corbelled inward course by course until they met at the summit. Every surface was then given over to the sculptor, so that the structure and its decoration became inseparable — the building is the carving, and the carving is theology."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the figures that swarm across temple walls are not ornament for its own sake. They form a vast illustrated scripture: the avatars of [Vishnu](/article/hindu-gods), the cosmic dance of Shiva, scenes from the [Ramayana](/article/ramayana) and the [Mahabharata](/article/mahabharata), the gods and goddesses in their full multiplicity. A temple was a book the unlettered could read, a sermon in stone available to anyone who walked its corridors."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Temples that never closed",
+        "text": "Unlike the silent ruins of the ancient Mediterranean, India's great temples are mostly living shrines still. At Thanjavur, at Madurai, at Tirupati, the lamps are still lit, the bells still ring, and the same rites are performed that were performed a thousand years ago. Some draw more pilgrims in a year than any building on Earth. They are not monuments to a vanished faith but working houses of a god still believed to be at home."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Stone Made Sacred",
+        "id": "stone-made-sacred"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Hindu temple is one of humanity's great architectural achievements — comparable in ambition to the cathedrals of Europe or the pyramids of Egypt, yet built on an entirely different principle. It does not gather a crowd to face an altar; it draws the single soul inward to meet the divine in darkness and silence. In its rising tower it images the cosmic mountain at the centre of the world; in its sculpted walls it tells the whole story of the gods; and in its sequence of chambers it teaches, in stone, the central lesson of the tradition that built it — that the way to the infinite leads not outward but in."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-house-for-a-god",
+        "text": "A House for a God",
+        "level": 2
+      },
+      {
+        "id": "two-great-styles",
+        "text": "Two Great Styles",
+        "level": 2
+      },
+      {
+        "id": "the-engineering-of-awe",
+        "text": "The Engineering of Awe",
+        "level": 2
+      },
+      {
+        "id": "stone-made-sacred",
+        "text": "Stone Made Sacred",
+        "level": 2
+      }
+    ],
+    "wordCount": 828
+  },
+  {
+    "id": "hinduism",
+    "title": "Hinduism",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The eternal way",
+    "lede": "Hinduism is the oldest living religion on Earth — not a single founder's creed but a vast, woven inheritance of scripture, ritual, philosophy and story that has grown on the Indian subcontinent for more than three thousand years. Its followers call it sanatana dharma, the eternal law, and within its boundless variety lies room for one supreme reality and a thousand million faces of the divine.",
+    "related": [
+      "vedas",
+      "hindu-gods",
+      "ancient-egypt",
+      "greek-philosophy",
+      "roman-religion",
+      "egyptian-religion"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Sacred Geography of India",
+          "caption": "From the Himalayan source of the Ganges to the temple cities of the south, the whole subcontinent is mapped as holy ground, threaded by pilgrimage routes and sacred rivers.",
+          "region": "Indian subcontinent"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Ganges at Varanasi",
+          "caption": "Pilgrims gather at dawn on the ghats of the holiest city, where the living bathe and the dead are returned to the river that is herself a goddess.",
+          "credit": "Varanasi, Uttar Pradesh"
+        },
+        {
+          "title": "Om, the primordial sound",
+          "caption": "The syllable held to contain the vibration of the whole cosmos — the most concentrated symbol of the tradition.",
+          "credit": "Devanagari script"
+        }
+      ],
+      "videos": [
+        {
+          "title": "What is Hinduism?",
+          "caption": "How a family of beliefs without a single founder became the spiritual home of a billion people.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Hinduism",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Hinduism"
+      },
+      {
+        "label": "The Bhagavad Gita",
+        "source": "The Bhagavad Gita (trans. Eknath Easwaran)",
+        "url": "https://www.britannica.com/topic/Bhagavadgita"
+      },
+      {
+        "label": "The British Museum — Hindu world",
+        "source": "The British Museum, Department of Asia",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Religion Without a Beginning",
+        "id": "a-religion-without-a-beginning"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most faiths can name a founder and a moment of revelation. Hinduism can name neither. It has no single prophet, no one book, no central authority and no creed that every believer must accept. Instead it is a confluence — the slow merging of the rituals of the **Vedic** peoples who composed sacred hymns more than three thousand years ago with the older devotions of the [Indus Valley](/article/hinduism) and the countless local traditions of the subcontinent. The very word *Hindu* began as a geographic label, the Persian name for the people who lived beyond the river Sindhu, the Indus. Only much later did it come to name a religion."
+      },
+      {
+        "type": "paragraph",
+        "text": "Its followers more often call it **sanatana dharma** — the eternal way, or eternal law. The phrase captures something essential. Hinduism is less a set of doctrines to be believed than an order to be lived: a *dharma*, a right way of acting, that holds the cosmos and the conscience together. Within that order a worshipper may be a strict philosopher who sees the divine as a single formless absolute, or a villager who garlands a much-loved local goddess, and both are wholly Hindu."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "One reality, many names",
+        "text": "The most quoted line in all the [Vedas](/article/vedas) reads: *\"Truth is one; the wise call it by many names.\"* This single idea — that the one supreme reality, **Brahman**, can be approached through countless gods, images and paths — is the key that unlocks Hinduism's astonishing variety. It is not many religions wearing one name, but one vision wearing many faces."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Great Ideas",
+        "id": "the-great-ideas"
+      },
+      {
+        "type": "paragraph",
+        "text": "Beneath the variety run a few currents shared across almost every Hindu tradition. The first is **Brahman**, the ultimate reality underlying all things, and the **atman**, the innermost self — which the [Upanishads](/article/hindu-philosophy) boldly declare to be one and the same. To know, in the depths of meditation, that *atman is Brahman* is to glimpse the secret of existence."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second is the great wheel of **samsara**, the cycle of birth, death and rebirth through which every soul passes, life after life. What carries a soul forward is **karma** — the moral law of cause and effect, by which every action ripens into a consequence. To live well is to sow well. The aim of the whole spiritual life is finally **moksha**: liberation, the release of the soul from the wheel and its reunion with the infinite."
+      },
+      {
+        "type": "quote",
+        "text": "You are what your deep, driving desire is. As your desire is, so is your will. As your will is, so is your deed. As your deed is, so is your destiny."
+      },
+      {
+        "type": "paragraph",
+        "text": "That passage from the Upanishads turns the entire moral universe on the quiet axis of the human heart."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Many Paths Up One Mountain",
+        "id": "many-paths-up-one-mountain"
+      },
+      {
+        "type": "paragraph",
+        "text": "Because the goal is liberation and the seekers are infinitely various, Hinduism offers not one road but several. The **Bhagavad Gita**, the most beloved of all Hindu scriptures, sets out three great paths that the divine charioteer Krishna teaches to the warrior Arjuna. There is the path of **action** done without selfish attachment to its fruits; the path of **knowledge**, the philosopher's ascent through wisdom; and the path of **devotion**, *bhakti*, the loving surrender of the heart to a chosen form of God. A fourth, the path of disciplined practice through [yoga and meditation](/article/yoga-and-meditation), threads through them all."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A living tradition, not a relic",
+        "text": "Unlike the religions of [ancient Egypt](/article/egyptian-religion) or [Rome](/article/roman-religion), which we study only through ruins and texts, Hinduism is fiercely alive. Its hymns are still chanted, its festivals still light up cities, its temples still crowded. Roughly **1.2 billion people** — about one in seven humans alive — follow it today, the third-largest religion on Earth and the only one of the ancient world's great faiths still practised by the people who first composed its scriptures."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Civilisation of the Spirit",
+        "id": "a-civilisation-of-the-spirit"
+      },
+      {
+        "type": "paragraph",
+        "text": "To follow Hinduism through history is to follow much of the history of India itself. From the sacrifices of the Vedic age to the soaring metaphysics of the Upanishads, from the world-spanning epics of the [Mahabharata](/article/mahabharata) and the [Ramayana](/article/ramayana) to the towering [temples](/article/hindu-temples) of the medieval south and the ecstatic devotional movements that swept the land, the tradition has continually renewed itself without ever discarding its past. The oldest layer and the newest still sit side by side."
+      },
+      {
+        "type": "paragraph",
+        "text": "What follows in this cluster is a journey through that inheritance: the scriptures that began it, the gods who fill it, the epics that taught it, the philosophy that deepened it, the temples that housed it, the disciplines that train the body and mind toward it, and finally the breathtaking vision of time and cosmos that frames it all. It is the story of how one of humanity's oldest peoples set out to map the whole of reality — and never stopped."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-religion-without-a-beginning",
+        "text": "A Religion Without a Beginning",
+        "level": 2
+      },
+      {
+        "id": "the-great-ideas",
+        "text": "The Great Ideas",
+        "level": 2
+      },
+      {
+        "id": "many-paths-up-one-mountain",
+        "text": "Many Paths Up One Mountain",
+        "level": 2
+      },
+      {
+        "id": "a-civilisation-of-the-spirit",
+        "text": "A Civilisation of the Spirit",
+        "level": 2
+      }
+    ],
+    "wordCount": 792
+  },
+  {
     "id": "julius-caesar",
     "title": "Julius Caesar",
     "category": "kingdoms-empires",
@@ -4931,6 +5718,398 @@
     "wordCount": 748
   },
   {
+    "id": "hindu-gods",
+    "title": "The Hindu Pantheon",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "A million faces of the one",
+    "lede": "Hinduism is famous for its thronging multitude of gods — by tradition, thirty-three million of them. Yet behind the dazzling crowd of Shiva and Vishnu, Devi and Ganesha lies a single conviction — that all these are forms of one supreme reality, approached in whatever face the heart most loves. The pantheon is not a contradiction of monotheism but a celebration of the infinite.",
+    "related": [
+      "hinduism",
+      "vedas",
+      "greek-mythology",
+      "roman-mythology",
+      "egyptian-religion",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Shrines of the Great Gods",
+          "caption": "The pilgrimage centres of the deities — Shiva's Kashi, Vishnu's Tirupati, the goddess-shrines of the Shakti Peethas — scattered like a constellation across India.",
+          "region": "Indian subcontinent"
+        }
+      ],
+      "images": [
+        {
+          "title": "Shiva Nataraja",
+          "caption": "The Lord of the Dance, treading down ignorance within a ring of cosmic fire — perhaps the most perfect image of Hindu thought ever cast in bronze.",
+          "credit": "Chola dynasty bronze"
+        },
+        {
+          "title": "Vishnu reclining on the cosmic ocean",
+          "caption": "The preserver asleep on the serpent of infinity between the cycles of creation, a lotus rising from his navel bearing the creator Brahma.",
+          "credit": "South Indian relief"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Trimurti and the Devi",
+          "caption": "How creator, preserver and destroyer — and the great Goddess — divide the work of the cosmos between them.",
+          "duration": "6:10",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Hindu deities",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Hinduism/Hindu-deities"
+      },
+      {
+        "label": "The Met — Hindu deities",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/hd/dvev/hd_dvev.htm"
+      },
+      {
+        "label": "The British Museum — Hindu gods",
+        "source": "The British Museum, Department of Asia",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Thirty-Three Million Gods",
+        "id": "thirty-three-million-gods"
+      },
+      {
+        "type": "paragraph",
+        "text": "To a visitor, the Hindu pantheon can seem bewildering — a swirl of blue-skinned heroes, many-armed goddesses, elephant-headed sons and divine animals. The tradition itself delights in the abundance, speaking of **thirty-three million** deities, a number meant less as a census than as a poetic figure for *the infinite*. But ask a thoughtful Hindu how many gods there really are, and the answer is older and simpler. The divine is one — **Brahman**, the supreme reality — and the many gods are its faces, the forms through which the formless lets itself be loved."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the crucial difference from the cheerful, jealous, all-too-human Olympians of [Greek mythology](/article/greek-mythology) or the absorbed state gods of [Rome](/article/roman-mythology). Hindu deities are not rivals competing for a worshipper's loyalty; they are windows onto a single light. A devotee chooses an **ishta-devata**, a cherished form of God, and pours devotion into that one face without ever denying the others."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The chosen deity",
+        "text": "Because the divine wears many faces, Hindus need not all worship the same one. A family may keep Ganesha by the door, Lakshmi in the strongbox and Hanuman in the heart, while neighbours pour their devotion into Krishna or the Goddess. Each is held to be a full and sufficient gateway to the one reality — so that personal love, not exclusive doctrine, becomes the engine of worship."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Trimurti: Creator, Preserver, Destroyer",
+        "id": "the-trimurti-creator-preserver-destroyer"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the centre of the classical pantheon stand three great gods who divide the work of the cosmos — the **Trimurti**, or triple form. **Brahma** is the creator who brings each universe into being; **Vishnu** is the preserver who sustains it in order and goodness; and **Shiva** is the destroyer who dissolves it again so that creation may begin afresh. These are not three competing powers but three rhythms of one endless process, the breathing in and out of existence itself."
+      },
+      {
+        "type": "paragraph",
+        "text": "Brahma, oddly, is little worshipped — his work is done once each cycle. It is Vishnu and Shiva who command the devotion of vast traditions. **Vishnu** descends into the world again and again, whenever order falters, in a series of **avatars** — most beloved among them **Rama**, the perfect king of the [Ramayana](/article/ramayana), and **Krishna**, the divine cowherd, charioteer and teacher of the [Mahabharata](/article/mahabharata). **Shiva**, by contrast, is the great paradox: ascetic and sensual, terrifying and serene, the meditating yogi of the Himalayas and the cosmic dancer whose drum beats out creation and whose fire consumes it."
+      },
+      {
+        "type": "quote",
+        "text": "As a dancer gathers up the threads of a net, so at the end of time the Lord draws the worlds into himself."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Goddess and the Beloved Forms",
+        "id": "the-goddess-and-the-beloved-forms"
+      },
+      {
+        "type": "paragraph",
+        "text": "To speak only of the gods would be to miss half the pantheon and much of its power. Across India the **Devi**, the great Goddess, is worshipped as the supreme reality in her own right — as **Durga**, the warrior riding her lion to slay the buffalo-demon; as **Kali**, the fierce dark mother who tramples death itself; and as **Parvati** and **Lakshmi** and **Saraswati**, consorts of the great gods who are no mere companions but the very energy, the **Shakti**, without which the gods are powerless. In the goddess traditions it is feminine power that animates the whole cosmos."
+      },
+      {
+        "type": "paragraph",
+        "text": "And then there are the deities every household knows and loves. **Ganesha**, the elephant-headed remover of obstacles, is invoked at the start of any venture. **Hanuman**, the mighty monkey-god, is the model of fearless devotion. **Saraswati** governs learning and music; **Lakshmi** brings fortune and abundance. These are the gods of the doorway and the festival, woven into the rhythm of ordinary life."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Why so many arms?",
+        "text": "The multiple arms, heads and weapons of Hindu deities are a visual language, not a literal portrait. Extra arms signify superhuman power and the many things a god can do at once; each object held — a discus, a conch, a lotus, a trident — carries a precise meaning. The blue skin of Vishnu and Krishna evokes the infinite, like the sky and the ocean. To read a Hindu image is to read a theology written in posture and gesture."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One Light, Many Lamps",
+        "id": "one-light-many-lamps"
+      },
+      {
+        "type": "paragraph",
+        "text": "The genius of the Hindu pantheon is that it holds together two ideas most religions keep apart: a rigorous philosophical insistence that ultimate reality is one, formless and beyond all description; and a warm, human longing to love a God with a face, a name and a story. The thinkers ascend toward the abstract **Brahman**; the millions garland Ganesha and weep before Krishna; and the tradition tells them, gently, that they are doing the same thing. The many gods are lamps, and the light in every lamp is one. To understand this is to understand how the [philosophy](/article/hindu-philosophy) and the devotion of Hinduism, so different in their language, have for thousands of years remained a single faith."
+      }
+    ],
+    "toc": [
+      {
+        "id": "thirty-three-million-gods",
+        "text": "Thirty-Three Million Gods",
+        "level": 2
+      },
+      {
+        "id": "the-trimurti-creator-preserver-destroyer",
+        "text": "The Trimurti: Creator, Preserver, Destroyer",
+        "level": 2
+      },
+      {
+        "id": "the-goddess-and-the-beloved-forms",
+        "text": "The Goddess and the Beloved Forms",
+        "level": 2
+      },
+      {
+        "id": "one-light-many-lamps",
+        "text": "One Light, Many Lamps",
+        "level": 2
+      }
+    ],
+    "wordCount": 799
+  },
+  {
+    "id": "mahabharata",
+    "title": "The Mahabharata",
+    "category": "literature",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The great epic of India",
+    "lede": "The Mahabharata is the longest poem ever composed — some hundred thousand verses, seven times the length of the Iliad and Odyssey combined — telling of a catastrophic war between two branches of one royal family. But within its story of duty, vengeance and ruin sits the Bhagavad Gita, the most luminous spiritual dialogue in all of Hindu scripture.",
+    "related": [
+      "hinduism",
+      "ramayana",
+      "hindu-gods",
+      "trojan-war",
+      "greek-mythology",
+      "roman-mythology"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Kingdom of the Kurus",
+          "caption": "Hastinapura and the field of Kurukshetra in the Ganges plain, where tradition places the great war at the heart of the epic.",
+          "region": "North India"
+        }
+      ],
+      "images": [
+        {
+          "title": "Krishna counsels Arjuna",
+          "caption": "On the eve of battle, the divine charioteer turns to the despairing prince and speaks the Bhagavad Gita — counsel that became scripture.",
+          "credit": "Classical Indian painting"
+        },
+        {
+          "title": "The dice game",
+          "caption": "The fateful gambling match in which the eldest Pandava stakes and loses his kingdom, his brothers, and their shared wife Draupadi.",
+          "credit": "Mughal-era manuscript illustration"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The war of the cousins",
+          "caption": "How a quarrel over a throne became an eighteen-day war that ended an age of the world.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Mahabharata",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Mahabharata"
+      },
+      {
+        "label": "The Mahabharata",
+        "source": "The Mahabharata (trans. J. A. B. van Buitenen / Bibek Debroy)",
+        "url": "https://www.britannica.com/topic/Mahabharata"
+      },
+      {
+        "label": "The Bhagavad Gita",
+        "source": "The Bhagavad Gita (trans. Eknath Easwaran)",
+        "url": "https://www.britannica.com/topic/Bhagavadgita"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Great Story of the Bharatas",
+        "id": "the-great-story-of-the-bharatas"
+      },
+      {
+        "type": "paragraph",
+        "text": "The title means \"the great tale of the Bharata dynasty,\" and the Mahabharata is great in every sense. At roughly one hundred thousand couplets it is by far the longest epic poem in the world, a work that took shape across many centuries — perhaps from 400 BCE to 400 CE — accreting layer upon layer of story, law, philosophy and myth until it became, in its own proud words, a book that contains everything: *\"What is found here may be found elsewhere. What is not found here is found nowhere.\"* Tradition ascribes it to the sage **Vyasa**, who is also a character within it — a poet woven into his own poem."
+      },
+      {
+        "type": "paragraph",
+        "text": "At its core lies a brutally simple conflict. Two sets of cousins, the five virtuous **Pandava** brothers and the hundred ambitious **Kaurava** brothers, contend for the throne of Hastinapura. Through pride, envy and a rigged game of dice in which the Pandavas lose their kingdom, their freedom and even their shared wife **Draupadi**, the quarrel hardens past all hope of peace. The result is the war on the field of **Kurukshetra**, eighteen days of slaughter that all but annihilates the warrior class of an age."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Not heroes and villains, but a tangle of duty",
+        "text": "What makes the Mahabharata so unsettling and so wise is that almost no one in it is simply good or evil. The noblest figures lie, hesitate and commit terrible acts; the villains have their reasons and their dignity. The epic is an immense meditation on **dharma** — duty, righteousness, the right thing to do — and on how impossibly hard it can be to know what dharma demands when every choice wounds someone. It does not hand its readers easy lessons. It hands them the full weight of moral difficulty."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A War to End an Age",
+        "id": "a-war-to-end-an-age"
+      },
+      {
+        "type": "paragraph",
+        "text": "Like the war over Troy that haunted the [Greek imagination](/article/trojan-war), the war of the Mahabharata is remembered as the hinge between a heroic past and a fallen present — the catastrophe that closes one age of the world and opens our own, the diminished **Kali Yuga**. Where Homer's epic turns on the wrath of one man, the Indian poem widens its lens to a whole civilisation tearing itself apart, and counts the cost not in glory but in grief."
+      },
+      {
+        "type": "paragraph",
+        "text": "The battle leaves the victorious Pandavas hollow, ruling over a kingdom of widows and ashes. In its closing books they renounce the throne and walk toward the Himalayas to die, and the eldest brother, **Yudhishthira**, refuses heaven itself unless the faithful dog who followed him may enter too. It is an ending of extraordinary moral seriousness, less a triumph than a long reckoning with the price of victory."
+      },
+      {
+        "type": "quote",
+        "text": "Time ripens all creatures; time gathers them in. Time is awake when all things sleep. None can resist the working of time."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Song of the Lord",
+        "id": "the-song-of-the-lord"
+      },
+      {
+        "type": "paragraph",
+        "text": "And yet the most famous passage in the Mahabharata is not a battle but a conversation. As the two armies face each other on the first morning, the greatest Pandava warrior, **Arjuna**, looks across the field at his cousins, teachers and kinsmen — and his courage fails. Why should he kill the people he loves for the sake of a kingdom? He lets his bow slip from his hand and sinks down in his chariot, refusing to fight."
+      },
+      {
+        "type": "paragraph",
+        "text": "His charioteer is **Krishna** — and Krishna is God, an avatar of [Vishnu](/article/hindu-gods) in human form. What follows is the **Bhagavad Gita**, the \"Song of the Lord,\" seven hundred verses in which Krishna lifts Arjuna out of despair. He teaches that the soul is deathless and cannot truly be slain; that one must do one's duty without grasping after its rewards; and that there are many paths to the divine — through selfless action, through knowledge, and above all through loving devotion. Then, at Arjuna's plea, Krishna reveals his true cosmic form, blazing with the light of a thousand suns, containing all worlds and all time."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "The Gita beyond the battlefield",
+        "text": "Though it sits inside an epic of war, the Bhagavad Gita has long been read on its own as the most beloved scripture of Hinduism — pocket-sized, endlessly quoted, carried by saints and statesmen alike. Mohandas Gandhi called it his \"spiritual dictionary\" and returned to it daily. Its core teaching, to act rightly without clinging to the outcome, has consoled readers far beyond India, who never lift a weapon but recognise Arjuna's paralysis as their own."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Mirror of the World",
+        "id": "a-mirror-of-the-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Mahabharata has never stopped being India's great mirror. Its characters are household names; its episodes are danced, painted, filmed and argued over still. It gave Hinduism not only the Gita but a vast treasury of teaching on duty, kingship, fate and the soul, all carried not as dry doctrine but as unforgettable story. Alongside its gentler companion the [Ramayana](/article/ramayana), it shaped the moral imagination of a fifth of humanity — proof that the deepest [philosophy](/article/hindu-philosophy) of a civilisation can travel furthest when it rides inside a tale of love, war and a charioteer who turns out to be God."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-great-story-of-the-bharatas",
+        "text": "The Great Story of the Bharatas",
+        "level": 2
+      },
+      {
+        "id": "a-war-to-end-an-age",
+        "text": "A War to End an Age",
+        "level": 2
+      },
+      {
+        "id": "the-song-of-the-lord",
+        "text": "The Song of the Lord",
+        "level": 2
+      },
+      {
+        "id": "a-mirror-of-the-world",
+        "text": "A Mirror of the World",
+        "level": 2
+      }
+    ],
+    "wordCount": 839
+  },
+  {
     "id": "the-moon",
     "title": "The Moon",
     "category": "universe",
@@ -5894,6 +7073,197 @@
     "wordCount": 376
   },
   {
+    "id": "ramayana",
+    "title": "The Ramayana",
+    "category": "literature",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The journey of Rama",
+    "lede": "The Ramayana is the most beloved story of the Hindu world — the tale of Prince Rama, his devoted wife Sita carried off by a demon king, and the war fought across the sea to win her back. For more than two thousand years it has set the pattern of the ideal life, and its hero, an avatar of Vishnu, remains one of the most worshipped figures on Earth.",
+    "related": [
+      "hinduism",
+      "mahabharata",
+      "hindu-gods",
+      "trojan-war",
+      "greek-mythology"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Rama's Long Road South",
+          "caption": "From the city of Ayodhya through the forests of exile to the southern straits and the bridge to Lanka — the geography of the epic is still mapped onto the Indian landscape.",
+          "region": "India and Sri Lanka"
+        }
+      ],
+      "images": [
+        {
+          "title": "Rama, Sita and Lakshmana",
+          "caption": "The prince, his wife and his loyal brother in the years of forest exile — an image of devotion and dharma painted in every Indian style.",
+          "credit": "Classical Indian painting"
+        },
+        {
+          "title": "Hanuman leaps to Lanka",
+          "caption": "The monkey-god crosses the ocean in a single bound to find the captive Sita — the supreme emblem of fearless devotion.",
+          "credit": "Temple relief"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The ideal and the exile",
+          "caption": "How a prince's banishment became the story a civilisation tells about duty, love and loyalty.",
+          "duration": "6:00",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Ramayana",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Ramayana-Indian-epic"
+      },
+      {
+        "label": "The Ramayana of Valmiki",
+        "source": "The Ramayana of Valmiki (Princeton Library of Asian Translations)",
+        "url": "https://www.britannica.com/biography/Valmiki"
+      },
+      {
+        "label": "The Met — The Ramayana in Indian art",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The First Poem",
+        "id": "the-first-poem"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tradition calls the Ramayana the **adi-kavya**, the \"first poem\" — the work in which the sage **Valmiki** is said to have invented the very art of verse, his grief at the death of a bird crystallising spontaneously into metre. Composed perhaps around 300 BCE and growing over the following centuries, it is shorter and more shapely than the sprawling [Mahabharata](/article/mahabharata): some twenty-four thousand verses telling a single, luminous story with the clean inevitability of a fable."
+      },
+      {
+        "type": "paragraph",
+        "text": "That story is quickly told. **Rama**, the noble prince of **Ayodhya**, is about to be crowned heir when a palace intrigue sends him into fourteen years of exile in the forest. His wife **Sita** and his devoted brother **Lakshmana** go with him, choosing hardship over separation. In the wilderness the demon king **Ravana**, lord of the island fortress of **Lanka**, abducts Sita and carries her across the sea. To rescue her, Rama allies with an army of monkeys, led by the mighty **Hanuman**, builds a bridge to the island, slays Ravana in a great war, and at last returns home to be crowned. The exile ends; light returns to Ayodhya; and the homecoming is remembered every year in the festival of lamps, **Diwali**."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A god who does not know he is God",
+        "text": "Rama is an avatar of [Vishnu](/article/hindu-gods), the preserver descended to rid the world of a demon no god could otherwise destroy. Yet for most of the poem Rama lives and suffers as a man — grieving, doubting, weeping for his lost wife — apparently unaware of his own divinity. This is the heart of the Ramayana's appeal. It shows the divine choosing the full burden of human duty, and so makes the ideal life feel not remote but achievable."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Pattern of the Ideal",
+        "id": "the-pattern-of-the-ideal"
+      },
+      {
+        "type": "paragraph",
+        "text": "More than any other Hindu text, the Ramayana is held up as a model for how to live. Each of its figures embodies a perfection of **dharma**. Rama is the ideal son, king and husband, who keeps his word though it costs him his throne and his happiness. Sita is the ideal of devotion and quiet courage, faithful through abduction and exile. Lakshmana is the perfect brother, Hanuman the perfect servant, and even the demon Ravana is a figure of tragic grandeur, a great scholar and king brought down by a single overmastering desire."
+      },
+      {
+        "type": "paragraph",
+        "text": "To call someone's reign **Ram Rajya**, \"the rule of Rama,\" is still the highest praise an Indian can give a government: a golden age of justice, plenty and right order. For millennia parents have told the story to teach their children what loyalty, courage and faithfulness look like — a moral education delivered as an adventure."
+      },
+      {
+        "type": "quote",
+        "text": "Even the deathless gods envied the people of Ayodhya, who in the reign of Rama knew neither famine nor fear, neither sickness nor sorrow."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An Echo Across the Sea",
+        "id": "an-echo-across-the-sea"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Ramayana invites comparison with another great ancient war fought across the water to recover a stolen wife — the Greek expedition against [Troy](/article/trojan-war). Both stories turn on an abduction, a long campaign overseas, and a fortress city brought down at last. But where the Greek epic broods on rage, pride and the futility of glory, the Indian one is finally a story of devotion and order restored — of a hero who fights not for honour but for duty, and a homecoming that heals the world rather than emptying it. The two poems are like mirror images of the heroic age, each revealing what its civilisation most prized."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A story that crossed an ocean",
+        "text": "The Ramayana is not India's alone. Carried by traders and monks, it took root across Southeast Asia, where Rama's tale is danced, carved and performed to this day — as the *Ramakien* of Thailand, the *Reamker* of Cambodia, and the shadow-puppet epics of Java and Bali. Few stories on Earth have been loved by so many peoples for so long, or made so thoroughly their own."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Living Epic",
+        "id": "the-living-epic"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Ramayana has never been merely read. It is sung in villages, staged each autumn in the open-air dramas of **Ramlila**, recited in Tulsidas's beloved Hindi retelling, and watched by hundreds of millions in television and film. When a serialised version aired in India, streets emptied as families gathered before their screens. Its hero is among the most worshipped deities in the world, his name a common greeting and a prayer for the dying. Together with the Mahabharata, the Ramayana shows how the deepest ideals of [Hinduism](/article/hinduism) — duty done with grace, love kept through suffering, order restored from chaos — reached the heart of a civilisation not as commandments but as a story too beautiful ever to forget."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-first-poem",
+        "text": "The First Poem",
+        "level": 2
+      },
+      {
+        "id": "the-pattern-of-the-ideal",
+        "text": "The Pattern of the Ideal",
+        "level": 2
+      },
+      {
+        "id": "an-echo-across-the-sea",
+        "text": "An Echo Across the Sea",
+        "level": 2
+      },
+      {
+        "id": "the-living-epic",
+        "text": "The Living Epic",
+        "level": 2
+      }
+    ],
+    "wordCount": 762
+  },
+  {
     "id": "roman-empire",
     "title": "The Roman Empire",
     "category": "kingdoms-empires",
@@ -6732,5 +8102,386 @@
       }
     ],
     "wordCount": 761
+  },
+  {
+    "id": "vedas",
+    "title": "The Vedas",
+    "category": "sacred-books",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The knowledge that was heard",
+    "lede": "The Vedas are the oldest scriptures of Hinduism and among the oldest sacred texts of any living religion — a vast body of hymns, chants and ritual formulas composed in archaic Sanskrit more than three thousand years ago and preserved, with astonishing exactness, by memory alone for a thousand years before they were ever written down.",
+    "related": [
+      "hinduism",
+      "hindu-gods",
+      "hindu-philosophy",
+      "greek-philosophy",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Land of the Seven Rivers",
+          "caption": "The northwestern plains where the Vedic peoples composed the Rigveda, a world of rivers, cattle and fire-altars later remembered as the cradle of the tradition.",
+          "region": "Sapta Sindhu, northwest India"
+        }
+      ],
+      "images": [
+        {
+          "title": "A palm-leaf Rigveda manuscript",
+          "caption": "For most of their history the Vedas were never written at all — when finally inscribed, the text only confirmed what reciters had carried flawlessly in memory.",
+          "credit": "Bhandarkar Oriental Research Institute"
+        },
+        {
+          "title": "The fire sacrifice",
+          "caption": "Agni, the fire, carried the offerings of the Vedic ritual up to the gods — a ceremony still performed by Brahmin priests today.",
+          "credit": "Vedic yajna"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The oldest scriptures alive",
+          "caption": "How an entire library was preserved for a millennium without a single written word.",
+          "duration": "5:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Veda",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Veda"
+      },
+      {
+        "label": "The Rigveda",
+        "source": "The Rigveda (trans. Wendy Doniger, Penguin Classics)",
+        "url": "https://www.britannica.com/topic/Rigveda"
+      },
+      {
+        "label": "UNESCO — Tradition of Vedic chanting",
+        "source": "UNESCO Intangible Cultural Heritage",
+        "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Knowledge That Was Heard",
+        "id": "the-knowledge-that-was-heard"
+      },
+      {
+        "type": "paragraph",
+        "text": "The word *veda* means simply **knowledge** — and to the tradition this was no ordinary knowledge but truth itself, not composed by human authors but *heard* by ancient seers, the **rishis**, in states of heightened vision. For this reason the Vedas are called **shruti**, \"that which was heard,\" and they hold a unique authority: they are eternal, uncreated, the very sound of reality, transmitted through the rishis rather than invented by them."
+      },
+      {
+        "type": "paragraph",
+        "text": "The oldest and greatest of them is the **Rigveda**, a collection of more than a thousand hymns to the gods, likely taking shape around 1500 BCE among the Sanskrit-speaking peoples of the northwestern plains. Three further collections grew alongside it: the **Samaveda**, the same verses arranged as melody for chanting; the **Yajurveda**, the prose formulas a priest murmured as he performed the sacrifice; and the **Atharvaveda**, a more earthy gathering of spells, blessings and charms for healing and daily life. Together they form a complete liturgy for a religion built around the sacred fire."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A library carried in the mind",
+        "text": "For perhaps a thousand years the Vedas were never written down — and were never meant to be. They were preserved by memory alone, recited by Brahmin families who learned not only the words but elaborate redundant chanting patterns that crisscrossed each syllable forwards, backwards and interwoven, so that no single error could survive. The result is one of the most accurate acts of transmission in human history: scholars believe the text we hear today is essentially identical to what was chanted three thousand years ago. UNESCO has recognised this living chant as a masterpiece of the heritage of humanity."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A World of Fire and Sacrifice",
+        "id": "a-world-of-fire-and-sacrifice"
+      },
+      {
+        "type": "paragraph",
+        "text": "The religion of the Rigveda was vivid and elemental. Its gods were powers of the natural and moral world: **Agni**, the fire that carried offerings skyward; **Indra**, the storm-king who slew the serpent of drought and released the waters; **Varuna**, the stern guardian of cosmic order; **Surya**, the sun; **Ushas**, the radiant dawn. Worship centred on the **yajna**, the fire sacrifice, in which offerings were poured into the flames so that the gods might in turn grant rain, cattle, sons and victory. It was a religion of exchange and order, and it bears a family resemblance to the open-air ritual religions of the wider ancient world — the bargains with the gods kept by [Rome](/article/roman-religion) and the older reasoning seekers of [Greece](/article/greek-philosophy) who would, far to the west, begin their own search for first principles."
+      },
+      {
+        "type": "quote",
+        "text": "There was neither non-existence nor existence then; there was neither the realm of space nor the sky beyond. What stirred? Where? In whose protection?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That hymn — the famous *Nasadiya Sukta*, the Hymn of Creation — shows the Vedas already reaching past ritual toward philosophy, daring even to wonder whether the gods themselves know how the world began."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "From Ritual to Insight",
+        "id": "from-ritual-to-insight"
+      },
+      {
+        "type": "paragraph",
+        "text": "Each Veda grew over centuries into layers. After the hymns came the **Brahmanas**, dense manuals explaining the meaning of every ritual gesture, and the **Aranyakas**, the \"forest texts\" for hermits who had withdrawn from society. Finally, crowning the whole structure, came the **Upanishads** — and here the religion turned inward. Where the early hymns sought rain and cattle from the gods outside, the Upanishads sought the deathless reality within, asking what lies behind the sacrifice, behind the self, behind the cosmos. They are called the **Vedanta**, \"the end of the Vedas,\" and from their meditations grew the whole tradition of [Hindu philosophy](/article/hindu-philosophy)."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Why the Vedas still matter",
+        "text": "A modern Hindu may never read the Rigveda, yet its presence is everywhere. The sacred syllable **Om**, the fire still lit at weddings, the **Gayatri** verse murmured at dawn, the very claim that there is one truth behind many gods — all descend from these hymns. To call a teaching *Vedic* is still, after three thousand years, to call it true. The Vedas are not a closed museum of an ancient faith but the root from which a living tradition continues to draw."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Root and the Tree",
+        "id": "the-root-and-the-tree"
+      },
+      {
+        "type": "paragraph",
+        "text": "It is hard to overstate what the Vedas began. They gave Hinduism its sacred language, Sanskrit; its central ritual, the fire offering; its first gods and its first questions. They established the idea of revelation as something heard rather than written, and the practice of guarding truth through flawless recitation. And in their final pages, in the soaring speculation of the Upanishads, they planted the seed of every later flowering — the [pantheon](/article/hindu-gods) that would grow ever richer, the epics that would carry the teaching to ordinary people, and the philosophy that would spend the next two thousand years unfolding a single overwhelming intuition: that the self and the cosmos are, at the deepest level, one."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-knowledge-that-was-heard",
+        "text": "The Knowledge That Was Heard",
+        "level": 2
+      },
+      {
+        "id": "a-world-of-fire-and-sacrifice",
+        "text": "A World of Fire and Sacrifice",
+        "level": 2
+      },
+      {
+        "id": "from-ritual-to-insight",
+        "text": "From Ritual to Insight",
+        "level": 2
+      },
+      {
+        "id": "the-root-and-the-tree",
+        "text": "The Root and the Tree",
+        "level": 2
+      }
+    ],
+    "wordCount": 780
+  },
+  {
+    "id": "yoga-and-meditation",
+    "title": "Yoga & Meditation",
+    "category": "medicine",
+    "factStatus": "verified",
+    "readMins": 9,
+    "eyebrow": "The discipline of stillness",
+    "lede": "Yoga is far older and far deeper than the exercise it has become around the world. Born in ancient India as a science of the inner life, it is a discipline for stilling the restless mind and freeing the soul — a system of breath, posture, concentration and meditation refined over thousands of years, and one of India's most universal gifts to humanity.",
+    "related": [
+      "hinduism",
+      "hindu-philosophy",
+      "vedas",
+      "greek-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "hinduism",
+        "label": "Hinduism"
+      },
+      {
+        "id": "vedas",
+        "label": "The Vedas"
+      },
+      {
+        "id": "hindu-gods",
+        "label": "The Pantheon"
+      },
+      {
+        "id": "mahabharata",
+        "label": "Mahabharata"
+      },
+      {
+        "id": "ramayana",
+        "label": "Ramayana"
+      },
+      {
+        "id": "hindu-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "hindu-temples",
+        "label": "Temples"
+      },
+      {
+        "id": "yoga-and-meditation",
+        "label": "Yoga"
+      },
+      {
+        "id": "hindu-cosmology",
+        "label": "Cosmology"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Himalayan Heartland",
+          "caption": "The mountain caves and river-source hermitages of the north, where ascetics and yogis have sought stillness for millennia.",
+          "region": "Himalayas and the Ganges plain"
+        }
+      ],
+      "images": [
+        {
+          "title": "A seated yogi in meditation",
+          "caption": "The lotus posture, spine erect, breath slowed, the senses withdrawn — the outer stillness that prepares the inner.",
+          "credit": "Classical Indian depiction"
+        },
+        {
+          "title": "Patanjali's Yoga Sutras",
+          "caption": "The terse aphorisms that, around two thousand years ago, set down the eight limbs of the classical path of yoga.",
+          "credit": "Sanskrit manuscript"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The eight limbs",
+          "caption": "How classical yoga builds from ethics and posture through breath to the deep absorption of meditation.",
+          "duration": "5:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "hinduism",
+      "quiz": "hinduism"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Yoga",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/yoga"
+      },
+      {
+        "label": "The Yoga Sutras of Patanjali",
+        "source": "The Yoga Sutras of Patanjali (trans. Edwin Bryant)",
+        "url": "https://www.britannica.com/topic/Yoga-sutras"
+      },
+      {
+        "label": "UNESCO — Yoga",
+        "source": "UNESCO Intangible Cultural Heritage",
+        "url": "https://ich.unesco.org/en/RL/yoga-01163"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "More Than a Posture",
+        "id": "more-than-a-posture"
+      },
+      {
+        "type": "paragraph",
+        "text": "To most of the modern world, yoga means a mat, a set of poses, and an hour of stretching. That practice is real and valuable — but it is a single branch of a far older and grander tree. The Sanskrit word **yoga** comes from a root meaning \"to yoke\" or \"to join,\" and from the beginning it named not an exercise but a *union*: the joining of the individual self to the ultimate reality, the disciplined path by which a restless human being is brought into harmony with the divine ground of all things."
+      },
+      {
+        "type": "paragraph",
+        "text": "Its roots reach back to the very dawn of Indian civilisation; seals from the ancient Indus Valley appear to show figures seated in meditative postures more than four thousand years ago. By the time of the [Upanishads](/article/hindu-philosophy), yoga had become the practical companion of philosophy — for the great Indian insight that the self and the absolute are one is no use as a mere idea. It has to be *realised*, experienced directly in the silence of a stilled mind. Yoga is the technology built to make that experience possible."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "Stilling the waves of the mind",
+        "text": "The classical definition is the second line of Patanjali's Yoga Sutras: *yogas chitta vritti nirodha* — \"yoga is the stilling of the fluctuations of the mind.\" The image is of a lake whipped into waves, on whose churning surface no true reflection can form. Calm the water, and the depths grow clear; calm the mind, and reality can at last be seen as it is. Everything in yoga — the postures, the breathing, the concentration — serves this single end: to quiet the restless ripple of thought until the self shines through."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Eight Limbs",
+        "id": "the-eight-limbs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Around two thousand years ago the sage **Patanjali** gathered the scattered teachings into the **Yoga Sutras**, a chain of terse aphorisms that became the classical manual of the discipline. He set out the **ashtanga**, the \"eight limbs\" — a ladder of practice climbing from the outer life to the innermost. It begins not with the body but with ethics: restraints such as non-violence and truthfulness, and observances such as purity and contentment, for a turbulent or cruel life cannot be quieted by technique alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "Only then come the limbs the world now knows: **asana**, steady posture, originally meant simply to let the body sit motionless for long meditation; and **pranayama**, the regulation of the breath, by which the practitioner learns to govern the flow of life-energy and, with it, the movements of the mind. The higher limbs turn wholly inward — the withdrawal of the senses, **concentration** fixed on a single point, **meditation** flowing unbroken, and at the summit **samadhi**, a state of complete absorption in which the meditator and the object of meditation dissolve into one. This was the goal all along: not health, not calm, but liberation."
+      },
+      {
+        "type": "quote",
+        "text": "When the mind is stilled, the seer rests in its own true nature. Then the soul abides in itself, and is free."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Many Roads of Practice",
+        "id": "many-roads-of-practice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Just as Hindu philosophy offers several paths to the divine, so yoga developed into several disciplines suited to different temperaments — a kinship with the way the philosophers of [Greece](/article/greek-philosophy) tied the good life to the training of the soul, though the Indian methods went further into the body and the breath. There is the yoga of selfless **action**, of devotional **love**, of **knowledge**, and the famous **hatha yoga** of physical postures and breath, originally a preparation that would purify and strengthen the body so it could endure the long stillness of deep meditation. The vigorous poses of a modern class are the distant descendants of that preparatory craft."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A science of the inner world",
+        "text": "What is remarkable about the yogic tradition is how empirical it is. For thousands of years its practitioners treated the inner life as a field for careful experiment — observing exactly how breath affects attention, how attention affects emotion, how the relentless practice of stillness changes the mind over years. Long before modern neuroscience, India built a detailed, tested map of consciousness. Today that map is being explored anew, as researchers measure how meditation reshapes the brain, lowers stress and sharpens attention — confirming with instruments what the yogis claimed from the cushion."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "India's Gift to the World",
+        "id": "indias-gift-to-the-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "Of all the treasures of [Hinduism](/article/hinduism), yoga and meditation have travelled furthest. They have crossed every border and outgrown their origins, taken up by people of every faith and of none, who may never read a Sanskrit verse yet sit each morning to follow their breath. The United Nations now marks an International Day of Yoga; hospitals prescribe meditation; the word *guru* has entered a hundred languages. Behind the global wellness movement stands an ancient and serious science — a discipline that set out, thousands of years ago, to do the hardest thing a human being can attempt: to grow quiet enough, inside, to see what is really there."
+      }
+    ],
+    "toc": [
+      {
+        "id": "more-than-a-posture",
+        "text": "More Than a Posture",
+        "level": 2
+      },
+      {
+        "id": "the-eight-limbs",
+        "text": "The Eight Limbs",
+        "level": 2
+      },
+      {
+        "id": "many-roads-of-practice",
+        "text": "Many Roads of Practice",
+        "level": 2
+      },
+      {
+        "id": "indias-gift-to-the-world",
+        "text": "India's Gift to the World",
+        "level": 2
+      }
+    ],
+    "wordCount": 815
   }
 ]

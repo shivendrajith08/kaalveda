@@ -92,6 +92,34 @@
       "factStatus": "verified"
     },
     {
+      "id": "hindu-cosmology",
+      "title": "Hindu Cosmology",
+      "category": "universe",
+      "cluster": "cosmos-earth",
+      "factStatus": "theory"
+    },
+    {
+      "id": "hindu-philosophy",
+      "title": "Hindu Philosophy",
+      "category": "science",
+      "cluster": "mind-knowledge",
+      "factStatus": "verified"
+    },
+    {
+      "id": "hindu-temples",
+      "title": "Hindu Temple Architecture",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "hinduism",
+      "title": "Hinduism",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "julius-caesar",
       "title": "Julius Caesar",
       "category": "kingdoms-empires",
@@ -197,6 +225,20 @@
       "factStatus": "verified"
     },
     {
+      "id": "hindu-gods",
+      "title": "The Hindu Pantheon",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "mahabharata",
+      "title": "The Mahabharata",
+      "category": "literature",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "the-moon",
       "title": "The Moon",
       "category": "universe",
@@ -228,6 +270,13 @@
       "id": "pyramids-of-giza",
       "title": "The Pyramids of Giza",
       "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "ramayana",
+      "title": "The Ramayana",
+      "category": "literature",
       "cluster": "belief-story",
       "factStatus": "verified"
     },
@@ -265,6 +314,20 @@
       "category": "wars",
       "cluster": "life-time",
       "factStatus": "theory"
+    },
+    {
+      "id": "vedas",
+      "title": "The Vedas",
+      "category": "sacred-books",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "yoga-and-meditation",
+      "title": "Yoga & Meditation",
+      "category": "medicine",
+      "cluster": "mind-knowledge",
+      "factStatus": "verified"
     }
   ],
   "edges": [
@@ -589,6 +652,116 @@
       "resolved": false
     },
     {
+      "source": "hindu-cosmology",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "hindu-cosmology",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "hindu-cosmology",
+      "target": "the-big-bang",
+      "resolved": true
+    },
+    {
+      "source": "hindu-cosmology",
+      "target": "black-holes",
+      "resolved": true
+    },
+    {
+      "source": "hindu-cosmology",
+      "target": "stars",
+      "resolved": true
+    },
+    {
+      "source": "hindu-cosmology",
+      "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "hindu-philosophy",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "hindu-philosophy",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "hindu-philosophy",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "hindu-philosophy",
+      "target": "the-big-bang",
+      "resolved": true
+    },
+    {
+      "source": "hindu-philosophy",
+      "target": "black-holes",
+      "resolved": true
+    },
+    {
+      "source": "hindu-temples",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "hindu-temples",
+      "target": "hindu-gods",
+      "resolved": true
+    },
+    {
+      "source": "hindu-temples",
+      "target": "greek-architecture",
+      "resolved": true
+    },
+    {
+      "source": "hindu-temples",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "hindu-temples",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "hindu-gods",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "hinduism",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
       "source": "julius-caesar",
       "target": "roman-republic",
       "resolved": true
@@ -839,6 +1012,61 @@
       "resolved": true
     },
     {
+      "source": "hindu-gods",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "hindu-gods",
+      "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "hindu-gods",
+      "target": "roman-mythology",
+      "resolved": true
+    },
+    {
+      "source": "hindu-gods",
+      "target": "egyptian-religion",
+      "resolved": true
+    },
+    {
+      "source": "hindu-gods",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "ramayana",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "hindu-gods",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "trojan-war",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "mahabharata",
+      "target": "roman-mythology",
+      "resolved": true
+    },
+    {
       "source": "the-moon",
       "target": "the-planets",
       "resolved": true
@@ -871,6 +1099,26 @@
     {
       "source": "the-planets",
       "target": "the-solar-system",
+      "resolved": true
+    },
+    {
+      "source": "ramayana",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "ramayana",
+      "target": "hindu-gods",
+      "resolved": true
+    },
+    {
+      "source": "ramayana",
+      "target": "trojan-war",
+      "resolved": true
+    },
+    {
+      "source": "ramayana",
+      "target": "greek-mythology",
       "resolved": true
     },
     {
@@ -911,6 +1159,36 @@
     {
       "source": "trojan-war",
       "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "vedas",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "vedas",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "yoga-and-meditation",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "yoga-and-meditation",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "yoga-and-meditation",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "yoga-and-meditation",
+      "target": "greek-philosophy",
       "resolved": true
     }
   ]
