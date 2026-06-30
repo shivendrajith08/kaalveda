@@ -99,11 +99,20 @@ export class SoundEngine {
   /**
    * Build (or revive) the audio graph and fade the bed in. Idempotent: calling
    * it while already running just ensures the context is resumed and audible.
+   *
+   * `preCreated` is an `AudioContext` that the caller created **and resumed**
+   * inside the user-gesture window (see `primeAudioContext` in `useSound`). When
+   * supplied we adopt it instead of constructing our own — this is what keeps the
+   * context out of the permanently-`suspended` state on first opt-in, since our
+   * own construction here happens after an `await import(...)`, well outside the
+   * gesture's trusted activation window.
    */
-  async start(): Promise<void> {
+  async start(preCreated?: AudioContext): Promise<void> {
     // Already running — ensure it's resumed (e.g. StrictMode remount, or the
     // tab was backgrounded). Don't build a second graph.
     if (this.ctx && this.ctx.state !== 'closed') {
+      // A redundant gesture-primed context arrived; we don't need it.
+      if (preCreated && preCreated !== this.ctx) preCreated.close().catch(() => {})
       this.gen++
       try {
         await this.ctx.resume()
@@ -115,18 +124,30 @@ export class SoundEngine {
       return
     }
 
-    const Ctor = getAudioContextCtor()
-    if (!Ctor) return
     const myGen = ++this.gen
-    const ctx = new Ctor()
+    let ctx: AudioContext
+    if (preCreated) {
+      ctx = preCreated
+    } else {
+      const Ctor = getAudioContextCtor()
+      if (!Ctor) return
+      ctx = new Ctor()
+    }
+    console.info(
+      '[sound] start(): ctx.state after creation =',
+      ctx.state,
+      preCreated ? '(primed in gesture)' : '(created in engine — no gesture)',
+    )
 
     // The toggle click is a user gesture, but resume() defensively in case the
-    // context starts suspended under the browser autoplay policy.
+    // context starts suspended under the browser autoplay policy. For a primed
+    // context this is a cheap no-op (already resumed in the gesture).
     try {
       await ctx.resume()
-    } catch {
-      /* ignore */
+    } catch (err) {
+      console.warn('[sound] resume() rejected in start()', err)
     }
+    console.info('[sound] start(): ctx.state after resume() =', ctx.state)
 
     // A faster start/stop may have superseded us mid-await — bail and clean up.
     if (myGen !== this.gen) {
@@ -321,9 +342,17 @@ export class SoundEngine {
     const master = this.master
     if (!ctx || !master) return
     const now = ctx.currentTime
+    const from = Math.max(master.gain.value, 0.0001)
+    const target = Math.max(to, 0.0001)
     master.gain.cancelScheduledValues(now)
-    master.gain.setValueAtTime(Math.max(master.gain.value, 0.0001), now)
-    master.gain.exponentialRampToValueAtTime(Math.max(to, 0.0001), now + seconds)
+    master.gain.setValueAtTime(from, now)
+    master.gain.exponentialRampToValueAtTime(target, now + seconds)
+    // Verifies the bed actually ramps *up* (not 0→0). A frozen `now` here means
+    // the context is still suspended and the ramp won't be heard until it resumes.
+    console.info(
+      `[sound] fadeMaster ${from.toFixed(4)} → ${target.toFixed(4)} over ${seconds}s ` +
+        `(ctx.state=${ctx.state}, now=${now.toFixed(3)})`,
+    )
   }
 
   /** Bring the bed back to full and (re)arm the idle-dim timer. */
