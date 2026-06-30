@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import ForceGraph2D, {
   type ForceGraphMethods,
@@ -10,6 +10,8 @@ import { graph } from '@/lib/content'
 import { clusters as allClusters, getCategoryName } from '@/data/categories'
 import { palette, clusterAccent } from '@/styles/tokens'
 import { useTheme } from '@/hooks/useTheme'
+import TimeScrubber from './TimeScrubber'
+import { TODAY, buildBirthYears } from './timeScale'
 
 /**
  * Knowledge Graph Canvas — a fullscreen, zoomable star-chart of every article
@@ -34,18 +36,50 @@ interface FgNode {
   /** Mutated in place by the force engine. */
   x?: number
   y?: number
+  /** Eased display alpha for the time-travel fade (mutated in the draw loop). */
+  __a?: number
+  /** Timestamp of the last alpha update, for frame-rate-independent easing. */
+  __t?: number
 }
 
 type FgLink = LinkObject<FgNode>
 
+/** Parse a `#rrggbb` triple into [r, g, b]. */
+function hexRgb(hex: string): [number, number, number] {
+  const h = hex.replace('#', '')
+  return [
+    parseInt(h.slice(0, 2), 16),
+    parseInt(h.slice(2, 4), 16),
+    parseInt(h.slice(4, 6), 16),
+  ]
+}
+
 /** Parse `#rrggbb` into an `rgba()` string at the given alpha. */
 function hexToRgba(hex: string, alpha: number): string {
-  const h = hex.replace('#', '')
-  const r = parseInt(h.slice(0, 2), 16)
-  const g = parseInt(h.slice(2, 4), 16)
-  const b = parseInt(h.slice(4, 6), 16)
+  const [r, g, b] = hexRgb(hex)
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
+
+/**
+ * Blend a colour toward its own luminance-grey. `t = 1` is the full colour,
+ * `t = 0` is fully desaturated — the look of a node that doesn't yet exist.
+ */
+function fadeColor(hex: string, t: number): string {
+  const [r, g, b] = hexRgb(hex)
+  const l = 0.299 * r + 0.587 * g + 0.114 * b
+  const m = (c: number) => Math.round(l + (c - l) * t)
+  return `rgb(${m(r)}, ${m(g)}, ${m(b)})`
+}
+
+/** Map an eased alpha back to a 0–1 "vitality" (0 = absent, 1 = fully present). */
+function vitality(alpha: number): number {
+  return Math.max(0, Math.min(1, (alpha - 0.08) / 0.92))
+}
+
+/** Alpha an "absent" (after the playhead) node fades toward. */
+const ABSENT_ALPHA = 0.08
+/** Easing time-constant (seconds) for the ~400ms opacity transition. */
+const FADE_TAU = 0.13
 
 /** Resolve a link endpoint (string id, or a node object after the engine runs). */
 function endId(end: FgLink['source']): string {
@@ -97,6 +131,37 @@ export default function GraphCanvas() {
     }
   }, [])
 
+  /* ---- Time travel ------------------------------------------------------ */
+  const [year, setYear] = useState(TODAY)
+  const birthYears = useMemo(() => buildBirthYears(data.nodes), [data])
+  const nodeById = useMemo(
+    () => new Map(data.nodes.map((n) => [n.id, n])),
+    [data],
+  )
+  const existsAt = useCallback(
+    (id: string) => (birthYears.get(id) ?? TODAY) <= year,
+    [birthYears, year],
+  )
+
+  // Throttle scrubber updates to one React commit per frame (~16ms) so dragging
+  // never outruns the canvas redraw.
+  const pendingYear = useRef<number | null>(null)
+  const yearRaf = useRef<number | undefined>(undefined)
+  const handleYearChange = useCallback((y: number) => {
+    pendingYear.current = y
+    if (yearRaf.current != null) return
+    yearRaf.current = requestAnimationFrame(() => {
+      yearRaf.current = undefined
+      if (pendingYear.current != null) setYear(pendingYear.current)
+    })
+  }, [])
+  useEffect(
+    () => () => {
+      if (yearRaf.current != null) cancelAnimationFrame(yearRaf.current)
+    },
+    [],
+  )
+
   /* ---- Theme-resolved colours ------------------------------------------ */
   const clusterColor = useMemo(() => {
     const p = palette[theme]
@@ -107,11 +172,7 @@ export default function GraphCanvas() {
 
   const edgeColor = useMemo(() => {
     const gold = palette[theme].gold
-    return {
-      rest: hexToRgba(gold, 0.18),
-      hover: hexToRgba(gold, 0.85),
-      dim: hexToRgba(gold, 0.04),
-    }
+    return { gold, rest: 0.18, hover: 0.85, dim: 0.04 }
   }, [theme])
 
   const ink = palette[theme]
@@ -193,23 +254,38 @@ export default function GraphCanvas() {
           }}
           /* ---- Links ---- */
           linkColor={(l: FgLink) => {
-            if (!hoverId) return edgeColor.rest
-            return hoverLinks.has(l) ? edgeColor.hover : edgeColor.dim
+            // Fade an edge with whichever endpoint is least "present"; an edge
+            // touching a not-yet-existing node disappears entirely.
+            const sa = nodeById.get(endId(l.source))?.__a ?? 1
+            const ta = nodeById.get(endId(l.target))?.__a ?? 1
+            const v = Math.min(vitality(sa), vitality(ta))
+            if (v <= 0.001) return 'rgba(0,0,0,0)'
+            const a = !hoverId
+              ? edgeColor.rest
+              : hoverLinks.has(l)
+                ? edgeColor.hover
+                : edgeColor.dim
+            return hexToRgba(edgeColor.gold, a * v)
           }}
           linkWidth={(l: FgLink) => (hoverLinks.has(l) ? 2 : 1)}
           /* ---- Nodes ---- */
-          onNodeClick={(n) => navigate(`/article/${n.id}`)}
+          onNodeClick={(n) => {
+            if (existsAt(String(n.id))) navigate(`/article/${n.id}`)
+          }}
           onNodeHover={(n) => {
-            setHoverId(n ? String(n.id) : null)
-            if (n && n.x != null && n.y != null) {
-              const screen = fgRef.current?.graph2ScreenCoords(n.x, n.y)
-              if (screen) setTooltip({ x: screen.x, y: screen.y, node: n })
+            // Not-yet-existing nodes are inert — no hover, no tooltip.
+            const active = n && existsAt(String(n.id)) ? n : null
+            setHoverId(active ? String(active.id) : null)
+            if (active && active.x != null && active.y != null) {
+              const screen = fgRef.current?.graph2ScreenCoords(active.x, active.y)
+              if (screen) setTooltip({ x: screen.x, y: screen.y, node: active })
             } else {
               setTooltip(null)
             }
-            if (wrapRef.current) wrapRef.current.style.cursor = n ? 'pointer' : 'grab'
+            if (wrapRef.current) wrapRef.current.style.cursor = active ? 'pointer' : 'grab'
           }}
           nodePointerAreaPaint={(n, color, ctx) => {
+            if (!existsAt(String(n.id))) return // unclickable once "after"
             const r = radiusFor(n.degree)
             ctx.fillStyle = color
             ctx.beginPath()
@@ -224,28 +300,41 @@ export default function GraphCanvas() {
             const isCurrent = n.id === currentId
             const focused = !hoverId || neighborIds.has(String(n.id))
 
-            ctx.globalAlpha = focused ? 1 : 0.22
+            // Time-travel fade — ease the display alpha toward the present
+            // (1) or absent (0.08) target over ~400ms, frame-rate independent.
+            const exists = (birthYears.get(n.id) ?? TODAY) <= year
+            const target = exists ? 1 : ABSENT_ALPHA
+            const now = performance.now()
+            const dt = n.__t != null ? (now - n.__t) / 1000 : 0
+            n.__t = now
+            if (n.__a == null) n.__a = target
+            else n.__a += (target - n.__a) * (1 - Math.exp(-dt / FADE_TAU))
+            const v = vitality(n.__a) // 0 = not yet, 1 = fully present
 
-            // soft glow
-            const glow = ctx.createRadialGradient(x, y, 0, x, y, r * 2.4)
-            glow.addColorStop(0, hexToRgba(base, 0.4))
-            glow.addColorStop(1, hexToRgba(base, 0))
-            ctx.fillStyle = glow
-            ctx.beginPath()
-            ctx.arc(x, y, r * 2.4, 0, 2 * Math.PI)
-            ctx.fill()
+            ctx.globalAlpha = n.__a * (focused ? 1 : 0.22)
 
-            // orb
+            // soft glow — fades out as the node recedes into the future
+            if (v > 0.01) {
+              const glow = ctx.createRadialGradient(x, y, 0, x, y, r * 2.4)
+              glow.addColorStop(0, hexToRgba(base, 0.4 * v))
+              glow.addColorStop(1, hexToRgba(base, 0))
+              ctx.fillStyle = glow
+              ctx.beginPath()
+              ctx.arc(x, y, r * 2.4, 0, 2 * Math.PI)
+              ctx.fill()
+            }
+
+            // orb — desaturated toward grey while "after" the playhead
             ctx.beginPath()
             ctx.arc(x, y, r, 0, 2 * Math.PI)
-            ctx.fillStyle = base
+            ctx.fillStyle = fadeColor(base, v)
             ctx.fill()
             ctx.lineWidth = 1 / globalScale
             ctx.strokeStyle = hexToRgba(ink.bg, 0.55)
             ctx.stroke()
 
             // pulsing gold ring on the "you are here" node
-            if (isCurrent) {
+            if (isCurrent && exists) {
               const phase = (Math.sin(performance.now() / 600) + 1) / 2
               ctx.beginPath()
               ctx.arc(x, y, r + 2.5 + phase * 4, 0, 2 * Math.PI)
@@ -257,6 +346,7 @@ export default function GraphCanvas() {
             // label — hubs + the current/hovered node, or once zoomed in
             const showLabel =
               focused &&
+              exists &&
               (isCurrent ||
                 String(n.id) === hoverId ||
                 n.degree >= labelThreshold ||
@@ -340,6 +430,9 @@ export default function GraphCanvas() {
           {data.nodes.length} nodes · {data.links.length} links
         </p>
       </div>
+
+      {/* Time-Travel scrubber */}
+      <TimeScrubber year={year} onChange={handleYearChange} />
 
       {/* depth vignette */}
       <div className="vignette pointer-events-none absolute inset-0 z-0" aria-hidden />

@@ -224,6 +224,59 @@
       radial-gradient(100% 100% at 80% 10%, color-mix(in srgb, var(--c-cluster-cosmos) 14%, transparent), transparent 60%),
       linear-gradient(160deg, var(--c-surface), var(--c-bg));
   }
+
+  /* Time-Travel scrubber — an aged scroll of time. */
+  .era-track {
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0,
+        transparent 11px,
+        color-mix(in srgb, var(--c-gold) 22%, transparent) 11px,
+        color-mix(in srgb, var(--c-gold) 22%, transparent) 12px
+      ),
+      linear-gradient(180deg, color-mix(in srgb, var(--c-parchment) 14%, transparent), color-mix(in srgb, var(--c-bg) 60%, transparent));
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  }
+
+  .era-scrubber {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .era-scrubber:focus-visible {
+    outline: none;
+  }
+  .era-scrubber::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: theme('borderRadius.full');
+    background: radial-gradient(circle at 35% 30%, var(--c-gold-soft), var(--c-gold) 55%, var(--c-gold-deep));
+    border: 1px solid var(--c-gold-deep);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-gold) 22%, transparent), 0 4px 12px -4px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.18s ease, transform 0.12s ease;
+  }
+  .era-scrubber::-moz-range-thumb {
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: theme('borderRadius.full');
+    background: radial-gradient(circle at 35% 30%, var(--c-gold-soft), var(--c-gold) 55%, var(--c-gold-deep));
+    border: 1px solid var(--c-gold-deep);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--c-gold) 22%, transparent), 0 4px 12px -4px rgba(0, 0, 0, 0.6);
+  }
+  .era-scrubber:hover::-webkit-slider-thumb,
+  .era-scrubber:focus-visible::-webkit-slider-thumb {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--c-gold) 28%, transparent), 0 6px 16px -4px rgba(0, 0, 0, 0.7);
+  }
+  .era-scrubber::-webkit-slider-runnable-track {
+    background: transparent;
+  }
+  .era-scrubber::-moz-range-track {
+    background: transparent;
+  }
 }
 
 @layer utilities {
