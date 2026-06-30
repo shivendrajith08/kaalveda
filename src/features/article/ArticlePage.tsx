@@ -24,6 +24,7 @@ import { ReadingProgress } from '@/components/layout/ReadingProgress'
 import { ArticleBody } from '@/components/article/ArticleBody'
 import { JourneyZone } from '@/features/article/JourneyZone'
 import { MediaCard } from '@/features/article/MediaCard'
+import { BigBangExplainer } from '@/features/article/BigBangExplainer'
 import { Timeline } from '@/features/timeline/Timeline'
 import { Quiz } from '@/features/quiz/Quiz'
 import { StarField } from '@/components/StarField'
@@ -190,12 +191,16 @@ export default function ArticlePage() {
                   items={article.media.images.map((m) => ({ kind: 'image' as const, item: m }))}
                 />
               )}
-              {tab === 'videos' && (
-                <MediaGrid
-                  empty="No videos for this article yet."
-                  items={article.media.videos.map((m) => ({ kind: 'video' as const, item: m }))}
-                />
-              )}
+              {tab === 'videos' &&
+                /* The Big Bang's code-drawn explainer is its video content. */
+                (article.id === 'the-big-bang' ? (
+                  <BigBangExplainer />
+                ) : (
+                  <MediaGrid
+                    empty="No videos for this article yet."
+                    items={article.media.videos.map((m) => ({ kind: 'video' as const, item: m }))}
+                  />
+                ))}
 
               {tab === 'timeline' && timeline && (
                 <div>
