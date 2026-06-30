@@ -43,6 +43,9 @@ export function StarField({
   return (
     <div
       className={cn('pointer-events-none absolute inset-0 overflow-hidden', className)}
+      // Time-of-day ambience dims/brightens the whole field as one (the
+      // per-star twinkle keeps running inside). Snaps under reduced-motion.
+      style={{ opacity: 'var(--amb-starfield, 1)', transition: 'opacity 2s ease' }}
       aria-hidden
     >
       {stars.map((s, i) => (

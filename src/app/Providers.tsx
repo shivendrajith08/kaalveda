@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { ThemeProvider } from '@/hooks/useTheme'
+import { AmbienceProvider } from '@/hooks/useAmbience'
 import { AuthProvider } from '@/hooks/useAuth'
 import { BookmarksProvider } from '@/hooks/useBookmarks'
 import { CommandPaletteProvider } from '@/hooks/useCommandPalette'
@@ -8,11 +9,13 @@ import { CommandPaletteProvider } from '@/hooks/useCommandPalette'
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <ThemeProvider>
-      <AuthProvider>
-        <BookmarksProvider>
-          <CommandPaletteProvider>{children}</CommandPaletteProvider>
-        </BookmarksProvider>
-      </AuthProvider>
+      <AmbienceProvider>
+        <AuthProvider>
+          <BookmarksProvider>
+            <CommandPaletteProvider>{children}</CommandPaletteProvider>
+          </BookmarksProvider>
+        </AuthProvider>
+      </AmbienceProvider>
     </ThemeProvider>
   )
 }

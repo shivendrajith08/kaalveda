@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { useTheme } from '@/hooks/useTheme'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { useAmbience } from '@/hooks/useAmbience'
+import { ambienceStarBrightness, type AmbiencePhase } from '@/hooks/useTimeOfDay'
 import { palette } from '@/styles/tokens'
 import { cn } from '@/lib/utils'
 
@@ -65,7 +67,20 @@ function mulberry32(seed: number): () => number {
 export function HeroBackground({ className }: { className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const { theme } = useTheme()
+  const { effective } = useAmbience()
   const reduced = useReducedMotion()
+
+  // The live ambience phase is read through a ref so a phase change never
+  // tears down and rebuilds the field — the loop just eases toward the new
+  // target brightness. `redrawRef` lets a phase change repaint the single
+  // static frame painted under reduced-motion.
+  const phaseRef = useRef<AmbiencePhase>(effective)
+  const redrawRef = useRef<() => void>(() => {})
+
+  useEffect(() => {
+    phaseRef.current = effective
+    if (reduced) redrawRef.current()
+  }, [effective, reduced])
 
   useEffect(() => {
     const canvasEl = canvasRef.current
@@ -116,6 +131,9 @@ export function HeroBackground({ className }: { className?: string }) {
 
     let width = 0
     let height = 0
+    // Eased ambience brightness — starts at the current phase's target so the
+    // first paint is already correct, then lerps on phase changes.
+    let curBright = ambienceStarBrightness[phaseRef.current]
 
     function resize() {
       const rect = canvas.getBoundingClientRect()
@@ -132,6 +150,12 @@ export function HeroBackground({ className }: { className?: string }) {
       const t = reduced ? 6200 : now
       ctx.clearRect(0, 0, width, height)
 
+      // Ease toward the ambience target (snap instantly under reduced-motion).
+      const targetBright = ambienceStarBrightness[phaseRef.current]
+      curBright += (targetBright - curBright) * (reduced ? 1 : 0.03)
+      // A gentler companion gain for the lines/nodes so they never overpower.
+      const lineGain = 0.8 + 0.2 * curBright
+
       // Slowly-drifting constellation anchors.
       const pts = anchors.map((a) => ({
         x: (a.x + Math.sin(t * a.sx + a.px) * a.ax) * width,
@@ -146,7 +170,7 @@ export function HeroBackground({ className }: { className?: string }) {
           const dy = pts[i].y - pts[j].y
           const d = Math.hypot(dx, dy)
           if (d >= LINK_DIST) continue
-          const a = (1 - d / LINK_DIST) * 0.16
+          const a = (1 - d / LINK_DIST) * 0.16 * lineGain
           ctx.strokeStyle = `rgba(${cLine[0]},${cLine[1]},${cLine[2]},${a})`
           ctx.beginPath()
           ctx.moveTo(pts[i].x, pts[i].y)
@@ -156,7 +180,7 @@ export function HeroBackground({ className }: { className?: string }) {
       }
 
       // Anchor nodes — small, gold, restrained.
-      ctx.fillStyle = `rgba(${cNode[0]},${cNode[1]},${cNode[2]},0.5)`
+      ctx.fillStyle = `rgba(${cNode[0]},${cNode[1]},${cNode[2]},${0.5 * lineGain})`
       for (const pt of pts) {
         ctx.beginPath()
         ctx.arc(pt.x, pt.y, 1.4, 0, Math.PI * 2)
@@ -171,12 +195,13 @@ export function HeroBackground({ className }: { className?: string }) {
         const x = s.x * width + driftX * s.depth
         const y = s.y * height + driftY * s.depth
         const twinkle = reduced ? 1 : 0.6 + 0.4 * (0.5 + 0.5 * Math.sin(t * s.twSpeed + s.twPhase))
-        const alpha = s.base * twinkle
+        const alpha = s.base * twinkle * curBright
         const col = s.bright ? cBright : cDim
         if (s.bright) {
+          // The halo grows a touch at night — the "faint luminous gold" cue.
           ctx.fillStyle = `rgba(${col[0]},${col[1]},${col[2]},${alpha * 0.18})`
           ctx.beginPath()
-          ctx.arc(x, y, s.r * 3.2, 0, Math.PI * 2)
+          ctx.arc(x, y, s.r * 3.2 * curBright, 0, Math.PI * 2)
           ctx.fill()
         }
         ctx.fillStyle = `rgba(${col[0]},${col[1]},${col[2]},${alpha})`
@@ -185,6 +210,7 @@ export function HeroBackground({ className }: { className?: string }) {
         ctx.fill()
       }
     }
+    redrawRef.current = () => draw(reduced ? 6200 : performance.now())
 
     let raf = 0
     let running = false

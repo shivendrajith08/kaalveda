@@ -29,6 +29,47 @@
     --c-cluster-belief: #c4a062;
     --c-cluster-mind: #8fb3a0;
     --c-cluster-society: #b08fc4;
+
+    /* ---------------------------------------------------------------- */
+    /* Time-of-day ambience (see useTimeOfDay / AmbienceVeil).          */
+    /* These NEUTRAL defaults are also the "ambience off" state: no     */
+    /* veil and a full-strength starfield, i.e. the static look. The    */
+    /* `[data-ambience]` blocks below nudge them, gently.               */
+    /* ---------------------------------------------------------------- */
+    --amb-warm-col: #f4c795; /* peach/amber tint colour (recoloured per phase) */
+    --amb-cool-col: #0a1633; /* deep indigo used to cool/deepen at night */
+    --amb-veil-warm: 0; /* opacity of the warm top-glow layer */
+    --amb-veil-vignette: 0; /* opacity of the warm bottom vignette layer */
+    --amb-veil-cool: 0; /* opacity of the cool deepening layer */
+    --amb-starfield: 1; /* DOM StarField brightness multiplier */
+  }
+
+  /* Dawn — a faint warm glow at the top, stars settling toward sleep. */
+  :root[data-ambience='dawn'] {
+    --amb-warm-col: #f6c9a0;
+    --amb-veil-warm: 0.06;
+    --amb-veil-cool: 0.02;
+    --amb-starfield: 0.6;
+  }
+
+  /* Day — full clarity, neutral. Starfield present but subtle. */
+  :root[data-ambience='day'] {
+    --amb-starfield: 0.82;
+  }
+
+  /* Dusk — gold warms toward amber, a soft warm vignette, stars rising. */
+  :root[data-ambience='dusk'] {
+    --amb-warm-col: #e8a85c;
+    --amb-veil-warm: 0.035;
+    --amb-veil-vignette: 0.1;
+    --amb-starfield: 0.9;
+  }
+
+  /* Night — backgrounds cool and deepen; the starfield is at its brightest. */
+  :root[data-ambience='night'] {
+    --amb-veil-vignette: 0.045;
+    --amb-veil-cool: 0.1;
+    --amb-starfield: 1;
   }
 
   *,
@@ -211,6 +252,39 @@
 
   .vignette {
     background: radial-gradient(120% 90% at 50% 0%, transparent 55%, rgba(0, 0, 0, 0.35) 100%);
+  }
+
+  /* Time-of-day ambience veil — three opacity-only gradient layers behind all
+     content. See AmbienceVeil.tsx. Driven by the `--amb-*` variables above. */
+  .ambience-veil {
+    position: fixed;
+    inset: 0;
+    z-index: 0; /* above the page background, below the content shell (z-10) */
+    pointer-events: none;
+    overflow: hidden;
+    contain: layout paint;
+  }
+  .ambience-veil > span {
+    position: absolute;
+    inset: 0;
+    display: block;
+    opacity: 0;
+    transition: opacity 2s ease;
+    will-change: opacity;
+  }
+  .ambience-veil__warm {
+    background: radial-gradient(125% 70% at 50% -10%, var(--amb-warm-col), transparent 62%);
+    opacity: var(--amb-veil-warm);
+  }
+  .ambience-veil__vignette {
+    background: radial-gradient(135% 100% at 50% 118%, var(--amb-warm-col), transparent 58%);
+    opacity: var(--amb-veil-vignette);
+  }
+  .ambience-veil__cool {
+    background:
+      radial-gradient(120% 120% at 50% 120%, var(--amb-cool-col), transparent 72%),
+      linear-gradient(180deg, transparent 35%, color-mix(in srgb, var(--amb-cool-col) 55%, transparent));
+    opacity: var(--amb-veil-cool);
   }
 
   /* Media "plates" — antique-atlas placeholders for images/videos/maps. */

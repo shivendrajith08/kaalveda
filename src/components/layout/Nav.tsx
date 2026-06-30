@@ -4,6 +4,7 @@ import { Search, Bookmark, Menu, X } from 'lucide-react'
 import { useCommandPalette } from '@/hooks/useCommandPalette'
 import { useBookmarks } from '@/hooks/useBookmarks'
 import { ThemeToggle } from '@/components/layout/ThemeToggle'
+import { AmbienceToggle } from '@/components/layout/AmbienceToggle'
 import { Logo } from '@/components/layout/Logo'
 import { cn } from '@/lib/utils'
 
@@ -88,6 +89,8 @@ export function Nav() {
               </span>
             )}
           </Link>
+
+          <AmbienceToggle />
 
           <ThemeToggle />
 
