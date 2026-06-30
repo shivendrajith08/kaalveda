@@ -773,6 +773,140 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'islam',
+    title: 'Fourteen Centuries of Islam',
+    subtitle:
+      'From the birth of the Prophet in Arabia to a faith of nearly two billion — the revelation, the conquests, the great divide and the golden age of learning.',
+    events: [
+      {
+        id: 'birth-muhammad',
+        year: 570,
+        title: 'The Birth of Muhammad',
+        description:
+          'Muhammad ibn Abdullah is born in Mecca, a trading town and centre of pilgrimage in the hills of western Arabia, and is orphaned young.',
+        era: 'Pre-Islamic Arabia',
+        factStatus: 'verified',
+      },
+      {
+        id: 'first-revelation',
+        year: 610,
+        title: 'The First Revelation',
+        description:
+          'On the Night of Power, in a cave on Mount Hira above Mecca, Muhammad receives the first words of the Quran through the angel Gabriel — the command to "Recite!"',
+        era: 'Prophethood',
+        factStatus: 'verified',
+      },
+      {
+        id: 'hijra',
+        year: 622,
+        title: 'The Hijra to Medina',
+        description:
+          'Persecuted in Mecca, Muhammad migrates to Yathrib (Medina), where he founds the first Muslim community. The Islamic calendar counts its years from this event.',
+        era: 'Prophethood',
+        factStatus: 'verified',
+      },
+      {
+        id: 'conquest-mecca',
+        year: 630,
+        title: 'The Conquest of Mecca',
+        description:
+          'Muhammad returns in triumph to Mecca almost without bloodshed, cleanses the Kaaba of its idols and rededicates the shrine to the one God.',
+        era: 'Prophethood',
+        factStatus: 'verified',
+      },
+      {
+        id: 'death-muhammad',
+        year: 632,
+        title: 'The Death of Muhammad',
+        description:
+          'The Prophet dies in Medina, having united Arabia under the new faith but leaving no clear successor — a silence that will soon divide the community.',
+        era: 'Prophethood',
+        factStatus: 'verified',
+      },
+      {
+        id: 'rashidun',
+        year: 632,
+        title: 'The Rashidun Caliphate Begins',
+        description:
+          'Abu Bakr is chosen as the first caliph, beginning the rule of the four "rightly guided" successors under whom Islam bursts out of Arabia across the Near East.',
+        era: 'Rashidun',
+        factStatus: 'verified',
+      },
+      {
+        id: 'sunni-shia-split',
+        year: 661,
+        title: 'The Sunni–Shia Split',
+        description:
+          'The assassination of Ali, the fourth caliph and the Prophet’s cousin, and the rise of the Umayyads harden the rift between Sunni and Shia over rightful leadership.',
+        era: 'Early Caliphates',
+        factStatus: 'verified',
+      },
+      {
+        id: 'umayyad',
+        year: 661,
+        title: 'The Umayyad Caliphate',
+        description:
+          'From their capital at Damascus the Umayyads (661–750) extend Muslim rule from Spain in the west to the borders of India and China in the east.',
+        era: 'Umayyad',
+        factStatus: 'verified',
+      },
+      {
+        id: 'karbala',
+        year: 680,
+        title: 'The Martyrdom at Karbala',
+        description:
+          'Husayn, grandson of the Prophet, is killed with his followers at Karbala — the defining tragedy of Shia Islam, mourned every year at Ashura.',
+        era: 'Umayyad',
+        factStatus: 'verified',
+      },
+      {
+        id: 'abbasid',
+        year: 750,
+        title: 'The Abbasid Golden Age Begins',
+        description:
+          'The Abbasids overthrow the Umayyads and found Baghdad, opening the great age of Islamic learning, trade and culture.',
+        era: 'Abbasid',
+        factStatus: 'verified',
+      },
+      {
+        id: 'house-of-wisdom',
+        year: 830,
+        title: 'The House of Wisdom',
+        description:
+          'In Baghdad scholars of every faith translate the science and philosophy of Greece, Persia and India into Arabic — al-Khwarizmi founds algebra in these years.',
+        era: 'Abbasid',
+        factStatus: 'verified',
+      },
+      {
+        id: 'al-andalus',
+        year: 1000,
+        title: 'The Golden Age of Al-Andalus',
+        description:
+          'Muslim Spain reaches its height; Córdoba grows into one of the great cities of the world, a centre of learning whose libraries dwarf those of Christian Europe.',
+        era: 'Al-Andalus',
+        factStatus: 'verified',
+      },
+      {
+        id: 'baghdad-sack',
+        year: 1258,
+        title: 'The Mongol Sack of Baghdad',
+        description:
+          'The Mongols destroy Baghdad and its libraries, ending the Abbasid caliphate — though Islamic learning and power live on in new centres for centuries more.',
+        era: 'Late Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'islam-today',
+        year: 2025,
+        title: 'Islam Today',
+        description:
+          'The world’s fastest-growing major religion counts some 1.9 billion followers — nearly a quarter of humanity — its largest communities now in South and Southeast Asia.',
+        era: 'Modern',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))

@@ -3780,6 +3780,848 @@
     "wordCount": 792
   },
   {
+    "id": "islam",
+    "title": "Islam",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "Submission to the One God",
+    "lede": "Islam is the faith of some 1.9 billion people — nearly a quarter of humanity — who hold that there is no god but God and that Muhammad is His messenger. Born in the deserts of seventh-century Arabia and carried within a single century from Spain to the Indus, it is at once the youngest of the great world religions and the heir of the oldest, claiming the same God worshipped by Abraham, Moses and Jesus. A religion of stark monotheism and total surrender, it shaped a civilization that preserved the learning of Greece, mapped the heavens, and built some of the most beautiful sacred spaces on Earth.",
+    "related": [
+      "muhammad",
+      "the-quran",
+      "christianity",
+      "hinduism",
+      "the-bible",
+      "ancient-egypt"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "From Mecca to the Ends of the Earth",
+          "caption": "A faith born in the Arabian towns of Mecca and Medina spread within a century across the Near East, North Africa and Spain, and in time to West Africa, Central Asia and the islands of Southeast Asia.",
+          "region": "Arabia, the Near East and beyond"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Kaaba at Mecca",
+          "caption": "The cube-shaped House of God toward which a quarter of humanity turns in prayer five times a day — the focal point of the hajj pilgrimage and the heart of the Muslim world.",
+          "credit": "Masjid al-Haram, Mecca"
+        },
+        {
+          "title": "The word Allah in calligraphy",
+          "caption": "Because Islam discourages depicting the divine, the written word of God became its supreme visual art — the name of God rendered in flowing Arabic script.",
+          "credit": "Islamic calligraphic tradition"
+        }
+      ],
+      "videos": [
+        {
+          "title": "What is Islam?",
+          "caption": "How a message proclaimed by a merchant of Mecca became the faith of nearly two billion people across every continent.",
+          "duration": "6:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Islam",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Islam"
+      },
+      {
+        "label": "The Qur'an",
+        "source": "The Qur'an (trans. M.A.S. Abdel Haleem)",
+        "url": "https://www.britannica.com/topic/Quran"
+      },
+      {
+        "label": "The British Museum — Islamic World",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Word Meaning Surrender",
+        "id": "a-word-meaning-surrender"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Arabic word *islam* means **submission** — the willing surrender of the whole self to the will of the one God, **Allah**, a name that means simply \"the God.\" One who makes that surrender is a *muslim*, \"one who submits.\" At the centre of the faith stands a single sentence, the **shahada**: *There is no god but God, and Muhammad is the messenger of God.* To say these words sincerely is to become a Muslim. Everything else in the religion flows from that stark and uncompromising declaration of the oneness of God."
+      },
+      {
+        "type": "paragraph",
+        "text": "That oneness — *tawhid* — is the beating heart of Islam. God is utterly singular, without partner, without offspring, without image. He is the creator of all that is, the merciful and the just, nearer to a person, the [Quran](/article/the-quran) says, than their own jugular vein. To associate anything else with Him — to worship an idol, to divide Him into persons, to make any creature His equal — is *shirk*, the one sin the tradition holds beyond easy forgiveness. Where [Christianity](/article/christianity) confesses one God in three persons and [Hinduism](/article/hinduism) sees the divine in a thousand forms, Islam insists on an absolute, undivided unity."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The youngest faith, the oldest claim",
+        "text": "Islam does not present itself as a new religion at all, but as the final restoration of the oldest one. It teaches that God sent the same message through a long line of prophets — Adam, Noah, Abraham, Moses, Jesus and many more — and that humanity repeatedly forgot or corrupted it. Muhammad is held to be the *seal of the prophets*, the last in that line, through whom the message was given a final, perfect and unalterable form. To a Muslim, Abraham was a Muslim, and so was Jesus: not founders of rival faiths but earlier messengers of the same eternal truth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Book and the Prophet",
+        "id": "the-book-and-the-prophet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Islam rests on two foundations. The first is the [Quran](/article/the-quran), which Muslims hold to be the literal, uncreated speech of God, revealed to [Muhammad](/article/muhammad) through the angel Gabriel over twenty-three years and preserved without change ever since. It is not a book *about* God in the way the [Bible](/article/the-bible) is a library of human testimony; it is understood as God's own words, which is why it is recited in the original Arabic the world over and why its beauty of sound is itself considered a miracle."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second foundation is the example of the Prophet himself — his sayings and deeds, gathered as the **hadith** and woven together into the **sunna**, the path of the Prophet. Where the Quran is silent or brief, the remembered life of Muhammad guides the believer. From the Quran and the sunna the scholars of Islam built the **sharia**, a comprehensive way of life that reaches from prayer and pilgrimage to commerce, marriage and the conduct of the state."
+      },
+      {
+        "type": "quote",
+        "text": "God: there is no god but Him, the Ever Living, the Ever Watchful. Neither slumber nor sleep overtakes Him. All that is in the heavens and the earth belongs to Him."
+      },
+      {
+        "type": "paragraph",
+        "text": "That passage, the famous \"Throne Verse,\" captures the Quranic vision of a God boundless and sovereign over all creation — the God to whom the Muslim surrenders."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Religion You Practise",
+        "id": "a-religion-you-practise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Islam is less a set of doctrines to be believed than a life to be lived, and its daily shape is given by the [Five Pillars](/article/five-pillars) — the testimony of faith, the five daily prayers, the giving of alms, the fast of Ramadan, and the pilgrimage to Mecca. These are not optional devotions but the very frame of a Muslim life, binding the believer five times a day to the rhythm of prayer and once a year, if they are able, into the vast white-robed throng circling the Kaaba."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "One faith, many houses",
+        "text": "Like every great tradition, Islam is not a single monolith. Its largest division, between [Sunni and Shia](/article/sunni-shia-divide), opened within a generation of the Prophet's death over the question of who should lead the community. Alongside them runs the mystical current of **Sufism**, which seeks not law alone but the direct experience of God's love, echoing the contemplative paths of [Christian mystics](/article/christian-mysticism) and the yogis of [India](/article/hinduism). From the deserts of Arabia to the rice fields of Indonesia, Islam has taken on the colours of every culture it touched while holding fast to the one creed at its core."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Civilization It Built",
+        "id": "the-civilization-it-built"
+      },
+      {
+        "type": "paragraph",
+        "text": "Within a hundred years of Muhammad's death in 632, Arab armies carrying the new faith had overthrown the Persian Empire, stripped the Eastern Roman Empire of its richest provinces, and ruled an arc of territory larger than Rome at its height. But the deeper conquest was of the mind. While much of Christian Europe forgot the learning of antiquity after the [fall of Rome](/article/fall-of-rome), the scholars of the [Islamic Golden Age](/article/islamic-golden-age) gathered, translated and surpassed the science and philosophy of [Greece](/article/greek-philosophy), India and Persia, giving the world algebra, advances in medicine and astronomy, and the very numerals these words are written beside."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Story This Cluster Tells",
+        "id": "the-story-this-cluster-tells"
+      },
+      {
+        "type": "paragraph",
+        "text": "What follows is a journey through that inheritance. We begin with the life of [Muhammad](/article/muhammad) himself, then turn to the [Quran](/article/the-quran) revealed through him and the [Five Pillars](/article/five-pillars) that frame a Muslim life. We follow the faith into its dazzling [Golden Age](/article/islamic-golden-age) of learning, into the searching tradition of [Islamic philosophy](/article/islamic-philosophy), and into the soaring [architecture](/article/islamic-architecture) of dome and minaret. We trace the great [Sunni–Shia divide](/article/sunni-shia-divide) that runs through Muslim history, and end with [Islam today](/article/islam-today), a faith of nearly two billion souls, the fastest-growing religion on Earth and the spiritual home of one person in four."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-word-meaning-surrender",
+        "text": "A Word Meaning Surrender",
+        "level": 2
+      },
+      {
+        "id": "the-book-and-the-prophet",
+        "text": "The Book and the Prophet",
+        "level": 2
+      },
+      {
+        "id": "a-religion-you-practise",
+        "text": "A Religion You Practise",
+        "level": 2
+      },
+      {
+        "id": "the-civilization-it-built",
+        "text": "The Civilization It Built",
+        "level": 2
+      },
+      {
+        "id": "the-story-this-cluster-tells",
+        "text": "The Story This Cluster Tells",
+        "level": 2
+      }
+    ],
+    "wordCount": 929
+  },
+  {
+    "id": "islam-today",
+    "title": "Islam Today",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The fastest-growing faith",
+    "lede": "With some 1.9 billion adherents — nearly a quarter of humanity — Islam is the second-largest religion on Earth and, by most measures, the fastest-growing. Yet the heart of the Muslim world is no longer only the Arab lands of its birth; today the largest Muslim populations live in South and Southeast Asia, and Islam is woven into the life of every continent. From the great pilgrim cities to the mosques of Europe and the Americas, the faith founded in seventh-century Arabia enters its fifteenth century as a truly global religion, diverse, dynamic and young.",
+    "related": [
+      "islam",
+      "sunni-shia-divide",
+      "five-pillars",
+      "christianity-today",
+      "hinduism"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Muslim World Today",
+          "caption": "From Morocco to Indonesia stretches a broad band of Muslim-majority nations, while the largest single populations live in Indonesia, Pakistan, India and Bangladesh — far from the Arab heartland of Islam's birth.",
+          "region": "Worldwide, centred on Asia and Africa"
+        }
+      ],
+      "images": [
+        {
+          "title": "A modern hajj",
+          "caption": "Each year some two million pilgrims from every nation gather at Mecca — one of the largest peaceful assemblies of human beings on the planet.",
+          "credit": "The hajj today"
+        },
+        {
+          "title": "A mosque in a Western city",
+          "caption": "From London to Toronto, growing Muslim communities have made Islam a visible part of the religious landscape of the West.",
+          "credit": "Contemporary diaspora"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Islam in the Twenty-First Century",
+          "caption": "A faith of nearly two billion people, young and global — where Islam stands as it enters its fifteenth century.",
+          "duration": "6:35",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Pew Research Center — The Future of World Religions",
+        "source": "Pew Research Center",
+        "url": "https://www.pewresearch.org/religion/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Islam",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Islam"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Islamic world",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Islamic-world"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Quarter of Humanity",
+        "id": "a-quarter-of-humanity"
+      },
+      {
+        "type": "paragraph",
+        "text": "Islam today counts some **1.9 billion** followers — close to a quarter of all the people alive. Only [Christianity](/article/christianity-today) has more adherents, and on present trends the gap is closing fast: with a young population and high birth rates across much of the Muslim world, Islam is the fastest-growing major religion on Earth, and demographers project that the number of Muslims may roughly equal the number of Christians before the century is out. It is a faith not in retreat but in expansion, entering its fifteenth century with extraordinary vitality."
+      },
+      {
+        "type": "paragraph",
+        "text": "Perhaps the most surprising fact about the Muslim world is where it lies. Although Islam was born among the Arabs and the [Quran](/article/the-quran) was revealed in Arabic, Arabs today make up only about one in five of the world's Muslims. The largest Muslim populations live far to the east: **Indonesia** is the most populous Muslim nation on Earth, followed by **Pakistan**, **India** and **Bangladesh**. The centre of gravity of the faith has long since shifted from the deserts of its birth to the teeming nations of South and Southeast Asia — and Islam is now woven into the life of Africa, Europe and the Americas as well."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A young and global faith",
+        "text": "The single most important fact about Islam's future is its youth. Across the Muslim world the median age is strikingly low, and a faith with a young population is a growing one. This demographic energy, combined with the steady spread of Islam in sub-Saharan Africa, means that the twenty-first century will likely see the Muslim share of humanity rise faster than that of any other tradition. Like [Hinduism](/article/hinduism) and Christianity, Islam remains one of the great living forces shaping the spiritual life of billions — but it is, in a sense, the youngest and the fastest-rising of them all."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Many Ways of Being Muslim",
+        "id": "many-ways-of-being-muslim"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Muslim world is no monolith. Beyond the great [Sunni–Shia divide](/article/sunni-shia-divide), Islam is lived in a thousand ways across its vast geography. In the markets of Cairo, the rice fields of Java, the steppes of Central Asia and the suburbs of Paris, the same Five Pillars frame lives shaped by utterly different cultures, languages and histories. There are Muslims who read their faith in conservative and traditional terms, and Muslims who embrace thoroughly modern and liberal interpretations; there are the inward, ecstatic devotions of the **Sufi** orders and the strict legalism of reform movements; there are quiet secular Muslims and fervent activists."
+      },
+      {
+        "type": "paragraph",
+        "text": "This diversity has been the source of vigorous debate within Islam over how the faith should meet the modern world — questions of law and democracy, of the role of women, of science and tradition, of how a revelation given in seventh-century Arabia should guide life in the twenty-first century. These are live and contested conversations, carried on by Muslims themselves across the whole spectrum of opinion, much as every great tradition wrestles in each age with how to be faithful to its founding vision under new conditions."
+      },
+      {
+        "type": "quote",
+        "text": "O humankind, We created you from a single pair of a male and a female, and made you into nations and tribes, that you may know one another."
+      },
+      {
+        "type": "paragraph",
+        "text": "That verse from the Quran, often quoted today, speaks to a faith that has always crossed the lines of race and nation — and that now, more than ever, gathers peoples of every continent into a single community."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Pilgrim City and the Global Diaspora",
+        "id": "the-pilgrim-city-and-the-global-diaspora"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nothing displays the global reach of Islam more vividly than the annual **hajj**. Each year some two million pilgrims, drawn from virtually every country on Earth, converge on Mecca to perform the rites that [Muhammad](/article/muhammad) established — making it one of the largest peaceful gatherings of human beings anywhere on the planet. In the white-robed throng circling the Kaaba, the nationalities and tongues of the whole world dissolve for a few days into a single act of worship, an image of unity that has moved believers for fourteen centuries."
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond the heartlands, Islam is now a permanent and growing presence in the West. Migration over the past century has built substantial Muslim communities across Europe, North America and beyond, where mosques have become part of the urban landscape and Muslims contribute to every walk of public life. This diaspora has made Islam, for the first time, a near-universal religion in the literal sense — present in significant numbers on every inhabited continent."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A faith and its perceptions",
+        "text": "In recent decades Islam has often been viewed in the West through the narrow and distorting lens of conflict and a handful of violent extremist movements. Yet such movements represent a tiny fraction of the world's Muslims, the overwhelming majority of whom live ordinary lives of faith, family and work, and many of whom are themselves the principal victims of extremist violence. To understand Islam today is to look past the headlines to the vast, varied and largely peaceful reality of nearly two billion believers — the same faith that once lit the lamps of the [Golden Age](/article/islamic-golden-age) of learning, lived out across the whole face of the Earth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Into the Fifteenth Century",
+        "id": "into-the-fifteenth-century"
+      },
+      {
+        "type": "paragraph",
+        "text": "By the Islamic calendar, which counts from the Hijra of 622, the faith has now passed into its fifteenth century. It does so as a religion of remarkable energy — young, growing, global, and as deeply rooted in the daily lives of its people as any tradition on Earth. The five daily prayers still turn nearly two billion faces toward Mecca; the fast of Ramadan still empties the streets at dusk across half the world; the pilgrim throng still circles the ancient shrine. From a message proclaimed by a single man in the hills above Mecca, Islam has become the spiritual home of one person in four — and its story, far from finished, is still being written across every continent of the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-quarter-of-humanity",
+        "text": "A Quarter of Humanity",
+        "level": 2
+      },
+      {
+        "id": "many-ways-of-being-muslim",
+        "text": "Many Ways of Being Muslim",
+        "level": 2
+      },
+      {
+        "id": "the-pilgrim-city-and-the-global-diaspora",
+        "text": "The Pilgrim City and the Global Diaspora",
+        "level": 2
+      },
+      {
+        "id": "into-the-fifteenth-century",
+        "text": "Into the Fifteenth Century",
+        "level": 2
+      }
+    ],
+    "wordCount": 967
+  },
+  {
+    "id": "islamic-architecture",
+    "title": "Islamic Architecture",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "Geometry in the service of God",
+    "lede": "From the great mosque of Córdoba to the Taj Mahal, Islamic architecture has given the world some of its most beautiful buildings — spaces of dome and arch, courtyard and fountain, where light, water and infinite geometric pattern conspire to lift the heart toward God. Forbidden to depict the divine in image, Muslim builders made of abstraction itself a supreme art, covering their walls in flowing calligraphy and endlessly repeating patterns that seem to hint at the boundlessness of the One they could not show.",
+    "related": [
+      "islam",
+      "islamic-golden-age",
+      "islamic-philosophy",
+      "roman-engineering",
+      "greek-architecture",
+      "hindu-temples",
+      "christian-art"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "A Style Across Three Continents",
+          "caption": "From the Alhambra in Spain to the Dome of the Rock in Jerusalem, the mosques of Istanbul and Isfahan, and the Mughal monuments of India — a shared architectural language stretched across half the world.",
+          "region": "Spain, the Near East and India"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Dome of the Rock",
+          "caption": "Raised in Jerusalem around 691, its golden dome above an octagon of patterned tile is the oldest surviving masterpiece of Islamic architecture.",
+          "credit": "Jerusalem, c. 691"
+        },
+        {
+          "title": "The courtyard of the Alhambra",
+          "caption": "In the palaces of Granada, water, shade and intricate stucco create an earthly image of the paradise gardens promised in the Quran.",
+          "credit": "The Alhambra, Granada"
+        },
+        {
+          "title": "The Taj Mahal",
+          "caption": "The Mughal emperor Shah Jahan's marble mausoleum for his wife — the most famous building of the Islamic world, where Persian, Indian and Islamic traditions meet.",
+          "credit": "Agra, c. 1653"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Art of the Infinite",
+          "caption": "How Muslim builders turned geometry, calligraphy and light into a sacred art without ever depicting the divine.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Islamic arts",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Islamic-arts"
+      },
+      {
+        "label": "The Metropolitan Museum of Art — Islamic Art",
+        "source": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah/hd/orna/hd_orna.htm"
+      },
+      {
+        "label": "The British Museum — Islamic World",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Building for the One Who Cannot Be Seen",
+        "id": "building-for-the-one-who-cannot-be-seen"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every sacred architecture answers to the god it serves. The temples of [India](/article/hindu-temples) house the carved image of the deity in a dark inner chamber; the churches of [Christendom](/article/christian-art) fill their walls with the painted faces of Christ and the saints. But Islam holds the oneness of God to be beyond all image and likeness, and its tradition strongly discourages depicting living forms in sacred space, lest they tempt the worshipper toward idolatry. This single principle shaped everything. Denied the human figure, Muslim artists poured their genius into other channels — into geometry, calligraphy, light and space — and made of these an art of overwhelming beauty."
+      },
+      {
+        "type": "paragraph",
+        "text": "The result is an architecture of abstraction. Where a cathedral overwhelms with the drama of the human and divine made visible, a great mosque overwhelms with pattern and proportion, with the play of light through screens, with the endless repetition of geometric forms that seem to have no beginning and no end. The very abstraction becomes a theology: a building that points beyond every image to the formless, infinite God."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The art of infinity",
+        "text": "The intricate star-patterns and interlacing **arabesques** that cover Islamic buildings are not mere decoration. Built from geometry — circles divided and redivided, polygons interlocking without end — they can in principle be extended forever in every direction. Many scholars read them as a meditation on the infinite: the worshipper's eye, finding no centre and no edge, no figure to rest upon, is drawn toward the boundlessness of God Himself. The same mathematical genius that produced [algebra](/article/islamic-golden-age) in the Golden Age here became a spiritual art, turning the cold certainties of geometry into a vision of the divine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Mosque and Its Elements",
+        "id": "the-mosque-and-its-elements"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the heart of the tradition stands the **mosque** — *masjid*, \"place of prostration.\" Its form grew from the simplest of origins: the courtyard of [Muhammad's](/article/muhammad) own house in Medina, where the first community gathered to pray. From that humble model developed a set of elements found in mosques the world over. A spacious **prayer hall** holds the rows of worshippers; a niche in one wall, the **mihrab**, marks the *qibla*, the direction of Mecca toward which all must face; a raised pulpit, the **minbar**, serves the Friday sermon. Outside, a **courtyard** with a fountain provides water for the ritual washing before prayer, and the slender tower of the **minaret** rises above the city, from which the call to prayer once rang out by the human voice alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "Above many great mosques floats the **dome**, that most resonant of forms, an image of the vault of heaven arching over the gathered faithful. Here the Muslim builders learned from those who came before. From the engineers of [Rome](/article/roman-engineering) and the Christian Byzantines they took the science of the great dome and the round arch; from [Greek](/article/greek-architecture) and Persian building they took columns and proportion. But they transformed what they borrowed, raising the pointed arch and the horseshoe arch, and crowning interiors with the **muqarnas** — cascading honeycombs of vaulting like frozen stalactites, dissolving solid stone into shimmering pattern."
+      },
+      {
+        "type": "quote",
+        "text": "God is beautiful, and He loves beauty."
+      },
+      {
+        "type": "paragraph",
+        "text": "That saying of the Prophet became a charter for the Islamic arts — the conviction that to make something beautiful is itself a way of honouring God."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Gardens, Water and the Image of Paradise",
+        "id": "gardens-water-and-the-image-of-paradise"
+      },
+      {
+        "type": "paragraph",
+        "text": "Born in the parched lands of Arabia and Persia, Islamic architecture made water and shade into the very image of the divine reward. The [Quran](/article/the-quran) describes paradise again and again as a garden watered by flowing streams, and Muslim builders set out to make an echo of it on Earth. The classic Islamic garden is divided by four channels of running water into quarters — the *chahar bagh*, a fourfold paradise garden — cool, green and ordered against the heat and chaos outside. In the palace of the **Alhambra** in Granada, courtyards of still pools and trickling fountains create a hushed, otherworldly calm, an earthly foretaste of the gardens promised to the faithful."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Style That Spanned the World",
+        "id": "a-style-that-spanned-the-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "As Islam spread, its architecture absorbed the genius of every land it reached and gave back a shared vocabulary recognisable from Spain to India. In Jerusalem rose the **Dome of the Rock**, built around 691, the oldest great monument of the faith, its golden dome and patterned tilework set above the rock from which Muslims believe Muhammad ascended through the heavens. In Ottoman Istanbul, the architect Sinan raised vast domed mosques that answered the Byzantine Hagia Sophia. In Safavid Persia, the city of Isfahan glowed with mosques of turquoise tile. And in Mughal **India**, where Islam met the building traditions of [the Hindu world](/article/hindu-temples), the emperor Shah Jahan raised the **Taj Mahal** — a marble tomb for his beloved wife, perfectly symmetrical, mirrored in a long reflecting pool, perhaps the most beloved building on Earth."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Calligraphy, the queen of arts",
+        "text": "If geometry is the body of Islamic art, calligraphy is its soul. Because the [Quran](/article/the-quran) is held to be the literal word of God, the writing of that word became the highest of all the visual arts. Verses flow in elegant Arabic script across the portals and domes of mosques, around the rims of bowls, along the blades of swords — so that the believer is surrounded not by images of the sacred but by the sacred words themselves. In a faith without icons, the written word of God became the supreme thing to behold."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Beauty That Points Beyond Itself",
+        "id": "the-beauty-that-points-beyond-itself"
+      },
+      {
+        "type": "paragraph",
+        "text": "To stand in the great mosque of Córdoba, beneath its forest of red-and-white striped arches receding into shadow, or in the tiled courtyards of Isfahan, or before the floating marble of the Taj Mahal, is to feel what Islamic architecture set out to achieve. It does not tell stories or show faces. It works on the soul through proportion and pattern, through light and water and the hush of ordered space, drawing the mind away from the particular and the visible toward the one, infinite, unseen God. In refusing to picture the divine, the builders of Islam found another way to make the heart aware of it — and left the world some of the most serenely beautiful spaces human hands have ever raised."
+      }
+    ],
+    "toc": [
+      {
+        "id": "building-for-the-one-who-cannot-be-seen",
+        "text": "Building for the One Who Cannot Be Seen",
+        "level": 2
+      },
+      {
+        "id": "the-mosque-and-its-elements",
+        "text": "The Mosque and Its Elements",
+        "level": 2
+      },
+      {
+        "id": "gardens-water-and-the-image-of-paradise",
+        "text": "Gardens, Water and the Image of Paradise",
+        "level": 2
+      },
+      {
+        "id": "a-style-that-spanned-the-world",
+        "text": "A Style That Spanned the World",
+        "level": 2
+      },
+      {
+        "id": "the-beauty-that-points-beyond-itself",
+        "text": "The Beauty That Points Beyond Itself",
+        "level": 2
+      }
+    ],
+    "wordCount": 1034
+  },
+  {
+    "id": "islamic-philosophy",
+    "title": "Islamic Philosophy",
+    "category": "science",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "Faith meets reason",
+    "lede": "When the reasoning of ancient Greece flowed into the Muslim world, it met a faith founded on revelation, and from that meeting came one of the richest philosophical traditions in history. For centuries the thinkers of Islam wrestled with the deepest questions a mind can ask — whether the world was eternal or created, whether reason or revelation is the surer guide, whether the soul survives the body. Their answers shaped not only Islam but, carried into Europe, the whole later course of Western thought.",
+    "related": [
+      "islam",
+      "islamic-golden-age",
+      "islamic-architecture",
+      "greek-philosophy",
+      "hindu-philosophy",
+      "christian-mysticism"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "From Baghdad to Córdoba",
+          "caption": "Islamic philosophy flowered at the two ends of the Muslim world — in the eastern lands of al-Farabi and Ibn Sina, and in the Spanish west of Ibn Rushd, whose work would reshape Christian Europe.",
+          "region": "From Central Asia to Spain"
+        }
+      ],
+      "images": [
+        {
+          "title": "Ibn Sina (Avicenna)",
+          "caption": "The Persian philosopher-physician whose grand synthesis of Aristotle and Islam shaped thought from Bukhara to Paris for six hundred years.",
+          "credit": "Medieval depiction"
+        },
+        {
+          "title": "Ibn Rushd (Averroes)",
+          "caption": "The philosopher of Córdoba whose commentaries on Aristotle were so authoritative that medieval Europe knew him simply as \"the Commentator.\"",
+          "credit": "Andalusian tradition"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Reason and Revelation in Islam",
+          "caption": "How Muslim thinkers reconciled the philosophy of Greece with the faith of the Quran — and changed the mind of the medieval world.",
+          "duration": "6:35",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy — Arabic and Islamic Philosophy",
+        "source": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/arabic-islamic-influence/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Islamic philosophy",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Islamic-philosophy"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Averroës",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Averroes"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When Athens Met Mecca",
+        "id": "when-athens-met-mecca"
+      },
+      {
+        "type": "paragraph",
+        "text": "The philosophy of Islam was born of an encounter. As the translators of the [Islamic Golden Age](/article/islamic-golden-age) rendered the works of Aristotle and Plato into Arabic, Muslim thinkers found themselves heirs to two great inheritances at once: the revelation of the [Quran](/article/the-quran), given by God, and the reasoning of [Greek philosophy](/article/greek-philosophy), won by the unaided human mind. The central drama of Islamic philosophy — its great question across the centuries — was how these two could be reconciled. Did reason and revelation lead to the same truth by different roads? And if they seemed to conflict, which should yield?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The earliest of the philosophers, known in Arabic as the **falasifa** (a word borrowed straight from the Greek *philosophia*), held that they could not truly conflict, since both came ultimately from God. The first great figure, **al-Kindi**, in ninth-century Baghdad, argued that the pursuit of truth through philosophy was a religious duty. After him **al-Farabi**, called \"the Second Teacher\" (Aristotle being the first), built a vast system uniting Greek logic and metaphysics with Islamic and Platonic ideals of the just society, imagining the ideal state as one led by a philosopher-prophet."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The eternal world problem",
+        "text": "One question above all set philosophers and theologians at odds. Aristotle had argued that the universe was eternal, with no beginning in time. But the Quran teaches that God *created* the world, calling it into being out of nothing. Here Greek reason and Islamic revelation seemed flatly to contradict each other. How the philosophers handled this clash — whether they bent Aristotle to fit scripture, reinterpreted scripture, or held that philosophy and religion were two languages for one truth — became the great fault line of Islamic thought, and the spark for its fiercest debates."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Avicenna and the Grand Synthesis",
+        "id": "avicenna-and-the-grand-synthesis"
+      },
+      {
+        "type": "paragraph",
+        "text": "The towering figure of the eastern tradition was **Ibn Sina**, known to the Latin world as **Avicenna** (980–1037). A prodigy who had mastered medicine and metaphysics in his youth, he built the most complete philosophical system the Muslim world had yet seen, fusing Aristotle with Neoplatonism and the faith of Islam. His proof of God as the \"Necessary Existent\" — the one being whose very essence is to exist, on which all other, merely possible things depend — became one of the most influential arguments in the history of philosophy, echoing through the work of Jewish and Christian thinkers for centuries."
+      },
+      {
+        "type": "paragraph",
+        "text": "Avicenna's reach went far beyond his own faith. His distinction between essence and existence, his analysis of the soul, his famous \"floating man\" thought experiment — imagining a person created in midair, with no sensation of the body, who would still know that they exist — entered the bloodstream of medieval European philosophy. Through him, and through the [Golden Age's](/article/islamic-golden-age) translations, Aristotle returned to a Europe that had largely lost him."
+      },
+      {
+        "type": "quote",
+        "text": "The world is divided into men who have wit and no religion, and men who have religion and no wit."
+      },
+      {
+        "type": "paragraph",
+        "text": "That sharp saying, attributed to the eleventh-century poet-philosopher al-Maʿarri, captures the tension the falasifa lived with — the suspicion, on both sides, between the party of reason and the party of faith."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Al-Ghazali and the Limits of Reason",
+        "id": "al-ghazali-and-the-limits-of-reason"
+      },
+      {
+        "type": "paragraph",
+        "text": "The boldness of the philosophers provoked a brilliant reply. The theologian **al-Ghazali** (1058–1111), one of the most influential thinkers in all of Islam, mastered philosophy in order to critique it. In his *Incoherence of the Philosophers* he argued that reason, for all its power, overreached when it claimed to prove things like the eternity of the world or to dictate the nature of God — matters that belong to revelation. He went further, questioning whether the chain of cause and effect the philosophers trusted was a necessity at all, or simply the habitual way God chooses to act."
+      },
+      {
+        "type": "paragraph",
+        "text": "Al-Ghazali did not reject reason; he was himself a master of logic. But he set limits to it, and after a personal crisis he turned toward the inner, experiential path of **Sufism**, the mystical tradition that sought not to prove God but to *know* Him directly, in the heart. In this turn he stands close to the contemplatives of other faiths — to the [Christian mystics](/article/christian-mysticism) who sought union with God beyond argument, and to the sages of [India](/article/hindu-philosophy) for whom the highest truth was realised in experience rather than reasoned to. His enormous prestige reshaped the balance of Islamic thought for centuries after."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Averroes and the Gift to Europe",
+        "id": "averroes-and-the-gift-to-europe"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the far west, in Muslim Spain, the tradition produced its last great defender of philosophy: **Ibn Rushd** of Córdoba, known to Europe as **Averroes** (1126–1198). Stung by al-Ghazali's attack, he wrote a point-by-point reply, *The Incoherence of the Incoherence*, defending reason and insisting that philosophy and religion were two paths to the same truth — one for the learned, one for the many — that could never genuinely contradict. His vast commentaries on Aristotle were so penetrating that the philosophers of Christian Europe knew him simply as \"the Commentator.\""
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "The road back to Europe",
+        "text": "History holds a striking irony. Just as Averroes was defending philosophy in the Muslim west, the centre of gravity of Islamic thought was shifting toward al-Ghazali's more cautious vision. But Averroes's works, translated from Arabic into Latin, exploded into the universities of Christian Europe, where they forced thinkers like Thomas Aquinas to confront Aristotle head-on and helped set off the great scholastic revival. Islamic philosophy thus did for Europe what it had done for the ancient world before — it preserved, sharpened and handed on the tools of reason, shaping a civilization beyond its own."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Living Inheritance",
+        "id": "a-living-inheritance"
+      },
+      {
+        "type": "paragraph",
+        "text": "The classical age of the falasifa eventually waned, but Islamic philosophy never died. In Persia a rich tradition of mystical philosophy continued for centuries, culminating in thinkers like Mulla Sadra, who wove together reason, revelation and inner vision into a grand metaphysics of being. And the questions the tradition raised — the relation of faith and reason, the nature of the soul, the proof of God, the reach and the limits of the human mind — remain as alive today as when Aristotle's words first echoed in the libraries of Baghdad. In wrestling so deeply with them, the philosophers of Islam not only enriched their own faith but helped shape the mind of the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "when-athens-met-mecca",
+        "text": "When Athens Met Mecca",
+        "level": 2
+      },
+      {
+        "id": "avicenna-and-the-grand-synthesis",
+        "text": "Avicenna and the Grand Synthesis",
+        "level": 2
+      },
+      {
+        "id": "al-ghazali-and-the-limits-of-reason",
+        "text": "Al-Ghazali and the Limits of Reason",
+        "level": 2
+      },
+      {
+        "id": "averroes-and-the-gift-to-europe",
+        "text": "Averroes and the Gift to Europe",
+        "level": 2
+      },
+      {
+        "id": "a-living-inheritance",
+        "text": "A Living Inheritance",
+        "level": 2
+      }
+    ],
+    "wordCount": 1035
+  },
+  {
     "id": "jesus-of-nazareth",
     "title": "Jesus of Nazareth",
     "category": "religions",
@@ -4539,6 +5381,202 @@
       }
     ],
     "wordCount": 265
+  },
+  {
+    "id": "muhammad",
+    "title": "Muhammad",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The seal of the prophets",
+    "lede": "Muhammad ibn Abdullah was a merchant of Mecca who, at the age of forty, began to receive what he proclaimed as revelations from God — and in the twenty-three years that followed transformed the fractious tribes of Arabia into a single community and founded a faith now followed by nearly two billion people. Better documented than almost any figure of the ancient world, he is to Muslims not a divine being but the last and greatest of God's prophets, the human channel through whom the final revelation came. Few lives have so completely redirected the course of history.",
+    "related": [
+      "islam",
+      "the-quran",
+      "five-pillars",
+      "jesus-of-nazareth",
+      "christianity",
+      "the-bible"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The World of Mecca and Medina",
+          "caption": "The trading towns of the Hijaz, along the western coast of Arabia — from Mecca, where Muhammad was born, to Medina, where he built the first Muslim community some 320 kilometres to the north.",
+          "region": "The Hijaz, western Arabia"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Cave of Hira",
+          "caption": "The cave on the mountain above Mecca where, tradition holds, Muhammad received the first revelation — the command \"Read!\" from the angel Gabriel.",
+          "credit": "Jabal al-Nour, near Mecca"
+        },
+        {
+          "title": "The Prophet's Mosque at Medina",
+          "caption": "Built around Muhammad's own house, the mosque in Medina holds his tomb and is the second-holiest site in Islam, its green dome known to Muslims everywhere.",
+          "credit": "Al-Masjid an-Nabawi, Medina"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Life of the Prophet",
+          "caption": "From orphan and merchant to prophet and statesman — the life that founded a world religion in a single generation.",
+          "duration": "6:55",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Muhammad",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Muhammad"
+      },
+      {
+        "label": "The Qur'an",
+        "source": "The Qur'an (trans. M.A.S. Abdel Haleem)",
+        "url": "https://www.britannica.com/topic/Quran"
+      },
+      {
+        "label": "Ibn Ishaq — The Life of Muhammad",
+        "source": "Ibn Ishaq (trans. A. Guillaume)",
+        "url": "https://www.britannica.com/biography/Muhammad"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An Orphan of Mecca",
+        "id": "an-orphan-of-mecca"
+      },
+      {
+        "type": "paragraph",
+        "text": "Muhammad was born around the year 570 in **Mecca**, a dusty trading town in the barren hills of western Arabia that was also a centre of pilgrimage, home to the ancient cube-shaped shrine called the **Kaaba**, then crowded with the idols of the Arabian tribes. His early life was marked by loss. His father died before his birth, his mother when he was six, and he was raised first by his grandfather and then by his uncle Abu Talib. He grew into a trusted merchant, known by the nickname **al-Amin**, \"the trustworthy,\" and married a older widow and businesswoman named **Khadija**, who would become his first and most devoted supporter."
+      },
+      {
+        "type": "paragraph",
+        "text": "Arabia in his day stood at the edge of two great empires — the Christian Eastern Roman world to the north-west and the Zoroastrian Persian empire to the north-east — yet its own tribes worshipped many gods and were bound by no single faith or state. It was a society of fierce clan loyalty, blood feud and trade, where the weak had little protection. Into this world Muhammad would bring a message of one God and one community that cut across every tribal line."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The night of power",
+        "text": "Tradition holds that around the year 610, when Muhammad was about forty, he had withdrawn to meditate in a cave on Mount Hira above Mecca when the angel Gabriel appeared and commanded him: **\"Recite!\"** Overwhelmed and terrified, he protested that he could not — and the words of the first revelation poured through him. Muslims call this the *Laylat al-Qadr*, the Night of Power, and reckon it the moment the [Quran](/article/the-quran) began to descend. For the rest of his life the revelations continued, and he proclaimed them not as his own words but as the speech of God."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Preacher and His Persecution",
+        "id": "the-preacher-and-his-persecution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Muhammad began to preach in Mecca a message of startling simplicity and danger: that there was only one God, that the idols of the Kaaba were nothing, that the rich owed justice to the poor and the orphan, and that all would be raised to face judgement. To the merchant aristocracy of Mecca, whose wealth and prestige flowed from the pilgrimage to those very idols, this was both blasphemy and a threat to their livelihood. His small band of followers — slaves, the young, the poor and a few of the well-born — were mocked, boycotted and persecuted."
+      },
+      {
+        "type": "paragraph",
+        "text": "His message had deep kinship with the faiths already in the region. Like the prophets of the [Hebrew Bible](/article/the-bible) and like [Jesus of Nazareth](/article/jesus-of-nazareth), Muhammad called people from idols to the one God of Abraham, warned of a coming judgement, and demanded mercy and justice. Muslims revere Jesus as a mighty prophet and the Messiah, born of the Virgin Mary, though they do not hold him to be divine. The God Muhammad preached was, in his teaching, the same God — the message restored to its original purity."
+      },
+      {
+        "type": "quote",
+        "text": "Recite in the name of your Lord who created — created man from a clinging form. Recite! Your Lord is the Most Bountiful One, who taught by the pen, taught man what he did not know."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Hijra and the Birth of a Community",
+        "id": "the-hijra-and-the-birth-of-a-community"
+      },
+      {
+        "type": "paragraph",
+        "text": "By 622 the pressure in Mecca had become unbearable, and Muhammad accepted an invitation from the town of **Yathrib**, to the north, to come and govern it. This migration — the **Hijra** — is the hinge of Islamic history, so decisive that Muslims count their calendar from that year, not from the Prophet's birth. Yathrib was renamed **Medina**, \"the city,\" and there Muhammad became not only a prophet but a lawgiver, judge and head of state, binding the quarrelling clans and the growing body of believers into a single community, the **umma**."
+      },
+      {
+        "type": "paragraph",
+        "text": "The years that followed brought open war with Mecca, a series of hard-fought battles, and at last, in 630, the bloodless conquest of the city itself. Muhammad entered Mecca in triumph, cleansed the Kaaba of its idols, and rededicated it to the one God — restoring, as Muslims believe, the shrine that Abraham himself had first raised. The faith he had been mocked for now spread swiftly across the peninsula."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Prophet, not divine",
+        "text": "It is a point Muslims guard with great care: Muhammad is not worshipped, and is never held to be divine. He is the *seal of the prophets* — the final and greatest of a line stretching back to Adam — but he is a man, mortal and fallible in worldly matters, chosen to carry God's word. Where Christians came to confess Jesus as God incarnate, Islam draws an absolute line between the creator and every creature, however exalted. To honour Muhammad is one thing; to worship him would be the very idolatry he came to abolish."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Life That Reshaped the World",
+        "id": "a-life-that-reshaped-the-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "Muhammad died in Medina in 632, only two years after the conquest of Mecca, leaving no clear successor — a silence that would soon open the great [Sunni–Shia divide](/article/sunni-shia-divide). He left behind no empire of stone, but something far more durable: a book held to be the words of God, a community that would within a century rule from Spain to India, and a model of life imitated in its smallest details by a quarter of humanity. He had united a peninsula, founded a religion and a civilization, and set in motion a transformation of the world. Unlike most founders of faiths, he did all this within the full light of recorded history, his life and sayings gathered, debated and preserved by those who knew him — which is why Muslims can follow not only what he taught but how he lived."
+      }
+    ],
+    "toc": [
+      {
+        "id": "an-orphan-of-mecca",
+        "text": "An Orphan of Mecca",
+        "level": 2
+      },
+      {
+        "id": "the-preacher-and-his-persecution",
+        "text": "The Preacher and His Persecution",
+        "level": 2
+      },
+      {
+        "id": "the-hijra-and-the-birth-of-a-community",
+        "text": "The Hijra and the Birth of a Community",
+        "level": 2
+      },
+      {
+        "id": "a-life-that-reshaped-the-world",
+        "text": "A Life That Reshaped the World",
+        "level": 2
+      }
+    ],
+    "wordCount": 937
   },
   {
     "id": "mummification",
@@ -6887,6 +7925,202 @@
     "wordCount": 653
   },
   {
+    "id": "five-pillars",
+    "title": "The Five Pillars",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The frame of a Muslim life",
+    "lede": "Islam is less a creed to be recited than a life to be lived, and that life rests on five supports — the testimony of faith, daily prayer, the giving of alms, the fast of Ramadan, and the pilgrimage to Mecca. Together the Five Pillars give the believer's days, months and years their sacred shape, binding nearly two billion people across every land into a single rhythm of worship. They are at once the simplest summary of what a Muslim does and the deepest expression of what it means to submit to God.",
+    "related": [
+      "islam",
+      "muhammad",
+      "the-quran",
+      "islamic-golden-age",
+      "yoga-and-meditation",
+      "christian-mysticism"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "A World Turned Toward Mecca",
+          "caption": "Five times a day, from every point on the globe, Muslims face the Kaaba at Mecca — the qibla, the single direction of prayer that orients the whole Muslim world.",
+          "region": "Worldwide, oriented to Mecca"
+        }
+      ],
+      "images": [
+        {
+          "title": "Rows of worshippers in prayer",
+          "caption": "Shoulder to shoulder, rich beside poor, the faithful bow together in the salat — a discipline of the body that enacts the equality of all before God.",
+          "credit": "Congregational prayer"
+        },
+        {
+          "title": "Pilgrims circling the Kaaba",
+          "caption": "During the hajj some two million pilgrims, all in simple white cloth, circle the Kaaba seven times — the climax of a journey every able Muslim hopes to make once in a lifetime.",
+          "credit": "The hajj, Mecca"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Five Pillars Explained",
+          "caption": "Faith, prayer, charity, fasting and pilgrimage — the five acts that frame the life of every practising Muslim.",
+          "duration": "6:25",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Five Pillars of Islam",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Five-Pillars-of-Islam"
+      },
+      {
+        "label": "The Qur'an",
+        "source": "The Qur'an (trans. M.A.S. Abdel Haleem)",
+        "url": "https://www.britannica.com/topic/Quran"
+      },
+      {
+        "label": "The British Museum — Hajj",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Faith Built on Five Supports",
+        "id": "a-faith-built-on-five-supports"
+      },
+      {
+        "type": "paragraph",
+        "text": "When Muslims speak of the **arkan al-Islam**, the \"pillars of Islam,\" they use a deliberate image: a building held up by columns. Belief alone is not the whole of the faith; it must be enacted, day by day and year by year, in deeds that any believer — learned or unlettered, rich or poor — can perform. The Five Pillars are those deeds. They were laid down in the [Quran](/article/the-quran) and the example of [Muhammad](/article/muhammad), and across fourteen centuries they have given Islam a remarkable unity of practice, so that a worshipper in Senegal and one in Indonesia perform the same acts in the same way."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first pillar is the **shahada**, the testimony of faith: *There is no god but God, and Muhammad is the messenger of God.* To recite it sincerely, with understanding, is to become a Muslim. It is the creed in a single breath, whispered into the ear of the newborn and, where possible, the last words on the lips of the dying. The other four pillars are the living-out of what this declaration means."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The discipline of remembrance",
+        "text": "The Arabic word *dhikr* means \"remembrance,\" and in a sense all five pillars exist to keep God constantly in mind. Five times a day the believer stops to pray; once a year they fast from dawn to dusk; throughout the year they give from their wealth; once in a lifetime they journey to Mecca. Each is a discipline that interrupts ordinary life to turn the heart back toward God — a structure for not forgetting. In this the pillars resemble the contemplative disciplines of other traditions, from the repeated prayer of the [Christian mystics](/article/christian-mysticism) to the meditative practices of the [yogis of India](/article/yoga-and-meditation), all of them ways of holding the mind, again and again, on the divine."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Prayer, Alms and the Fast",
+        "id": "prayer-alms-and-the-fast"
+      },
+      {
+        "type": "paragraph",
+        "text": "The second pillar is **salat**, the ritual prayer performed five times each day — at dawn, noon, afternoon, sunset and night. Wherever they are, Muslims wash, face the direction of Mecca, and move through a fixed sequence of standing, bowing and prostration, reciting verses of the Quran in Arabic. It is at once intimate and communal: a person may pray alone, but the call to prayer ringing from the minarets gathers the community, and on Fridays the noon prayer is performed together in the mosque. To press one's forehead to the ground five times a day is the very posture of *islam*, of submission."
+      },
+      {
+        "type": "paragraph",
+        "text": "The third pillar is **zakat**, the giving of alms — a fixed portion, traditionally one-fortieth, of one's accumulated wealth, given each year to the poor, the indebted and the traveller. It is not charity in the sense of a free gift but a duty and a purification: the word itself means \"to purify,\" for the Quran teaches that wealth is cleansed by sharing it. The fourth pillar is **sawm**, the fast of **Ramadan**, the holy month in which the first revelation came. From the first light of dawn until sunset, the faithful take no food, drink or other bodily pleasure, breaking the fast each evening and gathering in the nights for extra prayer. The fast teaches self-mastery, sharpens compassion for the hungry, and is broken at month's end by the joyous festival of Eid al-Fitr."
+      },
+      {
+        "type": "quote",
+        "text": "The fasting is not from food and drink alone; the true fast is the restraint of the tongue, the eyes and the heart from all that is unworthy."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Pilgrimage to Mecca",
+        "id": "the-pilgrimage-to-mecca"
+      },
+      {
+        "type": "paragraph",
+        "text": "The fifth pillar is the **hajj**, the great pilgrimage to Mecca, required once in a lifetime of every Muslim with the health and means to make it. In the appointed days of the pilgrimage season, some two million people converge on the holy city from every nation on Earth. Shedding the marks of rank and wealth, the men wrapped in two simple sheets of unsewn white cloth, the pilgrims become indistinguishable from one another — prince beside pauper, all equal before God."
+      },
+      {
+        "type": "paragraph",
+        "text": "They circle the **Kaaba** seven times, the cube-shaped shrine that Muslims believe Abraham raised to the one God; they run between the hills of Safa and Marwa, retracing the desperate search of Hagar for water for her son; they stand together on the plain of Arafat in the act that is the very heart of the hajj, begging God's mercy. For many it is the most powerful experience of a lifetime, a foretaste of the gathering of all humanity before God at the last day."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A sixth striving",
+        "text": "Some Muslims speak of *jihad* — \"struggle\" or \"striving\" — as a kind of sixth pillar, though most traditions do not formally count it among them. Its primary meaning in the Quran and the tradition is the inner struggle of every believer against their own selfishness and sin, what the Prophet is said to have called the \"greater jihad.\" The word also carries the meaning of righteous struggle in defence of the community, hedged about with strict conditions. Like the pillars themselves, it is at root a call to exert oneself, body and soul, in the path of God."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Architecture of a Devout Life",
+        "id": "the-architecture-of-a-devout-life"
+      },
+      {
+        "type": "paragraph",
+        "text": "Taken together, the Five Pillars give Islam its extraordinary cohesion. They are simple enough that a child can learn them, yet they reach into every scale of time — the five daily prayers, the monthly fast, the yearly alms, the once-in-a-lifetime pilgrimage. They ask nothing of wealth or learning, only of will, so that the poorest believer can fulfil them as completely as the richest. And they bind the individual to the whole, for the same words, the same fast, the same circling of the same shrine unite nearly two billion people into a single worshipping body. In the pillars, the abstract creed of [Islam](/article/islam) — submission to the one God — becomes a way of moving through the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-faith-built-on-five-supports",
+        "text": "A Faith Built on Five Supports",
+        "level": 2
+      },
+      {
+        "id": "prayer-alms-and-the-fast",
+        "text": "Prayer, Alms and the Fast",
+        "level": 2
+      },
+      {
+        "id": "the-pilgrimage-to-mecca",
+        "text": "The Pilgrimage to Mecca",
+        "level": 2
+      },
+      {
+        "id": "the-architecture-of-a-devout-life",
+        "text": "The Architecture of a Devout Life",
+        "level": 2
+      }
+    ],
+    "wordCount": 970
+  },
+  {
     "id": "the-future-of-space",
     "title": "The Future of Space",
     "category": "future",
@@ -7481,6 +8715,204 @@
       }
     ],
     "wordCount": 799
+  },
+  {
+    "id": "islamic-golden-age",
+    "title": "The Islamic Golden Age",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "When the world's learning spoke Arabic",
+    "lede": "For roughly five centuries, while much of Christian Europe had forgotten the learning of antiquity, the centre of human knowledge lay in the cities of the Muslim world. From the House of Wisdom in Baghdad to the libraries of Córdoba, scholars gathered, translated and surpassed the science of Greece, Persia and India — giving the world algebra, the modern numeral, advances in medicine, optics and astronomy, and the very habit of methodical experiment. It was one of the most luminous ages of inquiry in history, and the bridge by which ancient knowledge reached the modern world.",
+    "related": [
+      "islam",
+      "five-pillars",
+      "islamic-philosophy",
+      "islamic-architecture",
+      "greek-philosophy",
+      "roman-empire",
+      "fall-of-rome",
+      "hindu-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Centres of Learning",
+          "caption": "From Baghdad in the east to Córdoba in the far west, the cities of the Abbasid and Andalusian worlds formed a vast web of scholarship linked by a common language and a shared thirst for knowledge.",
+          "region": "From Spain to Central Asia"
+        }
+      ],
+      "images": [
+        {
+          "title": "The House of Wisdom",
+          "caption": "In ninth-century Baghdad, scholars of every faith translated the works of Greece, Persia and India into Arabic and pressed their inquiries far beyond them.",
+          "credit": "Bayt al-Hikma, Baghdad"
+        },
+        {
+          "title": "A page of algebra",
+          "caption": "From the work of al-Khwarizmi, whose name gives us the word \"algorithm\" and whose book gave the world \"algebra\" — the systematic solving of equations.",
+          "credit": "Medieval mathematical manuscript"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Golden Age of Islam",
+          "caption": "How the medieval Muslim world preserved the knowledge of antiquity and laid the foundations of modern science.",
+          "duration": "6:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Islamic world",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Islamic-world"
+      },
+      {
+        "label": "Encyclopaedia Britannica — al-Khwārizmī",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/al-Khwarizmi"
+      },
+      {
+        "label": "The British Museum — Science in the Islamic World",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Civilization in Search of Knowledge",
+        "id": "a-civilization-in-search-of-knowledge"
+      },
+      {
+        "type": "paragraph",
+        "text": "When the Arab conquests of the seventh century swept across the old lands of the [Roman](/article/roman-empire) and Persian empires, they did not destroy the learning they found there — they absorbed it. The new Muslim rulers inherited the scholarly traditions of Greek Alexandria, Persian Gondishapur and Indian Ujjain, and rather than burning them they set about translating them. A famous saying attributed to the Prophet — \"Seek knowledge, even unto China\" — and the [Quran's](/article/the-quran) repeated calls to observe the wonders of creation gave the pursuit of learning the highest religious sanction. To study the world, Muslim scholars held, was to honour the One who made it."
+      },
+      {
+        "type": "paragraph",
+        "text": "The decisive moment came under the **Abbasid** caliphs, who in 762 founded a new capital at **Baghdad**. There, around the year 800, the great translation movement reached its height in an institution remembered as the **House of Wisdom** (*Bayt al-Hikma*), where scholars of every faith — Muslim, Christian, Jewish, Zoroastrian — worked side by side rendering the masterworks of antiquity into Arabic. The dialogues of Plato, the logic and science of Aristotle, the geometry of Euclid, the medicine of Galen, the astronomy of Ptolemy and the mathematics of India all flowed into a single language and a single conversation."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The bridge across the dark",
+        "text": "This is the Golden Age's quiet gift to the whole world. After the [fall of the western Roman Empire](/article/fall-of-rome), much of the learning of [Greece](/article/greek-philosophy) was lost to Latin Europe — but it was not lost to the world, because the scholars of Islam had preserved and expanded it. Centuries later, as that knowledge passed back into Europe through Muslim Spain and Sicily, it helped ignite the medieval revival of learning and, in time, the Renaissance. Without the libraries of Baghdad and Córdoba, much of what we know of Aristotle and the Greek scientists might never have survived. Islam was the bridge across which the ancient world reached the modern one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The New Sciences",
+        "id": "the-new-sciences"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Muslim scholars were never mere copyists. They took what they inherited and drove it forward. In mathematics, the Persian scholar **al-Khwarizmi**, working in ninth-century Baghdad, wrote a treatise whose title gave the world the word **algebra** (*al-jabr*) and whose own Latinised name gave us **algorithm**. From Indian mathematicians the Muslim world took the place-value decimal system and the symbol for zero, refined them, and passed them to Europe as the \"Arabic numerals\" with which nearly all the world now counts."
+      },
+      {
+        "type": "paragraph",
+        "text": "In medicine, the great physician **Ibn Sina** — known to Europe as Avicenna — composed the *Canon of Medicine*, an encyclopedia so thorough it remained a standard textbook in European universities for six hundred years. **Al-Razi** distinguished smallpox from measles and wrote on the ethics of the physician; surgeons in Córdoba designed instruments still recognisable today. In astronomy, observatories from Baghdad to Samarkand refined Ptolemy's models and produced star charts so accurate that the names of many stars we use — Aldebaran, Betelgeuse, Vega — remain Arabic to this day. **Ibn al-Haytham** (Alhazen), studying the nature of light, insisted that theories be tested against careful observation, and is counted by many historians among the first true experimental scientists."
+      },
+      {
+        "type": "quote",
+        "text": "The ink of the scholar is more sacred than the blood of the martyr."
+      },
+      {
+        "type": "paragraph",
+        "text": "That saying, long attributed to the tradition, captures the spirit of the age — a civilization that prized the seeker of knowledge above almost any other."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Splendour of the Cities",
+        "id": "the-splendour-of-the-cities"
+      },
+      {
+        "type": "paragraph",
+        "text": "This learning was sustained by wealth and order on a scale Europe could not then match. Baghdad in its prime may have been the largest city on Earth, its markets fed by trade routes reaching to China and the East Indies. Paper-making, learned from Chinese prisoners, spread west through the Muslim world centuries before Europe, making books — and so learning — vastly cheaper. Far to the west, in Muslim **Spain**, the city of **Córdoba** rose in the tenth century to perhaps half a million people, with paved and lighted streets, public baths, and a library said to hold hundreds of thousands of volumes, at a time when the greatest libraries of Christian Europe counted their books in the hundreds."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A meeting of inheritances",
+        "text": "The genius of the age lay partly in its openness. In the translation houses and observatories, the rational inquiry of the [Greeks](/article/greek-philosophy), the medical and astronomical traditions of Persia, the mathematics of [India](/article/hindu-philosophy), and the new energy of Arab and Islamic thought met and cross-fertilised. Jewish and Christian scholars worked alongside Muslims; the philosopher-physician Maimonides, a Jew of Córdoba, wrote in Arabic. It was a civilization confident enough to seek truth wherever it was found, and to make of many inheritances something new."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Long Twilight",
+        "id": "the-long-twilight"
+      },
+      {
+        "type": "paragraph",
+        "text": "No golden age lasts forever. The Abbasid centre weakened, riven by political fracture; the Mongol sack of Baghdad in 1258 destroyed the city and its libraries, and the books of the House of Wisdom were said to have turned the Tigris black with ink. In Spain, the slow Christian reconquest closed in on the last Muslim kingdoms. The flame of inquiry did not go out at once — it burned on in places for centuries more — but its great age passed. Yet its legacy was permanent. The numerals on every clock and page, the words algebra and algorithm and chemistry, the survival of Greek thought, the very practice of testing ideas against the world — all carry the fingerprints of the scholars who, for five luminous centuries, made Arabic the language of human knowledge."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-civilization-in-search-of-knowledge",
+        "text": "A Civilization in Search of Knowledge",
+        "level": 2
+      },
+      {
+        "id": "the-new-sciences",
+        "text": "The New Sciences",
+        "level": 2
+      },
+      {
+        "id": "the-splendour-of-the-cities",
+        "text": "The Splendour of the Cities",
+        "level": 2
+      },
+      {
+        "id": "the-long-twilight",
+        "text": "The Long Twilight",
+        "level": 2
+      }
+    ],
+    "wordCount": 911
   },
   {
     "id": "mahabharata",
@@ -8642,6 +10074,202 @@
     "wordCount": 376
   },
   {
+    "id": "the-quran",
+    "title": "The Quran",
+    "category": "sacred-books",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The recitation of God",
+    "lede": "The Quran is, to Muslims, not a book written about God but the literal speech of God Himself — revealed to Muhammad over twenty-three years, recited and memorised before it was ever written, and preserved without alteration for fourteen centuries. Shorter than the New Testament yet recited in full from memory by millions, it is the most read, most memorised and most beautifully written book in the Arabic language, the foundation of a civilization and the living voice of the divine for nearly two billion believers.",
+    "related": [
+      "islam",
+      "muhammad",
+      "five-pillars",
+      "the-bible",
+      "vedas",
+      "greek-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "A Book Recited Across the World",
+          "caption": "Revealed in the Arabic of seventh-century Mecca and Medina, the Quran is recited in that same language from West Africa to Indonesia — its words unchanged by translation wherever Muslims pray.",
+          "region": "From Arabia to the wider Muslim world"
+        }
+      ],
+      "images": [
+        {
+          "title": "An illuminated Quran",
+          "caption": "For centuries the Quran has been copied by hand in exquisite calligraphy, its margins worked in gold — the supreme art of a faith that does not depict the divine in image.",
+          "credit": "Islamic manuscript tradition"
+        },
+        {
+          "title": "A child learning to recite",
+          "caption": "Across the Muslim world children memorise the entire Quran by heart, earning the honoured title of hafiz — keeper of the book — just as the first believers did.",
+          "credit": "Traditional Quran school"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Quran Was Revealed",
+          "caption": "From spoken revelation and living memory to a single written text — the making of the book Muslims hold to be the words of God.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Qurʾān",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Quran"
+      },
+      {
+        "label": "The Qur'an",
+        "source": "The Qur'an (trans. M.A.S. Abdel Haleem)",
+        "url": "https://www.britannica.com/topic/Quran"
+      },
+      {
+        "label": "The British Library — Sacred Texts",
+        "source": "The British Library",
+        "url": "https://www.bl.uk/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Speech of God",
+        "id": "the-speech-of-god"
+      },
+      {
+        "type": "paragraph",
+        "text": "The very name *Quran* means **recitation**, and that single word holds the key to what the book is. Muslims do not regard it as a record of religious experience or a collection of human testimony, as Christians read [the Bible](/article/the-bible). They hold it to be the direct, uncreated speech of God — the eternal word, existing with God before time, sent down in the Arabic tongue through the angel Gabriel to [Muhammad](/article/muhammad), who recited what he received. The Prophet is the channel; the words are God's own. This is why the Quran's authority in Islam is even more absolute than scripture in most other faiths: to a Muslim, to hear it recited is to hear God speak."
+      },
+      {
+        "type": "paragraph",
+        "text": "The revelations came not all at once but piecemeal, over the twenty-three years of Muhammad's prophetic life — sometimes a few verses, sometimes a whole passage, answering a question, meeting a crisis, consoling the persecuted or laying down a law. The earliest passages, given in Mecca, are short, fiery and lyrical, full of the wonder of creation and the terror of judgement. The later ones, from Medina, are longer and more concerned with how a community should live. Together they form a book of 114 chapters, called **suras**, arranged not in the order they were revealed nor by theme, but roughly from the longest to the shortest."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A miracle of language",
+        "text": "Islam holds that every prophet was given a miracle suited to his age — Moses his staff, Jesus his healings — and that Muhammad's miracle was the Quran itself. Its claim to be divine rests above all on its language: a beauty, rhythm and power of Arabic that Muslims hold no human author could match. The Quran challenges any doubter to produce even a single chapter like it — and the tradition is that none ever has. This is the doctrine of *i'jaz*, the inimitability of the Quran, and it is why the book has never truly been \"translated.\" Renderings into other languages are called *interpretations*; the Quran itself exists only in Arabic."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How a Recitation Became a Book",
+        "id": "how-a-recitation-became-a-book"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Quran was a spoken thing before it was a written one. Muhammad's followers learned the revelations by heart as they came, and recited them in prayer; some wrote fragments on parchment, palm leaves, stone and bone. The faith placed extraordinary value on memorisation, and the *hafiz* — one who holds the entire Quran in memory — remains an honoured figure to this day. After the Prophet's death, as the generation who had heard him began to die in the wars of expansion, the community feared the text might fracture, and under the early caliphs an authoritative written version was gathered and standardised. That text has been transmitted, Muslims hold, unchanged ever since."
+      },
+      {
+        "type": "paragraph",
+        "text": "This careful guarding of an oral revelation invites comparison with the [Vedas](/article/vedas) of India, preserved across a thousand years by flawless recitation before they were ever committed to writing. Both traditions trusted the trained human memory above the fragile written page, and both treated the *sound* of the sacred words — not merely their meaning — as holy. To recite the Quran beautifully, with the rules of *tajwid* governing every vowel and pause, is itself an act of worship."
+      },
+      {
+        "type": "quote",
+        "text": "This is the Scripture in which there is no doubt, a guidance for those who are mindful of God."
+      },
+      {
+        "type": "paragraph",
+        "text": "That verse, near the very opening, announces the Quran's purpose: not poetry for its own sake, but guidance — a map for living rightly before God."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Book of Guidance and Law",
+        "id": "a-book-of-guidance-and-law"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Quran ranges across the whole of life. It tells the stories of the prophets — Adam and Noah, Abraham and Moses, and Jesus and Mary, who are honoured in its pages — drawing on the same sacred history as the [Bible](/article/the-bible) yet retelling it in its own voice. It paints vivid pictures of paradise and hell, proclaims the oneness and mercy of God, and lays down rules for prayer, charity, marriage, inheritance, trade and war. From its verses, together with the example of the Prophet, the scholars of Islam built the **sharia**, the comprehensive law of Muslim life."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Faith and reason",
+        "text": "The Quran repeatedly calls on its readers to *think*, to observe the order of the heavens and the earth as signs of their maker. That summons helped fuel the great flowering of learning in the [Islamic Golden Age](/article/islamic-golden-age), when Muslim scholars, holding that the study of nature honoured its creator, eagerly absorbed the reasoning of [Greek philosophy](/article/greek-philosophy) and pushed it further. Where some traditions set faith against inquiry, the Quran's many verses urging reflection gave the early Muslim world a powerful warrant for the pursuit of knowledge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Living Heart of a Faith",
+        "id": "the-living-heart-of-a-faith"
+      },
+      {
+        "type": "paragraph",
+        "text": "No book is woven more deeply into the daily life of those who hold it sacred. The Quran is recited in the five daily prayers, chanted from minarets, inscribed in gold across the walls of mosques, studied in vast schools and whispered over the newborn and the dying. Its opening chapter, the *Fatiha*, is repeated by a Muslim more often than any other words in any language on Earth. Across fourteen centuries and a quarter of humanity, in lands that share neither tongue nor custom, the same Arabic verses are recited in the same way — a single book binding nearly two billion people to one another and, they believe, to the very voice of God."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-speech-of-god",
+        "text": "The Speech of God",
+        "level": 2
+      },
+      {
+        "id": "how-a-recitation-became-a-book",
+        "text": "How a Recitation Became a Book",
+        "level": 2
+      },
+      {
+        "id": "a-book-of-guidance-and-law",
+        "text": "A Book of Guidance and Law",
+        "level": 2
+      },
+      {
+        "id": "the-living-heart-of-a-faith",
+        "text": "The Living Heart of a Faith",
+        "level": 2
+      }
+    ],
+    "wordCount": 898
+  },
+  {
     "id": "ramayana",
     "title": "The Ramayana",
     "category": "literature",
@@ -9735,6 +11363,214 @@
       }
     ],
     "wordCount": 911
+  },
+  {
+    "id": "sunni-shia-divide",
+    "title": "The Sunni-Shia Divide",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "One faith, two paths",
+    "lede": "The great division of Islam between Sunni and Shia did not begin over doctrine but over a question of leadership — who should guide the community after the Prophet Muhammad. From that early disagreement grew two distinct traditions, each with its own history, law, ritual and memory, together making up the whole of the Muslim world. Understanding the split is to understand much of Islamic history, and to see how a single faith can hold within it two profoundly different ways of remembering its own beginnings.",
+    "related": [
+      "islam",
+      "muhammad",
+      "islamic-golden-age",
+      "islam-today",
+      "early-church",
+      "reformation"
+    ],
+    "journey": [
+      {
+        "id": "islam",
+        "label": "Islam"
+      },
+      {
+        "id": "muhammad",
+        "label": "Muhammad"
+      },
+      {
+        "id": "the-quran",
+        "label": "The Quran"
+      },
+      {
+        "id": "five-pillars",
+        "label": "The Five Pillars"
+      },
+      {
+        "id": "islamic-golden-age",
+        "label": "The Golden Age"
+      },
+      {
+        "id": "islamic-philosophy",
+        "label": "Philosophy"
+      },
+      {
+        "id": "islamic-architecture",
+        "label": "Architecture"
+      },
+      {
+        "id": "sunni-shia-divide",
+        "label": "Sunni & Shia"
+      },
+      {
+        "id": "islam-today",
+        "label": "Islam Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Geography of the Divide",
+          "caption": "Sunnis make up the great majority of the Muslim world, while Shia communities are concentrated in Iran, Iraq, Bahrain, Azerbaijan and parts of Lebanon, the Gulf and South Asia.",
+          "region": "The Muslim world"
+        }
+      ],
+      "images": [
+        {
+          "title": "The shrine of Imam Husayn at Karbala",
+          "caption": "The tomb of the Prophet's grandson, killed in 680, is among the holiest sites of Shia Islam — the focus of the annual mourning of Ashura.",
+          "credit": "Karbala, Iraq"
+        },
+        {
+          "title": "Pilgrims at Ashura",
+          "caption": "Each year Shia Muslims commemorate the martyrdom of Husayn at Karbala with processions of mourning — a remembrance at the heart of Shia identity.",
+          "credit": "The mourning of Muharram"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Why Islam Divided",
+          "caption": "The question of succession after Muhammad, and how it grew into the two great branches of Islam.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "islam",
+      "quiz": "islam"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Shiʿi",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Shiah"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Sunni",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Sunni"
+      },
+      {
+        "label": "The British Museum — Islamic World",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Question of Succession",
+        "id": "a-question-of-succession"
+      },
+      {
+        "type": "paragraph",
+        "text": "When [Muhammad](/article/muhammad) died in the year 632, he left behind a flourishing community but no agreed plan for who should lead it. He had founded a faith, a state and a way of life — but the [Quran](/article/the-quran) did not name a successor, and the Prophet's own intentions were remembered differently by different people. Out of that single silence grew the deepest division in the history of Islam. It was not, at first, a quarrel about belief. Both sides held the same creed, prayed the same prayers, revered the same book. They differed over a question of authority: who had the right to lead the **umma**, the community of the faithful, in the Prophet's place."
+      },
+      {
+        "type": "paragraph",
+        "text": "One group held that the leader — the **caliph**, or \"successor\" — should be the most capable and pious man, chosen by the consensus of the community's elders. They accepted the succession of Muhammad's close companions: first **Abu Bakr**, the Prophet's old friend and father-in-law, then Umar, then Uthman, and finally Ali. These became known as the **Sunni**, from *ahl al-sunna*, \"the people of the tradition\" — those who follow the practice of the Prophet and the consensus of the community. Today they are the great majority, perhaps nine in ten of all Muslims."
+      },
+      {
+        "type": "paragraph",
+        "text": "The other group held that leadership belonged by right to the Prophet's own family — specifically to **Ali ibn Abi Talib**, Muhammad's cousin and son-in-law, and to Ali's descendants after him. They believed Muhammad had designated Ali as his heir, and that spiritual authority passed through this bloodline alone. These became the **Shia**, from *shiʿat Ali*, \"the party of Ali.\""
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A divide of history, not of God",
+        "text": "It is worth saying clearly: Sunni and Shia are both fully Muslim. They share the same God, the same Prophet, the same Quran, the same Five Pillars, the same direction of prayer toward Mecca. Their division is rooted in history — in who should have led, and in the events that followed — far more than in the fundamentals of belief. Across most of Islamic history Sunni and Shia have lived side by side, intermarried and shared cities. The bitter sectarian conflicts of modern times are often as much about politics and power as about the ancient theological difference, much as the wars of the European [Reformation](/article/reformation) were never about doctrine alone."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Karbala and the Birth of Shia Memory",
+        "id": "karbala-and-the-birth-of-shia-memory"
+      },
+      {
+        "type": "paragraph",
+        "text": "The division might have remained a quiet difference of opinion but for a tragedy that seared itself into Shia memory forever. Ali did at last become the fourth caliph, but his rule was contested and he was assassinated in 661, after which power passed to the **Umayyad** dynasty, whom the Shia regarded as usurpers. In 680, Ali's son **Husayn** — the Prophet's own grandson — rose against the Umayyad caliph and was surrounded with his small band of followers on the plain of **Karbala**, in what is now Iraq. There, cut off from water and hopelessly outnumbered, Husayn and nearly all his companions were killed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The martyrdom of Husayn at Karbala became the defining event of Shia Islam — a story of righteous suffering against worldly injustice that Shia Muslims relive every year in the mourning rituals of **Ashura**, with processions, weeping and passion plays. Where Sunni Islam tended to make its peace with whatever ruler held power, Shia Islam carried forward a powerful sense of righteous resistance to unjust authority, born at Karbala."
+      },
+      {
+        "type": "quote",
+        "text": "Every day is Ashura, and every land is Karbala."
+      },
+      {
+        "type": "paragraph",
+        "text": "That Shia saying captures how the memory of Husayn's sacrifice became a permanent moral lens — every struggle against injustice an echo of that first one."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Two Traditions Take Shape",
+        "id": "two-traditions-take-shape"
+      },
+      {
+        "type": "paragraph",
+        "text": "Over the centuries the two branches developed into fully distinct traditions. The Shia came to venerate a line of **Imams** — for the largest Shia group, the \"Twelvers,\" a succession of twelve divinely guided descendants of Ali, the last of whom they believe did not die but went into a hidden state, the **occultation**, and will return at the end of time as the **Mahdi** to fill the world with justice. This gave Shia Islam a distinct religious leadership of learned clerics who interpret the faith in the Imam's absence — a structured hierarchy with no real equivalent in Sunni Islam."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Sunni, for their part, developed their authority through the consensus of scholars (*ulama*) and the great schools of religious law, grounding the faith in the Quran and the collected traditions of the Prophet. Each branch produced its own collections of hadith, its own schools of jurisprudence, its own theologians and saints. Both shared fully in the brilliance of the [Islamic Golden Age](/article/islamic-golden-age); Shia dynasties such as the Fatimids of Egypt founded great cities and centres of learning, and the divide ran through scholarship and philosophy as through everything else."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "An old pattern of faith",
+        "text": "The shape of this division — a community splitting over who holds rightful authority after the founder, and over how that authority is transmitted — is one religions know well. The [early Christian church](/article/early-church) wrestled for centuries over the authority of bishops and the see of Rome, divisions that hardened into the lasting split between East and West. In both faiths the deepest fractures grew not from disagreement about God but from the human question of who speaks for Him. To trace the Sunni–Shia divide is to watch a universal drama of religious history play out in Islam's own distinctive key."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Divide in the Modern World",
+        "id": "the-divide-in-the-modern-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "Today Sunnis make up roughly 85 to 90 percent of the world's Muslims, with Shia communities concentrated in Iran — where Twelver Shiism is the state religion — and in Iraq, Bahrain, Azerbaijan, Lebanon and parts of the Gulf and South Asia. For most of history the two have coexisted far more often than they have fought, sharing the same lands and the same daily faith. But in the modern era the old religious difference has at times been inflamed by political rivalry between states and movements, turning an ancient theological distinction into a marker of contemporary conflict."
+      },
+      {
+        "type": "paragraph",
+        "text": "To understand [Islam today](/article/islam-today), one must hold both truths together: that the divide is real and runs deep into the earliest days of the faith, and that what unites Sunni and Shia — the one God, the one Prophet, the one Quran, the one direction of prayer — is far greater than what divides them. The split that began with a question of who should lead has shaped fourteen centuries of history, yet it has never broken the underlying unity of a faith now shared by nearly two billion souls."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-question-of-succession",
+        "text": "A Question of Succession",
+        "level": 2
+      },
+      {
+        "id": "karbala-and-the-birth-of-shia-memory",
+        "text": "Karbala and the Birth of Shia Memory",
+        "level": 2
+      },
+      {
+        "id": "two-traditions-take-shape",
+        "text": "Two Traditions Take Shape",
+        "level": 2
+      },
+      {
+        "id": "the-divide-in-the-modern-world",
+        "text": "The Divide in the Modern World",
+        "level": 2
+      }
+    ],
+    "wordCount": 1091
   },
   {
     "id": "trojan-war",

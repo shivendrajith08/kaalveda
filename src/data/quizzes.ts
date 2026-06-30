@@ -636,6 +636,118 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'islam',
+    title: 'Test Your Knowledge: Islam',
+    description:
+      'Eight questions on the world’s fastest-growing faith — its prophet, scripture, practices, golden age and global life today. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'In which Arabian town was the Prophet Muhammad born around the year 570?',
+        options: [
+          { id: 'a', text: 'Mecca' },
+          { id: 'b', text: 'Medina' },
+          { id: 'c', text: 'Jerusalem' },
+          { id: 'd', text: 'Baghdad' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Muhammad was born in Mecca, a trading town and centre of pilgrimage in western Arabia. He later migrated to Medina in 622 — the Hijra — and Baghdad was founded only a century after his death.',
+      },
+      {
+        id: 'q2',
+        prompt: 'What does the word "Quran" mean, reflecting how the scripture was first received?',
+        options: [
+          { id: 'a', text: 'Recitation' },
+          { id: 'b', text: 'Covenant' },
+          { id: 'c', text: 'Law' },
+          { id: 'd', text: 'Wisdom' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The name Quran means "recitation." Muslims hold it to be the literal speech of God, revealed to Muhammad through the angel Gabriel and recited and memorised before it was ever written down.',
+      },
+      {
+        id: 'q3',
+        prompt: 'Which of these is NOT one of the Five Pillars of Islam?',
+        options: [
+          { id: 'a', text: 'Pilgrimage to Jerusalem' },
+          { id: 'b', text: 'The five daily prayers (salat)' },
+          { id: 'c', text: 'The fast of Ramadan (sawm)' },
+          { id: 'd', text: 'The giving of alms (zakat)' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The fifth pillar is the hajj, the pilgrimage to Mecca — not Jerusalem. The Five Pillars are the testimony of faith, prayer, almsgiving, the fast of Ramadan and the pilgrimage to Mecca.',
+      },
+      {
+        id: 'q4',
+        prompt: 'What event does the Islamic calendar count its years from?',
+        options: [
+          { id: 'a', text: 'The Hijra, Muhammad’s migration to Medina in 622' },
+          { id: 'b', text: 'The birth of Muhammad' },
+          { id: 'c', text: 'The first revelation of the Quran' },
+          { id: 'd', text: 'The conquest of Mecca' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Muslim calendar begins with the Hijra of 622 CE, when Muhammad migrated from Mecca to Medina and founded the first Muslim community — the decisive turning point of early Islam.',
+      },
+      {
+        id: 'q5',
+        prompt: 'During the Islamic Golden Age, the scholar al-Khwarizmi gave the world which branch of mathematics?',
+        options: [
+          { id: 'a', text: 'Algebra' },
+          { id: 'b', text: 'Calculus' },
+          { id: 'c', text: 'Geometry' },
+          { id: 'd', text: 'Trigonometry' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Al-Khwarizmi’s ninth-century treatise gave us the word "algebra" (al-jabr), and his Latinised name gives us "algorithm." Muslim scholars also passed the decimal numerals and zero from India on to Europe.',
+      },
+      {
+        id: 'q6',
+        prompt: 'The philosopher Ibn Rushd, known in Europe as Averroes, was the great medieval interpreter of which Greek thinker?',
+        options: [
+          { id: 'a', text: 'Aristotle' },
+          { id: 'b', text: 'Pythagoras' },
+          { id: 'c', text: 'Socrates' },
+          { id: 'd', text: 'Epicurus' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Averroes wrote commentaries on Aristotle so authoritative that medieval Europe called him simply "the Commentator." Translated into Latin, his work helped return Aristotle to the universities of the Christian West.',
+      },
+      {
+        id: 'q7',
+        prompt: 'The Sunni–Shia divide originally arose over which question?',
+        options: [
+          { id: 'a', text: 'Who should lead the community after Muhammad' },
+          { id: 'b', text: 'Whether the Quran is the word of God' },
+          { id: 'c', text: 'How many times a day to pray' },
+          { id: 'd', text: 'Whether to make the pilgrimage to Mecca' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The split began over leadership, not doctrine. Sunnis accepted the succession of the Prophet’s companions as caliphs; Shia held that authority belonged to Muhammad’s family, beginning with his cousin and son-in-law Ali.',
+      },
+      {
+        id: 'q8',
+        prompt: 'Which country has the largest Muslim population in the world today?',
+        options: [
+          { id: 'a', text: 'Indonesia' },
+          { id: 'b', text: 'Saudi Arabia' },
+          { id: 'c', text: 'Egypt' },
+          { id: 'd', text: 'Turkey' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Indonesia is home to the world’s largest Muslim population, followed by Pakistan, India and Bangladesh. Although Islam was born among the Arabs, Arabs make up only about one in five of the world’s 1.9 billion Muslims today.',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

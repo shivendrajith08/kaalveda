@@ -148,6 +148,34 @@
       "factStatus": "verified"
     },
     {
+      "id": "islam",
+      "title": "Islam",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "islam-today",
+      "title": "Islam Today",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "islamic-architecture",
+      "title": "Islamic Architecture",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "islamic-philosophy",
+      "title": "Islamic Philosophy",
+      "category": "science",
+      "cluster": "mind-knowledge",
+      "factStatus": "verified"
+    },
+    {
       "id": "jesus-of-nazareth",
       "title": "Jesus of Nazareth",
       "category": "religions",
@@ -173,6 +201,13 @@
       "title": "Modern Egypt",
       "category": "world-history",
       "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "muhammad",
+      "title": "Muhammad",
+      "category": "religions",
+      "cluster": "belief-story",
       "factStatus": "verified"
     },
     {
@@ -267,6 +302,13 @@
       "factStatus": "theory"
     },
     {
+      "id": "five-pillars",
+      "title": "The Five Pillars",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "the-future-of-space",
       "title": "The Future of Space",
       "category": "future",
@@ -285,6 +327,13 @@
       "title": "The Hindu Pantheon",
       "category": "religions",
       "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "islamic-golden-age",
+      "title": "The Islamic Golden Age",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -330,6 +379,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "the-quran",
+      "title": "The Quran",
+      "category": "sacred-books",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "ramayana",
       "title": "The Ramayana",
       "category": "literature",
@@ -369,6 +425,13 @@
       "title": "The Solar System",
       "category": "universe",
       "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "sunni-shia-divide",
+      "title": "The Sunni-Shia Divide",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -940,6 +1003,121 @@
       "resolved": true
     },
     {
+      "source": "islam",
+      "target": "muhammad",
+      "resolved": true
+    },
+    {
+      "source": "islam",
+      "target": "the-quran",
+      "resolved": true
+    },
+    {
+      "source": "islam",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "islam",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "islam",
+      "target": "the-bible",
+      "resolved": true
+    },
+    {
+      "source": "islam",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "islam-today",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "islam-today",
+      "target": "sunni-shia-divide",
+      "resolved": true
+    },
+    {
+      "source": "islam-today",
+      "target": "five-pillars",
+      "resolved": true
+    },
+    {
+      "source": "islam-today",
+      "target": "christianity-today",
+      "resolved": true
+    },
+    {
+      "source": "islam-today",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "islamic-golden-age",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "islamic-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "greek-architecture",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "hindu-temples",
+      "resolved": true
+    },
+    {
+      "source": "islamic-architecture",
+      "target": "christian-art",
+      "resolved": true
+    },
+    {
+      "source": "islamic-philosophy",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "islamic-philosophy",
+      "target": "islamic-golden-age",
+      "resolved": true
+    },
+    {
+      "source": "islamic-philosophy",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "islamic-philosophy",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "islamic-philosophy",
+      "target": "christian-mysticism",
+      "resolved": true
+    },
+    {
       "source": "jesus-of-nazareth",
       "target": "the-bible",
       "resolved": true
@@ -1028,6 +1206,31 @@
       "source": "modern-egypt",
       "target": "world-history",
       "resolved": false
+    },
+    {
+      "source": "muhammad",
+      "target": "the-quran",
+      "resolved": true
+    },
+    {
+      "source": "muhammad",
+      "target": "five-pillars",
+      "resolved": true
+    },
+    {
+      "source": "muhammad",
+      "target": "jesus-of-nazareth",
+      "resolved": true
+    },
+    {
+      "source": "muhammad",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "muhammad",
+      "target": "the-bible",
+      "resolved": true
     },
     {
       "source": "mummification",
@@ -1255,6 +1458,31 @@
       "resolved": true
     },
     {
+      "source": "five-pillars",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "five-pillars",
+      "target": "the-quran",
+      "resolved": true
+    },
+    {
+      "source": "five-pillars",
+      "target": "islamic-golden-age",
+      "resolved": true
+    },
+    {
+      "source": "five-pillars",
+      "target": "yoga-and-meditation",
+      "resolved": true
+    },
+    {
+      "source": "five-pillars",
+      "target": "christian-mysticism",
+      "resolved": true
+    },
+    {
       "source": "the-future-of-space",
       "target": "the-moon",
       "resolved": true
@@ -1307,6 +1535,31 @@
     {
       "source": "hindu-gods",
       "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "islamic-golden-age",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "islamic-golden-age",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "islamic-golden-age",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "islamic-golden-age",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "islamic-golden-age",
+      "target": "hindu-philosophy",
       "resolved": true
     },
     {
@@ -1375,6 +1628,21 @@
       "resolved": true
     },
     {
+      "source": "the-quran",
+      "target": "the-bible",
+      "resolved": true
+    },
+    {
+      "source": "the-quran",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "the-quran",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
       "source": "ramayana",
       "target": "hinduism",
       "resolved": true
@@ -1437,6 +1705,31 @@
     {
       "source": "roman-republic",
       "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "sunni-shia-divide",
+      "target": "islam",
+      "resolved": true
+    },
+    {
+      "source": "sunni-shia-divide",
+      "target": "muhammad",
+      "resolved": true
+    },
+    {
+      "source": "sunni-shia-divide",
+      "target": "islamic-golden-age",
+      "resolved": true
+    },
+    {
+      "source": "sunni-shia-divide",
+      "target": "early-church",
+      "resolved": true
+    },
+    {
+      "source": "sunni-shia-divide",
+      "target": "reformation",
       "resolved": true
     },
     {
