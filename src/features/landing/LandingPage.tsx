@@ -23,7 +23,10 @@ const fadeUp = {
 /** Hero reveal — a calm, sequenced cascade (lines first, headline word-by-word). */
 const heroStage: Variants = {
   hidden: {},
-  show: { transition: { delayChildren: 0.06, staggerChildren: 0.13 } },
+  // A small beat before the cascade so that when home is reached *via* a page
+  // transition, the page-enter has settled before the hero reveal begins (the
+  // two never play over each other). On cold load this is an imperceptible pause.
+  show: { transition: { delayChildren: 0.16, staggerChildren: 0.13 } },
 }
 const heroLine: Variants = {
   hidden: { opacity: 0, y: 18 },
