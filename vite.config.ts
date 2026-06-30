@@ -45,6 +45,11 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
+          // Vite's __vitePreload helper is statically imported by the entry
+          // (for its own lazy route imports). Pin it to the always-eager react
+          // chunk so Rollup can't park it inside a lazy chunk like `three` —
+          // which would otherwise drag that whole chunk into first paint.
+          if (id.includes('vite/preload-helper')) return 'react'
           if (!id.includes('node_modules')) return undefined
           // Keep the force-graph + d3 stack in its own chunk so it only loads
           // with the lazy /graph route, never on first paint.
@@ -62,6 +67,24 @@ export default defineConfig({
             id.includes('lodash-es')
           )
             return 'graph'
+          // The three.js / @react-three stack is only imported by the
+          // lazy DeityModel3D component. Pin it to its own chunk so it never
+          // gets folded into `vendor` (which loads on first paint) and is
+          // fetched only when the 3D figure mounts.
+          if (
+            id.includes('/three/') ||
+            id.includes('three-stdlib') ||
+            id.includes('three-mesh-bvh') ||
+            id.includes('@react-three') ||
+            id.includes('@use-gesture') ||
+            id.includes('/zustand/') ||
+            id.includes('suspend-react') ||
+            id.includes('/maath/') ||
+            id.includes('troika') ||
+            id.includes('its-fine') ||
+            id.includes('react-reconciler')
+          )
+            return 'three'
           if (id.includes('framer-motion')) return 'motion'
           if (id.includes('react-router') || id.includes('@remix-run')) return 'router'
           if (id.includes('@supabase')) return 'supabase'

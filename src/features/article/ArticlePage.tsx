@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { lazy, Suspense, useMemo, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import {
@@ -25,6 +25,10 @@ import { ArticleBody } from '@/components/article/ArticleBody'
 import { JourneyZone } from '@/features/article/JourneyZone'
 import { MediaCard } from '@/features/article/MediaCard'
 import { BigBangExplainer } from '@/features/article/BigBangExplainer'
+
+/* The 3D deity figure pulls in three.js / @react-three; lazy-load it so that
+ * weight only ships when this article's Images tab is actually opened. */
+const DeityModel3D = lazy(() => import('@/features/article/DeityModel3D'))
 import { Timeline } from '@/features/timeline/Timeline'
 import { Quiz } from '@/features/quiz/Quiz'
 import { StarField } from '@/components/StarField'
@@ -186,10 +190,19 @@ export default function ArticlePage() {
                 />
               )}
               {tab === 'images' && (
-                <MediaGrid
-                  empty="No image plates for this article yet."
-                  items={article.media.images.map((m) => ({ kind: 'image' as const, item: m }))}
-                />
+                <div className="space-y-6">
+                  {/* Shiva's low-poly 3D figure leads the Hindu pantheon's
+                      image plates — a prototype for topic-specific characters. */}
+                  {article.id === 'hindu-gods' && (
+                    <Suspense fallback={<DeityModelFallback />}>
+                      <DeityModel3D />
+                    </Suspense>
+                  )}
+                  <MediaGrid
+                    empty="No image plates for this article yet."
+                    items={article.media.images.map((m) => ({ kind: 'image' as const, item: m }))}
+                  />
+                </div>
               )}
               {tab === 'videos' &&
                 /* The Big Bang's code-drawn explainer is its video content. */
@@ -236,6 +249,16 @@ export default function ArticlePage() {
         </div>
       </div>
     </>
+  )
+}
+
+function DeityModelFallback() {
+  return (
+    <div className="overflow-hidden rounded-xl border border-border bg-surface">
+      <div className="grid h-[420px] place-items-center">
+        <p className="label animate-pulse text-faint">Summoning the figure…</p>
+      </div>
+    </div>
   )
 }
 
