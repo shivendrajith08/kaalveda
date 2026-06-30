@@ -1,31 +1,54 @@
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import { ArrowRight, Compass, Route, Search, Sparkles, MapPin } from 'lucide-react'
-import { useCommandPalette } from '@/hooks/useCommandPalette'
+import { motion, type Variants } from 'framer-motion'
+import { ArrowRight, ChevronDown, Compass, Route, Sparkles, MapPin, Waypoints } from 'lucide-react'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
 import { clusters } from '@/data/categories'
-import {
-  featuredArticles,
-  getArticle,
-  totalArticles,
-  totalGraphEdges,
-  clusterCounts,
-} from '@/lib/content'
+import { featuredArticles, getArticle, totalArticles, clusterCounts } from '@/lib/content'
 import { ArticleCard } from '@/components/ArticleCard'
-import { StarField } from '@/components/StarField'
+import { HeroBackground } from '@/features/landing/HeroBackground'
 import { cn } from '@/lib/utils'
+
+const EASE = [0.16, 1, 0.3, 1] as const
 
 const fadeUp = {
   hidden: { opacity: 0, y: 18 },
   show: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] as const },
+    transition: { duration: 0.6, delay: i * 0.08, ease: EASE },
   }),
 }
 
+/** Hero reveal — a calm, sequenced cascade (lines first, headline word-by-word). */
+const heroStage: Variants = {
+  hidden: {},
+  show: { transition: { delayChildren: 0.06, staggerChildren: 0.13 } },
+}
+const heroLine: Variants = {
+  hidden: { opacity: 0, y: 18 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.75, ease: EASE } },
+}
+const heroHeadline: Variants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.07 } },
+}
+const heroWord: Variants = {
+  hidden: { opacity: 0, y: 16 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: EASE } },
+}
+
+const HEADLINE_WORDS: { text: string; gold?: boolean }[] = [
+  { text: 'The' },
+  { text: 'whole' },
+  { text: 'of' },
+  { text: 'knowledge,' },
+  { text: 'as' },
+  { text: 'one' },
+  { text: 'galaxy.', gold: true },
+]
+
 export default function LandingPage() {
-  const { openPalette } = useCommandPalette()
   const reduced = useReducedMotion()
   const featured = featuredArticles(6)
   const egypt = getArticle('ancient-egypt')
@@ -33,84 +56,103 @@ export default function LandingPage() {
   return (
     <div>
       {/* ───────────────────────── Hero ───────────────────────── */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 starfield" aria-hidden />
-        <StarField count={90} className={cn(!reduced && 'animate-drift')} />
+      <section className="relative isolate flex min-h-[88svh] items-center overflow-hidden">
+        <HeroBackground />
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              'radial-gradient(80% 60% at 50% -10%, color-mix(in srgb, var(--c-gold) 12%, transparent), transparent 60%)',
+              'radial-gradient(68% 48% at 50% 6%, color-mix(in srgb, var(--c-gold) 10%, transparent), transparent 62%)',
           }}
           aria-hidden
         />
         <div className="vignette pointer-events-none absolute inset-0" aria-hidden />
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-32"
+          style={{ background: 'linear-gradient(to top, var(--c-bg), transparent)' }}
+          aria-hidden
+        />
 
-        <div className="relative mx-auto flex max-w-reading flex-col items-center px-4 pb-20 pt-24 text-center sm:px-6 sm:pt-32">
+        <motion.div
+          variants={heroStage}
+          initial={reduced ? false : 'hidden'}
+          animate="show"
+          className="relative z-10 mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-24 text-center sm:px-6"
+        >
           <motion.span
-            custom={0}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="chip border-gold/30 text-gold"
+            variants={heroLine}
+            className="label inline-flex items-center gap-2 text-gold/90"
           >
-            <Sparkles size={13} /> Explore Everything. Learn Everything.
+            <Sparkles size={13} /> Explore everything · Learn everything
           </motion.span>
 
           <motion.h1
-            custom={1}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-7 max-w-4xl font-display text-5xl font-semibold leading-[1.05] text-fg text-balance sm:text-7xl"
+            variants={heroHeadline}
+            className="mt-7 max-w-[18ch] font-display font-semibold leading-[1.04] tracking-[-0.02em] text-fg text-balance text-[clamp(2.5rem,7vw,5.25rem)]"
           >
-            Travel through <span className="gold-text">everything we know</span>.
+            {HEADLINE_WORDS.map((word, i) => (
+              <Fragment key={i}>
+                <motion.span variants={heroWord} className="inline-block">
+                  {word.gold ? <span className="gold-text">{word.text}</span> : word.text}
+                </motion.span>
+                {i < HEADLINE_WORDS.length - 1 ? ' ' : null}
+              </Fragment>
+            ))}
           </motion.h1>
 
           <motion.p
-            custom={2}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted sm:text-xl"
+            variants={heroLine}
+            className="mt-7 max-w-xl text-pretty text-base leading-relaxed text-muted sm:text-lg"
           >
-            KaalVeda is not a wiki. It is a connected map of knowledge — the cosmos, history,
-            religion, science and civilization — where every article is a node on a journey, and
-            you follow the path from one idea to the next.
+            The cosmos, history, religion, science and civilization — charted as one connected map.
+            Every article a star; every link, a path between them.
           </motion.p>
 
           <motion.div
-            custom={3}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-9 flex flex-col items-center gap-3 sm:flex-row"
+            variants={heroLine}
+            className="mt-10 flex flex-col items-center gap-3 sm:flex-row"
           >
-            <Link to="/explore" className="btn btn-gold w-full sm:w-auto">
-              <Compass size={17} /> Enter the Atlas
+            <Link to="/explore" className="btn btn-gold group w-full sm:w-auto">
+              Begin exploring
+              <ArrowRight
+                size={17}
+                className="transition-transform duration-200 ease-atlas group-hover:translate-x-0.5"
+              />
             </Link>
-            <button type="button" onClick={openPalette} className="btn btn-ghost w-full sm:w-auto">
-              <Search size={16} /> Search the universe
-              <kbd className="label ml-1 rounded border border-border px-1.5 py-0.5 text-[0.6rem]">⌘K</kbd>
-            </button>
+            <Link to="/graph" className="btn btn-ghost w-full sm:w-auto">
+              <Waypoints size={16} /> View the map
+            </Link>
           </motion.div>
 
           <motion.div
-            custom={4}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-faint"
+            variants={heroLine}
+            className="mt-12 flex items-center justify-center gap-3 text-faint"
           >
-            <Stat value="27" label="categories" />
-            <span className="hidden h-4 w-px bg-border sm:block" />
-            <Stat value="5" label="clusters" />
-            <span className="hidden h-4 w-px bg-border sm:block" />
-            <Stat value={String(totalArticles)} label="articles" />
-            <span className="hidden h-4 w-px bg-border sm:block" />
-            <Stat value={String(totalGraphEdges)} label="connections" />
+            <span className="h-px w-6 bg-gradient-to-r from-transparent to-gold/40" aria-hidden />
+            <span className="text-[0.82rem] tracking-wide">
+              <span className="font-display font-semibold text-gold">{totalArticles}</span> articles
+              charted so far
+            </span>
+            <span className="h-px w-6 bg-gradient-to-l from-transparent to-gold/40" aria-hidden />
           </motion.div>
-        </div>
+        </motion.div>
+
+        {!reduced && (
+          <motion.div
+            aria-hidden
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.15, duration: 0.9, ease: EASE }}
+            className="pointer-events-none absolute inset-x-0 bottom-6 z-10 flex justify-center"
+          >
+            <motion.span
+              animate={{ y: [0, 6, 0] }}
+              transition={{ duration: 2.6, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <ChevronDown size={20} className="text-faint" />
+            </motion.span>
+          </motion.div>
+        )}
       </section>
 
       {/* ──────────────────── The journey idea ──────────────────── */}
@@ -246,15 +288,6 @@ export default function LandingPage() {
         </div>
       </section>
     </div>
-  )
-}
-
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <span className="flex items-baseline gap-2">
-      <span className="font-display text-2xl font-semibold text-gold">{value}</span>
-      <span className="label text-faint">{label}</span>
-    </span>
   )
 }
 
