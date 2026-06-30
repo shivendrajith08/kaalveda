@@ -43,6 +43,34 @@
       "factStatus": "verified"
     },
     {
+      "id": "christian-art",
+      "title": "Christian Art & Architecture",
+      "category": "architecture",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "christian-mysticism",
+      "title": "Christian Mysticism",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "christianity",
+      "title": "Christianity",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "christianity-today",
+      "title": "Christianity Today",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
       "id": "egyptian-astronomy",
       "title": "Egyptian Astronomy",
       "category": "space",
@@ -120,6 +148,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "jesus-of-nazareth",
+      "title": "Jesus of Nazareth",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "theory"
+    },
+    {
       "id": "julius-caesar",
       "title": "Julius Caesar",
       "category": "kingdoms-empires",
@@ -190,6 +225,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "the-bible",
+      "title": "The Bible",
+      "category": "sacred-books",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "the-big-bang",
       "title": "The Big Bang",
       "category": "universe",
@@ -199,6 +241,20 @@
     {
       "id": "greek-democracy",
       "title": "The Birth of Democracy",
+      "category": "world-history",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "the-crusades",
+      "title": "The Crusades",
+      "category": "wars",
+      "cluster": "life-time",
+      "factStatus": "verified"
+    },
+    {
+      "id": "early-church",
+      "title": "The Early Church",
       "category": "world-history",
       "cluster": "life-time",
       "factStatus": "verified"
@@ -278,6 +334,13 @@
       "title": "The Ramayana",
       "category": "literature",
       "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "reformation",
+      "title": "The Reformation",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -527,6 +590,121 @@
       "resolved": true
     },
     {
+      "source": "christian-art",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "christian-art",
+      "target": "christianity-today",
+      "resolved": true
+    },
+    {
+      "source": "christian-art",
+      "target": "roman-engineering",
+      "resolved": true
+    },
+    {
+      "source": "christian-art",
+      "target": "greek-architecture",
+      "resolved": true
+    },
+    {
+      "source": "christian-art",
+      "target": "hindu-temples",
+      "resolved": true
+    },
+    {
+      "source": "christian-art",
+      "target": "pyramids-of-giza",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "early-church",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "reformation",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "yoga-and-meditation",
+      "resolved": true
+    },
+    {
+      "source": "christian-mysticism",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "jesus-of-nazareth",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "the-bible",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "christianity",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "christianity-today",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "christianity-today",
+      "target": "reformation",
+      "resolved": true
+    },
+    {
+      "source": "christianity-today",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "christianity-today",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "christianity-today",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
       "source": "egyptian-astronomy",
       "target": "pyramids-of-giza",
       "resolved": true
@@ -762,6 +940,31 @@
       "resolved": true
     },
     {
+      "source": "jesus-of-nazareth",
+      "target": "the-bible",
+      "resolved": true
+    },
+    {
+      "source": "jesus-of-nazareth",
+      "target": "early-church",
+      "resolved": true
+    },
+    {
+      "source": "jesus-of-nazareth",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "jesus-of-nazareth",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "jesus-of-nazareth",
+      "target": "roman-religion",
+      "resolved": true
+    },
+    {
       "source": "julius-caesar",
       "target": "roman-republic",
       "resolved": true
@@ -952,6 +1155,26 @@
       "resolved": true
     },
     {
+      "source": "the-bible",
+      "target": "early-church",
+      "resolved": true
+    },
+    {
+      "source": "the-bible",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
+      "source": "the-bible",
+      "target": "mahabharata",
+      "resolved": true
+    },
+    {
+      "source": "the-bible",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
       "source": "the-big-bang",
       "target": "the-solar-system",
       "resolved": true
@@ -969,6 +1192,56 @@
     {
       "source": "greek-democracy",
       "target": "roman-republic",
+      "resolved": true
+    },
+    {
+      "source": "the-crusades",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "the-crusades",
+      "target": "early-church",
+      "resolved": true
+    },
+    {
+      "source": "the-crusades",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "the-crusades",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "the-crusades",
+      "target": "roman-army",
+      "resolved": true
+    },
+    {
+      "source": "early-church",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "early-church",
+      "target": "roman-empire",
+      "resolved": true
+    },
+    {
+      "source": "early-church",
+      "target": "fall-of-rome",
+      "resolved": true
+    },
+    {
+      "source": "early-church",
+      "target": "ancient-egypt",
+      "resolved": true
+    },
+    {
+      "source": "early-church",
+      "target": "greek-philosophy",
       "resolved": true
     },
     {
@@ -1119,6 +1392,26 @@
     {
       "source": "ramayana",
       "target": "greek-mythology",
+      "resolved": true
+    },
+    {
+      "source": "reformation",
+      "target": "christianity",
+      "resolved": true
+    },
+    {
+      "source": "reformation",
+      "target": "the-bible",
+      "resolved": true
+    },
+    {
+      "source": "reformation",
+      "target": "greek-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "reformation",
+      "target": "greek-democracy",
       "resolved": true
     },
     {

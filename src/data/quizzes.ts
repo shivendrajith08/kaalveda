@@ -524,6 +524,118 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'christianity',
+    title: 'Test Your Knowledge: Christianity',
+    description:
+      'Eight questions on the world’s largest religion — its founder, scriptures, councils, conflicts and global life today. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'In which Roman province did Jesus of Nazareth live, teach and die?',
+        options: [
+          { id: 'a', text: 'Judea (in the region of Galilee and Jerusalem)' },
+          { id: 'b', text: 'Egypt' },
+          { id: 'c', text: 'Greece' },
+          { id: 'd', text: 'Italy' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Jesus grew up in Nazareth in Galilee and was crucified in Jerusalem, both within Roman-ruled Judea, under the prefect Pontius Pilate around the year 30 CE.',
+      },
+      {
+        id: 'q2',
+        prompt: 'What are the two main divisions of the Christian Bible called?',
+        options: [
+          { id: 'a', text: 'The Old Testament and the New Testament' },
+          { id: 'b', text: 'The Torah and the Gospels' },
+          { id: 'c', text: 'The Law and the Prophets' },
+          { id: 'd', text: 'The Psalms and the Epistles' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Old Testament is the Hebrew scripture Jesus himself knew; the New Testament gathers the four gospels, the Acts, the letters of Paul and others, and Revelation — the writings of the first Christian generations.',
+      },
+      {
+        id: 'q3',
+        prompt: 'Which former persecutor became the great missionary to the Gentiles, writing the oldest books of the New Testament?',
+        options: [
+          { id: 'a', text: 'Paul of Tarsus' },
+          { id: 'b', text: 'Peter the fisherman' },
+          { id: 'c', text: 'John the Baptist' },
+          { id: 'd', text: 'Constantine' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Paul, once a persecutor of the church, was converted and travelled the Roman roads founding congregations. His letters, written in the 50s CE, are the earliest Christian writings we possess.',
+      },
+      {
+        id: 'q4',
+        prompt: 'What did the Council of Nicaea in 325 CE affirm about Jesus Christ?',
+        options: [
+          { id: 'a', text: 'That he is fully God, "of one being with the Father"' },
+          { id: 'b', text: 'That he was only a great human teacher' },
+          { id: 'c', text: 'That he never truly died' },
+          { id: 'd', text: 'That there are many gods' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Against the teaching of Arius that the Son was a lesser, created being, Nicaea affirmed that Christ is fully divine. Its declaration lives on in the Nicene Creed recited by Christians worldwide.',
+      },
+      {
+        id: 'q5',
+        prompt: 'Who called the First Crusade in 1095, urging Europe’s knights to recover Jerusalem?',
+        options: [
+          { id: 'a', text: 'Pope Urban II' },
+          { id: 'b', text: 'Saladin' },
+          { id: 'c', text: 'Richard the Lionheart' },
+          { id: 'd', text: 'Emperor Constantine' },
+        ],
+        answerId: 'a',
+        explanation:
+          'At the Council of Clermont, Pope Urban II called for a holy war to take Jerusalem. The crowd is said to have answered "Deus vult!" — "God wills it!" Saladin and Richard were figures of the later Third Crusade.',
+      },
+      {
+        id: 'q6',
+        prompt: 'What did Christian mystics such as Teresa of Ávila and Julian of Norwich primarily seek?',
+        options: [
+          { id: 'a', text: 'A direct, experiential union with God through contemplative prayer' },
+          { id: 'b', text: 'Political power over the church' },
+          { id: 'c', text: 'The military conquest of the Holy Land' },
+          { id: 'd', text: 'The abolition of all ritual' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The mystics sought to know God directly, in the silence of contemplation, rather than through argument. Teresa mapped the soul as an "interior castle," and Julian wrote that "all shall be well."',
+      },
+      {
+        id: 'q7',
+        prompt: 'What did Martin Luther’s Ninety-Five Theses of 1517 protest, sparking the Reformation?',
+        options: [
+          { id: 'a', text: 'The sale of indulgences' },
+          { id: 'b', text: 'The use of stained glass' },
+          { id: 'c', text: 'The celebration of Christmas' },
+          { id: 'd', text: 'The translation of the Bible' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Luther attacked the sale of indulgences — papers promising to shorten time in purgatory. His protest grew into a challenge to papal authority itself, built on the principles of "faith alone" and "scripture alone."',
+      },
+      {
+        id: 'q8',
+        prompt: 'Where is Christianity growing fastest in the twenty-first century?',
+        options: [
+          { id: 'a', text: 'The global South — Africa, Latin America and parts of Asia' },
+          { id: 'b', text: 'Western Europe' },
+          { id: 'c', text: 'Antarctica' },
+          { id: 'd', text: 'It is not growing anywhere' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Christianity’s centre of gravity has shifted south. Most of the world’s 2.4 billion Christians now live in Africa, Latin America and Asia, while attendance has fallen sharply in its old European heartland.',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

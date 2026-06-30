@@ -1163,6 +1163,786 @@
     "wordCount": 1047
   },
   {
+    "id": "christian-art",
+    "title": "Christian Art & Architecture",
+    "category": "architecture",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "Building heaven on earth",
+    "lede": "For two thousand years Christianity has been one of the supreme patrons of human creativity — raising cathedrals that seem to defy gravity, filling them with mosaics, frescoes and stained glass, and inspiring some of the greatest art ever made. From the hidden symbols of the catacombs to the soaring vaults of Gothic Europe, Christian builders and artists sought to make the invisible visible and to give the longing for God a shape in stone, glass and gold.",
+    "related": [
+      "christianity",
+      "christianity-today",
+      "roman-engineering",
+      "greek-architecture",
+      "hindu-temples",
+      "pyramids-of-giza"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Great Churches of Christendom",
+          "caption": "From Hagia Sophia in Constantinople to the Gothic cathedrals of France and St Peter's in Rome — a thousand years of sacred building across Europe and the Mediterranean.",
+          "region": "Europe and the Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "The vault of a Gothic cathedral",
+          "caption": "Pointed arches, ribbed vaults and flying buttresses let medieval builders raise stone to dizzying heights and flood the interior with coloured light.",
+          "credit": "Gothic architecture"
+        },
+        {
+          "title": "Michelangelo's Sistine ceiling",
+          "caption": "The frescoed vault of the Sistine Chapel, where Renaissance genius gave the story of creation its most famous image — the hand of God reaching toward Adam.",
+          "credit": "Vatican, 1508–1512"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How Cathedrals Were Built",
+          "caption": "The engineering and the faith behind the greatest buildings of the medieval world.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Western architecture",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Western-architecture"
+      },
+      {
+        "label": "The Met — Christian art",
+        "source": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History",
+        "url": "https://www.metmuseum.org/toah/"
+      },
+      {
+        "label": "Kenneth Clark — Civilisation",
+        "source": "BBC / John Murray",
+        "url": "https://www.bbc.co.uk/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Making the Invisible Visible",
+        "id": "making-the-invisible-visible"
+      },
+      {
+        "type": "paragraph",
+        "text": "Christianity began without art. Its first followers, heirs to the Jewish suspicion of graven images, met in homes and worshipped without statues or temples. The earliest Christian images we possess are the modest paintings on the walls of the Roman **catacombs** — a shepherd carrying a lamb, a fish, an anchor — secret signs of a faith that still lived underground. Yet within a few centuries this image-shy movement would become the greatest patron of art the world had ever seen. The question of *how* to picture the holy, and whether one should at all, would shape and sometimes convulse the church for the rest of its history."
+      },
+      {
+        "type": "paragraph",
+        "text": "When the [early church](/article/christianity) won its freedom under Rome, it inherited the architectural language of the empire. The first great churches borrowed the form of the Roman **basilica**, the public hall, and the Roman mastery of the arch, the vault and concrete — the engineering tradition of [Roman builders](/article/roman-engineering) turned to sacred use. Where Greek temples like those of [classical Greece](/article/greek-architecture) had been houses for a god, designed to be seen from without, the Christian church was a space to be entered, a vessel for the gathered people and the light of God within."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A theology in glass and stone",
+        "text": "Every element of a great church was meant to teach. The cruciform floor plan traced the shape of the cross; the eastward orientation turned the worshipper toward the rising sun and the hope of resurrection; the rose window blazed with the light of heaven. For a largely unlettered people, the building and its images were a Bible in stone and glass — \"the books of the illiterate,\" as Pope Gregory called them — telling the whole story of salvation to eyes that could not read [the written word](/article/the-bible)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Eastern Glory and the Western Ascent",
+        "id": "the-eastern-glory-and-the-western-ascent"
+      },
+      {
+        "type": "paragraph",
+        "text": "In the Christian East, the supreme achievement was **Hagia Sophia**, raised in Constantinople in the sixth century, its vast dome seeming to float on a ring of light so that contemporaries said it hung from heaven by a golden chain. The Byzantine churches glittered with **mosaics** and **icons** — sacred images understood not as decoration but as windows onto the divine, venerated in prayer. So powerful was their hold that a fierce controversy, the iconoclast crisis, twice convulsed the empire over whether such images were holy or idolatrous."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the West, after the year 1000, came the two great medieval styles. The massive, round-arched **Romanesque** churches gave way to the **Gothic**, the most daring architecture of the age. With the pointed arch, the ribbed vault and the flying buttress, Gothic builders dissolved the heavy wall into a cage of stone and filled the gaps with **stained glass**, raising structures of impossible height and lightness. To enter Chartres or Notre-Dame was to step into a forest of stone bathed in jewelled light — an image of the heavenly Jerusalem made real."
+      },
+      {
+        "type": "quote",
+        "text": "The dull mind rises to truth through that which is material, and in seeing this light is resurrected from its former submersion."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Abbot Suger, who built the first Gothic church at Saint-Denis, wrote those words to defend his use of beauty — the conviction that earthly splendour could lift the soul toward God."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Renaissance, Reform and Beyond",
+        "id": "renaissance-reform-and-beyond"
+      },
+      {
+        "type": "paragraph",
+        "text": "The **Renaissance** brought a new vision, fusing Christian devotion with the rediscovered art of [classical antiquity](/article/greek-architecture). In the hands of Michelangelo, Leonardo and Raphael, sacred subjects achieved a human grandeur never surpassed — the Sistine ceiling, the Pietà, the Last Supper. The rebuilding of **St Peter's** in Rome crowned the age, even as the indulgences sold to pay for it helped ignite the [Reformation](/article/christianity)."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Iconoclasm and its opposite",
+        "text": "The Reformation split Christian art as it split the church. Reformers like Calvin, fearing idolatry, stripped and whitewashed churches, smashing statues and stained glass in waves of iconoclasm; the reformed tradition turned instead to the spoken word and to music. The Catholic world answered with the **Baroque** — a flood of gold, motion and drama meant to overwhelm the senses and sweep the worshipper into devotion. Two opposite instincts, both deeply Christian: one that finds God in bare simplicity, one that finds God in overwhelming splendour."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Longing Made Visible",
+        "id": "the-longing-made-visible"
+      },
+      {
+        "type": "paragraph",
+        "text": "Across all its styles and quarrels, Christian art expresses a single audacious hope — that the eternal can be glimpsed through the things of earth. The impulse is not unique to Christianity; it drives the [temple-builders of India](/article/hindu-temples) and the pyramid-raisers of [ancient Egypt](/article/pyramids-of-giza) alike, all of humanity's great traditions reaching for permanence and transcendence in stone. But in the cathedral, the icon and the fresco, Christianity found some of the most enduring forms that longing has ever taken — buildings and images that still draw millions, believers and unbelievers together, into a silence that feels like awe."
+      }
+    ],
+    "toc": [
+      {
+        "id": "making-the-invisible-visible",
+        "text": "Making the Invisible Visible",
+        "level": 2
+      },
+      {
+        "id": "the-eastern-glory-and-the-western-ascent",
+        "text": "The Eastern Glory and the Western Ascent",
+        "level": 2
+      },
+      {
+        "id": "renaissance-reform-and-beyond",
+        "text": "Renaissance, Reform and Beyond",
+        "level": 2
+      },
+      {
+        "id": "the-longing-made-visible",
+        "text": "The Longing Made Visible",
+        "level": 2
+      }
+    ],
+    "wordCount": 791
+  },
+  {
+    "id": "christian-mysticism",
+    "title": "Christian Mysticism",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The inward road to God",
+    "lede": "Beneath the cathedrals and the councils runs a quieter current of Christianity — the mystics, who sought not to argue about God but to know God directly, in the silence of contemplative prayer. From desert hermits to medieval nuns, from Spanish reformers to Eastern monks repeating a single sacred name, they mapped an inner journey toward union with the divine that echoes the contemplative paths of the world's other great traditions.",
+    "related": [
+      "christianity",
+      "early-church",
+      "reformation",
+      "hindu-philosophy",
+      "yoga-and-meditation",
+      "greek-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Deserts and Cloisters",
+          "caption": "From the Egyptian desert where the first hermits withdrew, to the monasteries of Mount Athos, the Rhineland and Spain — the geography of Christian contemplation.",
+          "region": "Mediterranean and Europe"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Ecstasy of Saint Teresa",
+          "caption": "Bernini's marble captures the Spanish mystic pierced by divine love — the contemplative experience rendered, impossibly, in stone.",
+          "credit": "Gian Lorenzo Bernini, Rome"
+        },
+        {
+          "title": "An icon for prayer",
+          "caption": "In the Eastern tradition, the icon is a window for contemplation, and the \"Jesus Prayer\" is repeated until it beats with the heart itself.",
+          "credit": "Eastern Orthodox tradition"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Christian Mystics",
+          "caption": "The inner tradition of the faith — silence, contemplation and the longing for union with God.",
+          "duration": "6:30",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Christian mysticism",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/mysticism"
+      },
+      {
+        "label": "The Cloud of Unknowing",
+        "source": "Anonymous (14th century)",
+        "url": "https://www.gutenberg.org/ebooks/57333"
+      },
+      {
+        "label": "Teresa of Ávila — The Interior Castle",
+        "source": "Teresa of Ávila (1577)",
+        "url": "https://www.gutenberg.org/ebooks/52089"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Knowing God Directly",
+        "id": "knowing-god-directly"
+      },
+      {
+        "type": "paragraph",
+        "text": "For all its creeds and councils, Christianity has always carried within it a longing that no doctrine can satisfy — the desire not merely to believe in God but to *experience* God, directly and without mediation. Those who pursued that desire are the **mystics**, and their writings form one of the deepest and least-known veins of the tradition. They sought a knowledge of the divine that comes not through argument but through love, in the stillness of prayer carried to its furthest reach."
+      },
+      {
+        "type": "paragraph",
+        "text": "The mystics drew on a paradox at the heart of their faith. God, they held, is utterly beyond the grasp of human thought — so far beyond it that the truest thing we can say is what God is *not*. This \"negative way,\" shaped in part by the contemplative strands of [Greek philosophy](/article/greek-philosophy), taught that the soul must let go of every image and idea to meet the God who lies past them all. The anonymous English author of *The Cloud of Unknowing* put it simply: God can be loved, but not thought."
+      },
+      {
+        "type": "quote",
+        "text": "Let yourself be drawn into that silence where God speaks without words, and learn to rest in the darkness that is brighter than any light."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Desert and the Cloister",
+        "id": "the-desert-and-the-cloister"
+      },
+      {
+        "type": "paragraph",
+        "text": "The mystical tradition was born in the deserts of Egypt and Syria, where in the centuries after the [early church](/article/early-church) won its freedom, men and women withdrew from the cities to seek God in solitude. These **Desert Fathers and Mothers** founded the monastic movement, and from their cells flowed a wisdom of silence, fasting and unceasing prayer that would shape Christian contemplation for all time."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the medieval West the great monasteries became the schools of this inner art. Mystics like **Bernard of Clairvaux**, **Hildegard of Bingen** — abbess, composer and visionary — and the towering **Meister Eckhart** mapped the soul's ascent toward God with extraordinary subtlety. In fourteenth-century England the anchoress **Julian of Norwich**, after a series of visions, wrote words of radiant hope still treasured today: *\"All shall be well, and all shall be well, and all manner of thing shall be well.\"*"
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The interior castle",
+        "text": "The Spanish mystic **Teresa of Ávila** imagined the soul as a crystal castle of many rooms, with God dwelling in the innermost chamber and the whole spiritual life a journey inward through room after room toward that centre. Her friend **John of the Cross** charted the \"dark night of the soul,\" the painful stripping-away by which the seeker is purified for union. Their maps of the inner life remain among the most precise ever drawn."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Echoes Across the Traditions",
+        "id": "echoes-across-the-traditions"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Christian mystics did not know it, but they were walking a road travelled by contemplatives in every great tradition. The repetition of the **Jesus Prayer** in the Eastern church — *\"Lord Jesus Christ, have mercy on me\"* — murmured until it synchronises with the breath and the heartbeat, strikingly resembles the use of a *mantra* in [yoga and meditation](/article/yoga-and-meditation). The mystics' goal of union with a reality beyond the self echoes the great theme of [Hindu philosophy](/article/hindu-philosophy), the meeting of the inner self with the absolute."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "Likeness and difference",
+        "text": "It would be a mistake to flatten these traditions into one. The Christian mystic seeks union with a personal God of love, made known in Christ, and remains a creature embraced by a Creator — not, as in some Eastern teachings, the dissolving of the self into an impersonal absolute. Yet the resemblances are real and striking: the disciplines of silence, breath and attention; the stripping-away of ego; the conviction that the deepest truth is found not in the head but in the heart. Across continents and creeds, humanity keeps discovering the same inward door."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Faith of the Heart",
+        "id": "a-faith-of-the-heart"
+      },
+      {
+        "type": "paragraph",
+        "text": "The mystics have always sat a little uneasily with the institutions of the church. Their direct claim on God could unsettle the authority of priests and councils, and several were viewed with suspicion in their own day. Yet they have proved indispensable. When religion hardens into mere rule and argument, it is the mystics who recall it to its living centre — the love their founder placed above all law. Their witness fed the renewal of the [Reformation](/article/reformation) era and continues to draw modern seekers, of every faith and none, toward the silence in which, they promised, the infinite waits to be known."
+      }
+    ],
+    "toc": [
+      {
+        "id": "knowing-god-directly",
+        "text": "Knowing God Directly",
+        "level": 2
+      },
+      {
+        "id": "the-desert-and-the-cloister",
+        "text": "The Desert and the Cloister",
+        "level": 2
+      },
+      {
+        "id": "echoes-across-the-traditions",
+        "text": "Echoes Across the Traditions",
+        "level": 2
+      },
+      {
+        "id": "a-faith-of-the-heart",
+        "text": "A Faith of the Heart",
+        "level": 2
+      }
+    ],
+    "wordCount": 723
+  },
+  {
+    "id": "christianity",
+    "title": "Christianity",
+    "category": "religions",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The faith of the cross",
+    "lede": "Christianity is the largest religion on Earth — some 2.4 billion people who hold that in a carpenter from a Galilean village the infinite God walked among us, died a criminal's death, and rose again. From a tiny band of Jewish followers in a Roman province it grew into a faith spanning every continent, shaping the law, art, music and conscience of half the human race while never ceasing to argue, reform and divide over what its founder truly meant.",
+    "related": [
+      "jesus-of-nazareth",
+      "the-bible",
+      "roman-empire",
+      "fall-of-rome",
+      "ancient-egypt",
+      "hinduism"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "From Jerusalem to the Ends of the Earth",
+          "caption": "A faith born in one corner of Roman Judea followed the empire's roads to Antioch, Alexandria, Rome and beyond — and within three centuries reached from Britain to India.",
+          "region": "Mediterranean and the Near East"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Cross",
+          "caption": "A Roman instrument of execution transformed into the central symbol of a world religion — the paradox at the heart of Christian faith.",
+          "credit": "Universal Christian symbol"
+        },
+        {
+          "title": "Christ Pantocrator",
+          "caption": "The ancient image of Christ as ruler of all, gazing from the domes of Byzantine churches — God made visible in a human face.",
+          "credit": "Byzantine mosaic tradition"
+        }
+      ],
+      "videos": [
+        {
+          "title": "What is Christianity?",
+          "caption": "How an executed teacher from Nazareth became the most followed figure in human history.",
+          "duration": "6:40",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Christianity",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Christianity"
+      },
+      {
+        "label": "The Holy Bible",
+        "source": "The Bible (New Revised Standard Version)",
+        "url": "https://www.biblegateway.com/"
+      },
+      {
+        "label": "The British Museum — Christianity",
+        "source": "The British Museum",
+        "url": "https://www.britishmuseum.org/collection"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Faith Born From a Death",
+        "id": "a-faith-born-from-a-death"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most religions begin with a teaching, a law or a vision. Christianity begins with an execution. Its founder, [Jesus of Nazareth](/article/jesus-of-nazareth), was a Jewish teacher and healer who gathered followers in the villages of Galilee, was arrested in Jerusalem, and was crucified by the authorities of the [Roman Empire](/article/roman-empire) around the year 30. By every worldly measure that should have been the end. Instead his followers proclaimed something astonishing — that he had risen from the dead, that his death had reconciled humanity to God, and that he was the long-promised Messiah, the **Christ**, through whom the world itself would be made new."
+      },
+      {
+        "type": "paragraph",
+        "text": "From that proclamation everything else flows. The earliest believers were a small movement within Judaism, keeping the Hebrew scriptures and the festivals of their people while insisting that in Jesus the ancient promises had come true. Within a single generation the message had leapt beyond the Jewish world to Greeks, Romans and the peoples of the [Mediterranean](/article/fall-of-rome), carried along the same roads and sea lanes that bound the empire together."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The scandal at the centre",
+        "text": "The cross was not a noble symbol when Christians adopted it — it was the most shameful death the Roman world knew, reserved for slaves and rebels. That the new faith made its emblem an instrument of torture, and called a crucified man the Lord of all, was a scandal to Jews and folly to Greeks alike. Christianity has never lost that strangeness: a God who conquers not by force but by suffering, who is found in weakness rather than power."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "One God, Three Persons",
+        "id": "one-god-three-persons"
+      },
+      {
+        "type": "paragraph",
+        "text": "At the heart of Christian belief stands a paradox the tradition spent centuries trying to express. Christians are fierce monotheists, inheritors of Israel's conviction that there is one God and no other. Yet they came to confess that this one God is known as **Father, Son and Holy Spirit** — the doctrine of the **Trinity**, three persons in one divine being. In Jesus, they held, God had not merely sent a messenger but had come in person, fully God and fully human at once."
+      },
+      {
+        "type": "paragraph",
+        "text": "These were not idle speculations. They were hammered out in argument, prayer and sometimes bitter conflict across the first centuries, in the great councils of the early church. To say exactly who Jesus was — and how the divine and the human met in him — became the labour of generations, and the answers were written into creeds still recited every week by hundreds of millions."
+      },
+      {
+        "type": "quote",
+        "text": "For God so loved the world that he gave his only Son, that whoever believes in him should not perish but have eternal life."
+      },
+      {
+        "type": "paragraph",
+        "text": "That single sentence from the Gospel of John has become perhaps the most quoted line of [the Bible](/article/the-bible), and it captures the Christian claim in miniature: that the whole drama is driven by love, and aimed at the rescue of every human being."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Religion of the Book and the Table",
+        "id": "a-religion-of-the-book-and-the-table"
+      },
+      {
+        "type": "paragraph",
+        "text": "Christianity is a religion of the word. Its scripture, the Bible, joins the Hebrew writings it calls the **Old Testament** to the **New Testament** of gospels and letters that tell of Jesus and the first communities. But it is also a religion of ritual and gathered life. Its central act is the sharing of bread and wine — the **Eucharist** or communion — in which believers re-enact the last meal Jesus ate with his friends and hold themselves united to him. To be baptised with water and to break this bread together are the gestures that make a Christian."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A faith of many houses",
+        "text": "Christianity is not one institution but a vast family. The ancient **Orthodox** churches of the East, the **Catholic** Church centred on Rome, and the many **Protestant** traditions born of the [Reformation](/article/reformation) all share the same scriptures and the same Lord, yet differ deeply in worship, authority and emphasis. Like [Hinduism](/article/hinduism), Christianity contains within one name an astonishing range of ways to be faithful — from silent monasteries to ecstatic revival meetings."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Story This Cluster Tells",
+        "id": "the-story-this-cluster-tells"
+      },
+      {
+        "type": "paragraph",
+        "text": "What follows is a journey through that vast inheritance. We begin with the historical figure of Jesus himself, then turn to the scriptures that record him and the [early church](/article/early-church) that carried his message across the Roman world. We follow the faith into the medieval drama of the [Crusades](/article/the-crusades), into the quiet inner fire of its [mystics](/article/christian-mysticism), through the great rupture of the [Reformation](/article/reformation), and into the soaring [art and architecture](/article/christian-art) that gave it visible form. We end with [Christianity today](/article/christianity-today), a global faith remade once more by the peoples of Africa, Asia and Latin America. It is the story of how a single death in an obscure province came to shape the conscience of the world."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-faith-born-from-a-death",
+        "text": "A Faith Born From a Death",
+        "level": 2
+      },
+      {
+        "id": "one-god-three-persons",
+        "text": "One God, Three Persons",
+        "level": 2
+      },
+      {
+        "id": "a-religion-of-the-book-and-the-table",
+        "text": "A Religion of the Book and the Table",
+        "level": 2
+      },
+      {
+        "id": "the-story-this-cluster-tells",
+        "text": "The Story This Cluster Tells",
+        "level": 2
+      }
+    ],
+    "wordCount": 781
+  },
+  {
+    "id": "christianity-today",
+    "title": "Christianity Today",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "A global faith remade",
+    "lede": "With some 2.4 billion adherents, Christianity is the largest religion on Earth and more global than it has ever been. Yet its centre of gravity has shifted dramatically — the typical Christian today is as likely to be a Nigerian, Brazilian or Filipino as a European. From the megachurches of the global South to the quiet emptying of Europe's cathedrals, the faith founded in a Roman province is being remade once more by the peoples of the whole world.",
+    "related": [
+      "christianity",
+      "reformation",
+      "christian-art",
+      "hinduism",
+      "fall-of-rome",
+      "roman-empire"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The New Heartlands of the Faith",
+          "caption": "Christianity's centre of gravity has moved south — to sub-Saharan Africa, Latin America and parts of Asia, where the great majority of new believers now live.",
+          "region": "The global South"
+        }
+      ],
+      "images": [
+        {
+          "title": "Worship in the global South",
+          "caption": "A packed and joyful congregation in Africa, where Christianity is growing faster than anywhere on Earth — the face of the faith's future.",
+          "credit": "Sub-Saharan Africa"
+        },
+        {
+          "title": "An emptying European church",
+          "caption": "In much of Europe, the cradle of medieval Christendom, weekly attendance has fallen sharply — a faith retreating where it once ruled.",
+          "credit": "Western Europe"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Christianity in the 21st Century",
+          "caption": "A 2,000-year-old faith with 2.4 billion followers, transformed by the peoples of the global South.",
+          "duration": "6:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Pew Research Center — Global Christianity",
+        "source": "Pew Research Center",
+        "url": "https://www.pewresearch.org/religion/"
+      },
+      {
+        "label": "Encyclopaedia Britannica — Christianity",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Christianity"
+      },
+      {
+        "label": "Philip Jenkins — The Next Christendom",
+        "source": "Oxford University Press",
+        "url": "https://global.oup.com/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Largest Faith on Earth",
+        "id": "the-largest-faith-on-earth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roughly one in every three people alive today is a Christian — some **2.4 billion** souls, making Christianity the most followed religion in human history. It spans every continent and nearly every nation, speaks in thousands of languages, and gathers in forms as different as a silent Quaker meeting, a Roman Catholic high mass, a Pentecostal revival and an ancient Ethiopian liturgy older than most of Europe's churches. From the tiny band of [the early church](/article/christianity) the faith has grown into the broadest human community on the planet."
+      },
+      {
+        "type": "paragraph",
+        "text": "That single number, though, conceals a story of profound change. For most of the last thousand years Christianity was overwhelmingly the religion of Europe and, later, of the lands Europeans settled. That is no longer true. The faith's heartlands have moved decisively southward, and the consequences are reshaping it from the ground up."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The faith goes south",
+        "text": "At the start of the twentieth century, the great majority of the world's Christians lived in Europe and North America. Today the majority live in **Africa, Latin America and Asia**. There are more churchgoers in Nigeria than in much of western Europe; Brazil and the Philippines are among the largest Christian nations on Earth; and sub-Saharan Africa is now the fastest-growing Christian region in the world. The typical Christian of the twenty-first century is young, brown or Black, and lives in the global South."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Branches of One Tree",
+        "id": "branches-of-one-tree"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Christianity of today remains divided into the three great families that history bequeathed it. The **Catholic Church**, with well over a billion members, is the largest single body, led by the pope in Rome and present on every continent. The **Orthodox** churches of the East preserve the ancient liturgies and theology of the first millennium. And the many **Protestant** and independent traditions, heirs of the [Reformation](/article/reformation), range from historic denominations to the explosively growing **Pentecostal** and charismatic movements that have swept the global South in the last century."
+      },
+      {
+        "type": "paragraph",
+        "text": "These movements have given the old faith a new face — exuberant, miracle-minded, intensely personal, and astonishingly mobile. Where the [cathedrals](/article/christian-art) of Europe stand magnificent but increasingly empty, vast new congregations gather in converted warehouses and open fields across Africa and Latin America, singing in their own languages a gospel that feels to them brand new."
+      },
+      {
+        "type": "quote",
+        "text": "Go therefore and make disciples of all nations."
+      },
+      {
+        "type": "paragraph",
+        "text": "The command with which the Gospel of Matthew closes — the \"Great Commission\" — still drives the missionary energy that has carried the faith into every corner of the Earth."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Faith in a Secular Age",
+        "id": "faith-in-a-secular-age"
+      },
+      {
+        "type": "paragraph",
+        "text": "Even as it grows, Christianity faces searching challenges. In its old European heartland — the world that rose from the ruins of the [fallen Roman Empire](/article/fall-of-rome) and the medieval Christendom built on them — the faith has receded sharply, with empty pews and a rising tide of those who claim no religion at all. Across much of the developed world, secularism, science and individualism have loosened religion's hold on public life. The church wrestles, too, with painful reckonings over past failures and with deep internal debates about sexuality, authority and its place in modern society."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "An old faith among many",
+        "text": "Christianity now lives, as never before, alongside the other great traditions of humanity — in daily, neighbourly contact with Islam, with [Hinduism](/article/hinduism), with Buddhism and with a vast secular world. The age of Christendom, when one church could claim to speak for a whole civilization, is gone. In its place is a quieter, humbler situation: one ancient faith among many, asked to make its case not by power but by persuasion and example — much as the [first Christians](/article/roman-empire) once did within the pluralist empire of Rome."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Unfinished Story",
+        "id": "the-unfinished-story"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two thousand years after a teacher from Nazareth was executed on a Roman cross, the movement that grew from his memory is larger, more varied and more global than ever — and still changing fast. No one can say what shape it will take as the century unfolds, as Africa becomes its demographic heart and the old certainties of Europe fade. What seems clear is that the story is far from over. The faith that has already survived the fall of empires, the splitting of churches and the doubts of every age goes on, remade in each generation by the people who carry it — the latest chapter in one of the longest continuous stories humanity has ever told."
+      }
+    ],
+    "toc": [
+      {
+        "id": "the-largest-faith-on-earth",
+        "text": "The Largest Faith on Earth",
+        "level": 2
+      },
+      {
+        "id": "branches-of-one-tree",
+        "text": "Branches of One Tree",
+        "level": 2
+      },
+      {
+        "id": "faith-in-a-secular-age",
+        "text": "Faith in a Secular Age",
+        "level": 2
+      },
+      {
+        "id": "the-unfinished-story",
+        "text": "The Unfinished Story",
+        "level": 2
+      }
+    ],
+    "wordCount": 726
+  },
+  {
     "id": "egyptian-astronomy",
     "title": "Egyptian Astronomy",
     "category": "space",
@@ -3000,6 +3780,206 @@
     "wordCount": 792
   },
   {
+    "id": "jesus-of-nazareth",
+    "title": "Jesus of Nazareth",
+    "category": "religions",
+    "factStatus": "theory",
+    "readMins": 10,
+    "eyebrow": "The carpenter who changed the world",
+    "lede": "No single life has been pondered more deeply than that of Jesus of Nazareth — a Jewish teacher who taught for perhaps three years, wrote nothing, led no army, and was executed in his thirties, yet whose memory split history in two. To his followers he is the Son of God risen from the dead; to historians he is one of the best-attested figures of the ancient world whose inner reality remains forever beyond proof. Faith and history meet here, and where they part this article does not pretend to judge.",
+    "related": [
+      "christianity",
+      "the-bible",
+      "early-church",
+      "roman-empire",
+      "ancient-egypt",
+      "roman-religion"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The World of Galilee and Judea",
+          "caption": "From Nazareth in the Galilean hills to the Sea of Galilee and the temple city of Jerusalem — the small stage on which the whole story unfolds, all within a Roman province.",
+          "region": "Roman Judea"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Sea of Galilee",
+          "caption": "The freshwater lake whose fishing villages — Capernaum, Bethsaida — were the setting for most of Jesus's recorded teaching and his first followers.",
+          "credit": "Galilee, modern Israel"
+        },
+        {
+          "title": "The Crucifixion",
+          "caption": "The death by which the early Christians believed the world was redeemed — a Roman punishment turned, in faith, into the hinge of history.",
+          "credit": "Christian iconography"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Historical Jesus",
+          "caption": "What scholars can and cannot say about the man behind the gospels, weighed without judgement.",
+          "duration": "6:35",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Jesus",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Jesus"
+      },
+      {
+        "label": "The Gospels (Matthew, Mark, Luke, John)",
+        "source": "The New Testament",
+        "url": "https://www.biblegateway.com/"
+      },
+      {
+        "label": "Bart D. Ehrman — Did Jesus Exist?",
+        "source": "HarperOne",
+        "url": "https://www.bartehrman.com/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why This Article Is Marked \"Theory\"",
+        "id": "why-this-article-is-marked-theory"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost no serious historian doubts that a Jewish man named Jesus lived in early first-century Galilee, gathered followers, and was crucified under the Roman prefect Pontius Pilate. The Roman writers Tacitus and the Jewish historian Josephus both mention him within a lifetime or two of his death, and the letters of Paul were written barely twenty years after the crucifixion. That much is the bedrock of mainstream scholarship."
+      },
+      {
+        "type": "paragraph",
+        "text": "What lies beyond proof is everything that matters most to faith. Whether Jesus was the Son of God, whether he worked miracles, whether he rose bodily from the tomb — these are claims of a different order, held by believers as the deepest truths there are and set aside by historians as beyond the reach of their tools. This article marks itself **theory** not to cast doubt on Christian conviction but to be honest about where the historian's road ends and the pilgrim's begins."
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "History and faith",
+        "text": "The gospels are not neutral biographies; they are testimonies of faith, written to proclaim Jesus as Lord. That does not make them worthless to the historian — it makes them passionate, early and specific. But it does mean that reading them is always an act of interpretation. We present here both what scholarship reconstructs and what the church confesses, and we let the reader hold the two together."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Life in Galilee",
+        "id": "a-life-in-galilee"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jesus was born around **4 BCE**, in the last years of Herod the Great, into a world ruled at a distance by [Rome](/article/roman-empire) and close at hand by its client kings. He grew up in Nazareth, an unremarkable Galilean village, in a family of modest craftsmen — the Greek word used of him and his father suggests a builder or carpenter. For most of his life he is invisible to history."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then, perhaps around the year 28, he appeared as a wandering teacher. He proclaimed the coming of the **Kingdom of God**, healed the sick, ate with outcasts and tax collectors, and taught in vivid parables drawn from the fields and households of ordinary people. He gathered an inner circle of twelve and a wider crowd of followers, women prominent among them. His message was urgent and unsettling: that God's reign was breaking in, that the last would be first, and that love of God and neighbour fulfilled the whole law."
+      },
+      {
+        "type": "quote",
+        "text": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Sermon on the Mount, from which those lines come, remains one of the most influential texts ever spoken — its ethic of mercy, forgiveness and nonviolence has stirred reformers and revolutionaries far beyond the church."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Road to Jerusalem",
+        "id": "the-road-to-jerusalem"
+      },
+      {
+        "type": "paragraph",
+        "text": "The gospels converge on a final journey to **Jerusalem**, the holy city, at Passover. There Jesus caused an uproar in the Temple, was welcomed by crowds, and within days was betrayed, arrested, and handed to the Roman authorities. He was condemned and crucified — a punishment Rome reserved for those it deemed rebels — beneath a placard mocking him as \"King of the Jews.\" He died, by the traditional reckoning, around the year **30**."
+      },
+      {
+        "type": "paragraph",
+        "text": "For his followers this was not the end but the turning point. They proclaimed that on the third day the tomb was found empty and that he appeared to them alive. Whatever a historian makes of those reports, something happened that transformed a scattered, frightened band into a movement willing to die for its message. That transformation is the seed from which [the early church](/article/early-church) and all of [Christianity](/article/christianity) grew."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A Jewish life",
+        "text": "It is easy to forget that Jesus lived and died a Jew, keeping the Sabbath and the festivals, steeped in the Hebrew scriptures and the prophets. He did not set out to found a new religion; he spoke to Israel, in the idiom of Israel. The faith that grew up in his name — drawing in Greeks and Romans and reaching far beyond the world of the synagogue and the gods of [Rome](/article/roman-religion) — would have astonished his first hearers as much as anyone."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Question That Will Not Rest",
+        "id": "the-question-that-will-not-rest"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two thousand years on, the figure of Jesus refuses to settle into the past. Philosophers and poets, sceptics and saints have measured themselves against him. Some see a sublime moral teacher, some a prophet of the coming kingdom, some the very Word of God made flesh. The gospels themselves record his own question to his friends — *\"Who do you say that I am?\"* — and leave it ringing down the centuries. Every age has answered it again. That this unanswerable question still grips so much of humankind is, perhaps, the surest historical fact of all."
+      }
+    ],
+    "toc": [
+      {
+        "id": "why-this-article-is-marked-theory",
+        "text": "Why This Article Is Marked \"Theory\"",
+        "level": 2
+      },
+      {
+        "id": "a-life-in-galilee",
+        "text": "A Life in Galilee",
+        "level": 2
+      },
+      {
+        "id": "the-road-to-jerusalem",
+        "text": "The Road to Jerusalem",
+        "level": 2
+      },
+      {
+        "id": "the-question-that-will-not-rest",
+        "text": "The Question That Will Not Rest",
+        "level": 2
+      }
+    ],
+    "wordCount": 794
+  },
+  {
     "id": "julius-caesar",
     "title": "Julius Caesar",
     "category": "kingdoms-empires",
@@ -4762,6 +5742,202 @@
     "wordCount": 660
   },
   {
+    "id": "the-bible",
+    "title": "The Bible",
+    "category": "sacred-books",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "A library bound as one book",
+    "lede": "The Bible is not a single book but a whole library — sixty-six or more writings, composed over more than a thousand years in three languages by dozens of hands, yet read by Christians as one unfolding story of God and humanity. The most printed, translated and contested text in history, it has been carried to every corner of the Earth, fought over by emperors and reformers, and held in the hands of more human beings than any other book ever written.",
+    "related": [
+      "christianity",
+      "jesus-of-nazareth",
+      "early-church",
+      "vedas",
+      "mahabharata",
+      "greek-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "Lands of the Bible",
+          "caption": "From Mesopotamia and Egypt to Sinai, Judea and the cities of Paul's letters across the Greek world — the geography in which the scriptures took shape.",
+          "region": "Near East and eastern Mediterranean"
+        }
+      ],
+      "images": [
+        {
+          "title": "An illuminated Gospel page",
+          "caption": "For a thousand years, before printing, every Bible was copied by hand — monks turning scripture into works of art in gold and ink.",
+          "credit": "Medieval manuscript tradition"
+        },
+        {
+          "title": "The Gutenberg Bible",
+          "caption": "The first major book printed with movable type, around 1455 — the moment scripture began its passage from the monastery to the multitude.",
+          "credit": "Mainz, c. 1455"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How the Bible Was Made",
+          "caption": "From oral tradition and scroll to canon and printed page — the long making of the world's most influential book.",
+          "duration": "6:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Biblical literature",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/biblical-literature"
+      },
+      {
+        "label": "The Holy Bible",
+        "source": "The Bible (New Revised Standard Version)",
+        "url": "https://www.biblegateway.com/"
+      },
+      {
+        "label": "The British Library — Sacred Texts",
+        "source": "The British Library",
+        "url": "https://www.bl.uk/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Library in One Volume",
+        "id": "a-library-in-one-volume"
+      },
+      {
+        "type": "paragraph",
+        "text": "To open the Bible is to open a whole shelf of books bound between two covers. It contains law and history, poetry and proverb, prophecy and parable, letters and visions. Its writings were composed across more than a millennium, from ancient Israelite songs perhaps a thousand years before Christ to the last of the early Christian letters near the end of the first century. They were written in Hebrew, a little Aramaic, and Greek, by shepherds and kings, prophets and fishermen, the named and the anonymous. The very word *Bible* comes from the Greek *ta biblia*, \"the books\" — a plural quietly remembering that this one book was always many."
+      },
+      {
+        "type": "paragraph",
+        "text": "Christians divide it into two great parts. The **Old Testament** is the Hebrew scripture Jesus himself knew and quoted — the law of Moses, the histories of Israel, the Psalms, and the prophets. The **New Testament** gathers the writings of the first Christian generations: the four **gospels** that recount the life of [Jesus of Nazareth](/article/jesus-of-nazareth), the Acts of the Apostles, the letters of Paul and others, and the final visions of Revelation. Read together, Christians hold, they tell a single story — creation, fall, promise, and the redemption of the world."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "One story in two testaments",
+        "text": "Christians read the Old and New Testaments as a single arc: the promises made to Israel finding their fulfilment in Christ. Jews, who gave the world the Hebrew scriptures, read the same texts as complete in themselves, the living covenant of their people. The very same words are sacred to both faiths and heard in profoundly different ways — a reminder that a scripture lives not only in its ink but in the community that reads it."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How the Canon Was Made",
+        "id": "how-the-canon-was-made"
+      },
+      {
+        "type": "paragraph",
+        "text": "No council handed down the Bible whole. Its **canon** — the list of which writings belong — formed slowly, by use and consensus, over centuries. The Hebrew scriptures were largely settled before the time of Jesus. The New Testament writings circulated first as separate letters and gospels among the scattered churches; only gradually did the church recognise which of them carried the authentic apostolic voice. By the late fourth century the list we now know was widely agreed, though the precise contents still differ a little between Catholic, Orthodox and Protestant Bibles."
+      },
+      {
+        "type": "paragraph",
+        "text": "Unlike the [Vedas](/article/vedas) of India, preserved for a thousand years by flawless oral recitation, or the vast oral epic of the [Mahabharata](/article/mahabharata), the biblical writings were committed early to scrolls and codices and copied, generation after generation, by hand. The discovery of the Dead Sea Scrolls in the twentieth century — manuscripts two thousand years old — showed how faithfully scribes had carried the text across the ages."
+      },
+      {
+        "type": "quote",
+        "text": "Your word is a lamp to my feet and a light to my path."
+      },
+      {
+        "type": "paragraph",
+        "text": "That line from the Psalms captures how the book has been used: not merely studied but lived by, carried as a guide through grief and joy, exile and homecoming."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Book That Made and Remade the World",
+        "id": "the-book-that-made-and-remade-the-world"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most of Christian history the Bible was a rare and costly thing, copied by monks and read aloud in Latin to congregations who could not read it for themselves. The invention of printing changed everything. The **Gutenberg Bible** of around 1455 was the first great book of the printing age, and within a century the [Reformation](/article/reformation) had made the translation of scripture into the everyday languages of Europe a revolutionary act. To put the Bible into German, English or French was to hand ordinary people the right to read it for themselves — and the world was never the same."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "A book of many readings",
+        "text": "The Bible has been read as law and as love letter, as literal history and as soaring metaphor. Some approach it as the inerrant word of God; others as a human library wrestling with the divine; many hold a view between. The Greek habit of reasoned argument, sharpened in [Greek philosophy](/article/greek-philosophy), shaped how Christians learned to interpret it. What unites its readers across every divide is the conviction that here, somehow, the eternal speaks."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why It Endures",
+        "id": "why-it-endures"
+      },
+      {
+        "type": "paragraph",
+        "text": "No book has been translated into more languages, printed in more copies, or argued over more fiercely than the Bible. It has inspired cathedrals and symphonies, abolitionists and tyrants, the comfort of the dying and the courage of reformers. Its phrases are woven so deep into the world's languages that millions quote it without knowing. Whatever one believes about its origin, its sheer reach is a fact of history — a library of ancient writings that became, for a quarter of humanity, the living voice of God, and for everyone else, one of the foundations of civilization itself."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-library-in-one-volume",
+        "text": "A Library in One Volume",
+        "level": 2
+      },
+      {
+        "id": "how-the-canon-was-made",
+        "text": "How the Canon Was Made",
+        "level": 2
+      },
+      {
+        "id": "the-book-that-made-and-remade-the-world",
+        "text": "The Book That Made and Remade the World",
+        "level": 2
+      },
+      {
+        "id": "why-it-endures",
+        "text": "Why It Endures",
+        "level": 2
+      }
+    ],
+    "wordCount": 775
+  },
+  {
     "id": "the-big-bang",
     "title": "The Big Bang",
     "category": "universe",
@@ -5180,6 +6356,399 @@
       }
     ],
     "wordCount": 733
+  },
+  {
+    "id": "the-crusades",
+    "title": "The Crusades",
+    "category": "wars",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "Faith, sword and the Holy Land",
+    "lede": "For two centuries waves of European Christians took up the cross and marched east to win and hold Jerusalem — a series of holy wars that reshaped the medieval world, opened and embittered the long encounter of Christianity and Islam, and left a memory still raw a thousand years later. Heroic and brutal, devout and grasping, the Crusades remain among the most studied and most contested chapters in the history of the faith.",
+    "related": [
+      "christianity",
+      "early-church",
+      "roman-empire",
+      "ancient-egypt",
+      "roman-army"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Road to Jerusalem",
+          "caption": "The crusader armies marched from western Europe across the Byzantine Empire and through Anatolia to the Holy Land, where they carved out short-lived Christian states along the coast.",
+          "region": "Europe and the Near East"
+        }
+      ],
+      "images": [
+        {
+          "title": "Krak des Chevaliers",
+          "caption": "The great crusader fortress in Syria, among the finest surviving medieval castles — stone proof of how the crusaders sought to hold a land far from home.",
+          "credit": "Crusader state of Tripoli"
+        },
+        {
+          "title": "The Fall of Jerusalem, 1099",
+          "caption": "The First Crusade ended in the bloody capture of Jerusalem — a triumph for the crusaders and a wound long remembered in the Muslim world.",
+          "credit": "Jerusalem, 1099 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Crusades Explained",
+          "caption": "Two centuries of holy war — the calls, the campaigns and the long shadow they cast across faiths.",
+          "duration": "6:55",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Crusades",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Crusades"
+      },
+      {
+        "label": "Steven Runciman — A History of the Crusades",
+        "source": "Cambridge University Press",
+        "url": "https://www.cambridge.org/"
+      },
+      {
+        "label": "Thomas Asbridge — The Crusades",
+        "source": "Simon & Schuster",
+        "url": "https://www.simonandschuster.com/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Call to Holy War",
+        "id": "a-call-to-holy-war"
+      },
+      {
+        "type": "paragraph",
+        "text": "On a November day in **1095**, at the Council of Clermont in France, **Pope Urban II** preached a sermon that set the medieval world in motion. He called on the knights of western Christendom to cease their endless feuding and turn their swords eastward — to march to the aid of the Christians of the East and to wrest **Jerusalem**, the city where [Jesus](/article/jesus-of-nazareth) had died and risen, from Muslim rule. To all who took the cross he promised the remission of their sins. The crowd, it is said, roared back *Deus vult!* — \"God wills it!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "The response was overwhelming and unexpected. Tens of thousands took the vow, sewing crosses onto their garments — the origin of the word *crusade*. They came from every rank, from great lords to landless poor, driven by a tangle of motives that historians still weigh: genuine devotion and the fear of hell, the lure of land and plunder, the restless energy of a warrior class, and the powerful new idea that war itself could be an act of pilgrimage and penance."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A new and troubling idea",
+        "text": "The early church had been deeply ambivalent about violence, and the first Christians often refused to fight at all. The Crusades rested on a startling reversal — the notion that killing in a holy cause could be not merely permitted but meritorious, a path to salvation. This idea of sanctified violence sat uneasily with the teaching of the Sermon on the Mount, and Christians have wrestled with the contradiction ever since."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Campaigns",
+        "id": "the-campaigns"
+      },
+      {
+        "type": "paragraph",
+        "text": "The **First Crusade** (1096–1099) was, against all odds, the only one to achieve its stated aim. After a gruelling march across the lands of the [Byzantine Empire](/article/roman-empire) — the surviving eastern half of the Roman world — and a brutal siege of Antioch, the crusaders stormed Jerusalem in **1099**. The capture was followed by a massacre of the city's Muslim and Jewish inhabitants that horrified even some contemporaries and is remembered to this day. In the conquest's wake the crusaders founded a string of Christian states along the eastern Mediterranean coast."
+      },
+      {
+        "type": "paragraph",
+        "text": "Holding them proved far harder than winning them. Muslim forces gradually rallied, and under the great Kurdish sultan **Saladin** they retook Jerusalem in **1187**. The **Third Crusade** that followed pitted Saladin against the English king **Richard the Lionheart** in a struggle that became legend, though it failed to recover the holy city. Later crusades drifted ever further from their purpose — the infamous **Fourth Crusade** of 1204 never reached the Holy Land at all but sacked Christian Constantinople itself, a betrayal that split Eastern and Western Christianity for centuries."
+      },
+      {
+        "type": "quote",
+        "text": "It is the will of God that through the labours of the cross the entrance to heaven should be opened."
+      },
+      {
+        "type": "paragraph",
+        "text": "The crusading armies marched with such promises ringing in their ears, heirs in their own minds to the disciplined campaigns of the old [Roman legions](/article/roman-army) — though they were a very different and far less coordinated force."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Long Reckoning",
+        "id": "the-long-reckoning"
+      },
+      {
+        "type": "paragraph",
+        "text": "By 1291, when the last crusader stronghold of Acre fell, the great age of crusading to the Holy Land was over. The movement had failed in its central aim; Jerusalem remained, and remains, beyond Christian rule. Yet the Crusades reshaped the world in ways their preachers never foresaw. They quickened trade between Europe and the East, brought new learning and goods westward, and hardened the lines between Christianity, Islam and Judaism that still mark our age."
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "A contested memory",
+        "text": "The Crusades are remembered very differently across the faiths they touched. In parts of the Christian West they were long romanticised as noble adventures; in the Muslim world and among Jewish communities the memory is one of invasion, massacre and betrayal. Honest history holds both the courage and the cruelty in view, refusing either to glorify the violence or to flatten the complex, sincere convictions of those who marched. The word \"crusade\" still carries a charge that reminds us how alive this history remains."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What the Crusades Teach",
+        "id": "what-the-crusades-teach"
+      },
+      {
+        "type": "paragraph",
+        "text": "More than any other episode, the Crusades show [Christianity](/article/christianity) entangled with worldly power — its highest ideals of pilgrimage and devotion bound up with conquest, greed and bloodshed. They reveal a faith capable of inspiring extraordinary sacrifice and terrible violence in the same breath. For the modern reader they stand as a sober lesson in how easily the sacred can be enlisted by the sword, and why so many later Christians, from the [mystics](/article/christian-mysticism) to the reformers, would seek to recover a gentler vision of what their founder had actually taught."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-call-to-holy-war",
+        "text": "A Call to Holy War",
+        "level": 2
+      },
+      {
+        "id": "the-campaigns",
+        "text": "The Campaigns",
+        "level": 2
+      },
+      {
+        "id": "the-long-reckoning",
+        "text": "The Long Reckoning",
+        "level": 2
+      },
+      {
+        "id": "what-the-crusades-teach",
+        "text": "What the Crusades Teach",
+        "level": 2
+      }
+    ],
+    "wordCount": 751
+  },
+  {
+    "id": "early-church",
+    "title": "The Early Church",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "From upper room to empire",
+    "lede": "In the span of three centuries a persecuted sect of a few dozen frightened followers became the official faith of the Roman Empire. How a movement with no armies, no wealth and no political power outlasted the emperors who tried to crush it — winning over slaves and senators alike through conviction, charity and the willingness to die — is one of the most remarkable transformations in all of history.",
+    "related": [
+      "christianity",
+      "jesus-of-nazareth",
+      "the-bible",
+      "the-crusades",
+      "roman-empire",
+      "fall-of-rome",
+      "ancient-egypt",
+      "greek-philosophy"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "The Spread of the Early Church",
+          "caption": "Following the roads and sea lanes of Rome, the faith reached Antioch, Alexandria, Corinth, Ephesus and Rome itself within a generation, and the whole empire within three centuries.",
+          "region": "The Roman world"
+        }
+      ],
+      "images": [
+        {
+          "title": "The Catacombs of Rome",
+          "caption": "Beneath the city, early Christians buried their dead and painted the first Christian images on the walls of the tunnels — a faith that began underground.",
+          "credit": "Roman catacombs"
+        },
+        {
+          "title": "The Council of Nicaea, 325 CE",
+          "caption": "Bishops from across the empire gathered at Constantine's summons to define the faith — the first of the great councils that shaped Christian doctrine.",
+          "credit": "Nicaea, 325 CE"
+        }
+      ],
+      "videos": [
+        {
+          "title": "How Christianity Conquered Rome",
+          "caption": "The three-century journey from persecuted sect to imperial religion, and the people who made it happen.",
+          "duration": "6:45",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Early Christianity",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Christianity/The-early-church"
+      },
+      {
+        "label": "The Acts of the Apostles",
+        "source": "The New Testament",
+        "url": "https://www.biblegateway.com/"
+      },
+      {
+        "label": "Eusebius — Ecclesiastical History",
+        "source": "Eusebius of Caesarea (4th century)",
+        "url": "https://www.newadvent.org/fathers/2501.htm"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Movement Begins",
+        "id": "a-movement-begins"
+      },
+      {
+        "type": "paragraph",
+        "text": "The story of the early church opens, by its own account, in a single room in Jerusalem, where the followers of [Jesus](/article/jesus-of-nazareth) gathered after his death convinced that they had seen him alive. From that small beginning the movement spread with astonishing speed. The Acts of the Apostles tells of the festival of **Pentecost**, when the followers were said to be filled with the Holy Spirit and began to preach — and of thousands joining in a single day."
+      },
+      {
+        "type": "paragraph",
+        "text": "The crucial figure in carrying the message beyond the Jewish world was **Paul of Tarsus**, a former persecutor of the church who, after a dramatic conversion, became its tireless missionary. Across the middle decades of the first century he travelled the Roman roads to the cities of Asia Minor, Greece and finally Rome, founding congregations and writing them the letters that would become the oldest books of [the New Testament](/article/the-bible). It was Paul, more than anyone, who insisted that Gentiles need not become Jews to follow Christ — a decision that turned a Jewish sect into a universal faith."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "A community that cared",
+        "text": "What drew so many to the early church was not only its message but its life. In a hard world, Christians cared for the sick, fed the poor, buried the destitute, and welcomed slaves and free, women and men, to the same table. During the great plagues that swept the [Roman Empire](/article/roman-empire), Christians famously stayed to nurse the dying when others fled. To a watching world, the love these communities showed one another was itself an argument."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Age of the Martyrs",
+        "id": "the-age-of-the-martyrs"
+      },
+      {
+        "type": "paragraph",
+        "text": "For its first three centuries the church lived under the shadow of persecution. Rome was tolerant of many gods but suspicious of those who refused to honour the emperor's divinity or the gods of the [state cult](/article/roman-empire). Christians, who would worship only their one God, were branded atheists and traitors, blamed for disasters, and at intervals hunted, tortured and killed. The deaths of the **martyrs** — the word means simply \"witnesses\" — became the church's proudest memory."
+      },
+      {
+        "type": "quote",
+        "text": "The blood of the martyrs is the seed of the church."
+      },
+      {
+        "type": "paragraph",
+        "text": "The early Christian writer Tertullian's famous phrase proved true. Far from extinguishing the faith, persecution seemed to spread it. The courage of ordinary believers facing death in the arena unsettled their persecutors and drew the curious closer. Meanwhile Christian thinkers, trained in the methods of [Greek philosophy](/article/greek-philosophy), began to explain and defend the faith to the educated world, building a bridge between the gospel and the best learning of the age. Egypt's great city of [Alexandria](/article/ancient-egypt) became one of the foremost centres of Christian thought."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Constantine and the Councils",
+        "id": "constantine-and-the-councils"
+      },
+      {
+        "type": "paragraph",
+        "text": "The turning point came in **313**, when the emperor **Constantine**, who credited a vision of the cross with a battlefield victory, issued the **Edict of Milan** granting Christians freedom of worship. Within a lifetime the persecuted faith had become the favoured religion of the empire, and by the end of the century its official one. The change was staggering — and not without cost, as a church accustomed to suffering had now to learn the harder discipline of power."
+      },
+      {
+        "type": "paragraph",
+        "text": "With imperial backing came the need to settle what Christians actually believed. In **325** Constantine summoned bishops from across the empire to the **Council of Nicaea**, the first of the great ecumenical councils. There, against the teaching of Arius that the Son was a lesser, created being, the council affirmed that Christ was \"of one being with the Father\" — fully God. The **Nicene Creed** that grew from this council is still recited by Christians around the world."
+      },
+      {
+        "type": "callout",
+        "tone": "note",
+        "title": "The shape of a church",
+        "text": "By the time the Western [Roman Empire fell](/article/fall-of-rome) in 476, the church had become the one institution that survived the collapse. Its bishops, its scriptures, its monasteries and its structure of authority outlasted the emperors and carried Roman order, learning and law into the medieval world. In the East, the church flourished under the Byzantine emperors; in the West, the bishop of Rome — the pope — rose to fill the vacuum the legions left behind."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "An Inheritance That Endured",
+        "id": "an-inheritance-that-endured"
+      },
+      {
+        "type": "paragraph",
+        "text": "The early church bequeathed to history far more than a set of beliefs. It created the creeds and the canon of scripture, the office of bishop and the rhythm of the Christian year, the monastery and the first hospitals and schools. It preserved much of the learning of the ancient world through the centuries that followed Rome's fall. Above all it proved that an idea held with total conviction, lived out in love and defended unto death, could outlast the mightiest empire on Earth. From that foundation the whole later history of [Christianity](/article/christianity) — its triumphs and its tragedies alike — would be built."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-movement-begins",
+        "text": "A Movement Begins",
+        "level": 2
+      },
+      {
+        "id": "the-age-of-the-martyrs",
+        "text": "The Age of the Martyrs",
+        "level": 2
+      },
+      {
+        "id": "constantine-and-the-councils",
+        "text": "Constantine and the Councils",
+        "level": 2
+      },
+      {
+        "id": "an-inheritance-that-endured",
+        "text": "An Inheritance That Endured",
+        "level": 2
+      }
+    ],
+    "wordCount": 781
   },
   {
     "id": "fall-of-rome",
@@ -7262,6 +8831,201 @@
       }
     ],
     "wordCount": 762
+  },
+  {
+    "id": "reformation",
+    "title": "The Reformation",
+    "category": "world-history",
+    "factStatus": "verified",
+    "readMins": 10,
+    "eyebrow": "The breaking of Christendom",
+    "lede": "In 1517 an obscure German monk nailed a list of grievances to a church door, and the unified Christianity of the medieval West shattered. The Reformation split the church, remade Europe, and unleashed forces — the printed word, the right of private conscience, the vernacular Bible — whose consequences run straight through the modern world. It was at once a religious revolution and the birth pang of the age we still inhabit.",
+    "related": [
+      "christianity",
+      "the-bible",
+      "christian-mysticism",
+      "greek-philosophy",
+      "greek-democracy"
+    ],
+    "journey": [
+      {
+        "id": "christianity",
+        "label": "Christianity"
+      },
+      {
+        "id": "jesus-of-nazareth",
+        "label": "Jesus of Nazareth"
+      },
+      {
+        "id": "the-bible",
+        "label": "The Bible"
+      },
+      {
+        "id": "early-church",
+        "label": "The Early Church"
+      },
+      {
+        "id": "the-crusades",
+        "label": "The Crusades"
+      },
+      {
+        "id": "christian-mysticism",
+        "label": "Mysticism"
+      },
+      {
+        "id": "reformation",
+        "label": "The Reformation"
+      },
+      {
+        "id": "christian-art",
+        "label": "Art & Architecture"
+      },
+      {
+        "id": "christianity-today",
+        "label": "Christianity Today"
+      }
+    ],
+    "media": {
+      "maps": [
+        {
+          "title": "A Continent Divided",
+          "caption": "Within a century the Reformation had split Europe — Protestant in much of the north, Catholic in the south — a religious map whose lines still shape the continent.",
+          "region": "Europe"
+        }
+      ],
+      "images": [
+        {
+          "title": "Luther's 95 Theses",
+          "caption": "The document said to have been posted on the door of the castle church at Wittenberg in 1517 — the spark that lit the Reformation.",
+          "credit": "Wittenberg, 1517"
+        },
+        {
+          "title": "The printing press",
+          "caption": "Gutenberg's invention turned a local dispute into a continental movement, spreading Luther's words faster than any authority could suppress them.",
+          "credit": "Movable-type printing"
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Reformation Explained",
+          "caption": "How one monk's protest broke Christendom and helped usher in the modern world.",
+          "duration": "6:50",
+          "provider": "KaalVeda Atlas"
+        }
+      ],
+      "timeline": "christianity",
+      "quiz": "christianity"
+    },
+    "citations": [
+      {
+        "label": "Encyclopaedia Britannica — Reformation",
+        "source": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Reformation"
+      },
+      {
+        "label": "Martin Luther — The Ninety-Five Theses",
+        "source": "Martin Luther (1517)",
+        "url": "https://www.gutenberg.org/ebooks/274"
+      },
+      {
+        "label": "Diarmaid MacCulloch — The Reformation",
+        "source": "Penguin Books",
+        "url": "https://www.penguin.co.uk/"
+      }
+    ],
+    "body": [
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A Door in Wittenberg",
+        "id": "a-door-in-wittenberg"
+      },
+      {
+        "type": "paragraph",
+        "text": "The traditional story has it that on the last day of October in **1517**, a professor of theology named **Martin Luther** posted ninety-five propositions on the door of the castle church in the German town of Wittenberg. He meant only to invite a scholarly debate about the sale of **indulgences** — papers that promised to shorten the buyer's time in purgatory, peddled to raise money for the rebuilding of St Peter's in Rome. He could not have imagined that he was lighting a fire that would consume the unity of Western [Christianity](/article/christianity)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Luther's protest struck a nerve because it touched a deep and growing unease. Many devout Christians had long been troubled by the wealth, corruption and worldliness of the late medieval church. What began as a quarrel about indulgences swiftly became a challenge to the whole structure of authority — to the power of the pope, the role of the priesthood, and the very means by which a soul is saved."
+      },
+      {
+        "type": "callout",
+        "tone": "insight",
+        "title": "The heart of the matter",
+        "text": "Luther's central conviction was deceptively simple: that human beings are reconciled to God not by good works, payments or priestly mediation, but by **faith alone**, as a free gift of grace. And the test of truth, he insisted, was not the authority of popes or councils but **scripture alone** — [the Bible](/article/the-bible), which every believer had the right and the duty to read. These two principles dynamited the foundations on which the medieval church had stood."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Word Set Loose",
+        "id": "the-word-set-loose"
+      },
+      {
+        "type": "paragraph",
+        "text": "What turned a German monk's protest into a European revolution was a machine. Gutenberg's printing press, barely sixty years old, seized on Luther's writings and scattered them across the continent faster than any authority could gather them up. His pamphlets sold in the tens of thousands; his translation of the Bible into vigorous, everyday German put scripture into the hands of ordinary people and helped forge the very language they spoke. To read the Bible for oneself, in one's own tongue, became a revolutionary act."
+      },
+      {
+        "type": "paragraph",
+        "text": "The movement spread and splintered. In Switzerland **Huldrych Zwingli** and then the formidable **John Calvin** built reformed churches of their own, Calvin's Geneva becoming a model for Protestants from Scotland to the Netherlands. In England the Reformation took a more political turn when **Henry VIII**, denied a divorce by Rome, broke with the pope and made himself head of a national church. Across a single generation the seamless robe of Western Christendom was torn into a patchwork of rival confessions."
+      },
+      {
+        "type": "quote",
+        "text": "Here I stand; I can do no other. God help me. Amen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Luther's defiant words, spoken when ordered to recant before the emperor at the Diet of Worms, became a watchword of the new age — the lone conscience standing against the combined authority of church and crown."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Reform, Counter-Reform and War",
+        "id": "reform-counter-reform-and-war"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Catholic Church did not stand still. In the **Council of Trent** and the disciplined zeal of new orders like the Jesuits, it mounted a vigorous **Counter-Reformation**, reforming its own abuses while reaffirming the doctrines Protestants had rejected. The contest between the two camps was not only theological. It set off more than a century of brutal religious wars across Europe, culminating in the catastrophic Thirty Years' War, which laid waste much of Germany before exhaustion forced a grudging acceptance that Christendom would remain divided."
+      },
+      {
+        "type": "callout",
+        "tone": "caution",
+        "title": "The cost and the gift",
+        "text": "The Reformation cannot be told as a simple tale of liberation. It came with terrible bloodshed, with persecution on every side, with the smashing of [sacred images](/article/christian-art) and the burning of dissenters by Catholics and Protestants alike. Yet its long consequences ran deep and often in directions none of the reformers intended — toward literacy, toward the questioning of inherited authority, and ultimately toward ideas of conscience and self-government that recall the civic spirit of [Greek democracy](/article/greek-democracy)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The Modern World in Embryo",
+        "id": "the-modern-world-in-embryo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Historians still debate how much of modernity was born in the Reformation, but its fingerprints are everywhere. By insisting that each believer read and judge scripture for themselves, it nourished mass literacy and the habit of private judgement. By breaking the monopoly of a single church, it opened — slowly, painfully, and against the reformers' own intentions — the path toward religious toleration. The sharpened reasoning of [Greek philosophy](/article/greek-philosophy), revived by Renaissance scholars, fed the new readiness to question and to argue. Out of the wreck of medieval unity came a Europe of competing ideas, printed words and individual consciences — the seedbed of the modern mind."
+      }
+    ],
+    "toc": [
+      {
+        "id": "a-door-in-wittenberg",
+        "text": "A Door in Wittenberg",
+        "level": 2
+      },
+      {
+        "id": "the-word-set-loose",
+        "text": "The Word Set Loose",
+        "level": 2
+      },
+      {
+        "id": "reform-counter-reform-and-war",
+        "text": "Reform, Counter-Reform and War",
+        "level": 2
+      },
+      {
+        "id": "the-modern-world-in-embryo",
+        "text": "The Modern World in Embryo",
+        "level": 2
+      }
+    ],
+    "wordCount": 737
   },
   {
     "id": "roman-empire",

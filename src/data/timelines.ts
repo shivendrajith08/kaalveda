@@ -648,6 +648,131 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'christianity',
+    title: 'Two Thousand Years of the Cross',
+    subtitle:
+      'From a birth in Roman Judea to the largest faith on Earth — the life of Jesus, the rise of the church, the breaking of Christendom and a global religion of 2.4 billion.',
+    events: [
+      {
+        id: 'jesus-birth',
+        year: -4,
+        title: 'The Birth of Jesus',
+        description:
+          'Jesus is born in Roman-ruled Judea in the last years of Herod the Great — the event from which, centuries later, the Western calendar would be counted.',
+        era: 'Roman Judea',
+        factStatus: 'verified',
+      },
+      {
+        id: 'crucifixion',
+        year: 30,
+        title: 'The Crucifixion',
+        description:
+          'Jesus is crucified in Jerusalem under the prefect Pontius Pilate. His followers soon proclaim that he has risen — the conviction from which Christianity is born.',
+        era: 'Apostolic Age',
+        factStatus: 'verified',
+      },
+      {
+        id: 'paul-missions',
+        year: 49,
+        title: 'Paul’s Missionary Journeys',
+        description:
+          'The former persecutor Paul of Tarsus carries the gospel across the Greek-speaking cities of the empire and writes the letters that become the oldest books of the New Testament.',
+        era: 'Apostolic Age',
+        factStatus: 'verified',
+      },
+      {
+        id: 'gospels-written',
+        year: 75,
+        title: 'The Gospels Are Written',
+        description:
+          'Between roughly 70 and 100 CE the four gospels are set down, fixing the story of Jesus’s life and teaching for all later generations.',
+        era: 'Apostolic Age',
+        factStatus: 'verified',
+      },
+      {
+        id: 'edict-of-milan',
+        year: 313,
+        title: 'The Edict of Milan',
+        description:
+          'Constantine grants Christians freedom of worship, ending three centuries of persecution and beginning the faith’s rise to power within the Roman world.',
+        era: 'Imperial Church',
+        factStatus: 'verified',
+      },
+      {
+        id: 'nicaea',
+        year: 325,
+        title: 'The Council of Nicaea',
+        description:
+          'Bishops from across the empire gather at Constantine’s summons to define the faith, affirming in the Nicene Creed — still recited today — that Christ is fully God.',
+        era: 'Imperial Church',
+        factStatus: 'verified',
+      },
+      {
+        id: 'theodosius',
+        year: 380,
+        title: 'Christianity Becomes Rome’s Official Religion',
+        description:
+          'The emperor Theodosius makes Nicene Christianity the official religion of the Roman Empire, and the old gods are pushed to the margins of public life.',
+        era: 'Imperial Church',
+        factStatus: 'verified',
+      },
+      {
+        id: 'fall-of-west',
+        year: 476,
+        title: 'Fall of the Western Roman Empire',
+        description:
+          'The last western emperor is deposed; as Roman power collapses, the church becomes the one institution to survive, carrying learning and order into the medieval West.',
+        era: 'Late Antiquity',
+        factStatus: 'verified',
+      },
+      {
+        id: 'great-schism',
+        year: 1054,
+        title: 'The Great Schism',
+        description:
+          'Centuries of growing estrangement between the Latin West and the Greek East break into open rupture, dividing Christianity into the Catholic and Orthodox churches.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'first-crusade',
+        year: 1095,
+        title: 'Pope Urban II Calls the First Crusade',
+        description:
+          'At Clermont, Urban II summons the knights of Europe to recover Jerusalem, launching two centuries of holy war between Christendom and Islam.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'gutenberg-bible',
+        year: 1455,
+        title: 'The Gutenberg Bible',
+        description:
+          'Johannes Gutenberg prints the Bible with movable type — the first great book of the printing age, which will soon carry scripture from the monastery to the multitude.',
+        era: 'Medieval',
+        factStatus: 'verified',
+      },
+      {
+        id: 'ninety-five-theses',
+        year: 1517,
+        title: 'Luther’s Ninety-Five Theses',
+        description:
+          'Martin Luther’s protest against indulgences ignites the Reformation, shattering the unity of Western Christianity and helping usher in the modern world.',
+        era: 'Reformation',
+        factStatus: 'verified',
+      },
+      {
+        id: 'christianity-today',
+        year: 2025,
+        title: 'Christianity Today',
+        description:
+          'The world’s largest religion counts some 2.4 billion followers — about a third of humanity — its centre of gravity now shifting to Africa, Latin America and Asia.',
+        era: 'Modern',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))
