@@ -26,9 +26,10 @@ import { JourneyZone } from '@/features/article/JourneyZone'
 import { MediaCard } from '@/features/article/MediaCard'
 import { BigBangExplainer } from '@/features/article/BigBangExplainer'
 
-/* The 3D deity figure pulls in three.js / @react-three; lazy-load it so that
+/* The 3D deity figures pull in three.js / @react-three; lazy-load them so that
  * weight only ships when this article's Images tab is actually opened. */
 const DeityModel3D = lazy(() => import('@/features/article/DeityModel3D'))
+const GaneshaModel3D = lazy(() => import('@/features/article/GaneshaModel3D'))
 import { Timeline } from '@/features/timeline/Timeline'
 import { Quiz } from '@/features/quiz/Quiz'
 import { StarField } from '@/components/StarField'
@@ -191,12 +192,19 @@ export default function ArticlePage() {
               )}
               {tab === 'images' && (
                 <div className="space-y-6">
-                  {/* Shiva's low-poly 3D figure leads the Hindu pantheon's
-                      image plates — a prototype for topic-specific characters. */}
+                  {/* The Hindu pantheon's low-poly 3D figures lead the image
+                      plates — Shiva first, then Ganesha — a prototype for
+                      topic-specific characters. Each is lazily isolated so
+                      three.js only ships when this tab is opened. */}
                   {article.id === 'hindu-gods' && (
-                    <Suspense fallback={<DeityModelFallback />}>
-                      <DeityModel3D />
-                    </Suspense>
+                    <>
+                      <Suspense fallback={<DeityModelFallback />}>
+                        <DeityModel3D />
+                      </Suspense>
+                      <Suspense fallback={<DeityModelFallback />}>
+                        <GaneshaModel3D />
+                      </Suspense>
+                    </>
                   )}
                   <MediaGrid
                     empty="No image plates for this article yet."
