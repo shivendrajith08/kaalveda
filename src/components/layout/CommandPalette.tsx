@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Search, CornerDownLeft, FileText, LayoutGrid, ArrowRight } from 'lucide-react'
 import { useCommandPalette } from '@/hooks/useCommandPalette'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
+import { useSound } from '@/hooks/useSound'
 import { search, defaultSuggestions } from '@/lib/search'
 import type { SearchResult } from '@/types'
 import { getCategory } from '@/data/categories'
@@ -13,6 +14,7 @@ export function CommandPalette() {
   const { open, closePalette } = useCommandPalette()
   const navigate = useNavigate()
   const reduced = useReducedMotion()
+  const { play } = useSound()
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -30,11 +32,12 @@ export function CommandPalette() {
     if (open) {
       setQuery('')
       setActive(0)
+      play('palette')
       const t = setTimeout(() => inputRef.current?.focus(), 30)
       return () => clearTimeout(t)
     }
     return undefined
-  }, [open])
+  }, [open, play])
 
   useEffect(() => {
     setActive(0)

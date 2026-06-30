@@ -10,6 +10,7 @@ import { graph } from '@/lib/content'
 import { clusters as allClusters, getCategoryName } from '@/data/categories'
 import { palette, clusterAccent } from '@/styles/tokens'
 import { useTheme } from '@/hooks/useTheme'
+import { useSound } from '@/hooks/useSound'
 import TimeScrubber from './TimeScrubber'
 import { TODAY, buildBirthYears } from './timeScale'
 
@@ -89,6 +90,7 @@ function endId(end: FgLink['source']): string {
 export default function GraphCanvas() {
   const navigate = useNavigate()
   const { theme } = useTheme()
+  const { play } = useSound()
   const [params] = useSearchParams()
   const currentId = params.get('from')
 
@@ -275,6 +277,8 @@ export default function GraphCanvas() {
           onNodeHover={(n) => {
             // Not-yet-existing nodes are inert — no hover, no tooltip.
             const active = n && existsAt(String(n.id)) ? n : null
+            // A whisper-quiet chime on entering a new orb (no-op while muted).
+            if (active && String(active.id) !== hoverId) play('hover')
             setHoverId(active ? String(active.id) : null)
             if (active && active.x != null && active.y != null) {
               const screen = fgRef.current?.graph2ScreenCoords(active.x, active.y)
