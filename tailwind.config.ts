@@ -21,6 +21,8 @@ const config: Config = {
       maxWidth: {
         prose: '46rem',
         reading: '72rem',
+        /* Optimal long-form measure — ~70–74 characters of Inter body copy. */
+        measure: '40rem',
       },
       letterSpacing: {
         label: '0.18em',

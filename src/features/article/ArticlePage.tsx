@@ -61,7 +61,7 @@ export default function ArticlePage() {
 
   return (
     <>
-      <ReadingProgress />
+      <ReadingProgress readMins={article.readMins} />
 
       {/* Hero header */}
       <header className="relative overflow-hidden border-b border-border">
@@ -178,7 +178,7 @@ export default function ArticlePage() {
               className="mt-5"
             >
               {tab === 'article' && (
-                <article>
+                <article className="max-w-measure">
                   <ArticleBody blocks={article.body} />
                   <Citations article={article} />
                 </article>
