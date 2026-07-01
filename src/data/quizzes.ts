@@ -748,6 +748,118 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: 'buddhism',
+    title: 'Test Your Knowledge: Buddhism',
+    description:
+      'Eight questions on the teaching of the Buddha — its founder, its four truths, its path and the branches that carried it across Asia. Each answer comes with an explanation.',
+    questions: [
+      {
+        id: 'q1',
+        prompt: 'What four sights, according to tradition, set the young Siddhartha Gautama on his quest?',
+        options: [
+          { id: 'a', text: 'An old man, a sick man, a corpse and a wandering ascetic' },
+          { id: 'b', text: 'The sun, the moon, a river and a mountain' },
+          { id: 'c', text: 'A king, a beggar, a soldier and a priest' },
+          { id: 'd', text: 'Fire, water, earth and air' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Passing beyond the palace, the sheltered prince saw age, sickness and death — and then a serene renouncer who had left the world to seek what lies beyond them. The Four Sights opened the whole drama of Buddhism.',
+      },
+      {
+        id: 'q2',
+        prompt: 'What does the First Noble Truth identify as woven through all ordinary existence?',
+        options: [
+          { id: 'a', text: 'Dukkha — suffering or unsatisfactoriness' },
+          { id: 'b', text: 'Maya — illusion' },
+          { id: 'c', text: 'Karma — action' },
+          { id: 'd', text: 'Dharma — duty' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The First Noble Truth names dukkha, the deep unsatisfactoriness that shadows conditioned life — from open pain to the restless sense that no pleasure quite lasts or fills us.',
+      },
+      {
+        id: 'q3',
+        prompt: 'According to the Second Noble Truth, what is the root cause of suffering?',
+        options: [
+          { id: 'a', text: 'Craving, or thirst (tanha)' },
+          { id: 'b', text: 'The will of the gods' },
+          { id: 'c', text: 'Bad luck and fate' },
+          { id: 'd', text: 'The physical body itself' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Buddha traced suffering to tanha, the "thirst" or craving that keeps us grasping at pleasures and clinging to what cannot last — fed by the ignorance that imagines a permanent self at our centre.',
+      },
+      {
+        id: 'q4',
+        prompt: 'The word "nirvana" literally means what?',
+        options: [
+          { id: 'a', text: 'To blow out, or to be extinguished' },
+          { id: 'b', text: 'A heavenly paradise' },
+          { id: 'c', text: 'Perfect knowledge' },
+          { id: 'd', text: 'The great wheel' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Nirvana means "to blow out," as one extinguishes a flame. It names the going-out of the fires of greed, hatred and delusion — not a place or a reward, but a freedom and peace the texts call the highest happiness.',
+      },
+      {
+        id: 'q5',
+        prompt: 'The Buddhist teaching of anatta, which distinguishes it from the Hindu thought around it, holds that:',
+        options: [
+          { id: 'a', text: 'There is no permanent, unchanging self or soul' },
+          { id: 'b', text: 'The self is identical with the god Brahman' },
+          { id: 'c', text: 'The soul is reborn unchanged in each life' },
+          { id: 'd', text: 'Only the body is real' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Where the Upanishads placed an eternal self (atman) at the centre of a person, the Buddha taught anatta, "no-self": there is only a flowing process of body and mind, with no fixed essence to be found.',
+      },
+      {
+        id: 'q6',
+        prompt: 'Which of the three great branches is called the "Great Vehicle" and exalts the compassionate bodhisattva?',
+        options: [
+          { id: 'a', text: 'Mahayana' },
+          { id: 'b', text: 'Theravada' },
+          { id: 'c', text: 'Vajrayana' },
+          { id: 'd', text: 'Zen' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Mahayana, the "Great Vehicle," exalts the bodhisattva, who vows to attain Buddhahood for the sake of all beings. Theravada is the "Way of the Elders," and Vajrayana the esoteric "Diamond Vehicle" of Tibet.',
+      },
+      {
+        id: 'q7',
+        prompt: 'Which emperor first sent Buddhist missionaries beyond India in the third century BCE?',
+        options: [
+          { id: 'a', text: 'Ashoka' },
+          { id: 'b', text: 'Chandragupta' },
+          { id: 'c', text: 'Kanishka' },
+          { id: 'd', text: 'Harsha' },
+        ],
+        answerId: 'a',
+        explanation:
+          'The Mauryan emperor Ashoka embraced Buddhism after the bloody conquest of Kalinga and sent missionaries abroad — including his son Mahinda to Sri Lanka — lifting the faith from a regional movement to an international one.',
+      },
+      {
+        id: 'q8',
+        prompt: 'Under what tree, and at what place, did the Buddha attain enlightenment?',
+        options: [
+          { id: 'a', text: 'The Bodhi tree at Bodh Gaya' },
+          { id: 'b', text: 'The banyan tree at Lumbini' },
+          { id: 'c', text: 'The sal trees at Kushinagar' },
+          { id: 'd', text: 'The fig tree at Sarnath' },
+        ],
+        answerId: 'a',
+        explanation:
+          'Siddhartha awakened beneath a pipal tree at Bodh Gaya, ever after called the Bodhi tree — the tree of awakening. Lumbini was his birthplace, Sarnath the site of his first sermon, and Kushinagar the place of his death.',
+      },
+    ],
+  },
 ]
 
 const quizById = new Map(quizzes.map((q) => [q.id, q]))

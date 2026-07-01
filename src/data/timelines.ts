@@ -907,6 +907,149 @@ export const timelines: Timeline[] = [
       },
     ],
   },
+  {
+    id: 'buddhism',
+    title: 'The Path Across the Ages',
+    subtitle:
+      'Two and a half thousand years of the Buddha’s teaching — from a prince’s awakening on the Ganges plain to a faith of half a billion spread across the world.',
+    events: [
+      {
+        id: 'birth-buddha',
+        year: -563,
+        title: 'The Birth of the Buddha',
+        description:
+          'Siddhartha Gautama is born at Lumbini, in the Himalayan foothills, a prince of the Shakya clan. The traditional date is 563 BCE, though many scholars now favour a birth nearer 480 BCE.',
+        era: 'The Buddha',
+        factStatus: 'theory',
+      },
+      {
+        id: 'great-renunciation',
+        year: -534,
+        title: 'The Great Renunciation',
+        description:
+          'At twenty-nine, shaken by the sight of age, sickness and death, Siddhartha leaves his palace, wife and newborn son to become a wandering seeker in search of the end of suffering.',
+        era: 'The Buddha',
+        factStatus: 'theory',
+      },
+      {
+        id: 'enlightenment',
+        year: -528,
+        title: 'The Enlightenment at Bodh Gaya',
+        description:
+          'After six years of searching and a night of deep meditation beneath the Bodhi tree, Siddhartha awakens to the truth of suffering and its ending — becoming the Buddha, "the Awakened One."',
+        era: 'The Buddha',
+        factStatus: 'theory',
+      },
+      {
+        id: 'first-sermon',
+        year: -528,
+        title: 'The First Sermon at Sarnath',
+        description:
+          'In the Deer Park at Sarnath the Buddha teaches the Four Noble Truths to his five former companions — the First Turning of the Wheel of the Dharma, and the birth of the Sangha.',
+        era: 'The Buddha',
+        factStatus: 'theory',
+      },
+      {
+        id: 'parinirvana',
+        year: -483,
+        title: 'The Parinirvana',
+        description:
+          'At the age of eighty the Buddha dies at Kushinagar and passes into final nirvana. His last words: "All conditioned things are impermanent. Strive on with diligence."',
+        era: 'The Buddha',
+        factStatus: 'theory',
+      },
+      {
+        id: 'ashoka',
+        year: -250,
+        title: 'Ashoka Embraces the Dharma',
+        description:
+          'The Mauryan emperor Ashoka, sickened by the carnage of his wars, adopts Buddhism, carves edicts of righteousness across his empire, and sends missionaries beyond India’s borders.',
+        era: 'Ashokan',
+        factStatus: 'verified',
+      },
+      {
+        id: 'sri-lanka',
+        year: -247,
+        title: 'Buddhism Reaches Sri Lanka',
+        description:
+          'Ashoka’s son Mahinda carries the teaching to Sri Lanka, where the king converts and the island becomes the great stronghold of the Theravada tradition.',
+        era: 'Ashokan',
+        factStatus: 'verified',
+      },
+      {
+        id: 'pali-canon',
+        year: -29,
+        title: 'The Pali Canon Written Down',
+        description:
+          'As war and famine threaten the reciters, monks in Sri Lanka inscribe the Tipitaka on palm leaves at the Aluvihara cave — the first time the Buddha’s teaching is committed to writing.',
+        era: 'Classical',
+        factStatus: 'verified',
+      },
+      {
+        id: 'silk-road',
+        year: 100,
+        title: 'Buddhism Travels the Silk Road',
+        description:
+          'The Mahayana reaches China along the caravan routes of the Silk Road, beginning centuries of translation and the rise of distinctively Chinese schools like Chan and Pure Land.',
+        era: 'Great Vehicle',
+        factStatus: 'verified',
+      },
+      {
+        id: 'nagarjuna',
+        year: 150,
+        title: 'Nagarjuna and the Way of Emptiness',
+        description:
+          'The philosopher Nagarjuna systematises the Mahayana teaching of shunyata — that nothing possesses a fixed, independent essence — shaping Buddhist thought ever after.',
+        era: 'Great Vehicle',
+        factStatus: 'theory',
+      },
+      {
+        id: 'japan',
+        year: 538,
+        title: 'Buddhism Reaches Japan',
+        description:
+          'Passing from India through China and Korea, Buddhism arrives in Japan, where it will weave itself into the culture and flower into Zen, Pure Land and Nichiren traditions.',
+        era: 'Great Vehicle',
+        factStatus: 'verified',
+      },
+      {
+        id: 'tibet',
+        year: 750,
+        title: 'Vajrayana Takes Root in Tibet',
+        description:
+          'Indian masters such as Padmasambhava carry the esoteric Vajrayana over the Himalayan passes into Tibet, founding a civilization of monasteries and lineages of lamas.',
+        era: 'Diamond Vehicle',
+        factStatus: 'verified',
+      },
+      {
+        id: 'nalanda',
+        year: 1193,
+        title: 'The Fall of Nalanda',
+        description:
+          'The destruction of the great monastic universities, Nalanda among them, hastens the decline of Buddhism in the land of its birth, even as it flourishes across Asia.',
+        era: 'Decline in India',
+        factStatus: 'verified',
+      },
+      {
+        id: 'tibetan-diaspora',
+        year: 1959,
+        title: 'Exile and the Global Dharma',
+        description:
+          'The Dalai Lama and thousands of Tibetans flee into exile, carrying Vajrayana Buddhism worldwide, as meditation and Buddhist thought win a growing following across the West.',
+        era: 'Modern',
+        factStatus: 'verified',
+      },
+      {
+        id: 'buddhism-today',
+        year: 2025,
+        title: 'Buddhism Today',
+        description:
+          'The teaching of the Buddha counts some half a billion followers across Theravada, Mahayana and Vajrayana traditions — a pan-Asian faith now practised the world over.',
+        era: 'Modern',
+        factStatus: 'verified',
+      },
+    ],
+  },
 ]
 
 const timelineById = new Map(timelines.map((t) => [t.id, t]))

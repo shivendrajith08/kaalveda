@@ -190,6 +190,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "karma-rebirth-samsara",
+      "title": "Karma, Rebirth & Saṃsāra",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "mars",
       "title": "Mars",
       "category": "universe",
@@ -218,6 +225,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "nirvana-enlightenment",
+      "title": "Nirvana & Enlightenment",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "roman-engineering",
       "title": "Roman Engineering",
       "category": "architecture",
@@ -235,6 +249,13 @@
       "id": "roman-mythology",
       "title": "Roman Mythology",
       "category": "mythology",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "buddha",
+      "title": "Siddhartha Gautama",
+      "category": "religions",
       "cluster": "belief-story",
       "factStatus": "verified"
     },
@@ -288,6 +309,13 @@
       "factStatus": "verified"
     },
     {
+      "id": "buddhist-scriptures",
+      "title": "The Dharma & Buddhist Scriptures",
+      "category": "sacred-books",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "early-church",
       "title": "The Early Church",
       "category": "world-history",
@@ -304,6 +332,13 @@
     {
       "id": "five-pillars",
       "title": "The Five Pillars",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "four-noble-truths",
+      "title": "The Four Noble Truths",
       "category": "religions",
       "cluster": "belief-story",
       "factStatus": "verified"
@@ -355,6 +390,13 @@
       "title": "The Nile River",
       "category": "geography",
       "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "noble-eightfold-path",
+      "title": "The Noble Eightfold Path",
+      "category": "religions",
+      "cluster": "belief-story",
       "factStatus": "verified"
     },
     {
@@ -421,10 +463,24 @@
       "factStatus": "verified"
     },
     {
+      "id": "sangha-monastic-life",
+      "title": "The Sangha & Monastic Life",
+      "category": "religions",
+      "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
       "id": "the-solar-system",
       "title": "The Solar System",
       "category": "universe",
       "cluster": "cosmos-earth",
+      "factStatus": "verified"
+    },
+    {
+      "id": "spread-of-buddhism",
+      "title": "The Spread of Buddhism",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -446,6 +502,13 @@
       "title": "The Vedas",
       "category": "sacred-books",
       "cluster": "belief-story",
+      "factStatus": "verified"
+    },
+    {
+      "id": "buddhist-branches",
+      "title": "Theravada, Mahayana & Vajrayana",
+      "category": "world-history",
+      "cluster": "life-time",
       "factStatus": "verified"
     },
     {
@@ -1163,6 +1226,36 @@
       "resolved": true
     },
     {
+      "source": "karma-rebirth-samsara",
+      "target": "buddha",
+      "resolved": true
+    },
+    {
+      "source": "karma-rebirth-samsara",
+      "target": "four-noble-truths",
+      "resolved": true
+    },
+    {
+      "source": "karma-rebirth-samsara",
+      "target": "nirvana-enlightenment",
+      "resolved": true
+    },
+    {
+      "source": "karma-rebirth-samsara",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
+      "source": "karma-rebirth-samsara",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
+      "source": "karma-rebirth-samsara",
+      "target": "hindu-cosmology",
+      "resolved": true
+    },
+    {
       "source": "mars",
       "target": "the-planets",
       "resolved": true
@@ -1243,6 +1336,26 @@
       "resolved": true
     },
     {
+      "source": "nirvana-enlightenment",
+      "target": "buddha",
+      "resolved": true
+    },
+    {
+      "source": "nirvana-enlightenment",
+      "target": "four-noble-truths",
+      "resolved": true
+    },
+    {
+      "source": "nirvana-enlightenment",
+      "target": "noble-eightfold-path",
+      "resolved": true
+    },
+    {
+      "source": "nirvana-enlightenment",
+      "target": "hindu-philosophy",
+      "resolved": true
+    },
+    {
       "source": "roman-engineering",
       "target": "roman-empire",
       "resolved": true
@@ -1300,6 +1413,31 @@
     {
       "source": "roman-mythology",
       "target": "the-pharaoh",
+      "resolved": true
+    },
+    {
+      "source": "buddha",
+      "target": "four-noble-truths",
+      "resolved": true
+    },
+    {
+      "source": "buddha",
+      "target": "noble-eightfold-path",
+      "resolved": true
+    },
+    {
+      "source": "buddha",
+      "target": "buddhist-scriptures",
+      "resolved": true
+    },
+    {
+      "source": "buddha",
+      "target": "sangha-monastic-life",
+      "resolved": true
+    },
+    {
+      "source": "buddha",
+      "target": "hinduism",
       "resolved": true
     },
     {
@@ -1423,6 +1561,26 @@
       "resolved": true
     },
     {
+      "source": "buddhist-scriptures",
+      "target": "four-noble-truths",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-scriptures",
+      "target": "sangha-monastic-life",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-scriptures",
+      "target": "buddhist-branches",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-scriptures",
+      "target": "vedas",
+      "resolved": true
+    },
+    {
       "source": "early-church",
       "target": "christianity",
       "resolved": true
@@ -1480,6 +1638,16 @@
     {
       "source": "five-pillars",
       "target": "christian-mysticism",
+      "resolved": true
+    },
+    {
+      "source": "four-noble-truths",
+      "target": "noble-eightfold-path",
+      "resolved": true
+    },
+    {
+      "source": "four-noble-truths",
+      "target": "hindu-philosophy",
       "resolved": true
     },
     {
@@ -1613,6 +1781,16 @@
       "resolved": false
     },
     {
+      "source": "noble-eightfold-path",
+      "target": "sangha-monastic-life",
+      "resolved": true
+    },
+    {
+      "source": "noble-eightfold-path",
+      "target": "yoga-and-meditation",
+      "resolved": true
+    },
+    {
       "source": "the-pharaoh",
       "target": "pyramids-of-giza",
       "resolved": true
@@ -1708,6 +1886,36 @@
       "resolved": true
     },
     {
+      "source": "sangha-monastic-life",
+      "target": "spread-of-buddhism",
+      "resolved": true
+    },
+    {
+      "source": "sangha-monastic-life",
+      "target": "yoga-and-meditation",
+      "resolved": true
+    },
+    {
+      "source": "spread-of-buddhism",
+      "target": "buddha",
+      "resolved": true
+    },
+    {
+      "source": "spread-of-buddhism",
+      "target": "buddhist-branches",
+      "resolved": true
+    },
+    {
+      "source": "spread-of-buddhism",
+      "target": "buddhist-scriptures",
+      "resolved": true
+    },
+    {
+      "source": "spread-of-buddhism",
+      "target": "hinduism",
+      "resolved": true
+    },
+    {
       "source": "sunni-shia-divide",
       "target": "islam",
       "resolved": true
@@ -1755,6 +1963,21 @@
     {
       "source": "vedas",
       "target": "roman-religion",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-branches",
+      "target": "buddha",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-branches",
+      "target": "sangha-monastic-life",
+      "resolved": true
+    },
+    {
+      "source": "buddhist-branches",
+      "target": "nirvana-enlightenment",
       "resolved": true
     },
     {
