@@ -80,15 +80,22 @@ export default defineConfig({
             id.includes('lodash-es')
           )
             return 'graph'
-          // The three.js / @react-three stack is only imported by the
-          // lazy DeityModel3D component. Pin it to its own chunk so it never
-          // gets folded into `vendor` (which loads on first paint) and is
-          // fetched only when the 3D figure mounts.
+          // The three.js / @react-three stack is only imported by the lazy 3D
+          // components (DeityModel3D, GaneshaModel3D, and the landing-hero
+          // Hero3DScene). Pin it to its own chunk so it never gets folded into
+          // `vendor` (which loads on first paint) and is fetched only when a 3D
+          // surface mounts. `postprocessing` / `n8ao` back the hero's bloom +
+          // vignette + chromatic-aberration pass; `buffer` is pulled in only by
+          // the @react-three stack — all three are routed here so the entire
+          // postprocessing dependency tree stays out of first paint too.
           if (
             id.includes('/three/') ||
             id.includes('three-stdlib') ||
             id.includes('three-mesh-bvh') ||
             id.includes('@react-three') ||
+            id.includes('/postprocessing/') ||
+            id.includes('/n8ao/') ||
+            id.includes('/buffer/') ||
             id.includes('@use-gesture') ||
             id.includes('/zustand/') ||
             id.includes('suspend-react') ||

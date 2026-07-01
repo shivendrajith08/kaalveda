@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, type Variants } from 'framer-motion'
 import { ArrowRight, ChevronDown, Compass, Route, Sparkles, MapPin, Waypoints } from 'lucide-react'
@@ -6,7 +6,8 @@ import { useReducedMotion } from '@/hooks/useReducedMotion'
 import { clusters } from '@/data/categories'
 import { featuredArticles, getArticle, totalArticles, clusterCounts } from '@/lib/content'
 import { ArticleCard } from '@/components/ArticleCard'
-import { HeroBackground } from '@/features/landing/HeroBackground'
+import { Hero3DBackground } from '@/features/landing/Hero3DBackground'
+import { useHeroTier } from '@/features/landing/hero3d/heroCapability'
 import { cn } from '@/lib/utils'
 
 const EASE = [0.16, 1, 0.3, 1] as const
@@ -20,14 +21,18 @@ const fadeUp = {
   }),
 }
 
-/** Hero reveal — a calm, sequenced cascade (lines first, headline word-by-word). */
-const heroStage: Variants = {
+/**
+ * Hero reveal — a calm, sequenced cascade (lines first, headline word-by-word).
+ *
+ * `delayChildren` is a factory: on the plain 2D hero it's a small beat so a page
+ * transition can settle before the cascade begins. When the 3D cosmos is live,
+ * it's held back to ~1.7s so the title resolves like a film's title card *after*
+ * the camera's opening dolly — the reveal reads as the shot settling.
+ */
+const makeHeroStage = (delayChildren: number): Variants => ({
   hidden: {},
-  // A small beat before the cascade so that when home is reached *via* a page
-  // transition, the page-enter has settled before the hero reveal begins (the
-  // two never play over each other). On cold load this is an imperceptible pause.
-  show: { transition: { delayChildren: 0.16, staggerChildren: 0.13 } },
-}
+  show: { transition: { delayChildren, staggerChildren: 0.13 } },
+})
 const heroLine: Variants = {
   hidden: { opacity: 0, y: 18 },
   show: { opacity: 1, y: 0, transition: { duration: 0.75, ease: EASE } },
@@ -53,14 +58,22 @@ const HEADLINE_WORDS: { text: string; gold?: boolean }[] = [
 
 export default function LandingPage() {
   const reduced = useReducedMotion()
+  const heroTier = useHeroTier()
   const featured = featuredArticles(6)
   const egypt = getArticle('ancient-egypt')
+
+  // 3D cosmos runs only on a capable device with motion allowed; otherwise the
+  // 2D hero stands in. The reveal timing follows suit so the title never floats
+  // in before the opening shot has begun.
+  const use3D = !reduced && heroTier !== 'off'
+  const heroStage = useMemo(() => makeHeroStage(use3D ? 1.7 : 0.16), [use3D])
+  const hintDelay = use3D ? 3.4 : 1.15
 
   return (
     <div>
       {/* ───────────────────────── Hero ───────────────────────── */}
       <section className="relative isolate flex min-h-[88svh] items-center overflow-hidden">
-        <HeroBackground />
+        <Hero3DBackground tier={heroTier} reduced={reduced} />
         <div
           className="pointer-events-none absolute inset-0"
           style={{
@@ -70,6 +83,19 @@ export default function LandingPage() {
           aria-hidden
         />
         <div className="vignette pointer-events-none absolute inset-0" aria-hidden />
+        {/* Text-contrast scrim: a soft indigo darkening behind the title block,
+            only over the luminous 3D cosmos, to guarantee legibility without
+            dimming the 2D fallback hero. Sits under the text (z-10) and CTAs. */}
+        {use3D && (
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{
+              background:
+                'radial-gradient(60% 48% at 50% 44%, color-mix(in srgb, var(--c-bg) 64%, transparent) 0%, color-mix(in srgb, var(--c-bg) 30%, transparent) 44%, transparent 72%)',
+            }}
+            aria-hidden
+          />
+        )}
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-32"
           style={{ background: 'linear-gradient(to top, var(--c-bg), transparent)' }}
@@ -149,7 +175,7 @@ export default function LandingPage() {
             aria-hidden
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.15, duration: 0.9, ease: EASE }}
+            transition={{ delay: hintDelay, duration: 0.9, ease: EASE }}
             className="pointer-events-none absolute inset-x-0 bottom-6 z-10 flex justify-center"
           >
             <motion.span
