@@ -237,6 +237,50 @@
     color: transparent;
   }
 
+  /* Idle "living gold" — a slow, low-contrast sheen that drifts across the
+     hero's focal word, plus a barely-perceptible breathe. Purely additive
+     over `.gold-text`: an extra sheen layer sits above the base vertical
+     gradient (both clipped to the text). It only begins after the entrance
+     cascade has settled (animation-delay) and is fully disabled under
+     prefers-reduced-motion below. Only background-position + transform are
+     animated, so it stays on the compositor with no reflow. */
+  .gold-text-shimmer {
+    display: inline-block;
+    background-image:
+      linear-gradient(
+        105deg,
+        transparent 38%,
+        color-mix(in srgb, #fff 22%, var(--c-gold-soft)) 50%,
+        transparent 62%
+      ),
+      linear-gradient(180deg, var(--c-gold-soft), var(--c-gold-deep));
+    background-size: 200% 100%, 100% 100%;
+    background-position: 200% 0, 0 0; /* rest state: sheen parked off-word */
+    background-repeat: no-repeat;
+    will-change: transform, background-position;
+    animation:
+      gold-sheen 5.5s ease-in-out 2s infinite,
+      gold-breathe 5.5s ease-in-out 2s infinite;
+  }
+
+  @keyframes gold-sheen {
+    0% {
+      background-position: 200% 0, 0 0;
+    }
+    100% {
+      background-position: -100% 0, 0 0;
+    }
+  }
+  @keyframes gold-breathe {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.006);
+    }
+  }
+
   /* Antique star-chart backdrop. */
   .starfield {
     background-image:
@@ -412,5 +456,16 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
+  }
+
+  /* Hero focal word: drop the sheen/breathe entirely and restore the exact
+     static `.gold-text` appearance (no moving highlight, no scale). */
+  .gold-text-shimmer {
+    animation: none !important;
+    transform: none !important;
+    background-image: linear-gradient(180deg, var(--c-gold-soft), var(--c-gold-deep));
+    background-size: auto;
+    background-position: 0 0;
+    will-change: auto;
   }
 }

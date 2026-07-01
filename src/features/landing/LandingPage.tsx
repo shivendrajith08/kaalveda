@@ -96,7 +96,11 @@ export default function LandingPage() {
             {HEADLINE_WORDS.map((word, i) => (
               <Fragment key={i}>
                 <motion.span variants={heroWord} className="inline-block">
-                  {word.gold ? <span className="gold-text">{word.text}</span> : word.text}
+                  {word.gold ? (
+                    <span className="gold-text gold-text-shimmer">{word.text}</span>
+                  ) : (
+                    word.text
+                  )}
                 </motion.span>
                 {i < HEADLINE_WORDS.length - 1 ? ' ' : null}
               </Fragment>
