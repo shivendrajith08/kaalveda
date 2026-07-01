@@ -27,6 +27,12 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,woff2,json,webmanifest}'],
+        // Never precache the audio bed — the temple-ambience file is ~5 MB and
+        // should stream on demand only when the user enables sound, not download
+        // on first visit. (The globPatterns extension list already excludes
+        // .mp3; this makes the intent explicit and guards against it being
+        // broadened later.) node_modules kept to preserve Workbox's default.
+        globIgnores: ['**/node_modules/**/*', '**/audio/**'],
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/api\//],
         cleanupOutdatedCaches: true,
