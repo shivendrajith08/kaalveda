@@ -69,20 +69,6 @@ function getAudioContextCtor(): AudioContextCtor | null {
   )
 }
 
-/** Debug hooks the `<SoundDebugFader/>` polls to visualise the live master fader
- *  while tuning. Cleared on `stop()` so the fader reads SUSPENDED once the
- *  context is closed. Purely a dev aid — safe to delete along with the fader. */
-type DebugWindow = Window & {
-  __kvAudioCtx?: AudioContext | null
-  __kvMaster?: GainNode | null
-}
-function exposeForDebug(ctx: AudioContext | null, master: GainNode | null): void {
-  if (typeof window === 'undefined') return
-  const w = window as DebugWindow
-  w.__kvAudioCtx = ctx
-  w.__kvMaster = master
-}
-
 export class SoundEngine {
   private ctx: AudioContext | null = null
   private master: GainNode | null = null
@@ -243,9 +229,6 @@ export class SoundEngine {
     this.lfos = [lfo1, lfo2]
     this.noise = this.makeNoiseBuffer(ctx)
 
-    exposeForDebug(ctx, master)
-    console.info('[sound] engine graph built — master exposed for debug fader')
-
     this.fadeMaster(MASTER, FADE_IN)
     this.bumpActivity()
 
@@ -298,7 +281,6 @@ export class SoundEngine {
     this.oscillators = []
     this.lfos = []
     this.noise = null
-    exposeForDebug(null, null)
 
     if (!ctx) return
 

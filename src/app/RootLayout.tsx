@@ -5,7 +5,6 @@ import { ScrollToTop } from '@/components/layout/ScrollToTop'
 import { PageTransition } from '@/components/layout/PageTransition'
 import { AmbienceVeil } from '@/components/layout/AmbienceVeil'
 import { SoundScene } from '@/components/layout/SoundScene'
-import { SoundDebugFader } from '@/components/layout/SoundDebugFader'
 import { SageGuide } from '@/features/guide/SageGuide'
 
 export function RootLayout() {
@@ -26,9 +25,6 @@ export function RootLayout() {
         <CommandPalette />
         <SageGuide />
       </div>
-      {/* TEMPORARY: real-time master-fader visualiser for sound tuning. Remove
-          before shipping (along with exposeForDebug() in soundEngine.ts). */}
-      <SoundDebugFader />
     </>
   )
 }
