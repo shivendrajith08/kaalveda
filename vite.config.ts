@@ -34,7 +34,14 @@ export default defineConfig({
         // broadened later.) node_modules kept to preserve Workbox's default.
         globIgnores: ['**/node_modules/**/*', '**/audio/**'],
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/api\//],
+        // Never resolve a request for a static asset to the SPA shell. A
+        // navigation-mode request for a *missing* hashed chunk (e.g. a stale
+        // /assets/GraphCanvas-*.js after a redeploy) must fall through to a
+        // real 404 rather than get index.html served from the precache — the
+        // latter is the "Expected a JS module but got text/html" MIME error
+        // that blanks a lazy route. This mirrors the vercel.json rewrite
+        // exclusion for /assets/ so both the edge and the SW behave the same.
+        navigateFallbackDenylist: [/^\/api\//, /^\/assets\//, /^\/icons\//, /^\/audio\//],
         cleanupOutdatedCaches: true,
       },
     }),

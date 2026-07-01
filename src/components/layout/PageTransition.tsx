@@ -3,6 +3,7 @@ import { useLocation, useOutlet } from 'react-router-dom'
 import { AnimatePresence, motion, type Variants } from 'framer-motion'
 import { useReducedMotion } from '@/hooks/useReducedMotion'
 import { PageLoader } from '@/components/ui/PageLoader'
+import { RouteErrorBoundary } from '@/components/ui/RouteErrorBoundary'
 import { CosmicVeil } from '@/components/layout/CosmicVeil'
 
 /**
@@ -61,7 +62,11 @@ export function PageTransition() {
           animate="enter"
           exit="exit"
         >
-          <Suspense fallback={<PageLoader />}>{outlet}</Suspense>
+          {/* Boundary lives inside the pathname-keyed div, so a broken chunk
+              on one route can't blank the app, and navigating away resets it. */}
+          <RouteErrorBoundary>
+            <Suspense fallback={<PageLoader />}>{outlet}</Suspense>
+          </RouteErrorBoundary>
         </motion.div>
       </AnimatePresence>
       <CosmicVeil />

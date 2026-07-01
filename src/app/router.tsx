@@ -1,15 +1,15 @@
-import { lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { RootLayout } from '@/app/RootLayout'
+import { lazyWithRetry } from '@/app/lazyWithRetry'
 
-const LandingPage = lazy(() => import('@/features/landing/LandingPage'))
-const ExplorePage = lazy(() => import('@/features/explore/ExplorePage'))
-const CategoryPage = lazy(() => import('@/features/category/CategoryPage'))
-const ArticlePage = lazy(() => import('@/features/article/ArticlePage'))
-const TimelinePage = lazy(() => import('@/features/timeline/TimelinePage'))
-const GraphCanvas = lazy(() => import('@/features/graph/GraphCanvas'))
-const AboutPage = lazy(() => import('@/features/about/AboutPage'))
-const NotFoundPage = lazy(() => import('@/features/misc/NotFoundPage'))
+const LandingPage = lazyWithRetry(() => import('@/features/landing/LandingPage'))
+const ExplorePage = lazyWithRetry(() => import('@/features/explore/ExplorePage'))
+const CategoryPage = lazyWithRetry(() => import('@/features/category/CategoryPage'))
+const ArticlePage = lazyWithRetry(() => import('@/features/article/ArticlePage'))
+const TimelinePage = lazyWithRetry(() => import('@/features/timeline/TimelinePage'))
+const GraphCanvas = lazyWithRetry(() => import('@/features/graph/GraphCanvas'))
+const AboutPage = lazyWithRetry(() => import('@/features/about/AboutPage'))
+const NotFoundPage = lazyWithRetry(() => import('@/features/misc/NotFoundPage'))
 
 export function AppRoutes() {
   return (
