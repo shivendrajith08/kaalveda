@@ -6,10 +6,14 @@ import { PageTransition } from '@/components/layout/PageTransition'
 import { AmbienceVeil } from '@/components/layout/AmbienceVeil'
 import { SoundScene } from '@/components/layout/SoundScene'
 import { SageGuide } from '@/features/guide/SageGuide'
+import { BookIntroLoader } from '@/components/layout/BookIntroLoader'
 
 export function RootLayout() {
   return (
     <>
+      {/* First-load "unsealing" splash — a top-most overlay that plays once per
+          session, then unmounts. Purely visual; never gates the app below. */}
+      <BookIntroLoader />
       {/* Time-of-day atmosphere — fixed, behind everything below. */}
       <AmbienceVeil />
       {/* Translates navigation into sound (no-op while sound is off). */}
