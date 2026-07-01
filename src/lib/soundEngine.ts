@@ -45,13 +45,16 @@ interface Tuning {
   root: number
   cutoff: number
 }
-const DEFAULT_TUNING: Tuning = { root: 60, cutoff: 460 }
+// Cutoffs sit ~1.5× higher than the original "warm & dark" tuning so the bed's
+// upper partials (and the added double-octave voice below) fall inside the band
+// laptop speakers can actually reproduce, without changing the relative colour.
+const DEFAULT_TUNING: Tuning = { root: 60, cutoff: 690 }
 const CLUSTER_TUNING: Record<string, Tuning> = {
-  'cosmos-earth': { root: 58, cutoff: 560 }, // cool, airy
-  'life-time': { root: 62, cutoff: 440 },
-  'belief-story': { root: 55, cutoff: 360 }, // warm, low
-  'mind-knowledge': { root: 65, cutoff: 520 },
-  'society-tomorrow': { root: 60, cutoff: 470 },
+  'cosmos-earth': { root: 58, cutoff: 840 }, // cool, airy
+  'life-time': { root: 62, cutoff: 660 },
+  'belief-story': { root: 55, cutoff: 540 }, // warm, low
+  'mind-knowledge': { root: 65, cutoff: 780 },
+  'society-tomorrow': { root: 60, cutoff: 700 },
 }
 const FIFTH = 1.5
 
@@ -64,6 +67,20 @@ function getAudioContextCtor(): AudioContextCtor | null {
     (window as unknown as { webkitAudioContext?: AudioContextCtor }).webkitAudioContext ??
     null
   )
+}
+
+/** Debug hooks the `<SoundDebugFader/>` polls to visualise the live master fader
+ *  while tuning. Cleared on `stop()` so the fader reads SUSPENDED once the
+ *  context is closed. Purely a dev aid — safe to delete along with the fader. */
+type DebugWindow = Window & {
+  __kvAudioCtx?: AudioContext | null
+  __kvMaster?: GainNode | null
+}
+function exposeForDebug(ctx: AudioContext | null, master: GainNode | null): void {
+  if (typeof window === 'undefined') return
+  const w = window as DebugWindow
+  w.__kvAudioCtx = ctx
+  w.__kvMaster = master
 }
 
 export class SoundEngine {
@@ -184,7 +201,11 @@ export class SoundEngine {
       { ratio: 1, type: 'sine', gain: 0.06 },
       { ratio: 1.003, type: 'sine', gain: 0.05 }, // detune → gentle chorus/beating
       { ratio: FIFTH, type: 'sine', gain: 0.035 },
-      { ratio: 2, type: 'triangle', gain: 0.022 }, // octave shimmer
+      { ratio: 2, type: 'triangle', gain: 0.026 }, // octave shimmer
+      // Double octave (~220–260Hz). The root/fifth live at ~60–90Hz — below what
+      // laptop speakers can physically reproduce — so this is the one voice that
+      // actually carries the bed on tinny speakers. Soft, so it stays a hum.
+      { ratio: 4, type: 'sine', gain: 0.02 },
     ]
     const oscillators: { osc: OscillatorNode; ratio: number }[] = []
     for (const v of voices) {
@@ -221,6 +242,9 @@ export class SoundEngine {
     this.oscillators = oscillators
     this.lfos = [lfo1, lfo2]
     this.noise = this.makeNoiseBuffer(ctx)
+
+    exposeForDebug(ctx, master)
+    console.info('[sound] engine graph built — master exposed for debug fader')
 
     this.fadeMaster(MASTER, FADE_IN)
     this.bumpActivity()
@@ -274,6 +298,7 @@ export class SoundEngine {
     this.oscillators = []
     this.lfos = []
     this.noise = null
+    exposeForDebug(null, null)
 
     if (!ctx) return
 
@@ -400,7 +425,7 @@ export class SoundEngine {
   /** Cosmic woosh that matches the page-transition warp: a swept airy band. */
   private playNavigate(ctx: AudioContext, master: GainNode): void {
     const now = ctx.currentTime
-    const { gain, end } = this.envelope(ctx, master, 0.11, 0.05, 0.34)
+    const { gain, end } = this.envelope(ctx, master, 0.16, 0.05, 0.34)
     const band = ctx.createBiquadFilter()
     band.type = 'bandpass'
     band.Q.setValueAtTime(0.8, now)
@@ -423,7 +448,7 @@ export class SoundEngine {
   /** Very quiet two-partial chime for hovering a graph node — sparse, celestial. */
   private playHover(ctx: AudioContext, master: GainNode): void {
     const now = ctx.currentTime
-    const { gain, end } = this.envelope(ctx, master, 0.035, 0.008, 0.14)
+    const { gain, end } = this.envelope(ctx, master, 0.05, 0.008, 0.14)
     const partials = [880, 1320]
     const oscs: OscillatorNode[] = []
     partials.forEach((f, i) => {
@@ -446,7 +471,7 @@ export class SoundEngine {
   /** Airy swell when the command palette opens — a soft fifth chord. */
   private playPalette(ctx: AudioContext, master: GainNode): void {
     const now = ctx.currentTime
-    const { gain, end } = this.envelope(ctx, master, 0.06, 0.06, 0.38)
+    const { gain, end } = this.envelope(ctx, master, 0.09, 0.06, 0.38)
     const freqs = [523.25, 783.99] // C5 + G5
     const oscs: OscillatorNode[] = []
     freqs.forEach((f, i) => {
@@ -468,7 +493,7 @@ export class SoundEngine {
     airFilter.frequency.setValueAtTime(2000, now)
     const airGain = ctx.createGain()
     airGain.gain.setValueAtTime(0.0001, now)
-    airGain.gain.linearRampToValueAtTime(0.02, now + 0.08)
+    airGain.gain.linearRampToValueAtTime(0.028, now + 0.08)
     airGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.34)
     air.connect(airFilter).connect(airGain).connect(master)
     air.start(now)
